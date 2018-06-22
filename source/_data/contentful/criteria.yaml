@@ -1,0 +1,105 @@
+---
+criteria:
+- sys:
+    id: 4upxBzECbmmYUQO4wYGWgg
+    created_at: !ruby/object:DateTime 2018-06-20 19:13:35.134000000 Z
+    updated_at: !ruby/object:DateTime 2018-06-20 19:13:35.134000000 Z
+    content_type_id: criteria
+  title: Strategic Goals
+  description: Did the Governor have public statewide strategic goals?
+  explanation: The creation of statewide strategic goals is an important first step
+    in aligning goals, expenditures, and programmatic activities as a way to improve
+    outcomes on a state government’s most important challenges.
+  leading_list:
+    sys:
+      id: 4CxWgqjHzqkCAgY00SIMuK
+      created_at: !ruby/object:DateTime 2018-06-20 19:03:08.652000000 Z
+      updated_at: !ruby/object:DateTime 2018-06-21 16:05:56.746000000 Z
+      content_type_id: leading
+    state: Colorado
+    state_abbreviation: CO
+    type: Statewide
+    short_description: The Colorado Governor’s Office publishes statewide strategic
+      goals and statewide and agency-specific outcomes on its [performance dashboard](https://www.colorado.gov/pacific/performancemanagement/governors-dashboard).
+    long_description: The Colorado Governor’s Office publishes statewide strategic
+      goals and statewide and agency-specific outcomes on its [performance dashboard](https://www.colorado.gov/pacific/performancemanagement/governors-dashboard).
+      The Governor’s [annual budget request](https://drive.google.com/file/d/0B0TNL0CtD9wXbkNUb0NIQmVrVXM/view)
+      links these goals to specific agency activities and outcomes.
+    criteria: Strategic Goals
+    state_outline:
+      sys:
+        id: 4sWZZeVTTygI00IQM4mqCM
+        created_at: !ruby/object:DateTime 2018-06-20 20:01:55.286000000 Z
+        updated_at: !ruby/object:DateTime 2018-06-20 20:01:55.286000000 Z
+      title: colorado
+      description: 
+      url: "//images.ctfassets.net/cu0oxaxjfcsj/4sWZZeVTTygI00IQM4mqCM/6ff240e0e66ba634786bedcea160f1ea/colorado.svg"
+    year: '2018'
+  promising_list:
+  - sys:
+      id: 5SuLhnN5JeomGigC8E4a2Y
+      created_at: !ruby/object:DateTime 2018-06-20 19:07:17.885000000 Z
+      updated_at: !ruby/object:DateTime 2018-06-20 19:07:17.885000000 Z
+      content_type_id: promising
+    state: Oregon
+    state_abbreviation: OR
+    type: Statewide
+    short_description: In 2011, Oregon implemented a 10-year strategic plan entitled
+      “[10-Year Plan for Oregon](http://216.243.141.9/images/resources_docs/weeklymailout/2012/may/week4/e%2010-YearPlanForOregonSinglePage.pdf),”
+      which uses outcome-based budgeting to align outcomes with state agencies’ programmatic
+      responsibilities.
+    long_description: In 2011, Oregon implemented a 10-year strategic plan entitled
+      “[10-Year Plan for Oregon](http://216.243.141.9/images/resources_docs/weeklymailout/2012/may/week4/e%2010-YearPlanForOregonSinglePage.pdf),”
+      which uses outcome-based budgeting to align outcomes with state agencies’ programmatic
+      responsibilities. Building on that foundation, the current administration's
+      [four priorities](http://www.oregon.gov/gov/priorities/Pages/priorities.aspx)
+      include details about each goal and the state entities charged with managing
+      efforts in relevant areas.
+    criteria: Strategic Goals
+    year: '2018'
+  - sys:
+      id: kKfcRItiKWi42WICcOqAU
+      created_at: !ruby/object:DateTime 2018-06-20 19:10:56.038000000 Z
+      updated_at: !ruby/object:DateTime 2018-06-20 19:10:56.038000000 Z
+      content_type_id: promising
+    state: Tennessee
+    state_abbreviation: TN
+    type: Statewide
+    short_description: The Tennessee Governor’s Office has [publicized strategic goals](https://www.tn.gov/transparenttn/about-transparent-tennessee.html)
+      in the areas of [education and workforce development](https://www.tn.gov/transparenttn/education-workforce-development/education-workforce-development_rd/education-hilites-education_rd/education-metrics-education-priority.html);
+      [fiscal strength and efficient government](https://www.tn.gov/transparenttn/fiscal-strength-efficient-government.html);
+      [health and welfare](https://www.tn.gov/transparenttn/health-welfare.html);
+      [jobs and economic development](https://www.tn.gov/transparenttn/jobs-economic-development.html);
+      and [public safety](https://www.tn.gov/transparenttn/public-safety.html).
+    long_description: 'The Tennessee Governor’s Office has [publicized strategic goals](https://www.tn.gov/transparenttn/about-transparent-tennessee.html)
+      in the areas of [education and workforce development](https://www.tn.gov/transparenttn/education-workforce-development/education-workforce-development_rd/education-hilites-education_rd/education-metrics-education-priority.html);
+      [fiscal strength and efficient government](https://www.tn.gov/transparenttn/fiscal-strength-efficient-government.html);
+      [health and welfare](https://www.tn.gov/transparenttn/health-welfare.html);
+      [jobs and economic development](https://www.tn.gov/transparenttn/jobs-economic-development.html);
+      and [public safety](https://www.tn.gov/transparenttn/public-safety.html). [Transparent
+      TN](https://www.tn.gov/content/tn.html), the state’s performance and data website,
+      links these strategic priorities to statewide performance dashboards with specific
+      [sub-goals, targets, and performance data](https://www.tn.gov/transparenttn/education-workforce-development/education-workforce-development_rd/education-hilites-education_rd/education-goals.html).
+      The site also includes [fiscal data](https://www.tn.gov/transparenttn/state-financial-overview.html)
+      related to agency’s programmatic spending and other expenditures. '
+    criteria: Strategic Goals
+    year: '2018'
+  - sys:
+      id: 2yDgp9IJowGiOy0ys8ieQO
+      created_at: !ruby/object:DateTime 2018-06-20 19:11:54.091000000 Z
+      updated_at: !ruby/object:DateTime 2018-06-20 19:13:16.732000000 Z
+      content_type_id: promising
+    state: Washington
+    state_abbreviation: WA
+    type: Statewide
+    short_description: 'Washington has [five overarching goals](https://data.results.wa.gov/):
+      world class education; prosperous economy; sustainable energy and clean environment;
+      healthy and safe communities; and effective, efficient, and accountable government.'
+    long_description: 'Washington has [five overarching goals](https://data.results.wa.gov/):
+      world class education; prosperous economy; sustainable energy and clean environment;
+      healthy and safe communities; and effective, efficient, and accountable government.
+      In each of these areas, the [state tracks specific goals and targets](https://data.results.wa.gov/health-and-safety)
+      which are accompanied by information that defines the goals, explains their
+      importance, and tracks progress using data, graphs, and charts.'
+    criteria: Strategic Goals
+    year: '2018'

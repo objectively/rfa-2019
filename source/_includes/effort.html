@@ -1,0 +1,24 @@
+{% assign effort = include.effort %}
+<a name={{effort.state | slugify}}></a>
+<div class="row align-center">
+  <div class="column large-8 medium-8 small-12">
+    <div class="effort__state-outline">
+    {% if effort.state_outline.url %}
+      <img src={{effort.state_outline.url}} alt="" />
+    {% endif %}
+    </div>
+    {% if effort.state_abbreviation%}
+      <h4 class="effort__abbreviation">{{effort.state_abbreviation}}</h4>
+    {% endif %}
+    {% if effort.type %}
+      <p class="effort__type">{{effort.type}}</p>
+    {% endif %}
+  </div>
+</div>
+<div class="row align-center">
+  <div class="column large-10">
+    {% if effort.long_description %}
+    {{ effort.long_description | markdownify }}
+    {% endif %}
+  </div>
+</div>

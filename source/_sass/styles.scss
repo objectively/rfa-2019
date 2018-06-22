@@ -11,21 +11,26 @@ $large: screen and (min-width: 64em);
 
 // Colors
 $blue: #008bb9;
-$dark-blue: #12375C;
-$light-gray: #EBEBEB;
-$medium-gray: #E3E3E3;
+$dark-blue: #12375c;
+$light-gray: #ebebeb;
+$medium-gray: #e3e3e3;
 $font-drak-gray: #222222;
 $main-dark-gray: #999;
-$primary-green: #54C569;
-$light-green-tint: #D9F2DE;
-$dark-green-tint: #C9E8CF;
-$primary-orange: #FBAE39;
-$light-orange-tint: #FDF7EB;
-$dark-orange-tint: #FFECCB;
-$hyperlink-orange: #F77C50;
+$primary-green: #54c569;
+$light-green-tint: #d9f2de;
+$dark-green-tint: #c9e8cf;
+$primary-orange: #fbae39;
+$light-orange-tint: #fdf7eb;
+$dark-orange-tint: #ffeccb;
+$hyperlink-orange: #f77c50;
 
 @import 'breakpoint';
 @import 'base';
 @import 'top-bar';
 @import 'index';
 @import 'table';
+@import 'criteria';
+
+.u-transition {
+  transition: all 0.4s ease;
+}

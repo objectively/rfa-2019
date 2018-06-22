@@ -3,14 +3,43 @@ table {
     background-color: $dark-blue;
     font-size: 1.5rem;
     padding: 15px;
-    padding-left: 30px;
+    padding-left: 35px;
+    @include breakpoint($medium-only) {
+      font-size: 1.2rem;
+      padding: 15px;
+    }
     @include breakpoint($small-only) {
-      font-size: .9rem;
+      font-size: .8rem;
       padding: 10px;
     }
+    &:nth-child(2) {
+      background-color: lighten($dark-blue, 3);
+    }
   }
-  th:nth-child(2) {
-    background-color: lighten($dark-blue, 3);
+
+  tr {
+    &:nth-of-type(odd) {
+      .title  {
+        background-color: $medium-gray;
+      }
+      .leading  {
+        background-color: $dark-green-tint;
+      }
+      .promising {
+        background-color: $dark-orange-tint;
+      }
+    }
+    &:nth-of-type(even) {
+      .title  {
+        background-color: $light-gray;
+      }
+      .leading  {
+        background-color: $light-green-tint;
+      }
+      .promising {
+        background-color: $light-orange-tint;
+      }
+    }
   }
 
   .title {
@@ -19,24 +48,65 @@ table {
       font-size: 1rem;
       padding: 10px;
     }
-    font-weight: 400;
-    padding-left: 30px;
+    font-weight: 500;
+    padding-left: 35px;
+    padding-right: 40px;
     padding-top: 50px;
+    line-height: 1.2;
   }
 
   .leading {
-    padding-left: 30px;
+    padding-left: 35px;
     padding-top: 50px;
     padding-bottom: 20px;
-    a {
+    &__state {
+      font-size: 3.9rem;
+      font-weight: bold;
+      color: $primary-green;
+      line-height: 1;
     }
-    @include breakpoint($small-only) {
-      display: none;
+    .description {
+      font-size: 1.1rem;
+      padding-bottom: 15px;
+      @include breakpoint($medium-only) {
+        display: none;
+      }
+      @include breakpoint($small-only) {
+        display: none;
+      }
+    }
+    .link {
+      padding-bottom: 30px;
+    }
+    .learn-more {
+      text-transform: uppercase;
+      color: $primary-green;
+      font-weight: bold;
+      font-size: 1.1rem;
+      @include breakpoint($medium-only) {
+        display: none;
+      }
+      @include breakpoint($small-only) {
+        display: none;
+      }
     }
   }
 
   .promising {
-    padding-left: 30px;
+    padding-left: 35px;
     padding-top: 50px;
+    &__state {
+      text-transform: uppercase;
+      background-color: $primary-orange;
+      font-weight: bold;
+      font-size: .8rem;
+      color: white;
+      padding: 7px 10px 5px 10px;
+      margin-right: 10px;
+      border-radius: 10px;
+      text-decoration: none;
+      display: inline-block;
+      margin-bottom: 10px;
+    }
   }
 }

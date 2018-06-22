@@ -14,13 +14,13 @@ criteria:
     sys:
       id: 4CxWgqjHzqkCAgY00SIMuK
       created_at: !ruby/object:DateTime 2018-06-20 19:03:08.652000000 Z
-      updated_at: !ruby/object:DateTime 2018-06-21 16:05:56.746000000 Z
+      updated_at: !ruby/object:DateTime 2018-06-22 15:59:34.018000000 Z
       content_type_id: leading
     state: Colorado
     state_abbreviation: CO
     type: Statewide
     short_description: The Colorado Governor’s Office publishes statewide strategic
-      goals and statewide and agency-specific outcomes on its [performance dashboard](https://www.colorado.gov/pacific/performancemanagement/governors-dashboard).
+      goals and statewide and agency-specific outcomes on its performance dashboard.
     long_description: The Colorado Governor’s Office publishes statewide strategic
       goals and statewide and agency-specific outcomes on its [performance dashboard](https://www.colorado.gov/pacific/performancemanagement/governors-dashboard).
       The Governor’s [annual budget request](https://drive.google.com/file/d/0B0TNL0CtD9wXbkNUb0NIQmVrVXM/view)
@@ -103,3 +103,277 @@ criteria:
       importance, and tracks progress using data, graphs, and charts.'
     criteria: Strategic Goals
     year: '2018'
+- sys:
+    id: 1aFm8xMg3GCk0iWa4OgkEq
+    created_at: !ruby/object:DateTime 2018-06-22 15:57:55.278000000 Z
+    updated_at: !ruby/object:DateTime 2018-06-22 15:57:55.278000000 Z
+    content_type_id: criteria
+  title: Performance Management / Continuous Improvement
+  description: Did the state or any of its agencies implement a performance management
+    system aligned with their statewide strategic goals; with clear and prioritized
+    outcome-focused goals, program objectives, and measures; and did it consistently
+    collect, analyze, and use data and evidence to improve outcomes, return on investment,
+    and other dimensions of performance?
+  explanation: Performance management systems are an important tool to help state
+    governments monitor and improve customer service, program performance, and outcomes
+    for their residents.
+  leading_list:
+    sys:
+      id: 5YE3Y1T2iAMeGa424uucoq
+      created_at: !ruby/object:DateTime 2018-06-22 15:55:10.657000000 Z
+      updated_at: !ruby/object:DateTime 2018-06-22 15:55:10.657000000 Z
+      content_type_id: leading
+    state: Tennessee
+    state_abbreviation: TN
+    type: Statewide
+    short_description: Tennessee’s data and performance website, Transparent TN, has
+      statewide performance dashboards with specific sub-goals, targets, and performance
+      data.
+    long_description: Tennessee’s data and performance website, [Transparent TN](https://www.tn.gov/transparenttn.html),
+      has statewide performance dashboards with specific [sub-goals, targets, and
+      performance data](https://www.tn.gov/transparenttn/education-workforce-development/education-workforce-development_rd/education-hilites-education_rd/education-goals.html).
+      The site also includes [fiscal data](https://www.tn.gov/transparenttn/state-financial-overview.html)
+      related to agency’s programmatic spending and other expenditures. The site also
+      [publicizes strategic goals](https://www.tn.gov/transparenttn/about-transparent-tennessee.html)
+      in the areas of [education and workforce development](https://www.tn.gov/transparenttn/education-workforce-development/education-workforce-development_rd/education-hilites-education_rd/education-metrics-education-priority.html);
+      [fiscal strength and efficient government](https://www.tn.gov/transparenttn/fiscal-strength-efficient-government.html);
+      [health and welfare](https://www.tn.gov/transparenttn/health-welfare.html);
+      [jobs and economic development](https://www.tn.gov/transparenttn/jobs-economic-development.html);
+      and [public safety](https://www.tn.gov/transparenttn/public-safety.html).
+    criteria: Performance Management / Continuous Improvement
+    state_outline:
+      sys:
+        id: 5PxhUgTFzaysi08y6oAuqq
+        created_at: !ruby/object:DateTime 2018-06-22 15:54:59.766000000 Z
+        updated_at: !ruby/object:DateTime 2018-06-22 15:54:59.766000000 Z
+      title: tennessee
+      description: 
+      url: "//images.ctfassets.net/cu0oxaxjfcsj/5PxhUgTFzaysi08y6oAuqq/c80b0a4b3ee370e5e1635e4a8324b893/tennessee.svg"
+    year: '2018'
+  promising_list:
+  - sys:
+      id: 2KX5Ka2jckI4cwy0Gukkk0
+      created_at: !ruby/object:DateTime 2018-06-22 15:32:48.568000000 Z
+      updated_at: !ruby/object:DateTime 2018-06-22 15:32:48.568000000 Z
+      content_type_id: promising
+    state: California
+    state_abbreviation: CA
+    type: Single agency
+    short_description: The California Correctional Health Services Agency releases
+      a monthly Health Care Services Dashboard performance report which compiles key
+      metrics for health services across the state’s correctional facilities.
+    long_description: The California Correctional Health Services Agency releases
+      a monthly Health Care Services Dashboard performance report which compiles key
+      metrics for health services across the state’s correctional facilities. The
+      California Department of Transportation releases quarterly performance reports
+      which track performance against statewide transportation goals.
+    criteria: Performance Management / Continuous Improvement
+    year: '2018'
+  - sys:
+      id: tkBogofa6sk6OWqyWSCiQ
+      created_at: !ruby/object:DateTime 2018-06-22 15:33:27.362000000 Z
+      updated_at: !ruby/object:DateTime 2018-06-22 15:33:27.362000000 Z
+      content_type_id: promising
+    state: Colorado
+    state_abbreviation: CO
+    type: Statewide
+    short_description: A 2013 Colorado law requires all Colorado state agencies to
+      submit annual performance reports to the Colorado state legislature which include
+      (1) performance measures for the major functions of the department; (2) performance
+      goals for at least the following 3 years; (3) a description of the strategies
+      necessary to reach the goals; and (4) a summary of the department’s most recent
+      performance evaluation.
+    long_description: A 2013 Colorado law requires all Colorado state agencies to
+      submit annual performance reports to the Colorado state legislature which include
+      (1) performance measures for the major functions of the department; (2) performance
+      goals for at least the following 3 years; (3) a description of the strategies
+      necessary to reach the goals; and (4) a summary of the department’s most recent
+      performance evaluation.
+    criteria: Performance Management / Continuous Improvement
+    year: '2018'
+  - sys:
+      id: 646T4dNlLyQSAos6MgoQa8
+      created_at: !ruby/object:DateTime 2018-06-22 15:34:05.632000000 Z
+      updated_at: !ruby/object:DateTime 2018-06-22 15:34:05.632000000 Z
+      content_type_id: promising
+    state: Florida
+    state_abbreviation: FL
+    type: Single agency
+    short_description: A 2014 Florida law created the Florida Department of Children
+      and Families child welfare results-oriented accountability program that monitors
+      data from service providers and other entities to report progress via a public
+      child welfare performance dashboard.
+    long_description: A 2014 Florida law created the Florida Department of Children
+      and Families child welfare results-oriented accountability program that monitors
+      data from service providers and other entities to report progress via a public
+      child welfare performance dashboard. In addition, the department publishes interactive
+      scorecards with detailed information on program performance for Community Based
+      Care, Federal Child Welfare Indicators, Child Protective Investigations, and
+      Adult Protective Service.
+    criteria: Performance Management / Continuous Improvement
+    year: '2018'
+  - sys:
+      id: 3814NZIlfGu0AuqYKSG8k4
+      created_at: !ruby/object:DateTime 2018-06-22 15:36:08.661000000 Z
+      updated_at: !ruby/object:DateTime 2018-06-22 15:36:08.661000000 Z
+      content_type_id: promising
+    state: Maryland
+    state_abbreviation: MD
+    type: Statewide
+    short_description: The Maryland Department of Budget and Management’s Managing
+      for Results initiative publishes annual performance reports that track agencies’
+      key goals, objectives, and performance measures.
+    long_description: The Maryland Department of Budget and Management’s Managing
+      for Results initiative publishes annual performance reports that track agencies’
+      key goals, objectives, and performance measures. As part of these efforts, the
+      Governor’s Office of Performance Improvement, established by a 2015 executive
+      order, assists “agencies with measuring and managing performance information.”
+      Further, the Maryland Children’s Cabinet has a Child Welfare Scorecard which
+      tracks outcomes for 8 statewide child welfare goals.
+    criteria: Performance Management / Continuous Improvement
+    year: '2018'
+  - sys:
+      id: 1RrvRw6fzu404iOSQSgK04
+      created_at: !ruby/object:DateTime 2018-06-22 15:36:42.475000000 Z
+      updated_at: !ruby/object:DateTime 2018-06-22 15:36:48.575000000 Z
+      content_type_id: promising
+    state: Minnesota
+    state_abbreviation: MN
+    type: Statewide
+    short_description: 'Since 2014, Minnesota has maintained a dashboard featuring
+      40 key indicators in the state’s 8 key priority areas. '
+    long_description: Since 2014, Minnesota has maintained a dashboard featuring 40
+      key indicators in the state’s 8 key priority areas. Each indicator has a status
+      (good, okay, or poor according to specific criteria); indicators can be compared
+      to the performance of other states and many are disaggregated by race, income,
+      or geography.
+    criteria: Performance Management / Continuous Improvement
+    year: '2018'
+  - sys:
+      id: 3egxVrCaWAKqmqKO6mc2E0
+      created_at: !ruby/object:DateTime 2018-06-22 15:37:37.017000000 Z
+      updated_at: !ruby/object:DateTime 2018-06-22 15:37:37.017000000 Z
+      content_type_id: promising
+    state: New Mexico
+    state_abbreviation: NM
+    type: Statewide
+    short_description: 'A 1999 New Mexico law (p. 5) requires all state agencies to
+      submit annual performance-based budget requests which include: (1) the outputs
+      and outcomes for each program; (2) performance measures and performance targets
+      for each program; and (3) an evaluation of each program’s performance. '
+    long_description: 'A 1999 New Mexico law (p. 5) requires all state agencies to
+      submit annual performance-based budget requests which include: (1) the outputs
+      and outcomes for each program; (2) performance measures and performance targets
+      for each program; and (3) an evaluation of each program’s performance. This
+      information is released annually in the state’s policy and fiscal analysis,
+      which includes individual agency performance reports (pages 87-129) and information
+      on the cost effectiveness of different programs (pages 15-20, pages 49-50).'
+    criteria: Performance Management / Continuous Improvement
+    year: '2018'
+  - sys:
+      id: 1ljfL9d7bKSwqSKUeecwmk
+      created_at: !ruby/object:DateTime 2018-06-22 15:44:58.644000000 Z
+      updated_at: !ruby/object:DateTime 2018-06-22 15:44:58.644000000 Z
+      content_type_id: promising
+    state: Oklahoma
+    state_abbreviation: OK
+    type: Statewide
+    short_description: Oklahoma’s State Stat site features statewide goals, performance
+      measures, and related budget allocations for state programs in the areas of
+      health, safety, education, economy and government.
+    long_description: Oklahoma’s State Stat site features statewide goals, performance
+      measures, and related budget allocations for state programs in the areas of
+      health, safety, education, economy and government.
+    criteria: Performance Management / Continuous Improvement
+    year: '2018'
+  - sys:
+      id: 6Hga1GduW4McykoOksG4AK
+      created_at: !ruby/object:DateTime 2018-06-22 15:45:40.964000000 Z
+      updated_at: !ruby/object:DateTime 2018-06-22 15:45:40.964000000 Z
+      content_type_id: promising
+    state: Oregon
+    state_abbreviation: OR
+    type: Statewide
+    short_description: A 2016 Oregon law requires all state agencies (in section 2)
+      to develop and use performance measures.
+    long_description: A 2016 Oregon law requires all state agencies (in section 2)
+      to develop and use performance measures. Each state agency submits to the Oregon
+      Legislative Fiscal Office an Annual Performance Progress Reports detailing the
+      agency’s programmatic outcomes, which are reviewed during the state’s budget
+      process.
+    criteria: Performance Management / Continuous Improvement
+    year: '2018'
+  - sys:
+      id: 61eGYiZqKsey60s0AywSiK
+      created_at: !ruby/object:DateTime 2018-06-22 15:46:30.432000000 Z
+      updated_at: !ruby/object:DateTime 2018-06-22 15:46:30.433000000 Z
+      content_type_id: promising
+    state: Virginia
+    state_abbreviation: VA
+    type: Statewide
+    short_description: 'Virginia uses its Virginia Performs Scorecard to track performance
+      across 7 strategic areas: economy; education; health and family; natural, historic,
+      and cultural resources; public safety; transportation; and government and citizens. '
+    long_description: 'Virginia uses its Virginia Performs Scorecard to track performance
+      across 7 strategic areas: economy; education; health and family; natural, historic,
+      and cultural resources; public safety; transportation; and government and citizens.
+      The scorecard tracks these areas by displaying current metrics and tracking
+      year-to-year trends. In addition to providing performance by sector and policy
+      area, the system shows regional performance. The state also provides individual
+      agency metrics, which provide details on each department’s operational outputs
+      with associated targets for performance.'
+    criteria: Performance Management / Continuous Improvement
+    year: '2018'
+  - sys:
+      id: 1Y6vN5MQYEuu2gm8uQMMOq
+      created_at: !ruby/object:DateTime 2018-06-22 15:48:20.006000000 Z
+      updated_at: !ruby/object:DateTime 2018-06-22 15:48:20.006000000 Z
+      content_type_id: promising
+    state: Washington
+    state_abbreviation: WA
+    type: Statewide
+    short_description: 'A 2013 Washington State Executive Order established Results
+      Washington as “an innovative, data-driven, performance management initiative,
+      that will drive the operations of state government.” '
+    long_description: 'A 2013 Washington State Executive Order established Results
+      Washington as “an innovative, data-driven, performance management initiative,
+      that will drive the operations of state government.” As part of its work, Results
+      Washington, a unit of the Governor’s office, proactively and regularly publishes
+      outcome data within the state’s priority areas of: World-class education; Prosperous
+      economy; Sustainable energy & clean environment; Healthy & safe communities;
+      and Efficient, effective & accountable government. Results Washington highlights
+      progress through a performance dashboard and results for each strategic area.
+      Since 2014, Results Washington has conducted Results Review meetings with the
+      Governor ten times per year. Each of these meetings are recorded and publicly
+      posted and allow the “Governor and state agency directors to discuss objectives,
+      improvement strategies and metrics.”'
+    criteria: Performance Management / Continuous Improvement
+    year: '2018'
+  - sys:
+      id: 3uapKfOcGImQoWCYoOOGOo
+      created_at: !ruby/object:DateTime 2018-06-22 15:48:49.588000000 Z
+      updated_at: !ruby/object:DateTime 2018-06-22 15:48:49.588000000 Z
+      content_type_id: promising
+    state: Wisconsin
+    state_abbreviation: WI
+    type: Statewide
+    short_description: A 2016 Wisconsin executive order requires all state agencies
+      to maintain a quarterly agency performance dashboard containing agency goals
+      and performance data.
+    long_description: A 2016 Wisconsin executive order requires all state agencies
+      to maintain a quarterly agency performance dashboard containing agency goals
+      and performance data.
+    criteria: Performance Management / Continuous Improvement
+    year: '2018'
+- sys:
+    id: 4Ng4FVuNz2WaYOQOGiOAEs
+    created_at: !ruby/object:DateTime 2018-06-22 16:58:02.467000000 Z
+    updated_at: !ruby/object:DateTime 2018-06-22 16:58:02.467000000 Z
+    content_type_id: criteria
+  title: Test Criteria
+- sys:
+    id: 207GyVHvPqesuoWuQuISey
+    created_at: !ruby/object:DateTime 2018-06-22 17:00:06.169000000 Z
+    updated_at: !ruby/object:DateTime 2018-06-22 17:00:06.169000000 Z
+    content_type_id: criteria
+  title: 'Test Criteria #2'

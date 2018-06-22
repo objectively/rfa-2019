@@ -1,36 +1,19 @@
-.top-section {
-  background-color: white;
-  h1 {
-    color: $blue;
-    font-size: 2.2rem;
+.button-container {
+  text-align: center;
+  .download-button {
+    background-color: white;
+    border: 2px solid $blue;
     font-weight: 500;
-    @include breakpoint($small-only) {
-      font-size: 2rem;
+    margin: 20px 0px 40px 0;
+    padding: 10px 10px 10px 50px;
+    text-transform: capitalize;
+    &:hover {
+      background-color: $blue;
+      color: white;
     }
-  }
-  h2 {
-    color: $font-drak-gray;
-    text-transform: none;
-    font-family: 'Lora', serif;
-    font-size: 2.8rem;
-    margin: 0;
-    line-height: 1.2;
-    @include breakpoint($small-only) {
-      font-size: 2.5rem;
+    .material-icons {
+      display: inline-block;
+      margin-left: 80px;
     }
-  }
-  hr {
-    margin: 15px auto;
-    width: 40px;
-    height: 4px;
-    background-color: $main-dark-gray;
-    border-radius: 5px;
-    border: none;
-  }
-  p {
-    color: $main-dark-gray;
-    font-size: 1.2rem;
-    padding-top: 20px;
-    padding-bottom: 20px;
   }
 }

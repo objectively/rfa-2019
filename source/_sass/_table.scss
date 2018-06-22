@@ -2,8 +2,7 @@ table {
   th {
     background-color: $dark-blue;
     font-size: 1.5rem;
-    padding: 15px;
-    padding-left: 35px;
+    padding: 15px 0 15px 35px;
     @include breakpoint($medium-only) {
       font-size: 1.2rem;
       padding: 15px;
@@ -45,38 +44,29 @@ table {
   .title {
     font-size: 1.5rem;
     font-weight: 500;
-    padding-left: 35px;
-    padding-right: 40px;
-    padding-top: 50px;
     line-height: 1.2;
+    padding: 50px 40px 0 35px;
     @include breakpoint($medium-only) {
-      padding-left: 15px;
-      padding-top: 25px;
-      padding-right: 25px;
+      padding: 25px 15px 0 15px;
     }
     @include breakpoint($small-only) {
       font-size: 1rem;
-      padding-left: 15px;
-      padding-top: 25px;
-      padding-right: 25px;
+      padding: 25px 15px 0 15px;
     }
   }
 
   .leading {
-    padding-left: 35px;
-    padding-top: 50px;
-    padding-bottom: 20px;
+    padding: 50px 0 20px 35px;
     @include breakpoint($medium-only) {
       padding-top: 25px;
     }
     @include breakpoint($small-only) {
       padding-top: 25px;
-
     }
     &__state {
+      color: $primary-green;
       font-size: 3.9rem;
       font-weight: bold;
-      color: $primary-green;
       line-height: 1;
       @include breakpoint($medium-only) {
 
@@ -100,10 +90,10 @@ table {
       padding-bottom: 30px;
     }
     .learn-more {
-      text-transform: uppercase;
       color: $primary-green;
-      font-weight: bold;
       font-size: 1.1rem;
+      font-weight: bold;
+      text-transform: uppercase;
       @include breakpoint($medium-only) {
         display: none;
       }
@@ -114,28 +104,28 @@ table {
   }
 
   .promising {
-    padding-left: 35px;
-    padding-top: 50px;
+    padding: 50px 0 0 35px;
     @include breakpoint($medium-only) {
-      padding-left: 15px;
-      padding-top: 25px;
+      padding: 25px 0 0 15px;
     }
     @include breakpoint($small-only) {
-      padding-left: 15px;
-      padding-top: 25px;
+      padding: 25px 0 0 15px;
     }
     &__state {
-      text-transform: uppercase;
       background-color: $primary-orange;
-      font-weight: bold;
-      font-size: .8rem;
-      color: white;
-      padding: 7px 10px 5px 10px;
-      margin-right: 10px;
       border-radius: 10px;
-      text-decoration: none;
+      color: white;
       display: inline-block;
-      margin-bottom: 10px;
+      font-size: .8rem;
+      font-weight: bold;
+      margin: auto 10px 10px auto;
+      padding: 7px 10px 5px 10px;
+      text-decoration: none;
+      text-transform: uppercase;
+      @include breakpoint($small-only) {
+        border-radius: 5px;
+        padding: 5px 6px 3px 6px;
+      }
       &--desktop {
         display: none;
         @include breakpoint($large) {
@@ -143,8 +133,8 @@ table {
         }
       }
       &--mobile {
-        margin-right: 5px;
-        margin-bottom: 5px;
+        margin-bottom: 7px;
+        margin-right: 7px;
         @include breakpoint($large) {
           display: none;
         }

@@ -2,41 +2,143 @@ table {
   th {
     background-color: $dark-blue;
     font-size: 1.5rem;
-    padding: 15px;
-    padding-left: 30px;
+    padding: 15px 0 15px 35px;
+    @include breakpoint($medium-only) {
+      font-size: 1.2rem;
+      padding: 15px;
+    }
     @include breakpoint($small-only) {
-      font-size: .9rem;
+      font-size: .8rem;
       padding: 10px;
     }
+    &:nth-child(2) {
+      background-color: lighten($dark-blue, 3);
+    }
   }
-  th:nth-child(2) {
-    background-color: lighten($dark-blue, 3);
+
+  tr {
+    &:nth-of-type(odd) {
+      .title  {
+        background-color: $medium-gray;
+      }
+      .leading  {
+        background-color: $dark-green-tint;
+      }
+      .promising {
+        background-color: $dark-orange-tint;
+      }
+    }
+    &:nth-of-type(even) {
+      .title  {
+        background-color: $light-gray;
+      }
+      .leading  {
+        background-color: $light-green-tint;
+      }
+      .promising {
+        background-color: $light-orange-tint;
+      }
+    }
   }
 
   .title {
     font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    padding: 50px 40px 0 35px;
+    @include breakpoint($medium-only) {
+      padding: 25px 15px 0 15px;
+    }
     @include breakpoint($small-only) {
       font-size: 1rem;
-      padding: 10px;
+      padding: 25px 15px 0 15px;
     }
-    font-weight: 400;
-    padding-left: 30px;
-    padding-top: 50px;
   }
 
   .leading {
-    padding-left: 30px;
-    padding-top: 50px;
-    padding-bottom: 20px;
-    a {
+    padding: 50px 0 20px 35px;
+    @include breakpoint($medium-only) {
+      padding-top: 25px;
     }
     @include breakpoint($small-only) {
-      display: none;
+      padding-top: 25px;
+    }
+    &__state {
+      color: $primary-green;
+      font-size: 3.9rem;
+      font-weight: bold;
+      line-height: 1;
+      @include breakpoint($medium-only) {
+
+      }
+      @include breakpoint($small-only) {
+        font-size: 2.8rem;
+        line-height: 1;
+      }
+    }
+    .description {
+      font-size: 1.1rem;
+      padding-bottom: 15px;
+      @include breakpoint($medium-only) {
+        display: none;
+      }
+      @include breakpoint($small-only) {
+        display: none;
+      }
+    }
+    .link {
+      padding-bottom: 30px;
+    }
+    .learn-more {
+      color: $primary-green;
+      font-size: 1.1rem;
+      font-weight: bold;
+      text-transform: uppercase;
+      @include breakpoint($medium-only) {
+        display: none;
+      }
+      @include breakpoint($small-only) {
+        display: none;
+      }
     }
   }
 
   .promising {
-    padding-left: 30px;
-    padding-top: 50px;
+    padding: 50px 0 0 35px;
+    @include breakpoint($medium-only) {
+      padding: 25px 0 0 15px;
+    }
+    @include breakpoint($small-only) {
+      padding: 25px 0 0 15px;
+    }
+    &__state {
+      background-color: $primary-orange;
+      border-radius: 10px;
+      color: white;
+      display: inline-block;
+      font-size: .8rem;
+      font-weight: bold;
+      margin: auto 10px 10px auto;
+      padding: 7px 10px 5px 10px;
+      text-decoration: none;
+      text-transform: uppercase;
+      @include breakpoint($small-only) {
+        border-radius: 5px;
+        padding: 5px 6px 3px 6px;
+      }
+      &--desktop {
+        display: none;
+        @include breakpoint($large) {
+          display: inline-block;
+        }
+      }
+      &--mobile {
+        margin-bottom: 7px;
+        margin-right: 7px;
+        @include breakpoint($large) {
+          display: none;
+        }
+      }
+    }
   }
 }

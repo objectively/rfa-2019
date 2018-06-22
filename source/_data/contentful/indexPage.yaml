@@ -3,7 +3,7 @@ indexPage:
 - sys:
     id: 4VbZM0utgAk4gk4QECcm2U
     created_at: !ruby/object:DateTime 2018-06-21 14:06:09.169000000 Z
-    updated_at: !ruby/object:DateTime 2018-06-21 16:05:30.792000000 Z
+    updated_at: !ruby/object:DateTime 2018-06-22 16:08:20.791000000 Z
     content_type_id: indexPage
   year: '2018'
   short_description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -35,3 +35,43 @@ indexPage:
         id: kKfcRItiKWi42WICcOqAU
     - sys:
         id: 2yDgp9IJowGiOy0ys8ieQO
+  - sys:
+      id: 1aFm8xMg3GCk0iWa4OgkEq
+      created_at: !ruby/object:DateTime 2018-06-22 15:57:55.278000000 Z
+      updated_at: !ruby/object:DateTime 2018-06-22 15:57:55.278000000 Z
+      content_type_id: criteria
+    title: Performance Management / Continuous Improvement
+    description: Did the state or any of its agencies implement a performance management
+      system aligned with their statewide strategic goals; with clear and prioritized
+      outcome-focused goals, program objectives, and measures; and did it consistently
+      collect, analyze, and use data and evidence to improve outcomes, return on investment,
+      and other dimensions of performance?
+    explanation: Performance management systems are an important tool to help state
+      governments monitor and improve customer service, program performance, and outcomes
+      for their residents.
+    leading_list:
+      sys:
+        id: 5YE3Y1T2iAMeGa424uucoq
+    promising_list:
+    - sys:
+        id: 2KX5Ka2jckI4cwy0Gukkk0
+    - sys:
+        id: tkBogofa6sk6OWqyWSCiQ
+    - sys:
+        id: 646T4dNlLyQSAos6MgoQa8
+    - sys:
+        id: 3814NZIlfGu0AuqYKSG8k4
+    - sys:
+        id: 1RrvRw6fzu404iOSQSgK04
+    - sys:
+        id: 3egxVrCaWAKqmqKO6mc2E0
+    - sys:
+        id: 1ljfL9d7bKSwqSKUeecwmk
+    - sys:
+        id: 6Hga1GduW4McykoOksG4AK
+    - sys:
+        id: 61eGYiZqKsey60s0AywSiK
+    - sys:
+        id: 1Y6vN5MQYEuu2gm8uQMMOq
+    - sys:
+        id: 3uapKfOcGImQoWCYoOOGOo

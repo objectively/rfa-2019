@@ -8,59 +8,76 @@ seo_image_path: #'/images/media/filename.jpg'
 {% assign criteria = site.data.contentful.criteria.criteria %}
 
 {% for page in index %}
-  {% if page.year == '2018' %}
-    <main role="main" id="index">
-      <section class="top-section">
-        <div class="row align-center">
-          <div class="column large-8 medium-8 small-12">
-            <h1>{{ page.year }}</h1>
-            <hr>
-            <h2>Invest in What Works State Standard of Excellence</h2>
-          </div>
+  <main role="main" id="index">
+    <section class="top-section">
+      <div class="row align-center">
+        <div class="column large-8 medium-8 small-12">
+          <h1>{{ page.year }}</h1>
+          <hr>
+          <h2>Invest in What Works State Standard of Excellence</h2>
         </div>
-        <div class="row align-center">
-          <div class="column large-10">
-            {{ page.short_description | markdownify }}
-          </div>
+      </div>
+      <div class="row align-center">
+        <div class="column large-10">
+          {{ page.short_description | markdownify }}
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="table">
-        <div class="row expanded">
-          <table>
-            <tr>
-              <th>Criteria</th>
-              <th>Leading Efforts</th>
-              <th>Promising Efforts</th>
-            </tr>
+    <section class="table" style="width:100%">
+      <div class="row expanded">
+        <table>
+          <tr>
+            <th>Criteria</th>
+            <th style="width:38%">Leading Efforts</th>
+            <th style="width:38%">Promising Efforts</th>
+          </tr>
             {% for item in criteria %}
-              <tr>
+              <tr class="criteria">
                 <td class="title">{{ item.title }}</td>
                 <td class="leading">
-                  <div class="state">
-                    {{item.leading_list.state_abbreviation}}
+                  <div class="row">
+                    <div class="leading__state column large-3">
+                      {{item.leading_list.state_abbreviation}}
+                    </div>
+                    <div class="description column large-8">
+                      {{item.leading_list.short_description}}
+                    </div>
                   </div>
-                  <div class="description">
-                    {{item.leading_list.short_description | markdownify}}
-                  </div>
-                  <div class="link">
-                    <a href="#">Learn More</a>
+                  <div class="link row align-right">
+                    <div class="column large-5">
+                      <a class="learn-more" href="#">Learn More</a>
+                    </div>
                   </div>
                 </td>
                 <td class="promising">
                   {% for state in item.promising_list %}
-                    <div class="promising-state">
+                    <a href="#" class="promising__state promising__state--desktop">
+                      {{state.state}}
+                    </a>
+                    <a href="#" class="promising__state promising__state--mobile">
                       {{state.state_abbreviation}}
-                    </div>
+                    </a>
                   {% endfor %}
                 </td>
               </tr>
             {% endfor %}
-          </table>
+        </table>
+      </div>
+    </section>
+
+    <section class="page-section">
+      <div class="row">
+        <div class="column">
+          {{ page.long_description | markdownify }}
         </div>
-      </section>
+      </div>
+      <div class="row align-center">
+        <div class="button-container column large-4 small-12">
+          <a href="#" class="button download-button">Download<i class="material-icons arrow">arrow_forward</i></a>
+        </div>
+      </div>
+    </section>
 
-
-    </main>
-  {% endif %}
+  </main>
 {% endfor %}

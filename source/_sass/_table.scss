@@ -1,0 +1,42 @@
+table {
+  th {
+    background-color: $dark-blue;
+    font-size: 1.5rem;
+    padding: 15px;
+    padding-left: 30px;
+    @include breakpoint($small-only) {
+      font-size: .9rem;
+      padding: 10px;
+    }
+  }
+  th:nth-child(2) {
+    background-color: lighten($dark-blue, 3);
+  }
+
+  .title {
+    font-size: 1.5rem;
+    @include breakpoint($small-only) {
+      font-size: 1rem;
+      padding: 10px;
+    }
+    font-weight: 400;
+    padding-left: 30px;
+    padding-top: 50px;
+  }
+
+  .leading {
+    padding-left: 30px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    a {
+    }
+    @include breakpoint($small-only) {
+      display: none;
+    }
+  }
+
+  .promising {
+    padding-left: 30px;
+    padding-top: 50px;
+  }
+}

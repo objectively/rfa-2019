@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     {% include seo_tags.html%}
     <title>{{page.title}}</title>
-    <link rel="shortcut icon" href="{{'/images/favicon.ico' | relative_url}}" type="image/x-icon">
+    <link rel="shortcut icon" href="{{'/images/rfa-favicon.png' | relative_url}}" type="image/x-icon">
     <link rel="stylesheet" href="{{'/vendor/foundation.min.css' | relative_url}}">
     <link rel="stylesheet" href="{{'/vendor/styleguide-v2.1.css' | relative_url}}">
     <link rel="stylesheet" href="{{'/vendor/slick.css' | relative_url}}"/>
@@ -16,6 +16,7 @@
     <script src="https://use.typekit.net/mvc3cdb.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700" rel="stylesheet">
     <link rel="stylesheet" href=https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css>
   </head>
   <body class="cbp-spmenu-push">
@@ -23,8 +24,8 @@
 
     {{content}}
 
-    {% include footer.html %}
-    {% include copyright.html %}
+    <!-- {% include footer.html %}
+    {% include copyright.html %} -->
 
     <div id="overlay" class="js-overlay"></div>
     <script src="{{'/vendor/jquery-2.1.4.min.js' | relative_url}}"></script>

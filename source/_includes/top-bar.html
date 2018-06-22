@@ -1,13 +1,13 @@
-<header class="top-bar">
-  <span class="top-bar__button js-trigger-menu">menu</span>
-  <nav class="main-menu js-target-menu main-menu--left">
-    <a href="{{'/'.html' | relative_url}}">Home</a>
-    <a href="{{'/about.html' | relative_url}}">About</a>
-  </nav>
-  <a class="top-bar__logo" href="{{'/'| relative_url}}"><img src="{{'/images/circle-logo.svg' | relative_url}}" alt="Project Logo"></a>
-  <span class="top-bar__button js-trigger-menu">more_vert</span>
-  <nav class="main-menu js-target-menu main-menu--right">
-    <a href="#">Github Repository</a>
-    <a href="{{'/sandbox.html' | relative_url}}">Sandbox</a>
-  </nav>
+<header class="top-bar" style="background-image:url({{'/images/map-overlay.png' | relative_url}})">
+  <div class="color-overlay">
+    <span class="top-bar__logo"><a href="{{ '/' | relative_url }}"><img src="{{'/images/rfa-white.svg' | relative_url}}" alt="Results for America 2018 Logo"></a></span>
+  </div>
 </header>
+
+<div class="media-icons">
+  <div class="row align-right expanded">
+    <div class="column large-3">
+      Share: FB | TW | MAIL
+    </div>
+  </div>
+</div>

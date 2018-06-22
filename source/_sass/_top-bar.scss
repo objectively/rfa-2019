@@ -1,0 +1,33 @@
+.top-bar {
+  background-color: $blue;
+  height: 100px;
+  position: relative;
+  // background-position: -40% 95%;
+  background-position: -30% 95%;
+  background-repeat: no-repeat;
+  background-size: 1700px;
+  .color-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: transparentize($blue, .2);
+  }
+  @include breakpoint($small-only) {
+    height: 75px;
+  }
+  &__logo {
+    padding: 22px;
+    @include breakpoint($small-only) {
+      padding: 15px;
+    }
+  }
+}
+
+.media-icons {
+  display: none;
+  @include breakpoint($large) {
+    display: inline;
+  }
+}

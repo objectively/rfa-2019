@@ -1,1 +1,37 @@
---- {}
+---
+indexPage:
+- sys:
+    id: 4VbZM0utgAk4gk4QECcm2U
+    created_at: !ruby/object:DateTime 2018-06-21 14:06:09.169000000 Z
+    updated_at: !ruby/object:DateTime 2018-06-21 16:05:30.792000000 Z
+    content_type_id: indexPage
+  year: '2018'
+  short_description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  long_description: Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+    in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+    occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+    id est laborum.
+  download_url: https://www.google.com/flights/
+  criteria:
+  - sys:
+      id: 4upxBzECbmmYUQO4wYGWgg
+      created_at: !ruby/object:DateTime 2018-06-20 19:13:35.134000000 Z
+      updated_at: !ruby/object:DateTime 2018-06-20 19:13:35.134000000 Z
+      content_type_id: criteria
+    title: Strategic Goals
+    description: Did the Governor have public statewide strategic goals?
+    explanation: The creation of statewide strategic goals is an important first step
+      in aligning goals, expenditures, and programmatic activities as a way to improve
+      outcomes on a state government’s most important challenges.
+    leading_list:
+      sys:
+        id: 4CxWgqjHzqkCAgY00SIMuK
+    promising_list:
+    - sys:
+        id: 5SuLhnN5JeomGigC8E4a2Y
+    - sys:
+        id: kKfcRItiKWi42WICcOqAU
+    - sys:
+        id: 2yDgp9IJowGiOy0ys8ieQO

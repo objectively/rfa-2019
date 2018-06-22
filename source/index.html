@@ -54,8 +54,11 @@ seo_image_path: #'/images/media/filename.jpg'
                 </td>
                 <td class="promising">
                   {% for state in item.promising_list %}
-                    <a href="#" class="promising__state">
+                    <a href="#" class="promising__state promising__state--desktop">
                       {{state.state}}
+                    </a>
+                    <a href="#" class="promising__state promising__state--mobile">
+                      {{state.state_abbreviation}}
                     </a>
                   {% endfor %}
                 </td>

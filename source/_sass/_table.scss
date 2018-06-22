@@ -44,26 +44,47 @@ table {
 
   .title {
     font-size: 1.5rem;
-    @include breakpoint($small-only) {
-      font-size: 1rem;
-      padding: 10px;
-    }
     font-weight: 500;
     padding-left: 35px;
     padding-right: 40px;
     padding-top: 50px;
     line-height: 1.2;
+    @include breakpoint($medium-only) {
+      padding-left: 15px;
+      padding-top: 25px;
+      padding-right: 25px;
+    }
+    @include breakpoint($small-only) {
+      font-size: 1rem;
+      padding-left: 15px;
+      padding-top: 25px;
+      padding-right: 25px;
+    }
   }
 
   .leading {
     padding-left: 35px;
     padding-top: 50px;
     padding-bottom: 20px;
+    @include breakpoint($medium-only) {
+      padding-top: 25px;
+    }
+    @include breakpoint($small-only) {
+      padding-top: 25px;
+
+    }
     &__state {
       font-size: 3.9rem;
       font-weight: bold;
       color: $primary-green;
       line-height: 1;
+      @include breakpoint($medium-only) {
+
+      }
+      @include breakpoint($small-only) {
+        font-size: 2.8rem;
+        line-height: 1;
+      }
     }
     .description {
       font-size: 1.1rem;
@@ -95,6 +116,14 @@ table {
   .promising {
     padding-left: 35px;
     padding-top: 50px;
+    @include breakpoint($medium-only) {
+      padding-left: 15px;
+      padding-top: 25px;
+    }
+    @include breakpoint($small-only) {
+      padding-left: 15px;
+      padding-top: 25px;
+    }
     &__state {
       text-transform: uppercase;
       background-color: $primary-orange;
@@ -107,6 +136,19 @@ table {
       text-decoration: none;
       display: inline-block;
       margin-bottom: 10px;
+      &--desktop {
+        display: none;
+        @include breakpoint($large) {
+          display: inline-block;
+        }
+      }
+      &--mobile {
+        margin-right: 5px;
+        margin-bottom: 5px;
+        @include breakpoint($large) {
+          display: none;
+        }
+      }
     }
   }
 }

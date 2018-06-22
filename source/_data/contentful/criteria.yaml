@@ -365,15 +365,3 @@ criteria:
       and performance data.
     criteria: Performance Management / Continuous Improvement
     year: '2018'
-- sys:
-    id: 4Ng4FVuNz2WaYOQOGiOAEs
-    created_at: !ruby/object:DateTime 2018-06-22 16:58:02.467000000 Z
-    updated_at: !ruby/object:DateTime 2018-06-22 16:58:02.467000000 Z
-    content_type_id: criteria
-  title: Test Criteria
-- sys:
-    id: 207GyVHvPqesuoWuQuISey
-    created_at: !ruby/object:DateTime 2018-06-22 17:00:06.169000000 Z
-    updated_at: !ruby/object:DateTime 2018-06-22 17:00:06.169000000 Z
-    content_type_id: criteria
-  title: 'Test Criteria #2'

@@ -1,0 +1,60 @@
+---
+layout: default
+
+---
+{% assign criteriaYear = "2018" %}
+{% assign criteria = site.data.contentful.criteria.criteria[0]%}
+{% assign leadingEffort = criteria.leading_list%}
+{% assign promisingEfforts = criteria.promising_list%}
+
+<main role="main" id="criteria">
+
+  <section class="top-section">
+    <div class="row align-center">
+      <div class="column large-8 medium-8 small-12">
+        <h1>{{criteriaYear}} State Standard of Excellence</h1>
+        <hr>
+        <h2>{{criteria.title}}</h2>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section__explanation">
+    <div class="row align-center">
+      <div class="column large-10">
+        {{ criteria.explanation | markdownify }}
+      </div>
+    </div>
+  </section>
+
+  <section class="section section__leading-list">
+  <a name="leading-effort"></a>
+    <div class="row align-center">
+      <div class="column large-8 medium-8 small-12">
+        <h3 class="effort__title">Leading Effort</h3>
+      </div>
+    </div>
+    {% include effort.html effort=leadingEffort%}
+  </section>
+
+  <section class="section section__leading-list">
+    <div class="row align-center">
+      <div class="column large-8 medium-8 small-12">
+        <hr class="hr--long">
+      </div>
+    </div>
+  </section>
+
+  <section class="section section__promising-list">
+    <a name="promising-efforts"></a>
+    <div class="row align-center">
+      <div class="column large-8 medium-8 small-12">
+        <h3 class="effort__title">Promising Efforts</h3>
+      </div>
+    </div>
+    {%for promisingEffort in promisingEfforts %}
+        {% include effort.html effort=promisingEffort %}
+    {% endfor %}
+  </section>
+
+</main>

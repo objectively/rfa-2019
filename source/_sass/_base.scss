@@ -1,6 +1,17 @@
 body {
   p {
-    color: $font-drak-gray;
+    color: $main-dark-gray;
+    font-size: 1.2rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    a {
+      color: $hyperlink-orange;
+      text-decoration: none;
+      &:hover {
+        color: $blue;
+        @extend .u-transition;
+      }
+    }
   }
 }
 

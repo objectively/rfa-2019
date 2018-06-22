@@ -56,7 +56,7 @@ contentful:
         space: ENV_RFA_CONTENTFUL_SPACE_ID         # Required
         access_token: ENV_RFA_CONTENTFUL_DELIVERY_TOKEN
         base_path: ./source         # Optional - Defaults to Current directory
-        # destination: /contentful # Optional - Defaults to _data/contentful/spaces
+        destination: /contentful # Optional - Defaults to _data/contentful/spaces
         all_entries: true
         cda_query:
           content_type: criteria

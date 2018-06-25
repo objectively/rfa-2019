@@ -1,0 +1,35 @@
+.button-container {
+  &--align-left {
+    margin: 0;
+  }
+  .button--index {
+    position: fixed;
+    display: none;
+    @media only screen and (min-width: 1120px) {
+      display: block;
+    }
+    &::before {
+      content: 'arrow_back';
+      @extend .u-material-icons;
+      margin: 0;
+      padding-right: 1rem;
+      line-height: 3rem !important;
+      float: left;
+    }
+    span {
+      float: left;
+      text-align: left;
+    }
+    font-weight: 500;
+    background-color: white;
+    border: 2px solid $hyperlink-orange;
+    color: $hyperlink-orange;
+    margin: 0;
+    padding: 0.75rem;
+    text-transform: none;
+    &:hover {
+      background-color: $hyperlink-orange;
+      color: white;
+    }
+  }
+}

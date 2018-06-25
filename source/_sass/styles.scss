@@ -26,13 +26,10 @@ $hyperlink-orange: #f77c50;
 
 @import 'breakpoint';
 @import 'base';
+@import 'controls';
+@import 'mixins';
 @import 'top-bar';
 @import 'top-section';
 @import 'table';
 @import 'criteria';
 @import 'index';
-
-.u-transition {
-  transition: all 0.4s ease;
-}
-

@@ -2,14 +2,14 @@
   background-color: white;
   h1 {
     color: $blue;
-    font-size: 2.2rem;
-    font-weight: 500;
+    font-size: 2.3rem;
+    font-weight: 600;
     @include breakpoint($small-only) {
       font-size: 1.5rem;
     }
   }
   h2 {
-    color: $font-drak-gray;
+    color: $font-dark-gray;
     text-transform: none;
     font-family: 'Lora', serif;
     font-size: 2.8rem;

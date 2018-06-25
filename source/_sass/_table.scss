@@ -3,13 +3,14 @@ table {
   th {
     background-color: $dark-blue;
     font-size: 1.5rem;
+    letter-spacing: .05em;
     padding: 15px 0 15px 35px;
     @include breakpoint($medium-only) {
       font-size: 1.2rem;
       padding: 15px;
     }
     @include breakpoint($small-only) {
-      font-size: .7rem;
+      font-size: .65rem;
       padding: 5px 10px;
     }
     &:nth-child(2) {
@@ -140,6 +141,7 @@ table {
       }
     }
     &--desktop {
+      color: lighten($font-dark-gray, 15);
       @include breakpoint($medium-only) {
         display: none;
       }
@@ -204,12 +206,12 @@ table {
       font-size: .8rem;
       font-weight: bold;
       margin: auto 10px 10px auto;
-      padding: 7px 10px 5px 10px;
+      padding: 7px 10px 7px 10px;
       text-decoration: none;
       text-transform: uppercase;
       @include breakpoint($small-only) {
         border-radius: 5px;
-        padding: 5px 6px 3px 6px;
+        padding: 5px 6px 5px 6px;
       }
       &--desktop {
         display: none;
@@ -226,4 +228,46 @@ table {
       }
     }
   }
+}
+
+.title {
+  position: relative;
+}
+
+.tooltip {
+  cursor: auto;
+  display: inline;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 95%;
+  transform: translateY(-50%);
+  background: #404040;
+  padding: 15px;
+  width: 100%;
+  max-width: 320px;
+  min-width: 320px;
+  z-index: 2;
+  transition: all .3s ease-in-out;
+  opacity: 0;
+  display: none;
+  @include breakpoint($medium-only) {
+    display: none!important;
+  }
+  @include breakpoint($small-only) {
+    display: none!important;
+  }
+}
+
+.tooltip:before {
+  content: '';
+  position: absolute;
+  left: -15px;
+  width: 0;
+  height: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-right: 15px solid #404040;
 }

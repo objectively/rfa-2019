@@ -36,7 +36,13 @@ seo_image_path: #'/images/media/filename.jpg'
             {% for item in criteria %}
               <tr class="criteria">
                 <td class="title" onclick="window.location='#';">
-                  <a href="#">{{ item.title }}<i class="material-icons launch-leading launch-leading--title">launch</i></a></td>
+                  <span class="testing">
+                    <a href="#">{{ item.title }}<i class="material-icons launch-leading launch-leading--title">launch</i></a>
+                  </span>
+                  <span class="tooltip">
+                    {{ item.description }}
+                  </span>
+                </td>
                 <td class="leading leading--mobile" onclick="window.location='#';">
                   <div class="row">
                     <div class="leading__state column large-3">

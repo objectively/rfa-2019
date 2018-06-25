@@ -33,3 +33,45 @@
     }
   }
 }
+
+.social-media-toolbar {
+  ul {
+    list-style: none;
+  }
+  li {
+    display: inline-block;
+    padding-right: 1rem;
+  }
+  padding: 1px;
+  span {
+    padding-top: 1.7rem;
+    padding-right: 0.5rem;
+    float: left;
+    width: auto;
+    color: $main-dark-gray;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: 600;
+  }
+  text-transform: uppercase;
+  a {
+    @extend .u-transition;
+    color: $main-dark-gray;
+    float: left;
+    width: 40px;
+    height: 40px;
+    background: $light-gray;
+    border-radius: 40px;
+    text-align: center;
+    padding-top: 10px;
+    &:hover {
+      transform: scale(1.1);
+      background: $blue;
+      color: white;
+    }
+  }
+  i {
+    font-size: 1.4rem;
+  }
+}

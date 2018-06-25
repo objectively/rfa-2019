@@ -16,6 +16,9 @@ layout: default
         <h2>{{page.title}}</h2>
       </div>
     </div>
+    <div class="button-container button-container--align-left row">
+     <a class="button button--index" href="{{'/' | relative_url}}"><span>Back to<br>the Index</span></a>
+    </div>
   </section>
 
   <section class="section section__explanation">
@@ -56,9 +59,9 @@ layout: default
     </div>
     {%for promisingEffort in promisingEfforts %}
 
-  
+
       {% include effort.html effort=promisingEffort %}
-    
+
     {% endfor %}
   </section>
 

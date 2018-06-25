@@ -24,18 +24,26 @@ seo_image_path: #'/images/media/filename.jpg'
       </div>
     </section>
 
-    <section class="table" style="width:100%">
+    <section class="table">
       <div class="row expanded">
         <table>
           <tr>
-            <th>Criteria</th>
-            <th style="width:38%">Leading Efforts</th>
-            <th style="width:38%">Promising Efforts</th>
+            <th >Criteria</th>
+            <th class="title-leading title-leading--mobile"><a href="#">Leading Efforts<i class="material-icons launch-leading">launch</i></a></th>
+            <th class="title-leading title-leading--desktop">Leading Efforts</th>
+            <th class="title-promising">Promising Efforts</th>
           </tr>
             {% for item in criteria %}
               <tr class="criteria">
-                <td class="title">{{ item.title }}</td>
-                <td class="leading">
+                <td class="title" onclick="window.location='#';">
+                  <a href="#">{{ item.title }}<i class="material-icons launch-leading launch-leading--title">launch</i></a></td>
+                <td class="leading leading--mobile" onclick="window.location='#';">
+                  <div class="row">
+                    <div class="leading__state column large-3">
+                      {{item.leading_list.state_abbreviation}}
+                    </div>
+                </td>
+                <td class="leading leading--desktop">
                   <div class="row">
                     <div class="leading__state column large-3">
                       {{item.leading_list.state_abbreviation}}

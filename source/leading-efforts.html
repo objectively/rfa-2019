@@ -1,0 +1,48 @@
+---
+layout: default
+title: Leading Efforts 
+description:
+permalink: /state-standard-of-excellence/leading-efforts
+seo_image_path: #'/images/media/filename.jpg'
+---
+
+{% assign criteriaYear = "2018" %}
+{% assign leadingEfforts = site.data.contentful.leadingPage.leadingPage | where: 'year', criteriaYear%}
+{%assign pageContent = leadingEfforts[0]%}
+{%assign leadingList = pageContent.leading_list%}
+
+
+<main role="main" class="criteria">
+
+  <section class="top-section">
+    <div class="row align-center">
+      <div class="column large-8 medium-8 small-12">
+        <h1>{{criteriaYear}} State Standard of Excellence</h1>
+        <hr>
+        <h2>{{page.title}}</h2>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section__explanation">
+    <div class="row align-center">
+      <div class="column large-10">
+        {{ pageContent.description | markdownify }}
+      </div>
+    </div>
+  </section>
+
+  <section class="section section__leading-list">
+  <a name="leading-effort"></a>
+    {%for effort in leadingList %}
+    {% include effort.html effort=leadingEffort criteriaName=effort.criteria%}
+    <div class="row align-center">
+      <div class="column large-10">
+        <hr class="hr--long">
+      </div>
+    </div>
+    {%endfor%}
+
+  </section>
+
+</main>

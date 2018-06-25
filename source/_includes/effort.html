@@ -3,6 +3,13 @@
 {%if effort.state%}
 <a name={{effort.state | slugify}}></a>
 {%endif%}
+{%if include.criteriaName%}
+<div class="row align-center">
+  <div class="column large-8 medium-8 small-12">
+    <h3 class="effort__title--leading">{{include.criteriaName}}</h3>
+  </div>
+</div>
+{%endif%}
 <div class="row align-center">
   <div class="column large-8 medium-8 small-12">
     <div class="effort__state-outline">

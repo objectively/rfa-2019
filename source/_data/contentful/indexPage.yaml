@@ -3,7 +3,7 @@ indexPage:
 - sys:
     id: 4VbZM0utgAk4gk4QECcm2U
     created_at: !ruby/object:DateTime 2018-06-21 14:06:09.169000000 Z
-    updated_at: !ruby/object:DateTime 2018-06-22 16:08:20.791000000 Z
+    updated_at: !ruby/object:DateTime 2018-06-25 15:09:23.362000000 Z
     content_type_id: indexPage
   year: '2018'
   short_description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -75,3 +75,337 @@ indexPage:
         id: 1Y6vN5MQYEuu2gm8uQMMOq
     - sys:
         id: 3uapKfOcGImQoWCYoOOGOo
+  - sys:
+      id: 3TZiYbQEC4mo0uuUgocyOQ
+      created_at: !ruby/object:DateTime 2018-06-25 04:13:22.401000000 Z
+      updated_at: !ruby/object:DateTime 2018-06-25 04:13:22.401000000 Z
+      content_type_id: criteria
+    title: Data Leadership
+    description: 'Did the governor’s office or any state agency have a senior staff
+      member(s) with the authority, staff, and budget to collect, analyze, share,
+      and use high-quality administrative and survey data—consistent with strong privacy
+      protections—to improve (or help other entities including but not limited to
+      local governments and nonprofit organizations improve) federal, state, and local
+      programs? (Example: chief data officer)'
+    explanation: A designated chief data officer can create a coherent set of policies,
+      structures, and guidance for how a state government and its agencies should
+      routinely use data to improve programs.
+    leading_list:
+      sys:
+        id: 3R1RxkxvaMuqkeIOakgkWE
+    promising_list:
+    - sys:
+        id: 4Aex0d0CUE6YQeOQMCIU0M
+    - sys:
+        id: T35jpM1OISWSwEm4cEqGy
+    - sys:
+        id: 2kWeTa0c2wogsSQyEeU4Oi
+  - sys:
+      id: 5ew88SpH0QSmIUus060mw0
+      created_at: !ruby/object:DateTime 2018-06-25 04:20:08.423000000 Z
+      updated_at: !ruby/object:DateTime 2018-06-25 04:20:08.423000000 Z
+      content_type_id: criteria
+    title: Data Policies / Agreements
+    description: 'Did the state or any of its agencies have data-sharing policies
+      and data-sharing agreements—consistent with strong privacy protections—with
+      any nonprofit organizations, academic institutions, local government agencies,
+      and/or federal government agencies which were designed to improve outcomes for
+      publicly funded programs, and did it make those policies and agreements publicly
+      available? (Example: data-sharing policy, open data policy)'
+    explanation: Data-sharing policies and agreements serve as an important policy
+      framework for data governance that allows state governments to take a coordinated
+      approach to identifying and using relevant data to improve programs while implementing
+      strong privacy protections.
+    leading_list:
+      sys:
+        id: 2pC37sHv3agKiqCUGEywYY
+    promising_list:
+    - sys:
+        id: yDvY0YKB1uIg04Wa0868o
+    - sys:
+        id: 1nlyJ7YnOYaqaW4QqgYIci
+    - sys:
+        id: 2mvkElL6QAqSIQW2Cm0mUu
+    - sys:
+        id: 6ZaU9tymOI4AAuwCkcQ6mA
+    - sys:
+        id: rJI7OICVNIYeKwA0o6kQU
+    - sys:
+        id: 3VMkRRdIbmG0MeSME4Isqg
+  - sys:
+      id: 3U3n8nD0PuuuOcSIwQ2Osa
+      created_at: !ruby/object:DateTime 2018-06-25 04:28:30.220000000 Z
+      updated_at: !ruby/object:DateTime 2018-06-25 04:28:30.220000000 Z
+      content_type_id: criteria
+    title: Data Use
+    description: Did the state or any of its agencies have data systems consistent
+      with strong privacy protections that linked multiple administrative datasets
+      across state agencies, and did it use those systems to improve federal, state,
+      or local programs?
+    explanation: The linking of data across programs and agencies allows state governments
+      to increase the efficiency and effectiveness of state services while measuring
+      the impact of those services on residents.
+    leading_list:
+      sys:
+        id: 1b9EIyGh2wu6amsY0u6iqI
+    promising_list:
+    - sys:
+        id: 4i89tdGIP6ym882EWgi6Wy
+    - sys:
+        id: 1Rxo9uw7zqu0ygogqCKe8O
+    - sys:
+        id: 29y4Bhztv6AUaE0uIUGIUw
+    - sys:
+        id: 6IYzpljh3aQeA6oKg8CQos
+    - sys:
+        id: 6DkeDeNVsIIYeKugGyW60W
+    - sys:
+        id: 44RoHpcMfusU66qS8aUocm
+    - sys:
+        id: 3FxZE4PlFCs0AOsWyMcKo4
+    - sys:
+        id: 6zFJOcl1V6mwWUquGyOME8
+    - sys:
+        id: 4DEIbWLogo284qOigiUyQK
+  - sys:
+      id: 4YAtsHCws088YgE8QYGSw4
+      created_at: !ruby/object:DateTime 2018-06-25 04:31:09.371000000 Z
+      updated_at: !ruby/object:DateTime 2018-06-25 04:31:09.371000000 Z
+      content_type_id: criteria
+    title: Evaluation Leadership
+    description: 'Did the governor’s office or any state agency have a senior staff
+      member(s) with the authority, staff, and budget to evaluate its major programs
+      and inform policy decisions affecting them? (Example: chief evaluation officer)'
+    explanation: Evaluation leadership positions are an important tool for state governments
+      to ensure that data and evaluation are primary considerations when making programmatic
+      decisions.
+    leading_list:
+      sys:
+        id: jBzS6rSMfucmIQOuuoEeY
+    promising_list:
+    - sys:
+        id: tQ2kfDzSTuI8Q6WGm8c8K
+  - sys:
+      id: 5DxMcK9C9imG8KmKmEM0uc
+      created_at: !ruby/object:DateTime 2018-06-25 04:35:11.927000000 Z
+      updated_at: !ruby/object:DateTime 2018-06-25 04:35:11.927000000 Z
+      content_type_id: criteria
+    title: Evaluation Policies
+    description: Did the state or any of its agencies have an evaluation policy, evaluation
+      plan, and research/learning agenda(s) and did it publicly release the findings
+      of all completed evaluations?
+    explanation: Evaluation policies provide a useful way for state governments to
+      align their evaluation and research priorities, learn about what works, and
+      share information with outside researchers about additional areas where they
+      want to increase their knowledge base.
+    leading_list:
+      sys:
+        id: 4ro5ZJXQnKiOASiScmWkU2
+    promising_list:
+    - sys:
+        id: S9HHMwR9w4AGcqMsWyG
+    - sys:
+        id: 69udZm3V7Oq4IUUAis6QGw
+    - sys:
+        id: 2Ww9aqww5Wo0KWGueY0QWy
+  - sys:
+      id: 6kH5A9tSzmkCqYsooe2Kca
+      created_at: !ruby/object:DateTime 2018-06-25 04:36:32.441000000 Z
+      updated_at: !ruby/object:DateTime 2018-06-25 04:36:32.441000000 Z
+      content_type_id: criteria
+    title: Evaluation Resources
+    description: Did the state or any of its agencies invest at least 1% of program
+      funds in evaluations?
+    explanation: |-
+      Making a specific commitment to evaluation is critical and ensures that state governments have the necessary funds to evaluate whether state programs are achieving their desired outcomes. At the federal level, several agencies have made commitments to spend 1% of program funds on evaluation, which has allowed them to improve programmatic outcomes and build their knowledge base about what works.
+
+      Results for America was not able to identify __any__ states with leading or promising efforts for this criteria.
+  - sys:
+      id: 5sGW6L7g7CosWowKQW6ssK
+      created_at: !ruby/object:DateTime 2018-06-25 04:43:15.604000000 Z
+      updated_at: !ruby/object:DateTime 2018-06-25 04:43:15.604000000 Z
+      content_type_id: criteria
+    title: Outcome Data
+    description: Did the state or any of its agencies report or require outcome data
+      for its state-funded programs during their budget process?
+    explanation: Aligning performance reporting and budgetary cycles makes it easier
+      for state governments to make funding decisions based on the outcomes and results
+      achieved by state programs.
+    leading_list:
+      sys:
+        id: 1wbZOUfttiEe8Smm2MCqQk
+    promising_list:
+    - sys:
+        id: 7jIHRD2vSM4iuYKWcAEQ2W
+    - sys:
+        id: 6kftKmY7q8KMcyuOg0ywcW
+    - sys:
+        id: 2BY4m4DEUkoY2OIS2qE46
+    - sys:
+        id: 1gfHmOs98SkG0UAWmQM8ge
+    - sys:
+        id: 3eeyAxfTxm8iyQgACoQmsy
+  - sys:
+      id: rD6cYuWgxMWaAsemuMA8W
+      created_at: !ruby/object:DateTime 2018-06-25 04:56:17.282000000 Z
+      updated_at: !ruby/object:DateTime 2018-06-25 04:56:17.282000000 Z
+      content_type_id: criteria
+    title: Evidence Definition and Program Inventory
+    description: Did the state or any of its agencies release a common evidence framework,
+      guidelines, or standards to inform its research and funding decisions and make
+      publicly available an inventory of state-funded programs categorized based on
+      at least two tiers of evidence?
+    explanation: Defining evidence and conducting program inventories can help state
+      governments ensure that their programs are using proven practices and that their
+      interventions are effective in meeting the state’s desired goals and improving
+      outcomes for residents.
+    leading_list:
+      sys:
+        id: 4p11OHq6XCea44OQoEsgCG
+    promising_list:
+    - sys:
+        id: 6kg4MBCuFU8YO2uGEiIIC8
+    - sys:
+        id: I3avnayR66kIuwMSw2Aec
+    - sys:
+        id: Ba53Q3sMb6CoK420s6oGQ
+    - sys:
+        id: 4XjuV0VJLWmCAyqyksEsEQ
+    - sys:
+        id: 4ymZgOoYXuKAOAQsgoQegw
+    - sys:
+        id: 11y9QFrz0mQEcmKK4ieice
+    - sys:
+        id: 5NUQKQ7mNyaWy0S8uKacE2
+    - sys:
+        id: 3vX0lcYeIUIYgWKO8AAgGI
+    - sys:
+        id: 5AGTFJsZpuqsCEEYqyuuMG
+  - sys:
+      id: 4iuiaoaxP2AE2G8iMoK0EW
+      created_at: !ruby/object:DateTime 2018-06-25 14:44:16.093000000 Z
+      updated_at: !ruby/object:DateTime 2018-06-25 14:44:16.093000000 Z
+      content_type_id: criteria
+    title: Cost-Benefit Analysis
+    description: Did the state or any of its agencies assess and make publicly available
+      the costs and benefits of public programs?
+    explanation: Cost-benefit analysis helps state governments quantify outcomes and
+      program costs to ensure that public dollars are being efficiently spent to get
+      the most value for taxpayers and the best outcomes for residents.
+    leading_list:
+      sys:
+        id: 1EftF8YMxmEiswACEQImSy
+    promising_list:
+    - sys:
+        id: 5zhGNnmGt2kCWGUE0uUuYy
+    - sys:
+        id: 1B6jr1TvLWs4q4goWYy0Qq
+    - sys:
+        id: 6e7jsZkpoIA64CmYYEMiuM
+    - sys:
+        id: hoHp4hxHwcGU4i2KAGy6g
+    - sys:
+        id: 5qvRVgpSvYyeswaWUq6oq0
+    - sys:
+        id: 1EV9h1tn60McYkswiucyGY
+    - sys:
+        id: RTgUBBvO00W4AQqceygiu
+    - sys:
+        id: xQJqEueOOGQGE2cGoOM2S
+    - sys:
+        id: 2gRpeD8UXOoUgOmk6gWei4
+  - sys:
+      id: 4790fdelW8mIKscumQuCO6
+      created_at: !ruby/object:DateTime 2018-06-25 14:51:16.454000000 Z
+      updated_at: !ruby/object:DateTime 2018-06-25 14:51:16.454000000 Z
+      content_type_id: criteria
+    title: Use of Evidence in Grant Programs
+    description: 'Did the state or any of its agencies: (1) invest at least 50% of
+      program funds in evidence-based solutions or (2) use evidence of effectiveness
+      when allocating funds to eligible grantees (including local governments) from
+      its five largest competitive and noncompetitive grant programs?'
+    explanation: Requiring a portion of grant funds to be spent on evidence-based
+      programs allows state governments to use and scale proven program models to
+      achieve better and more uniform results.
+    leading_list:
+      sys:
+        id: 7KNeicqg9yO6sGOSqGwmM0
+    promising_list:
+    - sys:
+        id: 7CY3xWva4oSIw2mWkMQIW
+    - sys:
+        id: 50gcYWqbPyKiu0EsQQuyUu
+    - sys:
+        id: 3O6iHqdwXSQ08igmmkaS4a
+    - sys:
+        id: 5bpVmEkuLmsQcAwUSk8AwI
+    - sys:
+        id: 18cvYqO2DS02w6OCEKq0cQ
+  - sys:
+      id: 7x5w43LqI8IuEC004Q6EIO
+      created_at: !ruby/object:DateTime 2018-06-25 14:57:17.422000000 Z
+      updated_at: !ruby/object:DateTime 2018-06-25 14:57:17.422000000 Z
+      content_type_id: criteria
+    title: Innovation
+    description: Did the state or any of its agencies have staff, policies, and processes
+      in place that encouraged innovation to improve outcomes?
+    explanation: Encouraging innovation allows state governments to implement new
+      models that can improve programs while also building their evidence base.
+    leading_list:
+      sys:
+        id: 4xJCeleF4ccqS2siQKeoCA
+    promising_list:
+    - sys:
+        id: 1mypcbYge8SEMecIi6GoEq
+    - sys:
+        id: 5jfPHvDbOw0cW0k0KWUECu
+    - sys:
+        id: 5lVFoGLhbUIAuaugIIswyA
+    - sys:
+        id: 7eBI39H9PUsEAC6GEao2cG
+    - sys:
+        id: 4BpR3eoGkw2mIYCQuQ6qGS
+    - sys:
+        id: 3ekiSrUpK842EQWGUCeKK0
+  - sys:
+      id: 6RKQ1AWFB6uGU6yKiWkM2A
+      created_at: !ruby/object:DateTime 2018-06-25 15:03:15.004000000 Z
+      updated_at: !ruby/object:DateTime 2018-06-25 15:03:15.004000000 Z
+      content_type_id: criteria
+    title: Contracting for Outcomes
+    description: Did the state or any of its agencies enter into performance-based
+      contracts and/or use active contract management (frequent use of data and regular
+      communication with providers to monitor implementation and progress) to improve
+      outcomes for publicly funded programs?
+    explanation: These contracting techniques allow state governments to get better
+      results and value for each taxpayer dollar.
+    leading_list:
+      sys:
+        id: 3g4ILixKwEIOWsQUmSA46C
+    promising_list:
+    - sys:
+        id: 5Fh8fva3ZuyKsmGS0iqQCK
+    - sys:
+        id: 1XzGYFlgdS8EQsK2WMM2M0
+    - sys:
+        id: 5OZwAVW51Yw2wgesAC6aOs
+  - sys:
+      id: 2Gj9OMD0RyWOCmwaCugeIa
+      created_at: !ruby/object:DateTime 2018-06-25 15:07:19.412000000 Z
+      updated_at: !ruby/object:DateTime 2018-06-25 15:07:19.412000000 Z
+      content_type_id: criteria
+    title: Repurpose for Results
+    description: Repurposing funds from programs that fail to consistently achieve
+      results to programs that consistently achieve results is a key strategy for
+      state governments to improve their performance while building knowledge about
+      what works.
+    explanation: Repurposing funds from programs that do not get results toward other
+      programs that achieve better outcomes is a key strategy for state governments
+      to improve the performance while building knowledge about which programs may
+      be ineffective.
+    leading_list:
+      sys:
+        id: 21GlTmTbtmsmoqQeEgoyMU
+    promising_list:
+    - sys:
+        id: 1ECMGPFF6YSKUmYM24gYye

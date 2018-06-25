@@ -1,0 +1,349 @@
+---
+leadingPage:
+- sys:
+    id: 3OHvBWPKE0wsMUAYCWq6us
+    created_at: !ruby/object:DateTime 2018-06-25 15:16:05.213000000 Z
+    updated_at: !ruby/object:DateTime 2018-06-25 16:02:38.238000000 Z
+    content_type_id: leadingPage
+  title: Leading Efforts Page
+  description: The 2018 State Standard of Excellence highlights the structure state
+    governments need to have in place to be able to use data, evidence, and evaluation
+    when making budget, policy, and management decisions. Below are the leading efforts,
+    policies, programs, and systems that were in effect in state governments in April
+    2018.
+  leading_list:
+  - sys:
+      id: 4CxWgqjHzqkCAgY00SIMuK
+      created_at: !ruby/object:DateTime 2018-06-20 19:03:08.652000000 Z
+      updated_at: !ruby/object:DateTime 2018-06-22 15:59:34.018000000 Z
+      content_type_id: leading
+    state: Colorado
+    state_abbreviation: CO
+    type: Statewide
+    short_description: The Colorado Governor’s Office publishes statewide strategic
+      goals and statewide and agency-specific outcomes on its performance dashboard.
+    long_description: The Colorado Governor’s Office publishes statewide strategic
+      goals and statewide and agency-specific outcomes on its [performance dashboard](https://www.colorado.gov/pacific/performancemanagement/governors-dashboard).
+      The Governor’s [annual budget request](https://drive.google.com/file/d/0B0TNL0CtD9wXbkNUb0NIQmVrVXM/view)
+      links these goals to specific agency activities and outcomes.
+    criteria: Strategic Goals
+    state_outline:
+      sys:
+        id: 4sWZZeVTTygI00IQM4mqCM
+        created_at: !ruby/object:DateTime 2018-06-20 20:01:55.286000000 Z
+        updated_at: !ruby/object:DateTime 2018-06-20 20:01:55.286000000 Z
+      title: colorado
+      description: 
+      url: "//images.ctfassets.net/cu0oxaxjfcsj/4sWZZeVTTygI00IQM4mqCM/6ff240e0e66ba634786bedcea160f1ea/colorado.svg"
+    year: '2018'
+  - sys:
+      id: 5YE3Y1T2iAMeGa424uucoq
+      created_at: !ruby/object:DateTime 2018-06-22 15:55:10.657000000 Z
+      updated_at: !ruby/object:DateTime 2018-06-22 15:55:10.657000000 Z
+      content_type_id: leading
+    state: Tennessee
+    state_abbreviation: TN
+    type: Statewide
+    short_description: Tennessee’s data and performance website, Transparent TN, has
+      statewide performance dashboards with specific sub-goals, targets, and performance
+      data.
+    long_description: Tennessee’s data and performance website, [Transparent TN](https://www.tn.gov/transparenttn.html),
+      has statewide performance dashboards with specific [sub-goals, targets, and
+      performance data](https://www.tn.gov/transparenttn/education-workforce-development/education-workforce-development_rd/education-hilites-education_rd/education-goals.html).
+      The site also includes [fiscal data](https://www.tn.gov/transparenttn/state-financial-overview.html)
+      related to agency’s programmatic spending and other expenditures. The site also
+      [publicizes strategic goals](https://www.tn.gov/transparenttn/about-transparent-tennessee.html)
+      in the areas of [education and workforce development](https://www.tn.gov/transparenttn/education-workforce-development/education-workforce-development_rd/education-hilites-education_rd/education-metrics-education-priority.html);
+      [fiscal strength and efficient government](https://www.tn.gov/transparenttn/fiscal-strength-efficient-government.html);
+      [health and welfare](https://www.tn.gov/transparenttn/health-welfare.html);
+      [jobs and economic development](https://www.tn.gov/transparenttn/jobs-economic-development.html);
+      and [public safety](https://www.tn.gov/transparenttn/public-safety.html).
+    criteria: Performance Management / Continuous Improvement
+    state_outline:
+      sys:
+        id: 5PxhUgTFzaysi08y6oAuqq
+        created_at: !ruby/object:DateTime 2018-06-22 15:54:59.766000000 Z
+        updated_at: !ruby/object:DateTime 2018-06-22 15:54:59.766000000 Z
+      title: tennessee
+      description: 
+      url: "//images.ctfassets.net/cu0oxaxjfcsj/5PxhUgTFzaysi08y6oAuqq/c80b0a4b3ee370e5e1635e4a8324b893/tennessee.svg"
+    year: '2018'
+  - sys:
+      id: 3R1RxkxvaMuqkeIOakgkWE
+      created_at: !ruby/object:DateTime 2018-06-25 04:09:55.477000000 Z
+      updated_at: !ruby/object:DateTime 2018-06-25 04:09:55.477000000 Z
+      content_type_id: leading
+    state: Indiana
+    state_abbreviation: IN
+    type: Statewide
+    short_description: A 2017 Indiana law established the position of chief data officer
+      (p. 8) with the budget, staff, and authority to (1) coordinate data analytics
+      and data transparency for state agencies; (2) advise state agencies regarding
+      best practices for data maintenance, security, and privacy; and (3) oversee
+      the Indiana Management Performance Hub, which uses state data, such as the Education
+      and Workforce Development database, to provide “analytics solutions tailored
+      to address complex management and policy questions enabling improved outcomes.”
+    long_description: A 2017 Indiana law established the position of chief data officer
+      (p. 8) with the budget, staff, and authority to (1) coordinate data analytics
+      and data transparency for state agencies; (2) advise state agencies regarding
+      best practices for data maintenance, security, and privacy; and (3) oversee
+      the Indiana Management Performance Hub, which uses state data, such as the Education
+      and Workforce Development database, to provide “analytics solutions tailored
+      to address complex management and policy questions enabling improved outcomes.”
+    criteria: Data Leadership
+    year: '2018'
+  - sys:
+      id: 2pC37sHv3agKiqCUGEywYY
+      created_at: !ruby/object:DateTime 2018-06-25 04:14:47.968000000 Z
+      updated_at: !ruby/object:DateTime 2018-06-25 04:14:47.968000000 Z
+      content_type_id: leading
+    state: Washington
+    state_abbreviation: WA
+    type: Multiple agencies
+    short_description: The Washington Education Research and Data Center has a memorandum
+      of understanding which identifies how data will be collected and shared among
+      partners with a strong focus on protecting individual privacy.
+    long_description: The Washington Education Research and Data Center has a memorandum
+      of understanding which identifies how data will be collected and shared among
+      partners with a strong focus on protecting individual privacy. The center brings
+      together eleven partners, including other state agencies and nonprofits, to
+      compile education and workforce data to improve student achievement and workforce
+      outcomes.
+    criteria: Data Policies / Agreements
+    year: '2018'
+  - sys:
+      id: 1b9EIyGh2wu6amsY0u6iqI
+      created_at: !ruby/object:DateTime 2018-06-25 04:21:16.267000000 Z
+      updated_at: !ruby/object:DateTime 2018-06-25 04:21:16.267000000 Z
+      content_type_id: leading
+    state: Kentucky
+    state_abbreviation: KY
+    type: Multiple agencies
+    short_description: 'A 2013 Kentucky law established the Kentucky Center for Education
+      and Workforce Statistics which collects and links high-quality, actionable data
+      from five state agencies in order to improve education and workforce programs
+      in the state. '
+    long_description: A 2013 Kentucky law established the Kentucky Center for Education
+      and Workforce Statistics which collects and links high-quality, actionable data
+      from five state agencies in order to improve education and workforce programs
+      in the state. By providing data sets, publishing reports, and fulfilling research
+      requests, the center provides state-specific insights with appropriate data
+      privacy and data access measures. It has more than 40 staff members who are
+      dedicated to “developing reports, responding to research requests, and providing
+      statistical data about these efforts so policymakers, agencies, and the general
+      public can make better informed decisions” (p. 7). The center is run by an executive
+      director with oversight from a board composed of participating state agencies.
+      The center has also developed a research agenda for 2017–2019.
+    criteria: Data Use
+    year: '2018'
+  - sys:
+      id: jBzS6rSMfucmIQOuuoEeY
+      created_at: !ruby/object:DateTime 2018-06-25 04:29:26.330000000 Z
+      updated_at: !ruby/object:DateTime 2018-06-25 04:29:26.330000000 Z
+      content_type_id: leading
+    state: Colorado
+    state_abbreviation: CO
+    type: Statewide
+    short_description: Colorado’s lieutenant governor serves as the state’s chief
+      operating officer and is responsible for working with agencies on the state’s
+      performance management, process improvement, accountability and transparency.
+    long_description: Colorado’s lieutenant governor serves as the state’s chief operating
+      officer and is responsible for working with agencies on the state’s performance
+      management, process improvement, accountability and transparency. In compliance
+      with Colorado’s State Measurement for Accountable, Responsive and Transparent
+      Government (SMART) Act, the lieutenant governor oversees the Governor’s Dashboard
+      with the goal of improving services for residents. The lieutenant governor’s
+      office also spearheaded the launch of the Colorado Evaluation and Action Lab,
+      which is helping departments evaluate their programs.
+    criteria: Evaluation Leadership
+    year: '2018'
+  - sys:
+      id: 4ro5ZJXQnKiOASiScmWkU2
+      created_at: !ruby/object:DateTime 2018-06-25 04:32:13.605000000 Z
+      updated_at: !ruby/object:DateTime 2018-06-25 04:32:13.605000000 Z
+      content_type_id: leading
+    state: Massachusetts
+    state_abbreviation: MA
+    type: Single agency
+    short_description: The Massachusetts Department of Elementary and Secondary Education
+      has developed a research agenda and posts the results of all completed evaluations,
+      as well as other research reports.
+    long_description: The Massachusetts Department of Elementary and Secondary Education
+      has developed a research agenda and posts the results of all completed evaluations,
+      as well as other research reports.
+    criteria: Evaluation Policies
+    year: '2018'
+  - sys:
+      id: 1wbZOUfttiEe8Smm2MCqQk
+      created_at: !ruby/object:DateTime 2018-06-25 04:37:39.405000000 Z
+      updated_at: !ruby/object:DateTime 2018-06-25 04:37:39.405000000 Z
+      content_type_id: leading
+    state: New Mexico
+    state_abbreviation: NM
+    type: Statewide
+    short_description: A 1999 New Mexico law (p. 5) requires all New Mexico state
+      agencies to submit annual performance-based budget requests which include (1)
+      the outputs and outcomes from each program, (2) performance measures and performance
+      targets for each program, and (3) an evaluation of the program’s performance.
+    long_description: A 1999 New Mexico law (p. 5) requires all New Mexico state agencies
+      to submit annual performance-based budget requests which include (1) the outputs
+      and outcomes from each program, (2) performance measures and performance targets
+      for each program, and (3) an evaluation of the program’s performance. This information
+      is released annually in the state’s policy and fiscal analysis, which includes
+      individual agency performance reports (pp. 87–129) and information on the cost
+      effectiveness of different programs (pp. 15–20, 49–50).
+    criteria: Outcome Data
+    year: '2018'
+  - sys:
+      id: 4p11OHq6XCea44OQoEsgCG
+      created_at: !ruby/object:DateTime 2018-06-25 04:44:42.643000000 Z
+      updated_at: !ruby/object:DateTime 2018-06-25 04:44:42.643000000 Z
+      content_type_id: leading
+    state: Minnesota
+    state_abbreviation: MN
+    type: Multiple agencies
+    short_description: 'Under a 2015 Minnesota law (section 13), the Minnesota Management
+      and Budget Office developed numerous inventories and cost-benefit analyses of
+      evidenced-based programs. '
+    long_description: 'Under a 2015 Minnesota law (section 13), the Minnesota Management
+      and Budget Office developed numerous inventories and cost-benefit analyses of
+      evidenced-based programs. These inventories include the areas of adult criminal
+      justice, mental health, child welfare, juvenile justice, and substance use.
+      As part of these inventories, the state developed evidence definitions to categorize
+      these interventions based on the following four levels: proven effective, promising,
+      theory-based, or no effect. Further, Minnesota published a guide for using evidence
+      in policymaking to help policymakers use “the effectiveness of previously implemented
+      policies or programs to inform management, policy, and budget decisions.”'
+    criteria: Evidence Definition and Program Inventory
+    year: '2018'
+  - sys:
+      id: 1EftF8YMxmEiswACEQImSy
+      created_at: !ruby/object:DateTime 2018-06-25 14:34:39.554000000 Z
+      updated_at: !ruby/object:DateTime 2018-06-25 14:34:39.554000000 Z
+      content_type_id: leading
+    state: Washington
+    state_abbreviation: WA
+    type: Multiple agencies
+    short_description: A 2013 Washington State law (pp. 105–106) directed the Department
+      of Corrections, in consultation with the Washington State Institute for Public
+      Policy (WSIPP), to (1) compile an inventory of existing programs; (2) determine
+      whether its programs were evidence-based; (3) assess the effectiveness, including
+      a cost-benefit analysis, of its programs; and (4) phase out ineffective programs
+      and implement evidence-based programs. As a result of this and similar laws,
+      WSIPP has published hundreds of cost-benefit analysis reports over the past
+      10 years.
+    long_description: A 2013 Washington State law (pp. 105–106) directed the Department
+      of Corrections, in consultation with the Washington State Institute for Public
+      Policy (WSIPP), to (1) compile an inventory of existing programs; (2) determine
+      whether its programs were evidence-based; (3) assess the effectiveness, including
+      a cost-benefit analysis, of its programs; and (4) phase out ineffective programs
+      and implement evidence-based programs. As a result of this and similar laws,
+      WSIPP has published hundreds of cost-benefit analysis reports over the past
+      10 years.
+    criteria: Cost-Benefit Analysis
+    year: '2018'
+  - sys:
+      id: 7KNeicqg9yO6sGOSqGwmM0
+      created_at: !ruby/object:DateTime 2018-06-25 14:45:46.494000000 Z
+      updated_at: !ruby/object:DateTime 2018-06-25 14:45:46.494000000 Z
+      content_type_id: leading
+    state: Oregon
+    state_abbreviation: OR
+    type: Multiple agencies
+    short_description: A 2003 Oregon law states that the Oregon Department of Corrections,
+      the Oregon Youth Authority, the Oregon Youth Development Division, and “the
+      part of the Oregon Health Authority that deals with mental health and addiction
+      issues” shall (1) “spend at least 75 percent of state moneys that the agency
+      receives for programs on evidence-based programs” by 2011, (2) perform cost-benefit
+      analyses, and (3) compile a biennial program inventory with results from funded
+      programs.
+    long_description: A 2003 Oregon law states that the Oregon Department of Corrections,
+      the Oregon Youth Authority, the Oregon Youth Development Division, and “the
+      part of the Oregon Health Authority that deals with mental health and addiction
+      issues” shall (1) “spend at least 75 percent of state moneys that the agency
+      receives for programs on evidence-based programs” by 2011, (2) perform cost-benefit
+      analyses, and (3) compile a biennial program inventory with results from funded
+      programs.
+    criteria: Use of Evidence in Grant Programs
+    year: '2018'
+  - sys:
+      id: 4xJCeleF4ccqS2siQKeoCA
+      created_at: !ruby/object:DateTime 2018-06-25 14:52:12.465000000 Z
+      updated_at: !ruby/object:DateTime 2018-06-25 14:52:12.465000000 Z
+      content_type_id: leading
+    state: California
+    state_abbreviation: CA
+    type: Multiple agencies
+    short_description: The California Health and Human Services Agency’s Let’s Get
+      Healthy California Innovation Challenge 2.0 awarded grants to 12 community-based
+      initiatives to advance California’s goal of becoming the healthiest state in
+      the nation by 2022.
+    long_description: "The California Health and Human Services Agency’s Let’s Get
+      Healthy California Innovation Challenge 2.0 awarded grants to 12 community-based
+      initiatives to advance California’s goal of becoming the healthiest state in
+      the nation by 2022. In the selection process, applications were scored based
+      data use (“the extent to which data was effectively used to inform, target,
+      and evaluate the innovation”) and effectiveness (“the extent to which the innovation’s
+      results were achieved or show promise of being successful with the intended
+      population”) among other criteria.\n\nIn 2011, the California Franchise Tax
+      Board launched the Enterprise Data to Revenue project, a multiyear tax system
+      modernization to increase efficiency and improve services for California taxpayers.
+      The five-year project generated approximately $3.7 billion in additional revenue,
+      with recurring additional revenue of $1 billion annually, through five components:
+      an automatic tax return service, a new data warehouse and analytics tool that
+      incorporated legacy tax data, a new customer service interface, an improved
+      case management system, and enhanced tools for collections. Launched in 2016,
+      the second phase of the project will build on these improvements. \n\nCalifornia’s
+      Eureka Institute “guides, supports, and integrates innovation and drives continuous
+      improvement throughout state government” as a way to improve the impact of the
+      state’s programs. The institute trains state employees on leadership, using
+      open data, and Lean techniques, which are designed improve customer service."
+    criteria: Innovation
+    year: '2018'
+  - sys:
+      id: 3g4ILixKwEIOWsQUmSA46C
+      created_at: !ruby/object:DateTime 2018-06-25 14:58:30.313000000 Z
+      updated_at: !ruby/object:DateTime 2018-06-25 14:58:30.313000000 Z
+      content_type_id: leading
+    state: Rhode Island
+    state_abbreviation: RI
+    type: Single agency
+    short_description: 'Since 2015, Rhode Island’s Department of Children, Youth,
+      and Families has worked to reform and restructure the department’s procurement
+      processes in four areas: improving service delivery through strategic planning,
+      embedding results-driven procurement in new contracts, improving performance
+      through active contract management practices, and supporting results-driven
+      contracting practices through technical resources, tools, and processes for
+      staff.'
+    long_description: 'Since 2015, Rhode Island’s Department of Children, Youth, and
+      Families has worked to reform and restructure the department’s procurement processes
+      in four areas: improving service delivery through strategic planning, embedding
+      results-driven procurement in new contracts, improving performance through active
+      contract management practices, and supporting results-driven contracting practices
+      through technical resources, tools, and processes for staff. As part of this
+      initiative, the department executed $90 million in results-driven contracts
+      that require providers to meet outcome goals rather than output metrics. This
+      has led to a reduction in the number of children in group care by nearly 20%,
+      reduced the number of children in state custody due to improved preventative
+      services, expanded services available to families and children, and made improvements
+      in the department’s procurement process.'
+    criteria: Contracting for Outcomes
+    year: '2018'
+  - sys:
+      id: 21GlTmTbtmsmoqQeEgoyMU
+      created_at: !ruby/object:DateTime 2018-06-25 15:05:06.943000000 Z
+      updated_at: !ruby/object:DateTime 2018-06-25 15:05:06.943000000 Z
+      content_type_id: leading
+    state: Minnesota
+    state_abbreviation: MN
+    type: Multiple agencies
+    short_description: A 2014 Minnesota law (subdivision 7) requires the Minnesota
+      Department of Human Services to use the Self-Support Index to monitor each county’s
+      performance in assisting clients to become self-sufficient.
+    long_description: |-
+      A 2014 Minnesota law (subdivision 7) requires the Minnesota Department of Human Services to use the Self-Support Index to monitor each county’s performance in assisting clients to become self-sufficient. Counties that meet performance targets receive a 2.5% bonus payment from the state, whereas counties that perform below the expected target must submit a performance improvement plan. In counties where “no improvement is shown by the end of the multiyear plan, the county’s or tribe’s allocation must be decreased by 2.5 percent” \[256J.626(7)(a)(2)].
+
+      A 2016 Minnesota law (section 14, line 15.21) allows savings from reducing sentences for minor drug offenders to be applied to evidence-based drug and mental health treatments for those in prison and under supervised release. The evidence to support this law comes from the Department of Corrections’ own research which found (p. 26) that drug treatment reduces recidivism.
+    criteria: Repurpose for Results
+    year: '2018'
+  year: '2018'

@@ -1,5 +1,9 @@
 {% assign effort = include.effort %}
 
+{%if include.criteriaName%}
+<a name={{include.criteriaName | slugify}}></a>
+{%endif%}
+
 {%if effort.state%}
 <a name={{effort.state | slugify}}></a>
 {%endif%}

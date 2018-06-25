@@ -1,5 +1,8 @@
 {% assign effort = include.effort %}
+
+{%if effort.state%}
 <a name={{effort.state | slugify}}></a>
+{%endif%}
 <div class="row align-center">
   <div class="column large-8 medium-8 small-12">
     <div class="effort__state-outline">

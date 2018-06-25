@@ -3,9 +3,8 @@ layout: default
 
 ---
 {% assign criteriaYear = "2018" %}
-{% assign criteria = site.data.contentful.criteria.criteria[0]%}
-{% assign leadingEffort = criteria.leading_list%}
-{% assign promisingEfforts = criteria.promising_list%}
+{% assign leadingEffort = page.leading_list %}
+{% assign promisingEfforts = page.promising_list | where: 'year', criteriaYear %}
 
 <main role="main" id="criteria">
 
@@ -14,7 +13,7 @@ layout: default
       <div class="column large-8 medium-8 small-12">
         <h1>{{criteriaYear}} State Standard of Excellence</h1>
         <hr>
-        <h2>{{criteria.title}}</h2>
+        <h2>{{page.title}}</h2>
       </div>
     </div>
   </section>
@@ -22,7 +21,7 @@ layout: default
   <section class="section section__explanation">
     <div class="row align-center">
       <div class="column large-10">
-        {{ criteria.explanation | markdownify }}
+        {{ page.explanation | markdownify }}
       </div>
     </div>
   </section>
@@ -34,8 +33,11 @@ layout: default
         <h3 class="effort__title">Leading Effort</h3>
       </div>
     </div>
+    {%if leadingEffort.year == criteriaYear%}
     {% include effort.html effort=leadingEffort%}
+    {%endif%}
   </section>
+
 
   <section class="section section__leading-list">
     <div class="row align-center">
@@ -53,7 +55,10 @@ layout: default
       </div>
     </div>
     {%for promisingEffort in promisingEfforts %}
-        {% include effort.html effort=promisingEffort %}
+
+  
+      {% include effort.html effort=promisingEffort %}
+    
     {% endfor %}
   </section>
 

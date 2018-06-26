@@ -33,6 +33,19 @@ seo_image_path: #'/images/media/filename.jpg'
             <th class="title-leading title-leading--desktop">Leading Efforts</th>
             <th class="title-promising">Promising Efforts</th>
           </tr>
+          <tr class="state-types" >
+            <td colspan="3">
+              <span>
+                S = Statewide
+              </span>
+              <span>
+                A = Single Agency
+              </span>
+              <span>
+                M = Multiple Agencies
+              </span>
+            </td>
+          </tr>
             {% for item in criteria %}
               <tr class="criteria">
                 {% assign title = item.title | replace: "/", "0000" | slugify | remove: "0000"%}
@@ -44,18 +57,41 @@ seo_image_path: #'/images/media/filename.jpg'
                     {{ item.description }}
                   </span>
                 </td>
+                {% assign leading-type = item.leading_list.type %}
                 <td class="leading leading--mobile" onclick="window.location='/state-standard-of-excellence/{{title}}.html#leading-effort';">
                   <div class="row">
                     <div class="leading__state column large-3">
-                      <a style="text-decoration:none;" href="/state-standard-of-excellence/{{title}}.html#leading-effort">{{item.leading_list.state_abbreviation}}</a>
+                      <a style="text-decoration:none;" href="/state-standard-of-excellence/{{title}}.html#leading-effort">{{item.leading_list.state_abbreviation}}
+                        <span class="leading-type">
+                          {% if leading-type == "Statewide" %}
+                            S
+                          {% else if leading-type == "Single agency" %}
+                            A
+                          {% else if leading-type == "Multiple agencies" %}
+                            M
+                          {% endif %}
+                        </span>
+                      </a>
                     </div>
                 </td>
                 <td class="leading leading--desktop">
-                  <div class="row">
-                    <div class="leading__state column large-3">
-                      <a style="text-decoration:none;" href="/state-standard-of-excellence/{{title}}.html#leading-effort">{{item.leading_list.state_abbreviation}}</a>
+                  <div class="row collapse">
+                    <div class="leading__state column large-3" style="text-align:center">
+                      <span class="state-abbrev">
+                        <a style="text-decoration:none;" href="/state-standard-of-excellence/{{title}}.html#leading-effort">{{item.leading_list.state_abbreviation}}
+                        </a>
+                      </span>
+                      <span class="leading-type">
+                        {% if leading-type == "Statewide" %}
+                          S
+                        {% else if leading-type == "Single agency" %}
+                          A
+                        {% else if leading-type == "Multiple agencies" %}
+                          M
+                        {% endif %}
+                      </span>
                     </div>
-                    <div class="description column large-8">
+                    <div class="description column large-8" style="padding-left: 10px;">
                       {{item.leading_list.short_description}}
                     </div>
                   </div>
@@ -65,13 +101,33 @@ seo_image_path: #'/images/media/filename.jpg'
                     </div>
                   </div>
                 </td>
+
                 <td class="promising">
                   {% for state in item.promising_list %}
+                    {% assign promising-type = state.type %}
                     <a href="/state-standard-of-excellence/{{title}}.html#{{state.state | slugify}}" class="promising__state promising__state--desktop">
                       {{state.state}}
+                      <span class="promising-type">
+                        {% if promising-type == "Statewide" %}
+                          S
+                        {% else if promising-type == "Single agency" %}
+                          A
+                        {% else if promising-type == "Multiple agencies" %}
+                          M
+                        {% endif %}
+                      </span>
                     </a>
                     <a href="/state-standard-of-excellence/{{title}}.html#{{state.state | slugify}}" class="promising__state promising__state--mobile">
                       {{state.state_abbreviation}}
+                      <span class="promising-type">
+                        {% if promising-type == "Statewide" %}
+                          S
+                        {% else if promising-type == "Single agency" %}
+                          A
+                        {% else if promising-type == "Multiple agencies" %}
+                          M
+                        {% endif %}
+                      </span>
                     </a>
                   {% endfor %}
                 </td>

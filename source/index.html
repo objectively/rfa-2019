@@ -29,30 +29,31 @@ seo_image_path: #'/images/media/filename.jpg'
         <table>
           <tr>
             <th >Criteria</th>
-            <th class="title-leading title-leading--mobile"><a href="#">Leading Efforts<i class="material-icons launch-leading">launch</i></a></th>
+            <th class="title-leading title-leading--mobile">Leading Efforts<i class="material-icons launch-leading">launch</i></th>
             <th class="title-leading title-leading--desktop">Leading Efforts</th>
             <th class="title-promising">Promising Efforts</th>
           </tr>
             {% for item in criteria %}
               <tr class="criteria">
-                <td class="title" onclick="window.location='#';">
-                  <span class="testing">
-                    <a href="#">{{ item.title }}<i class="material-icons launch-leading launch-leading--title">launch</i></a>
+                {% assign title = item.title | replace: "/", "0000" | slugify | remove: "0000"%}
+                <td class="title"           onclick="window.location='/state-standard-of-excellence/{{title}}.html';">
+                  <span class="">
+                    <a href="/state-standard-of-excellence/{{title}}.html">{{ item.title }}<i class="material-icons launch-leading launch-leading--title">launch</i></a>
                   </span>
                   <span class="tooltip">
                     {{ item.description }}
                   </span>
                 </td>
-                <td class="leading leading--mobile" onclick="window.location='#';">
+                <td class="leading leading--mobile" onclick="window.location='/state-standard-of-excellence/{{title}}.html#leading-effort';">
                   <div class="row">
                     <div class="leading__state column large-3">
-                      {{item.leading_list.state_abbreviation}}
+                      <a style="text-decoration:none;" href="/state-standard-of-excellence/{{title}}.html#leading-effort">{{item.leading_list.state_abbreviation}}</a>
                     </div>
                 </td>
                 <td class="leading leading--desktop">
                   <div class="row">
                     <div class="leading__state column large-3">
-                      {{item.leading_list.state_abbreviation}}
+                      <a style="text-decoration:none;" href="/state-standard-of-excellence/{{title}}.html#leading-effort">{{item.leading_list.state_abbreviation}}</a>
                     </div>
                     <div class="description column large-8">
                       {{item.leading_list.short_description}}
@@ -60,16 +61,16 @@ seo_image_path: #'/images/media/filename.jpg'
                   </div>
                   <div class="link row align-right">
                     <div class="column large-5">
-                      <a class="learn-more" href="#">Learn More</a>
+                      <a class="learn-more" href="/state-standard-of-excellence/{{title}}.html#leading-effort">Learn More</a>
                     </div>
                   </div>
                 </td>
                 <td class="promising">
                   {% for state in item.promising_list %}
-                    <a href="#" class="promising__state promising__state--desktop">
+                    <a href="/state-standard-of-excellence/{{title}}.html#{{state.state | slugify}}" class="promising__state promising__state--desktop">
                       {{state.state}}
                     </a>
-                    <a href="#" class="promising__state promising__state--mobile">
+                    <a href="/state-standard-of-excellence/{{title}}.html#{{state.state | slugify}}" class="promising__state promising__state--mobile">
                       {{state.state_abbreviation}}
                     </a>
                   {% endfor %}

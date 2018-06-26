@@ -1,20 +1,20 @@
 {% assign effort = include.effort %}
 
-{%if include.criteriaName%}
-<a name={{include.criteriaName | slugify}}></a>
-{%endif%}
 
-{%if effort.state%}
-<a name={{effort.state | slugify}}></a>
-{%endif%}
 {%if include.criteriaName%}
-<div class="row align-center">
+<div class="row align-center"
+  {%if include.criteriaName%}
+  id={{include.criteriaName | slugify}}
+  {%endif%}>
   <div class="column large-8 medium-8 small-12">
     <h3 class="effort__title--leading">{{include.criteriaName}}</h3>
   </div>
 </div>
 {%endif%}
-<div class="row align-center">
+<div class="row align-center"
+  {%if effort.state%}
+  id={{effort.state | slugify}}
+  {%endif%}>
   <div class="column large-8 medium-8 small-12">
     <div class="effort__state-outline">
     {% if effort.state_outline.url %}

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Results for America 2018
+title: 2018 Results for America
 description:
 seo_image_path: #'/images/media/filename.jpg'
 ---
@@ -29,11 +29,10 @@ seo_image_path: #'/images/media/filename.jpg'
         <table>
           <tr>
             <th >Criteria</th>
-            <th class="title-leading title-leading--mobile">Leading Efforts<i class="material-icons launch-leading">launch</i></th>
-            <th class="title-leading title-leading--desktop">Leading Efforts</th>
+            <th class="title-leading"><a href="{{ '/state-standard-of-excellence/leading-efforts.html' | relative_url }}">Leading Efforts<i class="material-icons launch-leading">launch</i></a></th>
             <th class="title-promising">Promising Efforts</th>
           </tr>
-          <tr class="state-types" >
+          <tr class="state-types">
             <td colspan="3">
               <span>
                 S = Statewide
@@ -48,20 +47,22 @@ seo_image_path: #'/images/media/filename.jpg'
           </tr>
             {% for item in criteria %}
               <tr class="criteria">
-                {% assign title = item.title | replace: "/", "0000" | slugify | remove: "0000"%}
-                <td class="title"           onclick="window.location='/state-standard-of-excellence/{{title}}.html';">
-                  <span class="">
-                    <a href="/state-standard-of-excellence/{{title}}.html">{{ item.title }}<i class="material-icons launch-leading launch-leading--title">launch</i></a>
+                {% assign title = item.title | replace: "/", "0000" | slugify | remove: "0000" %}
+                {% assign url = "/state-standard-of-excellence/" | append: title | append: ".html" %}
+                <td class="title" onclick="window.location='{{ url | relative_url }}';">
+                  <span>
+                    <a href="{{ url | relative_url }}">{{ item.title }}<i class="material-icons launch-leading launch-leading--title">launch</i></a>
                   </span>
                   <span class="tooltip">
                     {{ item.description }}
                   </span>
                 </td>
                 {% assign leading-type = item.leading_list.type %}
-                <td class="leading leading--mobile" onclick="window.location='/state-standard-of-excellence/{{title}}.html#leading-effort';">
+                {% assign url-leading-effort = "/state-standard-of-excellence/" | append: title | append: ".html" | append: "#leading-effort"%}
+                <td class="leading leading--mobile" onclick="window.location='{{ url-leading-effort | relative_url }}';">
                   <div class="row">
                     <div class="leading__state column large-3">
-                      <a style="text-decoration:none;" href="/state-standard-of-excellence/{{title}}.html#leading-effort">{{item.leading_list.state_abbreviation}}
+                      <a style="text-decoration:none;" href="{{ url-leading-effort | relative_url }}">{{item.leading_list.state_abbreviation}}
                         <span class="leading-type">
                           {% if leading-type == "Statewide" %}
                             S
@@ -78,7 +79,7 @@ seo_image_path: #'/images/media/filename.jpg'
                   <div class="row collapse">
                     <div class="leading__state column large-3" style="text-align:center">
                       <span class="state-abbrev">
-                        <a style="text-decoration:none;" href="/state-standard-of-excellence/{{title}}.html#leading-effort">{{item.leading_list.state_abbreviation}}
+                        <a style="text-decoration:none;" href="{{ url-leading-effort | relative_url }}">{{item.leading_list.state_abbreviation}}
                         </a>
                       </span>
                       <span class="leading-type">
@@ -97,7 +98,7 @@ seo_image_path: #'/images/media/filename.jpg'
                   </div>
                   <div class="link row align-right">
                     <div class="column large-5">
-                      <a class="learn-more" href="/state-standard-of-excellence/{{title}}.html#leading-effort">Learn More</a>
+                      <a class="learn-more" href="{{ url-leading-effort | relative_url }}">Learn More</a>
                     </div>
                   </div>
                 </td>
@@ -105,8 +106,10 @@ seo_image_path: #'/images/media/filename.jpg'
                 <td class="promising">
                   {% for state in item.promising_list %}
                     {% assign promising-type = state.type %}
-                    <a href="/state-standard-of-excellence/{{title}}.html#{{state.state | slugify}}" class="promising__state promising__state--desktop">
-                      {{state.state}}
+                    {% assign state-slug = state.state | slugify %}
+                    {% assign url-promising-efforts = "/state-standard-of-excellence/" | append: title | append: ".html#" | append: state-slug  %}
+                    <a href="{{ url-promising-efforts | relative_url }}" class="promising__state promising__state--desktop">
+                      {{ state.state }}
                       <span class="promising-type">
                         {% if promising-type == "Statewide" %}
                           S
@@ -117,8 +120,8 @@ seo_image_path: #'/images/media/filename.jpg'
                         {% endif %}
                       </span>
                     </a>
-                    <a href="/state-standard-of-excellence/{{title}}.html#{{state.state | slugify}}" class="promising__state promising__state--mobile">
-                      {{state.state_abbreviation}}
+                    <a href="{{ url-promising-efforts | relative_url }}" class="promising__state promising__state--mobile">
+                      {{ state.state_abbreviation }}
                       <span class="promising-type">
                         {% if promising-type == "Statewide" %}
                           S

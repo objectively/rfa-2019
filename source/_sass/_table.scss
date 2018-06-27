@@ -2,7 +2,7 @@ table {
   width: 100%;
   th {
     background-color: $dark-blue;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     letter-spacing: .05em;
     padding: 15px 0 15px 35px;
     @include breakpoint($medium-only) {
@@ -44,10 +44,11 @@ table {
   }
 
   .title {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.2;
     padding: 50px 40px 0 35px;
+    position: relative;
     &:hover {
       color: $blue;
       cursor: pointer;
@@ -94,33 +95,12 @@ table {
 
   .title-leading {
     width: 38%;
-    &--desktop {
-      background-color: lighten($dark-blue, 3);
-      @include breakpoint($medium-only) {
-        display: none;
+    a {
+      &:hover {
+        color: $blue;
+        text-decoration: none;
+        @extend .u-transition;
       }
-      @include breakpoint($small-only) {
-        display: none;
-      }
-    }
-    &--mobile {
-      a {
-        &:hover {
-          color: $blue;
-          text-decoration: none;
-          @extend .u-transition;
-        }
-      }
-      @include breakpoint($large) {
-        display: none;
-      }
-    }
-  }
-
-  .title-promising {
-    width: 38%;
-    @include breakpoint($small-only) {
-      width: 40%;
     }
   }
 
@@ -128,19 +108,24 @@ table {
     vertical-align: middle;
     @include breakpoint($medium-only) {
       font-size: 1.2rem;
-      margin-top: -2px;
+      margin-top: -4px;
       padding-left: 5px;
-
     }
     @include breakpoint($small-only) {
       font-size: .75rem;
       margin-top: -2px;
       padding-left: 2px;
     }
-    &--title {
-      @include breakpoint($large) {
-        display: none;
-      }
+    @include breakpoint($large) {
+      margin-top: -3px;
+      padding-left: 5px;
+    }
+  }
+
+  .title-promising {
+    width: 38%;
+    @include breakpoint($small-only) {
+      width: 40%;
     }
   }
 
@@ -175,7 +160,6 @@ table {
       .state-abbrev {
         position: relative;
       }
-
       .leading-type {
         font-size: 1rem;
         position: absolute;
@@ -194,7 +178,7 @@ table {
       }
     }
     .description {
-      font-size: 1.1rem;
+      font-size: 1.06rem;
       padding-bottom: 15px;
       @include breakpoint($medium-only) {
         display: none;
@@ -210,6 +194,7 @@ table {
       color: $primary-green;
       font-size: 1.1rem;
       font-weight: bold;
+      margin-left: 15px;
       text-transform: uppercase;
       @include breakpoint($medium-only) {
         display: none;
@@ -262,10 +247,6 @@ table {
       }
     }
   }
-}
-
-.title {
-  position: relative;
 }
 
 .tooltip {

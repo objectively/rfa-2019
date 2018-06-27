@@ -5,7 +5,9 @@
   .button--index {
     position: fixed;
     display: none;
-    @media only screen and (min-width: 1120px) {
+    border: 3px solid $hyperlink-orange !important;
+    border-left: 0 !important;
+    @media only screen and (min-width: 1220px) {
       display: block;
     }
     &::before {
@@ -15,17 +17,24 @@
       padding-right: 1rem;
       line-height: 3rem !important;
       float: left;
+      font-weight: 600;
+      font-size: 2.2rem !important;
     }
     span {
-      float: left;
       text-align: left;
+      float: left;
+      margin: 0;
+      position: relative;
+      font-size: 1.3rem;
+      line-height: 125%;
+      font-weight: 600;
     }
-    font-weight: 500;
+
     background-color: white;
     border: 2px solid $hyperlink-orange;
     color: $hyperlink-orange;
     margin: 0;
-    padding: 0.75rem;
+    padding: 1.3rem;
     text-transform: none;
     &:hover {
       background-color: $hyperlink-orange;

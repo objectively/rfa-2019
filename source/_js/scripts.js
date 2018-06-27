@@ -7,6 +7,7 @@ import Search from './search';
 import Slider from './slider';
 import Sticky from './sticky';
 import Tooltip from './tooltip';
+import Utils from './utils';
 
 // Footer.init();
 Modal.init();
@@ -17,3 +18,4 @@ Search.init();
 Slider.init();
 Sticky.init();
 Tooltip.init();
+Utils.markdownLinksNewPage();

@@ -5,10 +5,11 @@
   }
   h1 {
     color: $blue;
-    font-size: 2.3rem;
+    font-size: 1.4rem;
     font-weight: 600;
+    text-transform: uppercase;
     @include breakpoint($small-only) {
-      font-size: 1.5rem;
+      font-size: 1.2rem;
     }
   }
   h2 {
@@ -18,6 +19,9 @@
     font-size: 2.8rem;
     margin: 0;
     line-height: 1.2;
+    @include breakpoint($medium-only) {
+      font-size: 2.3rem;
+    }
     @include breakpoint($small-only) {
       font-size: 1.8rem;
     }

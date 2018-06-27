@@ -27,10 +27,19 @@ seo_image_path: #'/images/media/filename.jpg'
     </div>
   </section>
 
+  <section class="section section__description">
+    <div class="row align-center">
+      <div class="column large-10">
+        {{ page.description | markdownify }}
+      </div>
+    </div>
+  </section>
+
+
   <section class="section section__explanation">
     <div class="row align-center">
       <div class="column large-10">
-        {{ pageContent.description | markdownify }}
+        {{ page.explanation | markdownify }}
       </div>
     </div>
   </section>

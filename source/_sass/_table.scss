@@ -157,13 +157,6 @@ table {
       }
     }
     &__state {
-      .state-abbrev {
-        position: relative;
-      }
-      .leading-type {
-        font-size: 1rem;
-        position: absolute;
-      }
       color: $primary-green;
       font-size: 3.9rem;
       font-weight: bold;
@@ -175,6 +168,10 @@ table {
       @include breakpoint($small-only) {
         font-size: 2.8rem;
         line-height: 1;
+      }
+      .leading-type {
+        font-size: 1rem;
+        position: absolute;
       }
     }
     .description {

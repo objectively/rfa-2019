@@ -1,23 +1,23 @@
 .top-bar {
   background-color: $blue;
-  height: 100px;
-  position: relative;
-  // background-position: -40% 95%;
   background-position: -30% 95%;
   background-repeat: no-repeat;
   background-size: 1700px;
+  height: 100px;
+  position: relative;
   .color-overlay {
+    background-color: transparentize($blue, .2);
     position: absolute;
     top: 0;
     bottom: 0;
     right: 0;
     left: 0;
-    background-color: transparentize($blue, .2);
   }
   @include breakpoint($small-only) {
     height: 75px;
   }
   &__logo {
+    display: block;
     padding: 22px;
     @include breakpoint($small-only) {
       padding: 15px;

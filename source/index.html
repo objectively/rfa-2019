@@ -51,7 +51,7 @@ seo_image_path: #'/images/media/filename.jpg'
                 {% assign url = "/state-standard-of-excellence/" | append: title | append: ".html" %}
                 <td class="title" onclick="window.location='{{ url | relative_url }}';">
                   <span>
-                    <a href="{{ url | relative_url }}">{{ item.title }}<i class="material-icons launch-leading launch-leading--title">launch</i></a>
+                    <a href="{{ url | relative_url }}">{{ item.title }}<span class="leading-icon-space"></span><i class="material-icons launch-leading launch-leading--title">launch</i></a>
                   </span>
                   <span class="tooltip">
                     {{ item.description }}
@@ -84,7 +84,7 @@ seo_image_path: #'/images/media/filename.jpg'
                         <a style="text-decoration:none;" href="{{ url-leading-effort | relative_url }}">{{item.leading_list.state_abbreviation}}
                         </a>
                       </span>
-                      <span class="leading-type">
+                      <span class="leading-type leading-type--desktop">
                         {% if leading-type %}
                           {% if leading-type == "Statewide" %}
                             S

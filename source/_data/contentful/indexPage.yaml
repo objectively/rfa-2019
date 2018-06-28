@@ -211,7 +211,7 @@ indexPage:
   - sys:
       id: 6kH5A9tSzmkCqYsooe2Kca
       created_at: !ruby/object:DateTime 2018-06-25 04:36:32.441000000 Z
-      updated_at: !ruby/object:DateTime 2018-06-25 04:36:32.441000000 Z
+      updated_at: !ruby/object:DateTime 2018-06-26 22:03:32.595000000 Z
       content_type_id: criteria
     title: Evaluation Resources
     description: Did the state or any of its agencies invest at least 1% of program
@@ -220,6 +220,12 @@ indexPage:
       Making a specific commitment to evaluation is critical and ensures that state governments have the necessary funds to evaluate whether state programs are achieving their desired outcomes. At the federal level, several agencies have made commitments to spend 1% of program funds on evaluation, which has allowed them to improve programmatic outcomes and build their knowledge base about what works.
 
       Results for America was not able to identify __any__ states with leading or promising efforts for this criteria.
+    leading_list:
+      sys:
+        id: 27CW9N7CjOUyKgsYq8uac4
+    promising_list:
+    - sys:
+        id: 2fb7vjBTDicusGYIiYK440
   - sys:
       id: 5sGW6L7g7CosWowKQW6ssK
       created_at: !ruby/object:DateTime 2018-06-25 04:43:15.604000000 Z

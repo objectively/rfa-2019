@@ -12,7 +12,7 @@ seo_image_path: #'/images/media/filename.jpg'
     <section class="top-section">
       <div class="row align-center">
         <div class="column large-8 medium-8 small-12">
-          <h1>{{ page.year }}</h1>
+          <h1 class="index-year">{{ page.year }}</h1>
           <hr>
           <h2>Invest in What Works State Standard of Excellence</h2>
         </div>
@@ -64,12 +64,14 @@ seo_image_path: #'/images/media/filename.jpg'
                     <div class="leading__state column large-3">
                       <a style="text-decoration:none;" href="{{ url-leading-effort | relative_url }}">{{item.leading_list.state_abbreviation}}
                         <span class="leading-type">
-                          {% if leading-type == "Statewide" %}
-                            S
-                          {% else if leading-type == "Single agency" %}
-                            A
-                          {% else if leading-type == "Multiple agencies" %}
-                            M
+                          {% if leading-type %}
+                            {% if leading-type == "Statewide" %}
+                              S
+                            {% else if leading-type == "Single agency" %}
+                              A
+                            {% else if leading-type == "Multiple agencies" %}
+                              M
+                            {% endif %}
                           {% endif %}
                         </span>
                       </a>
@@ -83,12 +85,14 @@ seo_image_path: #'/images/media/filename.jpg'
                         </a>
                       </span>
                       <span class="leading-type">
-                        {% if leading-type == "Statewide" %}
-                          S
-                        {% else if leading-type == "Single agency" %}
-                          A
-                        {% else if leading-type == "Multiple agencies" %}
-                          M
+                        {% if leading-type %}
+                          {% if leading-type == "Statewide" %}
+                            S
+                          {% else if leading-type == "Single agency" %}
+                            A
+                          {% else if leading-type == "Multiple agencies" %}
+                            M
+                          {% endif %}
                         {% endif %}
                       </span>
                     </div>
@@ -110,27 +114,31 @@ seo_image_path: #'/images/media/filename.jpg'
                     {% assign url-promising-efforts = "/state-standard-of-excellence/" | append: title | append: ".html#" | append: state-slug  %}
                     <a href="{{ url-promising-efforts | relative_url }}" class="promising__state promising__state--desktop">
                       {{ state.state }}
-                      <span class="promising-type">
-                        {% if promising-type == "Statewide" %}
-                          S
-                        {% else if promising-type == "Single agency" %}
-                          A
-                        {% else if promising-type == "Multiple agencies" %}
-                          M
-                        {% endif %}
-                      </span>
+                      {% if promising-type %}
+                        <span class="promising-type">
+                          {% if promising-type == "Statewide" %}
+                            S
+                          {% else if promising-type == "Single agency" %}
+                            A
+                          {% else if promising-type == "Multiple agencies" %}
+                            M
+                          {% endif %}
+                        </span>
+                      {% endif %}
                     </a>
                     <a href="{{ url-promising-efforts | relative_url }}" class="promising__state promising__state--mobile">
                       {{ state.state_abbreviation }}
-                      <span class="promising-type">
-                        {% if promising-type == "Statewide" %}
-                          S
-                        {% else if promising-type == "Single agency" %}
-                          A
-                        {% else if promising-type == "Multiple agencies" %}
-                          M
-                        {% endif %}
-                      </span>
+                      {% if promising-type %}
+                        <span class="promising-type">
+                          {% if promising-type == "Statewide" %}
+                            S
+                          {% else if promising-type == "Single agency" %}
+                            A
+                          {% else if promising-type == "Multiple agencies" %}
+                            M
+                          {% endif %}
+                        </span>
+                      {% endif %}
                     </a>
                   {% endfor %}
                 </td>

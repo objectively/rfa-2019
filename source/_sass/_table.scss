@@ -161,9 +161,10 @@ table {
       font-size: 3.9rem;
       font-weight: bold;
       line-height: 1;
+      position: relative;
+      text-align: left;
       @include breakpoint($medium-only) {
         text-align: center;
-
       }
       @include breakpoint($small-only) {
         font-size: 2.8rem;
@@ -172,6 +173,10 @@ table {
       .leading-type {
         font-size: 1rem;
         position: absolute;
+        top: 8px;
+        @include breakpoint($small-only) {
+          top: 5px;
+        }
       }
     }
     .description {

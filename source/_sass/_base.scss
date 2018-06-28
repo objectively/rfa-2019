@@ -56,6 +56,12 @@ footer {
       display: inline-block;
     }
   }
+  .credits {
+    font-size: .8rem;
+    @include breakpoint($large) {
+      margin-top: -10px;
+    }
+  }
   .privacy {
     display: block;
     @include breakpoint($medium) {

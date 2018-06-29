@@ -48,23 +48,28 @@
     text-align: center;
     padding: 1rem;
     img {
-      width: 7rem;
-      height: auto;
-    }
-    &--ca {
-      width: 5.5rem !important;
-    }
-    &--in {
-      width: 4.5rem !important;
-    }
-    &--ky,
-    &--or,
-    &--wa,
-    &--ma {
-      width: 8rem !important;
+      height: 6rem;
     }
     &--tn {
-      width: 10rem !important;
+      height: 4rem !important;
+    }
+    &--ca {
+      height: 8rem !important;
+    }
+    &--in {
+      height: 8rem !important;
+    }
+    &--mn {
+      height: 7rem !important;
+    }
+    &--ri {
+      height: 7rem !important;
+    }
+    &--ky {
+      height: 5rem !important;
+    }
+    &--ma {
+      height: 5rem !important;
     }
   }
 

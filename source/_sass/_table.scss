@@ -44,7 +44,7 @@ table {
   }
 
   .title {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     font-weight: 500;
     line-height: 1.2;
     padding: 50px 40px 0 35px;
@@ -62,7 +62,7 @@ table {
       }
     }
     @include breakpoint($medium-only) {
-      font-size: 1.2rem;
+      font-size: 1rem;
       padding: 25px 15px 20px 15px;
     }
     @include breakpoint($small-only) {
@@ -241,6 +241,10 @@ table {
       padding: 7px 10px 7px 10px;
       text-decoration: none;
       text-transform: uppercase;
+      &:hover {
+        background-color: darken($primary-orange, 12);
+        @extend .u-transition;
+      }
       @include breakpoint($small-only) {
         border-radius: 5px;
         padding: 5px 6px 5px 6px;

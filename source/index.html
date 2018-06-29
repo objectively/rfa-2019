@@ -29,8 +29,8 @@ seo_image_path: #'/images/media/filename.jpg'
         <table>
           <tr>
             <th>Criteria</th>
-            <th class="title-leading"><a href="{{ '/state-standard-of-excellence/leading-efforts.html' | relative_url }}">Leading Efforts<i class="material-icons launch-leading">launch</i></a></th>
-            <th class="title-promising">Promising Efforts</th>
+            <th class="title-leading"><a href="{{ '/state-standard-of-excellence/leading-examples.html' | relative_url }}">Leading Examples<i class="material-icons launch-leading">launch</i></a></th>
+            <th class="title-promising">Promising Examples</th>
           </tr>
           <tr class="state-types">
             <td colspan="3">
@@ -58,11 +58,11 @@ seo_image_path: #'/images/media/filename.jpg'
                   </span>
                 </td>
                 {% assign leading-type = item.leading_list.type %}
-                {% assign url-leading-effort = "/state-standard-of-excellence/" | append: title | append: ".html" | append: "#leading-effort"%}
-                <td class="leading leading--mobile" onclick="window.location='{{ url-leading-effort | relative_url }}';">
+                {% assign url-leading-example = "/state-standard-of-excellence/" | append: title | append: ".html" | append: "#leading-example"%}
+                <td class="leading leading--mobile" onclick="window.location='{{ url-leading-example | relative_url }}';">
                   <div class="row">
                     <div class="leading__state column large-3">
-                      <a style="text-decoration:none;" href="{{ url-leading-effort | relative_url }}">{{item.leading_list.state_abbreviation}}
+                      <a style="text-decoration:none;" href="{{ url-leading-example | relative_url }}">{{item.leading_list.state_abbreviation}}
                         <span class="leading-type">
                           {% if leading-type %}
                             {% if leading-type == "Statewide" %}
@@ -81,7 +81,7 @@ seo_image_path: #'/images/media/filename.jpg'
                   <div class="row collapse">
                     <div class="leading__state column large-3" style="text-align:center">
                       <span class="state-abbrev">
-                        <a style="text-decoration:none;" href="{{ url-leading-effort | relative_url }}">{{item.leading_list.state_abbreviation}}
+                        <a style="text-decoration:none;" href="{{ url-leading-example | relative_url }}">{{item.leading_list.state_abbreviation}}
                         </a>
                       </span>
                       <span class="leading-type leading-type--desktop">
@@ -102,7 +102,7 @@ seo_image_path: #'/images/media/filename.jpg'
                   </div>
                   <div class="link row align-right">
                     <div class="column large-5">
-                      <a class="learn-more" href="{{ url-leading-effort | relative_url }}">Learn More</a>
+                      <a class="learn-more" href="{{ url-leading-example | relative_url }}">Learn More</a>
                     </div>
                   </div>
                 </td>
@@ -111,8 +111,8 @@ seo_image_path: #'/images/media/filename.jpg'
                   {% for state in item.promising_list %}
                     {% assign promising-type = state.type %}
                     {% assign state-slug = state.state | slugify %}
-                    {% assign url-promising-efforts = "/state-standard-of-excellence/" | append: title | append: ".html#" | append: state-slug  %}
-                    <a href="{{ url-promising-efforts | relative_url }}" class="promising__state promising__state--desktop">
+                    {% assign url-promising-examples = "/state-standard-of-excellence/" | append: title | append: ".html#" | append: state-slug  %}
+                    <a href="{{ url-promising-examples | relative_url }}" class="promising__state promising__state--desktop">
                       {{ state.state }}
                       {% if promising-type %}
                         <span class="promising-type">
@@ -126,7 +126,7 @@ seo_image_path: #'/images/media/filename.jpg'
                         </span>
                       {% endif %}
                     </a>
-                    <a href="{{ url-promising-efforts | relative_url }}" class="promising__state promising__state--mobile">
+                    <a href="{{ url-promising-examples | relative_url }}" class="promising__state promising__state--mobile">
                       {{ state.state_abbreviation }}
                       {% if promising-type %}
                         <span class="promising-type">

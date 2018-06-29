@@ -1,14 +1,14 @@
 ---
 layout: default
-title: Leading Efforts
+title: Leading Examples
 description:
-permalink: /state-standard-of-excellence/leading-efforts
+permalink: /state-standard-of-excellence/leading-examples
 seo_image_path: #'/images/media/filename.jpg'
 ---
 
 {% assign criteriaYear = "2018" %}
-{% assign leadingEfforts = site.data.contentful.leadingPage.leadingPage | where: 'year', criteriaYear%}
-{%assign pageContent = leadingEfforts[0]%}
+{% assign leadingExamples = site.data.contentful.leadingPage.leadingPage | where: 'year', criteriaYear%}
+{%assign pageContent = leadingExamples[0]%}
 {%assign leadingList = pageContent.leading_list%}
 
 
@@ -45,9 +45,9 @@ seo_image_path: #'/images/media/filename.jpg'
   </section>
 
   <section class="section section__leading-list">
-  <a name="leading-effort"></a>
-    {%for effort in leadingList %}
-    {% include effort.html effort=leadingEffort criteriaName=effort.criteria%}
+  <!-- <a name="leading-effort"></a> -->
+    {%for example in leadingList %}
+    {% include example.html example=leadingExample criteriaName=example.criteria%}
     <div class="row align-center">
       <div class="column large-10">
         <hr class="hr--long">

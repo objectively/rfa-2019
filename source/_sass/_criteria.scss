@@ -5,15 +5,15 @@
   .section__explanation {
     text-align: inherit;
   }
-  @mixin effort($color) {
-    .effort__title,
-    .effort__abbreviation,
-    .effort__type {
+  @mixin example($color) {
+    .example__title,
+    .example__abbreviation,
+    .example__type {
       color: $color;
       text-align: center;
     }
 
-    .effort__title {
+    .example__title {
       text-transform: capitalize;
       font-weight: 500;
       margin: 1rem 0;
@@ -30,12 +30,12 @@
       }
     }
 
-    .effort__abbreviation {
+    .example__abbreviation {
       font-weight: 800;
       font-size: 2.4rem;
       margin: 1rem 0 0 0;
     }
-    .effort__type {
+    .example__type {
       text-transform: uppercase;
       font-size: 0.9rem;
       font-weight: 800;
@@ -44,7 +44,7 @@
     }
   }
 
-  .effort__state-outline {
+  .example__state-outline {
     text-align: center;
     padding: 1rem;
     img {
@@ -52,10 +52,10 @@
     }
   }
   .section__leading-list {
-    @include effort($primary-green);
+    @include example($primary-green);
   }
   .section__promising-list {
-    @include effort($primary-orange);
+    @include example($primary-orange);
   }
   hr.hr--long {
     // margin: 15px auto;

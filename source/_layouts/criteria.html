@@ -3,8 +3,8 @@ layout: default
 
 ---
 {% assign criteriaYear = "2018" %}
-{% assign leadingEffort = page.leading_list %}
-{% assign promisingEfforts = page.promising_list | where: 'year', criteriaYear %}
+{% assign leadingExample = page.leading_list %}
+{% assign promisingExamples = page.promising_list | where: 'year', criteriaYear %}
 
 <main role="main" class="criteria">
 
@@ -39,14 +39,13 @@ layout: default
   </section>
 
   <section class="section section__leading-list">
-  <a name="leading-effort"></a>
     <div class="row align-center">
-      <div class="column large-8 medium-8 small-12">
-        <h3 class="effort__title">Leading Effort</h3>
+      <div id="leading-example" class="column large-8 medium-8 small-12">
+        <h3 class="example__title">Leading Example</h3>
       </div>
     </div>
-    {%if leadingEffort.year == criteriaYear%}
-    {% include effort.html effort=leadingEffort%}
+    {%if leadingExample.year == criteriaYear%}
+    {% include example.html example=leadingExample%}
     {%endif%}
   </section>
 
@@ -60,16 +59,15 @@ layout: default
   </section>
 
   <section class="section section__promising-list">
-    <a name="promising-efforts"></a>
     <div class="row align-center">
-      <div class="column large-8 medium-8 small-12">
-        <h3 class="effort__title">Promising Efforts</h3>
+      <div id="promising-examples" class="column large-8 medium-8 small-12">
+        <h3 class="example__title">Promising Examples</h3>
       </div>
     </div>
-    {%for promisingEffort in promisingEfforts %}
+    {%for promisingExample in promisingExamples %}
 
 
-      {% include effort.html effort=promisingEffort %}
+      {% include example.html example=promisingExample %}
 
     {% endfor %}
   </section>

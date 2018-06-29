@@ -48,9 +48,26 @@
     text-align: center;
     padding: 1rem;
     img {
-      width: 6rem;
+      width: 7rem;
+      height: auto;
+    }
+    &--ca {
+      width: 5.5rem !important;
+    }
+    &--in {
+      width: 4.5rem !important;
+    }
+    &--ky,
+    &--or,
+    &--wa,
+    &--ma {
+      width: 8rem !important;
+    }
+    &--tn {
+      width: 10rem !important;
     }
   }
+
   .section__leading-list {
     @include example($primary-green);
   }

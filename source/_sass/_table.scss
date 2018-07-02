@@ -104,19 +104,6 @@ table {
     }
   }
 
-  .leading-icon-space {
-    @include breakpoint($medium-only) {
-      padding-left: 5px;
-    }
-    @include breakpoint($small-only) {
-      padding-left: 2px;
-    }
-    @include breakpoint($large) {
-      padding-left: 5px;
-
-    }
-  }
-
   .launch-leading {
     vertical-align: middle;
     @include breakpoint($medium-only) {
@@ -129,6 +116,18 @@ table {
     }
     @include breakpoint($large) {
       margin-top: -3px;
+    }
+  }
+
+  .before-launch {
+    @include breakpoint($medium-only) {
+      padding-right: 5px;
+    }
+    @include breakpoint($small-only) {
+      padding-right: 2px;
+    }
+    @include breakpoint($large) {
+      padding-right: 5px;
     }
   }
 

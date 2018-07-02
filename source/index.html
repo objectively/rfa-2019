@@ -14,7 +14,7 @@ seo_image_path: #'/images/media/filename.jpg'
         <div class="column large-8 medium-8 small-12">
           <h1 class="index-year">{{ page.year }}</h1>
           <hr>
-          <h2>Invest in What Works State Standard of Excellence</h2>
+          <h2>Invest in What Works<br>State Standard of Excellence</h2>
         </div>
       </div>
       <div class="row align-center">
@@ -59,7 +59,7 @@ seo_image_path: #'/images/media/filename.jpg'
                 {% assign url = "/state-standard-of-excellence/" | append: title | append: ".html" %}
                 <td class="title" onclick="window.location='{{ url | relative_url }}';">
                   <span>
-                    <a href="{{ url | relative_url }}">{{ item.title }}<span class="leading-icon-space"></span><i class="material-icons launch-leading launch-leading--title">launch</i></a>
+                    <a href="{{ url | relative_url }}"><span class="before-launch">{{ item.title }}</span><i class="material-icons launch-leading launch-leading--title">launch</i></a>
                   </span>
                   <span class="tooltip">
                     {{ item.description }}

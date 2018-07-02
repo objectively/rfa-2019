@@ -1,12 +1,25 @@
-.button-container {
-  text-align: center;
+.buttons {
+  margin-top: 60px;
+  margin-bottom: 20px;
+  @include breakpoint($small-only) {
+    margin-bottom: 0px;
+  }
   .download-button {
+    text-align: center;
+    color: $dark-blue;
     background-color: white;
     border: 2px solid $blue;
     font-weight: 600;
-    margin: 20px 0px 40px 0;
+    margin: 0px 0px 20px 0;
     padding: 10px 10px 10px 50px;
-    text-transform: capitalize;
+    @include breakpoint($medium-only) {
+      font-size: .9rem;
+      padding-left: 25px;
+    }
+    @include breakpoint($small-only) {
+      font-size: .9rem;
+      padding-left: 50px;
+    }
     &:hover {
       background-color: $blue;
       color: white;
@@ -14,6 +27,13 @@
     .material-icons {
       display: inline-block;
       margin-left: 80px;
+    }
+    &--summary {
+      .material-icons {
+        display: inline-block;
+        margin-left: 48px;
+
+      }
     }
   }
 }

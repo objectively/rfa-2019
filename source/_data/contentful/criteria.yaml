@@ -258,7 +258,7 @@ criteria:
   - sys:
       id: 3egxVrCaWAKqmqKO6mc2E0
       created_at: !ruby/object:DateTime 2018-06-22 15:37:37.017000000 Z
-      updated_at: !ruby/object:DateTime 2018-06-29 18:17:20.558000000 Z
+      updated_at: !ruby/object:DateTime 2018-07-02 15:14:56.031000000 Z
       content_type_id: promising
     state: New Mexico
     state_abbreviation: NM
@@ -267,11 +267,12 @@ criteria:
       submit annual performance-based budget requests which include: (1) the outputs
       and outcomes for each program; (2) performance measures and performance targets
       for each program; and (3) an evaluation of each program’s performance. '
-    long_description: 'A 1999 New Mexico law (p. 5) requires all state agencies to
-      submit annual performance-based budget requests which include: (1) the outputs
-      and outcomes for each program; (2) performance measures and performance targets
-      for each program; and (3) an evaluation of each program’s performance. This
-      information is released annually in the state’s [policy and fiscal analysis](https://www.nmlegis.gov/Entity/LFC/Session_Publications),
+    long_description: 'A [1999 New Mexico law](https://www.nmlegis.gov/Entity/LFC/Documents/Accountability_In_Goverment_Act/Accountability%20in%20Government%20Act%20Statute.pdf)
+      (p. 5) requires all state agencies to submit annual performance-based budget
+      requests which include: (1) the outputs and outcomes for each program; (2) performance
+      measures and performance targets for each program; and (3) an evaluation of
+      each program’s performance. This information is released annually in the state’s
+      [policy and fiscal analysis](https://www.nmlegis.gov/Entity/LFC/Session_Publications),
       which includes individual agency performance reports (pages 87-129) and information
       on the cost effectiveness of different programs (pages 15-20, pages 49-50).'
     criteria: Performance Management / Continuous Improvement
@@ -432,7 +433,7 @@ criteria:
   - sys:
       id: 4Aex0d0CUE6YQeOQMCIU0M
       created_at: !ruby/object:DateTime 2018-06-25 04:10:51.633000000 Z
-      updated_at: !ruby/object:DateTime 2018-06-29 18:27:11.345000000 Z
+      updated_at: !ruby/object:DateTime 2018-07-02 15:15:27.254000000 Z
       content_type_id: promising
     state: Connecticut
     state_abbreviation: CT
@@ -451,9 +452,9 @@ criteria:
       [Open Data Advisory Council](http://www.ct.gov/opm/cwp/view.asp?a=2998&q=566938)
       and developed the state’s [Open Data Publisher Guide](https://data.ct.gov/dataset/CT-Open-Data-Portal-Publisher-Guide/bktc-8u9h),
       a resource for accessing the data portal. Under the chief data officer’s leadership,
-      the state has streamlined the data-sharing process, automated the publication
-      of open data, and leveraged data as a strategic asset for state agencies and
-      departments.
+      the state has [streamlined the data-sharing process](https://www.nascio.org/portals/0/awards/nominations2016/2016/2016CT8-NASCIO%202016%20-%20Open%20Data.pdf),
+      automated the publication of open data, and leveraged data as a strategic asset
+      for state agencies and departments.
     criteria: Data Leadership
     year: '2018'
   - sys:
@@ -483,7 +484,7 @@ criteria:
   - sys:
       id: 2kWeTa0c2wogsSQyEeU4Oi
       created_at: !ruby/object:DateTime 2018-06-25 04:12:12.963000000 Z
-      updated_at: !ruby/object:DateTime 2018-06-29 18:32:12.921000000 Z
+      updated_at: !ruby/object:DateTime 2018-07-02 15:16:14.250000000 Z
       content_type_id: promising
     state: North Carolina
     state_abbreviation: NC
@@ -493,11 +494,12 @@ criteria:
       data analytics to improve service delivery and the efficiency of services.
     long_description: North Carolina’s chief data officer oversees the [North Carolina
       Government Data Analytics Center](https://it.nc.gov/services/nc-gdac), which
-      manages data sharing, integration, and data analytics to improve service delivery
-      and the efficiency of services. In this role, the chief data officer has the
-      authority, staff, and budget “to transform existing data assets into an information
-      utility for the state’s policy and operational leaders for their use in making
-      program investment decisions, managing resources, and improving financial programs,
+      [manages](https://files.nc.gov/ncdit/documents/files/2017_GDAC_Legislative%20Report.pdf)
+      data sharing, integration, and data analytics to improve service delivery and
+      the efficiency of services. In this role, the chief data officer has the authority,
+      staff, and budget “to transform existing data assets into an information utility
+      for the state’s policy and operational leaders for their use in making program
+      investment decisions, managing resources, and improving financial programs,
       budgets, and results.”
     criteria: Data Leadership
     year: '2018'
@@ -550,7 +552,7 @@ criteria:
   - sys:
       id: yDvY0YKB1uIg04Wa0868o
       created_at: !ruby/object:DateTime 2018-06-25 04:15:35.268000000 Z
-      updated_at: !ruby/object:DateTime 2018-06-29 18:33:40.901000000 Z
+      updated_at: !ruby/object:DateTime 2018-07-02 15:16:57.208000000 Z
       content_type_id: promising
     state: Connecticut
     state_abbreviation: CT
@@ -660,7 +662,7 @@ criteria:
   - sys:
       id: 3VMkRRdIbmG0MeSME4Isqg
       created_at: !ruby/object:DateTime 2018-06-25 04:18:54.926000000 Z
-      updated_at: !ruby/object:DateTime 2018-06-29 18:45:55.206000000 Z
+      updated_at: !ruby/object:DateTime 2018-07-02 15:17:45.613000000 Z
       content_type_id: promising
     state: Texas
     state_abbreviation: TX
@@ -669,7 +671,7 @@ criteria:
       state education data.
     long_description: The Texas Education Agency administers the [Texas Student Data
       System](https://www.texasstudentdatasystem.org/), a statewide platform for collecting,
-      managing, sharing, and reporting state education data. The system has a dashboard,
+      managing, sharing, and reporting state education data. The system has a [dashboard](https://www.texasstudentdatasystem.org/TSDS/studentGPS®_Dashboards/),
       which provides educators with timely, actionable information and metrics on
       student performance. The system has policies for [data standards](https://www.texasstudentdatasystem.org/TSDS/TEDS/Texas_Education_Data_Standards/)
       and [data governance](https://www.texasstudentdatasystem.org/TSDS/About/Data_Governance/User_Involvement_and_Data_Governance/).
@@ -1488,7 +1490,7 @@ criteria:
   - sys:
       id: 11y9QFrz0mQEcmKK4ieice
       created_at: !ruby/object:DateTime 2018-06-25 04:49:42.402000000 Z
-      updated_at: !ruby/object:DateTime 2018-06-29 19:14:20.957000000 Z
+      updated_at: !ruby/object:DateTime 2018-07-02 15:20:12.296000000 Z
       content_type_id: promising
     state: New Mexico
     state_abbreviation: NM
@@ -1497,13 +1499,16 @@ criteria:
       reports in the areas of children’s behavioral health, adult behavioral health,
       early education, child welfare, and criminal justice.
     long_description: 'New Mexico has published a series of inventory and cost-benefit
-      reports in the areas of children’s behavioral health, adult behavioral health,
-      early education, child welfare, and criminal justice. A 2017 report included
-      a program inventory of New Mexico’s 34 child behavioral health programs administered
-      by the New Mexico Children, Youth and Families Department and Health Services
-      Department (p. 11). These programs were categorized by three tiers of evidence:
-      evidence-based, promising practice, and not evidence-based. The state has also
-      [done extensive cost-benefit analysis of its programs](http://www.pewtrusts.org/~/media/assets/2014/08/nm_results_first_brief_final.pdf)
+      reports in the areas of [children’s behavioral health](https://www.nmlegis.gov/Entity/LFC/Documents/Results_First/Results%20First%20Children''s%20Behavioral%20Health.pdf),
+      [adult behavioral health](https://www.nmlegis.gov/Entity/LFC/Documents/Results_First/Evidence-Based%20Behavioral%20Health%20Programs%20to%20Improve%20Outcomes%20for%20Adults.pdf),
+      [early education](https://www.nmlegis.gov/Entity/LFC/Documents/Results_First/Evidence-Based%20Early%20Education%20Programs%20to%20Improve%20Education%20Outcomes.pdf),
+      [child welfare](https://www.nmlegis.gov/Entity/LFC/Documents/Results_First/Evidence-Based%20Programs%20to%20Reduce%20Child%20Maltreatment.pdf),
+      and [criminal justice](https://www.nmlegis.gov/Entity/LFC/Documents/Results_First/Evidence-Based%20Programs%20to%20Reduce%20Recidivism%20and%20Improve%20Public%20Safety%20in%20Adult%20Corrections.pdf).
+      A 2017 report included a program inventory of New Mexico’s 34 child behavioral
+      health programs administered by the New Mexico Children, Youth and Families
+      Department and Health Services Department (p. 11). These programs were categorized
+      by three tiers of evidence: evidence-based, promising practice, and not evidence-based.
+      The state has also [done extensive cost-benefit analysis of its programs](http://www.pewtrusts.org/~/media/assets/2014/08/nm_results_first_brief_final.pdf)
       and published guidance on Legislating for Results. Additionally, in 2015 the
       New Mexico Department of Corrections issued [guidance](http://cd.nm.gov/policies/docs/CD-100000.pdf)
       on using evidence-based programs and performing cost-benefit analysis.'
@@ -1512,7 +1517,7 @@ criteria:
   - sys:
       id: 5NUQKQ7mNyaWy0S8uKacE2
       created_at: !ruby/object:DateTime 2018-06-25 04:52:40.377000000 Z
-      updated_at: !ruby/object:DateTime 2018-06-29 19:16:13.575000000 Z
+      updated_at: !ruby/object:DateTime 2018-07-02 15:22:36.493000000 Z
       content_type_id: promising
     state: Oregon
     state_abbreviation: OR
@@ -1535,8 +1540,9 @@ criteria:
       practices](https://www.oregon.gov/oha/HSD/AMH/docs/ebp-definition.pdf) from
       interventions that are “scientifically sound randomized controlled studies that
       have shown consistently positive outcomes” to those that “consistently \[have]
-      poor outcomes for a particular population.” Further, in 2016 the Oregon Youth
-      Authority and the [Oregon Department of Corrections](http://library.state.or.us/repository/2014/201412011552541/2016.pdf)
+      poor outcomes for a particular population.” Further, in 2016 the [Oregon Youth
+      Authority](https://www.oregonlegislature.gov/citizen_engagement/Reports/OYA_SB267_2016%20Progress%20Report-final.pdf)
+      and the [Oregon Department of Corrections](http://library.state.or.us/repository/2014/201412011552541/2016.pdf)
       both published reports on the use of evidence-based programs, which inventory
       and evaluate the effectiveness and evidence base of each department’s programs.
     criteria: Evidence Definition and Program Inventory
@@ -1544,7 +1550,7 @@ criteria:
   - sys:
       id: 3vX0lcYeIUIYgWKO8AAgGI
       created_at: !ruby/object:DateTime 2018-06-25 04:53:46.258000000 Z
-      updated_at: !ruby/object:DateTime 2018-06-29 19:23:29.255000000 Z
+      updated_at: !ruby/object:DateTime 2018-07-02 15:22:32.905000000 Z
       content_type_id: promising
     state: Utah
     state_abbreviation: UT
@@ -1560,9 +1566,9 @@ criteria:
       statewide registry of evidence-based substance abuse prevention interventions.
       The Department’s Division of Substance Abuse and Mental Health convened an [Evidence
       Based Workgroup](https://dsamh.utah.gov/reports/epidemiological-outcomes) which
-      defined the following four levels of evidence: well supported,  supported, promising,
-      and emerging. Using these tiers, the workgroup published an [inventory of evidence-based
-      programs](https://drive.google.com/file/d/1Ejywaa-8lgjjXKsuiIGNeWhdwcQ81KB8/view)
+      defined the following [four levels of evidence](https://dsamh.utah.gov/pdf/eb_workgroup/Tiers%20of%20Effectiveness.pdf):
+      well supported,  supported, promising, and emerging. Using these tiers, the
+      workgroup published an [inventory of evidence-based programs](https://drive.google.com/file/d/1Ejywaa-8lgjjXKsuiIGNeWhdwcQ81KB8/view)
       in 2015. Also, a [2015 report](https://socialwork.utah.edu/wp-content/uploads/sites/4/2016/11/2015-CCJJ_UDC-EBP-Adherence-Summary-ReportFinal-for-Distribution-1.pdf)
       by the Utah Department of Corrections scored jail and prison-based programs
       as “highly effective,” “effective,” “needs improvement,” or “ineffective” (p.
@@ -1572,7 +1578,7 @@ criteria:
   - sys:
       id: 5AGTFJsZpuqsCEEYqyuuMG
       created_at: !ruby/object:DateTime 2018-06-25 04:55:13.481000000 Z
-      updated_at: !ruby/object:DateTime 2018-06-29 19:25:14.770000000 Z
+      updated_at: !ruby/object:DateTime 2018-07-02 16:08:42.518000000 Z
       content_type_id: promising
     state: Washington
     state_abbreviation: WA
@@ -1585,11 +1591,11 @@ criteria:
       research-based, and promising practices (p. 4); and (3) tasked WSIPP with creating
       an inventory of evidence-based programs, which was released in 2012 with subsequent
       annual updates, including this 2016 report.'
-    long_description: 'A 2012 Washington State law (1) stated that “prevention and
-      intervention services delivered to children and juveniles in the areas of mental
-      health, child welfare, and juvenile justice \[must] be primarily evidence-based
-      and research-based” (p. 2); (2) directed the Washington State Institute for
-      Public Policy (WSIPP) to develop [definitions](http://www.wsipp.wa.gov/ReportFile/1332/Wsipp_Inventory-of-Evidence-Based-Research-Based-and-Promising-Practices_Full-Report.pdf)
+    long_description: 'A [2012 Washington State law](http://lawfilesext.leg.wa.gov/biennium/2011-12/Pdf/Bills/Session%20Laws/House/2536-S2.SL.pdf)
+      (1) stated that “prevention and intervention services delivered to children
+      and juveniles in the areas of mental health, child welfare, and juvenile justice
+      \[must] be primarily evidence-based and research-based” (p. 2); (2) directed
+      the Washington State Institute for Public Policy (WSIPP) to develop [definitions](http://www.wsipp.wa.gov/ReportFile/1332/Wsipp_Inventory-of-Evidence-Based-Research-Based-and-Promising-Practices_Full-Report.pdf)
       for three levels of evidence: evidence-based, research-based, and promising
       practices (p. 4); and (3) tasked WSIPP with creating an [inventory of evidence-based
       programs](http://www.wsipp.wa.gov/ReportFile/1333/Wsipp_Inventory-of-Evidence-Based-Research-Based-and-Promising-Practices_Inventory.pdf),
@@ -1749,7 +1755,7 @@ criteria:
   - sys:
       id: 5qvRVgpSvYyeswaWUq6oq0
       created_at: !ruby/object:DateTime 2018-06-25 14:38:51.795000000 Z
-      updated_at: !ruby/object:DateTime 2018-06-29 19:34:27.441000000 Z
+      updated_at: !ruby/object:DateTime 2018-07-02 15:35:07.795000000 Z
       content_type_id: promising
     state: New Mexico
     state_abbreviation: NM
@@ -1759,11 +1765,14 @@ criteria:
       health, adult behavioral health, early education, child welfare, and criminal
       justice.
     long_description: New Mexico’s [extensive cost-benefit analysis](http://www.pewtrusts.org/~/media/assets/2014/08/nm_results_first_brief_final.pdf)
-      include a series of inventory and cost-benefit reports in the areas of children’s
-      behavioral health, adult behavioral health, early education, child welfare,
-      and criminal justice. Additionally, in 2015 the New Mexico Department of Corrections
-      issued [guidance](http://cd.nm.gov/policies/docs/CD-100000.pdf) on selecting
-      evidence-based programs and performing cost-benefit analysis.
+      include a series of inventory and cost-benefit reports in the areas of [children’s
+      behavioral health](https://www.nmlegis.gov/Entity/LFC/Documents/Results_First/Results%20First%20Children's%20Behavioral%20Health.pdf),
+      [adult behavioral health](https://www.nmlegis.gov/Entity/LFC/Documents/Results_First/Evidence-Based%20Behavioral%20Health%20Programs%20to%20Improve%20Outcomes%20for%20Adults.pdf),
+      [early education](https://www.nmlegis.gov/Entity/LFC/Documents/Results_First/Evidence-Based%20Early%20Education%20Programs%20to%20Improve%20Education%20Outcomes.pdf),
+      [child welfare](https://www.nmlegis.gov/Entity/LFC/Documents/Results_First/Evidence-Based%20Programs%20to%20Reduce%20Child%20Maltreatment.pdf),
+      and [criminal justice](https://www.nmlegis.gov/Entity/LFC/Documents/Results_First/Evidence-Based%20Programs%20to%20Reduce%20Recidivism%20and%20Improve%20Public%20Safety%20in%20Adult%20Corrections.pdf).
+      Additionally, in 2015 the New Mexico Department of Corrections issued [guidance](http://cd.nm.gov/policies/docs/CD-100000.pdf)
+      on selecting evidence-based programs and performing cost-benefit analysis.
     criteria: Cost-Benefit Analysis
     year: '2018'
   - sys:
@@ -1789,7 +1798,7 @@ criteria:
   - sys:
       id: RTgUBBvO00W4AQqceygiu
       created_at: !ruby/object:DateTime 2018-06-25 14:41:22.742000000 Z
-      updated_at: !ruby/object:DateTime 2018-06-29 19:36:30.782000000 Z
+      updated_at: !ruby/object:DateTime 2018-07-02 15:35:29.293000000 Z
       content_type_id: promising
     state: Oregon
     state_abbreviation: OR
@@ -1805,16 +1814,17 @@ criteria:
       health and addiction issues” [shall](https://www.oregonlaws.org/ors/182.525)
       perform cost-benefit analyses and compile a biennial program inventory with
       results from funded programs. As a result, in 2016 the Oregon Youth Department
-      published a report on the department’s use of evidence-based programs, which
-      inventories and evaluates the effectiveness of the department’s programs. The
-      law also required these agencies to “spend at least 75 percent of state moneys
-      that the agency receives for programs on evidence-based programs” by 2011.
+      [published a report](https://www.oregonlegislature.gov/citizen_engagement/Reports/OYA_SB267_2016%20Progress%20Report-final.pdf)
+      on the department’s use of evidence-based programs, which inventories and evaluates
+      the effectiveness of the department’s programs. The law also required these
+      agencies to “spend at least 75 percent of state moneys that the agency receives
+      for programs on evidence-based programs” by 2011.
     criteria: Cost-Benefit Analysis
     year: '2018'
   - sys:
       id: xQJqEueOOGQGE2cGoOM2S
       created_at: !ruby/object:DateTime 2018-06-25 14:41:55.108000000 Z
-      updated_at: !ruby/object:DateTime 2018-06-29 19:37:44.578000000 Z
+      updated_at: !ruby/object:DateTime 2018-07-02 16:09:40.065000000 Z
       content_type_id: promising
     state: Rhode Island
     state_abbreviation: RI
@@ -1824,9 +1834,11 @@ criteria:
       for state-operated child welfare and adult justice programs.
     long_description: Beginning in 2016, the Rhode Island Office of Performance Management,
       within the Office of Management and Budget, conducted [cost-benefit analyses](http://www.omb.ri.gov/performance/#section2)
-      for state-operated child welfare and adult justice programs. As a precursor
-      to these analyses, the state also released an Adult and Juvenile Justice Cost
-      Evaluation in 2015.
+      for state-operated [child welfare](http://www.omb.ri.gov/documents/performance/performance-reports/all/21_Results%20First%20Child%20Welfare%20Program%20Review%20and%20Benefit-Cost%20Analysis_January%202017.pdf)
+      and [adult justice](http://www.omb.ri.gov/documents/performance/results-first/IB%20Adult%20Justice%20CBA%202-pg%20053116.pdf)
+      programs. As a precursor to these analyses, the state also released an [Adult
+      and Juvenile Justice Cost Evaluation](http://www.omb.ri.gov/documents/performance/results-first/Results%20First%20Program%20Inventory%20September%2020152.pdf)
+      in 2015.
     criteria: Cost-Benefit Analysis
     year: '2018'
   - sys:
@@ -1981,7 +1993,7 @@ criteria:
   - sys:
       id: 18cvYqO2DS02w6OCEKq0cQ
       created_at: !ruby/object:DateTime 2018-06-25 14:49:17.402000000 Z
-      updated_at: !ruby/object:DateTime 2018-06-29 19:45:36.861000000 Z
+      updated_at: !ruby/object:DateTime 2018-07-02 15:38:10.436000000 Z
       content_type_id: promising
     state: Tennessee
     state_abbreviation: TN
@@ -1993,7 +2005,7 @@ criteria:
     long_description: |-
       A [2007 Tennessee law](https://law.justia.com/codes/tennessee/2016/title-37/chapter-5/part-1/section-37-5-121/) requires that 100% of the state’s juvenile justice funding be evidence-based ([section 4e](https://law.justia.com/codes/tennessee/2016/title-37/chapter-5/part-1/section-37-5-121/)) beginning in 2012, with the exception of pilot programs that are building the evidence basis for research or theory-based interventions. As a result, the Tennessee Department of Children’s Services’ 2017 [Request for Proposal](https://www.tn.gov/content/dam/tn/dcs/documents/for-providers/procurement/Grant_AOF_Mandatory_Reqs.pdf) for juvenile justice services noted that “the Department of Children’s Services is prohibited from expending state funds on any juvenile justice program . . . unless the program is evidence-based” (p. 23). The law also established [in 37-5-121(a)] the following four levels of evidence for the juvenile justice programs operated by the Department of Children’s Services: evidence-based, research-based, theory-based, or pilot.
 
-      The 2010 Complete College Tennessee Act included provisions for using evidence of effectiveness in the funding system for public colleges and universities in the state. The competitive [outcomes-based funding system](https://www.tn.gov/content/dam/tn/thec/bureau/fiscal_admin/fiscal_pol/obff/1_-_Outcomes_Based_Funding_Formula_Overview_-_One_Page.pdf) allocates state funds based on student progress and completion metrics, rather than traditional enrollment-based criteria. The Tennessee Higher Education Commission [annually updates](https://www.tn.gov/thec/bureaus/finance-and-administration/fiscal-policy/redirect-fiscal-policy/outcomes-based-funding-formula-resources/redirect-outcomes-based-funding-formula-resources/2015-20-outcomes-based-funding-formula.html) the funding formula based on outcome data.
+      The 2010 [Complete College Tennessee Act](https://www.tbr.edu/sites/tbr.edu/files/media/2015/01/Complete%20College%20TN%20Act%202010%20-%20signed.pdf) included provisions for using evidence of effectiveness in the funding system for public colleges and universities in the state. The competitive [outcomes-based funding system](https://www.tn.gov/content/dam/tn/thec/bureau/fiscal_admin/fiscal_pol/obff/1_-_Outcomes_Based_Funding_Formula_Overview_-_One_Page.pdf) allocates state funds based on student progress and completion metrics, rather than traditional enrollment-based criteria. The Tennessee Higher Education Commission [annually updates](https://www.tn.gov/thec/bureaus/finance-and-administration/fiscal-policy/redirect-fiscal-policy/outcomes-based-funding-formula-resources/redirect-outcomes-based-funding-formula-resources/2015-20-outcomes-based-funding-formula.html) the funding formula based on outcome data.
     criteria: Use of Evidence in Grant Programs
     year: '2018'
 - sys:
@@ -2174,7 +2186,7 @@ criteria:
   - sys:
       id: 3ekiSrUpK842EQWGUCeKK0
       created_at: !ruby/object:DateTime 2018-06-25 14:56:01.764000000 Z
-      updated_at: !ruby/object:DateTime 2018-06-29 20:00:03.719000000 Z
+      updated_at: !ruby/object:DateTime 2018-07-02 15:40:36.507000000 Z
       content_type_id: promising
     state: Washington
     state_abbreviation: WA
@@ -2192,7 +2204,8 @@ criteria:
       learned and share innovative ways of adapting Lean.” Other aspects of Results
       Washington’s Lean program include [case studies](https://www.results.wa.gov/goals-progress/tracking-progress/case-studies),
       a [list](https://www.results.wa.gov/lean/agency-list) of improvements by state
-      agencies, and a Lean Fellowship Program, housed within the governor’s office.
+      agencies, and a [Lean Fellowship Program](https://www.results.wa.gov/sites/default/files/Washington%20State%20Lean%20Fellowship%20Program.pdf),
+      housed within the governor’s office.
     criteria: Innovation
     year: '2018'
 - sys:
@@ -2249,7 +2262,7 @@ criteria:
   - sys:
       id: 5Fh8fva3ZuyKsmGS0iqQCK
       created_at: !ruby/object:DateTime 2018-06-25 14:59:21.758000000 Z
-      updated_at: !ruby/object:DateTime 2018-06-29 20:01:06.105000000 Z
+      updated_at: !ruby/object:DateTime 2018-07-02 15:39:43.693000000 Z
       content_type_id: promising
     state: Massachusetts
     state_abbreviation: MA
@@ -2262,7 +2275,7 @@ criteria:
       to provide permanent supportive housing to 500–800 individuals experiencing
       chronic homelessness. As part of the five-year, $3.5 million project, the state
       will make payments based on stable housing for at least one year for program
-      clients. As of March 2018, the Pay for Success program has housed 668 tenants.
+      clients. As of March 2018, the Pay for Success program has [housed 668 tenants](http://www.mhsa.net/sites/default/files/PFS%20Factsheet%20March%202018.pdf).
       The project partners hold monthly operational monitoring meetings to review
       performance and quarterly oversight meetings with Massachusetts Department of
       Housing and Community Development. Massachusetts has also launched a Pay for

@@ -290,7 +290,7 @@ leadingPage:
   - sys:
       id: 1EftF8YMxmEiswACEQImSy
       created_at: !ruby/object:DateTime 2018-06-25 14:34:39.554000000 Z
-      updated_at: !ruby/object:DateTime 2018-06-29 20:18:52.008000000 Z
+      updated_at: !ruby/object:DateTime 2018-07-02 16:57:22.766000000 Z
       content_type_id: leading
     state: Washington
     state_abbreviation: WA
@@ -303,14 +303,14 @@ leadingPage:
       and implement evidence-based programs. As a result of this and similar laws,
       WSIPP has published hundreds of cost-benefit analysis reports over the past
       10 years.
-    long_description: A 2013 Washington State law (pp. 105–106) directed the Department
-      of Corrections, in consultation with the Washington State Institute for Public
-      Policy (WSIPP), to (1) compile an inventory of existing programs; (2) determine
-      whether its programs were evidence-based; (3) assess the effectiveness, including
-      a cost-benefit analysis, of its programs; and (4) phase out ineffective programs
-      and implement evidence-based programs. As a result of this and similar laws,
-      WSIPP has published [hundreds of cost-benefit analysis reports](http://www.wsipp.wa.gov/BenefitCost)
-      over the past 10 years.
+    long_description: A [2013 Washington State law](http://apps.leg.wa.gov/documents/billdocs/2013-14/Pdf/Bills/Session%20Laws/Senate/5034-S.SL.pdf)
+      (pp. 105–106) directed the Department of Corrections, in consultation with the
+      Washington State Institute for Public Policy (WSIPP), to (1) compile an inventory
+      of existing programs; (2) determine whether its programs were evidence-based;
+      (3) assess the effectiveness, including a cost-benefit analysis, of its programs;
+      and (4) phase out ineffective programs and implement evidence-based programs.
+      As a result of this and similar laws, WSIPP has published [hundreds of cost-benefit
+      analysis reports](http://www.wsipp.wa.gov/BenefitCost) over the past 10 years.
     criteria: Cost-Benefit Analysis
     state_outline:
       sys:

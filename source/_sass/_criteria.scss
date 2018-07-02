@@ -1,9 +1,15 @@
 .criteria {
   .section__description {
     font-weight: 600 !important;
+    p {
+      padding-bottom: 0;
+    }
   }
   .section__explanation {
     text-align: inherit;
+    p {
+      padding-top: 0;
+    }
   }
   @mixin example($color) {
     .example__title,

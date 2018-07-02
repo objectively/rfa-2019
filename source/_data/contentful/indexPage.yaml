@@ -78,7 +78,7 @@ indexPage:
   - sys:
       id: 3TZiYbQEC4mo0uuUgocyOQ
       created_at: !ruby/object:DateTime 2018-06-25 04:13:22.401000000 Z
-      updated_at: !ruby/object:DateTime 2018-06-25 04:13:22.401000000 Z
+      updated_at: !ruby/object:DateTime 2018-07-02 16:51:21.192000000 Z
       content_type_id: criteria
     title: Data Leadership
     description: 'Did the governor’s office or any state agency have a senior staff
@@ -94,6 +94,8 @@ indexPage:
       sys:
         id: 3R1RxkxvaMuqkeIOakgkWE
     promising_list:
+    - sys:
+        id: 172n21ptEWaOCg0mKuKk8
     - sys:
         id: 4Aex0d0CUE6YQeOQMCIU0M
     - sys:

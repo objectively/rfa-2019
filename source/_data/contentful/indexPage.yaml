@@ -3,17 +3,17 @@ indexPage:
 - sys:
     id: 4VbZM0utgAk4gk4QECcm2U
     created_at: !ruby/object:DateTime 2018-06-21 14:06:09.169000000 Z
-    updated_at: !ruby/object:DateTime 2018-06-25 15:09:23.362000000 Z
+    updated_at: !ruby/object:DateTime 2018-07-02 13:58:21.698000000 Z
     content_type_id: indexPage
   year: '2018'
-  short_description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  long_description: Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-    in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-    occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-    id est laborum.
+  short_description: |-
+    The 2018 Invest in What Works State Standard of Excellence sets a national standard—a “north star”—for how state governments’ can consistently and effectively use of data, evidence, and evaluation when making budget, policy, and management decisions by featuring leading and promising data-driven and evidence-based practices, policies, programs, and systems that were in effect in state governments in 2018.
+
+    The 2018 Invest in What Works State Standard of Excellence informs state government officials, public, private, and nonprofit sector leaders, and members of the general public about state governments’ use of data, evidence, and evaluation to invest taxpayer dollars in what works. By identifying specific efforts currently under way in state governments, Results for America hopes to facilitate the broader adoption of evidence-based policymaking in state governments across the country. These 15 criteria, and state governments’ leading and promising efforts in them, provide a guide for how state governments can increase their use of evidence and data to invest in what works, improve services, and achieve better outcomes for their residents.
+
+    Results for America identified 88 leading and promising data-driven and evidence-based practices, policies, programs, and systems in effect in April 2018 within single state government agencies, multiple state government agencies, or across entire state governments in 29 states across the country. Five states are leading the way with their data-driven and evidence-based examples: Washington, Colorado, Oregon, Minnesota, and Tennessee.
   download_url: https://www.google.com/flights/
+  download_summary: https://www.google.com/flights/
   criteria:
   - sys:
       id: 4upxBzECbmmYUQO4wYGWgg
@@ -211,15 +211,17 @@ indexPage:
   - sys:
       id: 6kH5A9tSzmkCqYsooe2Kca
       created_at: !ruby/object:DateTime 2018-06-25 04:36:32.441000000 Z
-      updated_at: !ruby/object:DateTime 2018-06-26 22:03:32.595000000 Z
+      updated_at: !ruby/object:DateTime 2018-06-30 18:12:04.714000000 Z
       content_type_id: criteria
     title: Evaluation Resources
     description: Did the state or any of its agencies invest at least 1% of program
       funds in evaluations?
-    explanation: |-
-      Making a specific commitment to evaluation is critical and ensures that state governments have the necessary funds to evaluate whether state programs are achieving their desired outcomes. At the federal level, several agencies have made commitments to spend 1% of program funds on evaluation, which has allowed them to improve programmatic outcomes and build their knowledge base about what works.
-
-      Results for America was not able to identify __any__ states with leading or promising efforts for this criteria.
+    explanation: Making a specific commitment to evaluation is critical and ensures
+      that state governments have the necessary funds to evaluate whether state programs
+      are achieving their desired outcomes. At the federal level, several agencies
+      have made commitments to spend 1% of program funds on evaluation, which has
+      allowed them to improve programmatic outcomes and build their knowledge base
+      about what works.
     leading_list:
       sys:
         id: 27CW9N7CjOUyKgsYq8uac4

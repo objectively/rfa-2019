@@ -1111,23 +1111,25 @@ criteria:
 - sys:
     id: 6kH5A9tSzmkCqYsooe2Kca
     created_at: !ruby/object:DateTime 2018-06-25 04:36:32.441000000 Z
-    updated_at: !ruby/object:DateTime 2018-06-26 22:03:32.595000000 Z
+    updated_at: !ruby/object:DateTime 2018-06-30 18:12:04.714000000 Z
     content_type_id: criteria
   title: Evaluation Resources
   description: Did the state or any of its agencies invest at least 1% of program
     funds in evaluations?
-  explanation: |-
-    Making a specific commitment to evaluation is critical and ensures that state governments have the necessary funds to evaluate whether state programs are achieving their desired outcomes. At the federal level, several agencies have made commitments to spend 1% of program funds on evaluation, which has allowed them to improve programmatic outcomes and build their knowledge base about what works.
-
-    Results for America was not able to identify __any__ states with leading or promising efforts for this criteria.
+  explanation: Making a specific commitment to evaluation is critical and ensures
+    that state governments have the necessary funds to evaluate whether state programs
+    are achieving their desired outcomes. At the federal level, several agencies have
+    made commitments to spend 1% of program funds on evaluation, which has allowed
+    them to improve programmatic outcomes and build their knowledge base about what
+    works.
   leading_list:
     sys:
       id: 27CW9N7CjOUyKgsYq8uac4
       created_at: !ruby/object:DateTime 2018-06-26 22:02:13.609000000 Z
-      updated_at: !ruby/object:DateTime 2018-06-26 22:02:13.609000000 Z
+      updated_at: !ruby/object:DateTime 2018-06-30 18:11:02.573000000 Z
       content_type_id: leading
-    state: NA
-    state_abbreviation: NA
+    state: None
+    state_abbreviation: "--"
     short_description: Results for America was not able to identify any states with
       leading or promising efforts for this criteria.
     long_description: Results for America was not able to identify __any__ states
@@ -1138,10 +1140,10 @@ criteria:
   - sys:
       id: 2fb7vjBTDicusGYIiYK440
       created_at: !ruby/object:DateTime 2018-06-26 22:02:58.537000000 Z
-      updated_at: !ruby/object:DateTime 2018-06-26 22:02:58.537000000 Z
+      updated_at: !ruby/object:DateTime 2018-06-30 18:11:28.276000000 Z
       content_type_id: promising
-    state: NA
-    state_abbreviation: NA
+    state: None
+    state_abbreviation: None
     short_description: Results for America was not able to identify any states with
       leading or promising efforts for this criteria.
     long_description: Results for America was not able to identify __any__ states

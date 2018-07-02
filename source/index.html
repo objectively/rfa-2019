@@ -18,8 +18,16 @@ seo_image_path: #'/images/media/filename.jpg'
         </div>
       </div>
       <div class="row align-center">
-        <div class="column large-10">
+        <div class="column large-11">
           {{ page.short_description | markdownify }}
+        </div>
+      </div>
+      <div class="row align-center buttons">
+        <div class="column large-5 medium-6 small-12">
+          <a href="#" class="button download-button">Download Index<i class="material-icons arrow">arrow_forward</i></a>
+        </div>
+        <div class="column large-5 medium-6 small-12">
+          <a href="#" class="button download-button download-button--summary">Download Summary<i class="material-icons arrow">arrow_forward</i></a>
         </div>
       </div>
     </section>
@@ -145,19 +153,6 @@ seo_image_path: #'/images/media/filename.jpg'
               </tr>
             {% endfor %}
         </table>
-      </div>
-    </section>
-
-    <section class="page-section">
-      <div class="row">
-        <div class="column">
-          {{ page.long_description | markdownify }}
-        </div>
-      </div>
-      <div class="row align-center">
-        <div class="button-container column large-4 small-12">
-          <a href="#" class="button download-button">Download<i class="material-icons arrow">arrow_forward</i></a>
-        </div>
       </div>
     </section>
 

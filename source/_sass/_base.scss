@@ -25,7 +25,7 @@ body {
 }
 
 footer {
-  padding: 3rem;
+  padding: 2.5rem;
   text-align: center;
   vertical-align: middle;
   .logo {
@@ -57,7 +57,7 @@ footer {
     }
   }
   .credits {
-    font-size: .8rem;
+    font-size: 0.8rem;
     @include breakpoint($large) {
       margin-top: -10px;
     }

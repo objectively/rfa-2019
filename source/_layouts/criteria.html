@@ -72,10 +72,14 @@ layout: default
     {% endfor %}
   </section>
 
-  <section class="section section__leading-list">
-    <div class="row align-center">
-      <div class="column large-10">
-        <hr class="hr--long">
+  {% include mobile-index.html %}
+  <section class="section criteria__nav">
+    <div class="row">
+      <div class="column small-12 medium-6 large-6 criteria__nav--previous">
+        <a href="#" ><i class="material-icons">arrow_back</i>Previous Criteria</a>
+      </div>
+      <div class="column small-12 medium-6 large-6 criteria__nav--next">
+        <a href="#">Next Criteria<i class="material-icons">arrow_forward</i></a>
       </div>
     </div>
   </section>

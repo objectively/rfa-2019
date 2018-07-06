@@ -13,14 +13,14 @@
       border: 2px solid $blue;
       font-weight: 600;
       margin: 0px 0px 20px 0;
-      padding: 10px 10px 10px 20px;
+      padding: 11px 10px 10px 20px;
       @include breakpoint($medium-only) {
         font-size: .9rem;
-        padding-left: 25px;
+        padding-left: 20px;
       }
       @include breakpoint($small-only) {
         font-size: .9rem;
-        padding-left: 50px;
+        padding-left: 20px;
       }
       &:hover {
         background-color: $blue;
@@ -31,5 +31,12 @@
         margin-left: 10px;
       }
     }
+  }
+}
+
+.footnote {
+  background-color: $light-gray;
+  p {
+    font-size: 1rem;
   }
 }

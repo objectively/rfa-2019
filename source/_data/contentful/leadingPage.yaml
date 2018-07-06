@@ -3,9 +3,9 @@ leadingPage:
 - sys:
     id: 3OHvBWPKE0wsMUAYCWq6us
     created_at: !ruby/object:DateTime 2018-06-25 15:16:05.213000000 Z
-    updated_at: !ruby/object:DateTime 2018-06-25 16:02:38.238000000 Z
+    updated_at: !ruby/object:DateTime 2018-07-06 16:30:27.107000000 Z
     content_type_id: leadingPage
-  title: Leading Efforts Page
+  title: Leading Examples Page
   description: The 2018 State Standard of Excellence highlights the structure state
     governments need to have in place to be able to use data, evidence, and evaluation
     when making budget, policy, and management decisions. Below are the leading efforts,

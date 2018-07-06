@@ -3,7 +3,7 @@ indexPage:
 - sys:
     id: 4VbZM0utgAk4gk4QECcm2U
     created_at: !ruby/object:DateTime 2018-06-21 14:06:09.169000000 Z
-    updated_at: !ruby/object:DateTime 2018-07-06 14:00:00.379000000 Z
+    updated_at: !ruby/object:DateTime 2018-07-06 16:35:16.162000000 Z
     content_type_id: indexPage
   year: '2018'
   short_description: |-
@@ -17,7 +17,7 @@ indexPage:
 
     The purpose of the 2018 Invest in What Works State Standard of Excellence is to inform policymakers and the public about state governments’ use of data, evidence, and evaluation to invest taxpayer dollars in what works. By identifying specific efforts currently underway in state governments, Results for America hopes to facilitate the broader adoption of evidence-based policymaking in state governments across the country.
 
-    Results for America’s analysis is based on data provided under license by the [Pew-MacArthur Results First Initiative](http://www.pewtrusts.org/en/projects/pew-macarthur-results-first-initiative) (which was used to inform its [2017 report](http://www.pewtrusts.org/en/research-and-analysis/reports/2017/01/how-states-engage-in-evidence-based-policymaking) on states’ engagement in evidence-based policymaking) and input from more than 90 current and former state government officials and other experts.
+    Results for America’s analysis is based on data provided under license by the [Pew-MacArthur Results First Initiative](http://www.pewtrusts.org/en/projects/pew-macarthur-results-first-initiative) (which was used to inform its [2017 report](http://www.pewtrusts.org/en/research-and-analysis/reports/2017/01/how-states-engage-in-evidence-based-policymaking) on states’ engagement in evidence-based policymaking) and input from more than 90 current and former state government officials and other experts.<sup>1</sup>
   download_url: https://www.google.com/flights/
   download_summary: https://www.google.com/flights/
   download_appendix: https://www.google.com/flights/

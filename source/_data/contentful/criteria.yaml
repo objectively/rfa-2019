@@ -3,13 +3,14 @@ criteria:
 - sys:
     id: 4upxBzECbmmYUQO4wYGWgg
     created_at: !ruby/object:DateTime 2018-06-20 19:13:35.134000000 Z
-    updated_at: !ruby/object:DateTime 2018-06-20 19:13:35.134000000 Z
+    updated_at: !ruby/object:DateTime 2018-07-06 14:56:42.281000000 Z
     content_type_id: criteria
   title: Strategic Goals
+  order: 1
   description: Did the Governor have public statewide strategic goals?
-  explanation: The creation of statewide strategic goals is an important first step
-    in aligning goals, expenditures, and programmatic activities as a way to improve
-    outcomes on a state government’s most important challenges.
+  explanation: |-
+    __Why is this important?__
+    The creation of statewide strategic goals is an important first step in aligning goals, expenditures, and programmatic activities as a way to improve outcomes on a state government’s highest priorities.
   leading_list:
     sys:
       id: 4CxWgqjHzqkCAgY00SIMuK
@@ -39,21 +40,23 @@ criteria:
   - sys:
       id: 5SuLhnN5JeomGigC8E4a2Y
       created_at: !ruby/object:DateTime 2018-06-20 19:07:17.885000000 Z
-      updated_at: !ruby/object:DateTime 2018-06-29 18:00:39.648000000 Z
+      updated_at: !ruby/object:DateTime 2018-07-05 23:57:59.973000000 Z
       content_type_id: promising
     state: Oregon
     state_abbreviation: OR
     type: Statewide
-    short_description: In 2011, Oregon implemented a 10-year strategic plan entitled
-      “10-Year Plan for Oregon,” which uses outcome-based budgeting to align outcomes
-      with state agencies’ programmatic responsibilities.
-    long_description: In 2011, Oregon implemented a 10-year strategic plan entitled
-      “[10-Year Plan for Oregon](http://216.243.141.9/images/resources_docs/weeklymailout/2012/may/week4/e%2010-YearPlanForOregonSinglePage.pdf),”
+    short_description: In 2011, Oregon implemented a strategic plan entitled “10-Year
+      Plan for Oregon,” which uses outcome-based budgeting to align outcomes with
+      state agencies’ programmatic responsibilities.
+    long_description: 'In 2011, Oregon implemented a strategic plan entitled “[10-Year
+      Plan for Oregon](http://216.243.141.9/images/resources_docs/weeklymailout/2012/may/week4/e%2010-YearPlanForOregonSinglePage.pdf),”
       which uses outcome-based budgeting to align outcomes with state agencies’ programmatic
-      responsibilities. Building on that foundation, the current administration's
+      responsibilities. Building on that foundation, the current administration''s
       [four priorities](http://www.oregon.gov/gov/priorities/Pages/priorities.aspx)
       include details about each goal and the state entities charged with managing
       efforts in relevant areas.
+
+'
     criteria: Strategic Goals
     year: '2018'
   - sys:
@@ -105,17 +108,18 @@ criteria:
 - sys:
     id: 1aFm8xMg3GCk0iWa4OgkEq
     created_at: !ruby/object:DateTime 2018-06-22 15:57:55.278000000 Z
-    updated_at: !ruby/object:DateTime 2018-06-22 15:57:55.278000000 Z
+    updated_at: !ruby/object:DateTime 2018-07-06 14:57:02.562000000 Z
     content_type_id: criteria
   title: Performance Management / Continuous Improvement
+  order: 2
   description: Did the state or any of its agencies implement a performance management
     system aligned with their statewide strategic goals; with clear and prioritized
     outcome-focused goals, program objectives, and measures; and did it consistently
     collect, analyze, and use data and evidence to improve outcomes, return on investment,
     and other dimensions of performance?
-  explanation: Performance management systems are an important tool to help state
-    governments monitor and improve customer service, program performance, and outcomes
-    for their residents.
+  explanation: |-
+    __Why is this important?__
+    Performance management systems are important tools to help state governments monitor and improve customer service, program performance, and outcomes for their residents.
   leading_list:
     sys:
       id: 5YE3Y1T2iAMeGa424uucoq
@@ -172,7 +176,7 @@ criteria:
   - sys:
       id: tkBogofa6sk6OWqyWSCiQ
       created_at: !ruby/object:DateTime 2018-06-22 15:33:27.362000000 Z
-      updated_at: !ruby/object:DateTime 2018-06-29 18:05:46.702000000 Z
+      updated_at: !ruby/object:DateTime 2018-07-05 23:55:31.206000000 Z
       content_type_id: promising
     state: Colorado
     state_abbreviation: CO
@@ -180,15 +184,15 @@ criteria:
     short_description: A 2013 Colorado law requires all Colorado state agencies to
       submit annual performance reports to the Colorado state legislature which include
       (1) performance measures for the major functions of the department; (2) performance
-      goals for at least the following 3 years; (3) a description of the strategies
+      goals for at least the following three years; (3) a description of the strategies
       necessary to reach the goals; and (4) a summary of the department’s most recent
       performance evaluation.
     long_description: A [2013 Colorado law](https://www.colorado.gov/pacific/performancemanagement/smart-act-requirements-performance-plan-guidelines)
       requires all Colorado state agencies to submit annual performance reports to
       the Colorado state legislature which include (1) performance measures for the
       major functions of the department; (2) performance goals for at least the following
-      3 years; (3) a description of the strategies necessary to reach the goals; and
-      (4) a summary of the department’s most recent performance evaluation.
+      three years; (3) a description of the strategies necessary to reach the goals;
+      and (4) a summary of the department’s most recent performance evaluation.
     criteria: Performance Management / Continuous Improvement
     year: '2018'
   - sys:
@@ -219,7 +223,7 @@ criteria:
   - sys:
       id: 3814NZIlfGu0AuqYKSG8k4
       created_at: !ruby/object:DateTime 2018-06-22 15:36:08.661000000 Z
-      updated_at: !ruby/object:DateTime 2018-06-29 18:11:55.353000000 Z
+      updated_at: !ruby/object:DateTime 2018-07-05 23:56:08.435000000 Z
       content_type_id: promising
     state: Maryland
     state_abbreviation: MD
@@ -235,21 +239,21 @@ criteria:
       by a [2015 executive order](https://gopi.maryland.gov/wp-content/uploads/sites/25/2015/10/EO-01.01.2015.26gopi.pdf),
       assists “agencies with measuring and managing performance information.” Further,
       the Maryland Children’s Cabinet has a [Child Welfare Scorecard](http://goc.maryland.gov/wellbeingscorecard/)
-      which tracks outcomes for [8 statewide child welfare goals](http://goc.maryland.gov/mdresults/).
+      which tracks outcomes for [eight statewide child welfare goals](http://goc.maryland.gov/mdresults/).
     criteria: Performance Management / Continuous Improvement
     year: '2018'
   - sys:
       id: 1RrvRw6fzu404iOSQSgK04
       created_at: !ruby/object:DateTime 2018-06-22 15:36:42.475000000 Z
-      updated_at: !ruby/object:DateTime 2018-06-29 18:14:51.756000000 Z
+      updated_at: !ruby/object:DateTime 2018-07-05 23:56:27.166000000 Z
       content_type_id: promising
     state: Minnesota
     state_abbreviation: MN
     type: Statewide
     short_description: 'Since 2014, Minnesota has maintained a dashboard featuring
-      40 key indicators in the state’s 8 key priority areas. '
+      40 key indicators in the state’s eight key priority areas. '
     long_description: Since 2014, Minnesota has maintained a [dashboard](https://mn.gov/mmb/mn-dashboard/)
-      featuring 40 key indicators in the state’s 8 key priority areas. Each indicator
+      featuring 40 key indicators in the state’s eight key priority areas. Each indicator
       has a status (good, okay, or poor according to specific [criteria](https://mn.gov/mmb/mn-dashboard/criteria/));
       indicators can be compared to the performance of other states and many are disaggregated
       by race, income, or geography.
@@ -314,18 +318,19 @@ criteria:
   - sys:
       id: 61eGYiZqKsey60s0AywSiK
       created_at: !ruby/object:DateTime 2018-06-22 15:46:30.432000000 Z
-      updated_at: !ruby/object:DateTime 2018-06-29 18:20:17.617000000 Z
+      updated_at: !ruby/object:DateTime 2018-07-05 23:57:17.779000000 Z
       content_type_id: promising
     state: Virginia
     state_abbreviation: VA
     type: Statewide
     short_description: 'Virginia uses its Virginia Performs Scorecard to track performance
-      across 7 strategic areas: economy; education; health and family; natural, historic,
-      and cultural resources; public safety; transportation; and government and citizens. '
+      across seven strategic areas: economy; education; health and family; natural,
+      historic, and cultural resources; public safety; transportation; and government
+      and citizens. '
     long_description: 'Virginia uses its [Virginia Performs Scorecard](http://vaperforms.virginia.gov/ScorecardatGlance.cfm)
-      to track performance across [7 strategic areas](http://vaperforms.virginia.gov/about.cfm):
+      to track performance across [seven strategic areas](http://vaperforms.virginia.gov/about.cfm):
       economy; education; health and family; natural, historic, and cultural resources;
-      public safety; transportation; and government and citizens. The scorecard tracks
+      public safety; transportation; and government and citizens. The scorecards track
       these areas by displaying current metrics and tracking year-to-year trends.
       In addition to providing performance by sector and policy area, the system shows
       [regional performance](http://vaperforms.virginia.gov/Regions_regionalScorecards.cfm).
@@ -383,18 +388,19 @@ criteria:
 - sys:
     id: 3TZiYbQEC4mo0uuUgocyOQ
     created_at: !ruby/object:DateTime 2018-06-25 04:13:22.401000000 Z
-    updated_at: !ruby/object:DateTime 2018-07-02 16:51:21.192000000 Z
+    updated_at: !ruby/object:DateTime 2018-07-06 14:57:28.675000000 Z
     content_type_id: criteria
   title: Data Leadership
+  order: 3
   description: 'Did the governor’s office or any state agency have a senior staff
     member(s) with the authority, staff, and budget to collect, analyze, share, and
     use high-quality administrative and survey data—consistent with strong privacy
     protections—to improve (or help other entities including but not limited to local
     governments and nonprofit organizations improve) federal, state, and local programs?
     (Example: chief data officer)'
-  explanation: A designated chief data officer can create a coherent set of policies,
-    structures, and guidance for how a state government and its agencies should routinely
-    use data to improve programs.
+  explanation: |-
+    __Why is this important?__
+    A designated chief data officer can create a coherent set of policies, structures, and guidance for how a state government and its agencies should routinely use data to improve programs.
   leading_list:
     sys:
       id: 3R1RxkxvaMuqkeIOakgkWE
@@ -528,24 +534,24 @@ criteria:
 - sys:
     id: 5ew88SpH0QSmIUus060mw0
     created_at: !ruby/object:DateTime 2018-06-25 04:20:08.423000000 Z
-    updated_at: !ruby/object:DateTime 2018-06-25 04:20:08.423000000 Z
+    updated_at: !ruby/object:DateTime 2018-07-06 14:58:16.874000000 Z
     content_type_id: criteria
   title: Data Policies / Agreements
+  order: 4
   description: 'Did the state or any of its agencies have data-sharing policies and
     data-sharing agreements—consistent with strong privacy protections—with any nonprofit
     organizations, academic institutions, local government agencies, and/or federal
     government agencies which were designed to improve outcomes for publicly funded
     programs, and did it make those policies and agreements publicly available? (Example:
     data-sharing policy, open data policy)'
-  explanation: Data-sharing policies and agreements serve as an important policy framework
-    for data governance that allows state governments to take a coordinated approach
-    to identifying and using relevant data to improve programs while implementing
-    strong privacy protections.
+  explanation: |-
+    __Why is this important?__
+    Data-sharing policies and agreements serve as an important policy framework for data governance that allows state governments to take a coordinated approach to identifying and using relevant data to improve programs while implementing strong privacy protections.
   leading_list:
     sys:
       id: 2pC37sHv3agKiqCUGEywYY
       created_at: !ruby/object:DateTime 2018-06-25 04:14:47.968000000 Z
-      updated_at: !ruby/object:DateTime 2018-06-29 20:08:01.905000000 Z
+      updated_at: !ruby/object:DateTime 2018-07-06 00:08:54.281000000 Z
       content_type_id: leading
     state: Washington
     state_abbreviation: WA
@@ -684,10 +690,11 @@ criteria:
   - sys:
       id: 3VMkRRdIbmG0MeSME4Isqg
       created_at: !ruby/object:DateTime 2018-06-25 04:18:54.926000000 Z
-      updated_at: !ruby/object:DateTime 2018-07-02 15:17:45.613000000 Z
+      updated_at: !ruby/object:DateTime 2018-07-05 23:58:23.317000000 Z
       content_type_id: promising
     state: Texas
     state_abbreviation: TX
+    type: Single agency
     short_description: The Texas Education Agency administers the Texas Student Data
       System, a statewide platform for collecting, managing, sharing, and reporting
       state education data.
@@ -709,16 +716,17 @@ criteria:
 - sys:
     id: 3U3n8nD0PuuuOcSIwQ2Osa
     created_at: !ruby/object:DateTime 2018-06-25 04:28:30.220000000 Z
-    updated_at: !ruby/object:DateTime 2018-06-25 04:28:30.220000000 Z
+    updated_at: !ruby/object:DateTime 2018-07-06 14:58:40.166000000 Z
     content_type_id: criteria
   title: Data Use
+  order: 5
   description: Did the state or any of its agencies have data systems consistent with
     strong privacy protections that linked multiple administrative datasets across
     state agencies, and did it use those systems to improve federal, state, or local
     programs?
-  explanation: The linking of data across programs and agencies allows state governments
-    to increase the efficiency and effectiveness of state services while measuring
-    the impact of those services on residents.
+  explanation: |-
+    __Why is this important?__
+    The linking of data across programs and agencies allows state governments to increase the efficiency and effectiveness of state services while measuring the impact of those services on residents.
   leading_list:
     sys:
       id: 1b9EIyGh2wu6amsY0u6iqI
@@ -966,15 +974,16 @@ criteria:
 - sys:
     id: 4YAtsHCws088YgE8QYGSw4
     created_at: !ruby/object:DateTime 2018-06-25 04:31:09.371000000 Z
-    updated_at: !ruby/object:DateTime 2018-06-25 04:31:09.371000000 Z
+    updated_at: !ruby/object:DateTime 2018-07-06 14:59:03.964000000 Z
     content_type_id: criteria
   title: Evaluation Leadership
+  order: 6
   description: 'Did the governor’s office or any state agency have a senior staff
     member(s) with the authority, staff, and budget to evaluate its major programs
     and inform policy decisions affecting them? (Example: chief evaluation officer)'
-  explanation: Evaluation leadership positions are an important tool for state governments
-    to ensure that data and evaluation are primary considerations when making programmatic
-    decisions.
+  explanation: |-
+    __Why is this important?__
+    Evaluation leadership positions are an important tool for state governments to ensure that evidence of what works is a primary consideration when making programmatic and budget decisions.
   leading_list:
     sys:
       id: jBzS6rSMfucmIQOuuoEeY
@@ -1029,21 +1038,21 @@ criteria:
 - sys:
     id: 5DxMcK9C9imG8KmKmEM0uc
     created_at: !ruby/object:DateTime 2018-06-25 04:35:11.927000000 Z
-    updated_at: !ruby/object:DateTime 2018-06-25 04:35:11.927000000 Z
+    updated_at: !ruby/object:DateTime 2018-07-06 14:59:23.891000000 Z
     content_type_id: criteria
   title: Evaluation Policies
+  order: 7
   description: Did the state or any of its agencies have an evaluation policy, evaluation
     plan, and research/learning agenda(s) and did it publicly release the findings
     of all completed evaluations?
-  explanation: Evaluation policies provide a useful way for state governments to align
-    their evaluation and research priorities, learn about what works, and share information
-    with outside researchers about additional areas where they want to increase their
-    knowledge base.
+  explanation: |-
+    __Why is this important?__
+    Evaluation policies provide a useful way for state governments to align their evaluation and research priorities, learn about what works, and share information with outside researchers about additional areas where they want to increase their knowledge base.
   leading_list:
     sys:
       id: 4ro5ZJXQnKiOASiScmWkU2
       created_at: !ruby/object:DateTime 2018-06-25 04:32:13.605000000 Z
-      updated_at: !ruby/object:DateTime 2018-06-29 20:14:12.386000000 Z
+      updated_at: !ruby/object:DateTime 2018-07-06 00:00:33.351000000 Z
       content_type_id: leading
     state: Massachusetts
     state_abbreviation: MA
@@ -1054,7 +1063,7 @@ criteria:
     long_description: The [Massachusetts Department of Elementary and Secondary Education](http://www.doe.mass.edu/DataAccountability.html)
       has developed a [research agenda](http://www.doe.mass.edu/research/agenda.pdf)
       and posts the results of all [completed evaluations](http://www.doe.mass.edu/research/reports/category.aspx?section=program),
-      as well as o[ther research reports](http://www.doe.mass.edu/research/reports/).
+      as well as [other research reports](http://www.doe.mass.edu/research/reports/).
     criteria: Evaluation Policies
     state_outline:
       sys:
@@ -1135,56 +1144,55 @@ criteria:
 - sys:
     id: 6kH5A9tSzmkCqYsooe2Kca
     created_at: !ruby/object:DateTime 2018-06-25 04:36:32.441000000 Z
-    updated_at: !ruby/object:DateTime 2018-06-30 18:12:04.714000000 Z
+    updated_at: !ruby/object:DateTime 2018-07-06 14:59:58.634000000 Z
     content_type_id: criteria
   title: Evaluation Resources
+  order: 8
   description: Did the state or any of its agencies invest at least 1% of program
     funds in evaluations?
-  explanation: Making a specific commitment to evaluation is critical and ensures
-    that state governments have the necessary funds to evaluate whether state programs
-    are achieving their desired outcomes. At the federal level, several agencies have
-    made commitments to spend 1% of program funds on evaluation, which has allowed
-    them to improve programmatic outcomes and build their knowledge base about what
-    works.
+  explanation: |-
+    __Why is this important?__
+    Making a specific commitment to evaluation is critical and ensures that state governments have the necessary funds to evaluate whether state programs are achieving their desired outcomes. At the federal level, several agencies have made commitments to spend 1% of program funds on evaluation, which has allowed them to improve programmatic outcomes and build their knowledge base about what works.
   leading_list:
     sys:
       id: 27CW9N7CjOUyKgsYq8uac4
       created_at: !ruby/object:DateTime 2018-06-26 22:02:13.609000000 Z
-      updated_at: !ruby/object:DateTime 2018-06-30 18:11:02.573000000 Z
+      updated_at: !ruby/object:DateTime 2018-07-06 00:25:12.884000000 Z
       content_type_id: leading
     state: None
     state_abbreviation: "--"
     short_description: Results for America was not able to identify any states with
-      leading or promising efforts for this criteria.
+      leading or promising examples for this criteria.
     long_description: Results for America was not able to identify __any__ states
-      with leading or promising efforts for this criteria.
+      with leading or promising examples for this criteria.
     criteria: Evaluation Resources
     year: '2018'
   promising_list:
   - sys:
       id: 2fb7vjBTDicusGYIiYK440
       created_at: !ruby/object:DateTime 2018-06-26 22:02:58.537000000 Z
-      updated_at: !ruby/object:DateTime 2018-06-30 18:11:28.276000000 Z
+      updated_at: !ruby/object:DateTime 2018-07-06 00:25:57.479000000 Z
       content_type_id: promising
     state: None
     state_abbreviation: None
     short_description: Results for America was not able to identify any states with
-      leading or promising efforts for this criteria.
+      leading or promising examples for this criteria.
     long_description: Results for America was not able to identify __any__ states
-      with leading or promising efforts for this criteria.
+      with leading or promising examples for this criteria.
     criteria: Evaluation Resources
     year: '2018'
 - sys:
     id: 5sGW6L7g7CosWowKQW6ssK
     created_at: !ruby/object:DateTime 2018-06-25 04:43:15.604000000 Z
-    updated_at: !ruby/object:DateTime 2018-06-25 04:43:15.604000000 Z
+    updated_at: !ruby/object:DateTime 2018-07-06 15:00:32.960000000 Z
     content_type_id: criteria
   title: Outcome Data
+  order: 9
   description: Did the state or any of its agencies report or require outcome data
     for its state-funded programs during their budget process?
-  explanation: Aligning performance reporting and budgetary cycles makes it easier
-    for state governments to make funding decisions based on the outcomes and results
-    achieved by state programs.
+  explanation: |-
+    __Why is this important?__
+    Aligning performance reporting and budgetary cycles makes it easier for state governments to make funding decisions based on the outcomes and results achieved by state programs.
   leading_list:
     sys:
       id: 1wbZOUfttiEe8Smm2MCqQk
@@ -1333,17 +1341,17 @@ criteria:
 - sys:
     id: rD6cYuWgxMWaAsemuMA8W
     created_at: !ruby/object:DateTime 2018-06-25 04:56:17.282000000 Z
-    updated_at: !ruby/object:DateTime 2018-06-25 04:56:17.282000000 Z
+    updated_at: !ruby/object:DateTime 2018-07-06 15:01:11.318000000 Z
     content_type_id: criteria
   title: Evidence Definition and Program Inventory
+  order: 10
   description: Did the state or any of its agencies release a common evidence framework,
     guidelines, or standards to inform its research and funding decisions and make
     publicly available an inventory of state-funded programs categorized based on
     at least two tiers of evidence?
-  explanation: Defining evidence and conducting program inventories can help state
-    governments ensure that their programs are using proven practices and that their
-    interventions are effective in meeting the state’s desired goals and improving
-    outcomes for residents.
+  explanation: |-
+    __Why is this important?__
+    Defining evidence and conducting program inventories can help state governments ensure that their programs are using proven practices and that their interventions are effective in meeting the state’s desired goals and improving outcomes for residents.
   leading_list:
     sys:
       id: 4p11OHq6XCea44OQoEsgCG
@@ -1632,14 +1640,15 @@ criteria:
 - sys:
     id: 4iuiaoaxP2AE2G8iMoK0EW
     created_at: !ruby/object:DateTime 2018-06-25 14:44:16.093000000 Z
-    updated_at: !ruby/object:DateTime 2018-06-25 14:44:16.093000000 Z
+    updated_at: !ruby/object:DateTime 2018-07-06 15:01:36.929000000 Z
     content_type_id: criteria
   title: Cost-Benefit Analysis
+  order: 11
   description: Did the state or any of its agencies assess and make publicly available
     the costs and benefits of public programs?
-  explanation: Cost-benefit analysis helps state governments quantify outcomes and
-    program costs to ensure that public dollars are being efficiently spent to get
-    the most value for taxpayers and the best outcomes for residents.
+  explanation: |-
+    __Why is this important?__
+    Cost-benefit analysis helps state governments quantify outcomes and program costs to ensure that public dollars are being efficiently spent to get the most value for taxpayers and the best outcomes for residents.
   leading_list:
     sys:
       id: 1EftF8YMxmEiswACEQImSy
@@ -1886,16 +1895,17 @@ criteria:
 - sys:
     id: 4790fdelW8mIKscumQuCO6
     created_at: !ruby/object:DateTime 2018-06-25 14:51:16.454000000 Z
-    updated_at: !ruby/object:DateTime 2018-06-25 14:51:16.454000000 Z
+    updated_at: !ruby/object:DateTime 2018-07-06 15:01:55.565000000 Z
     content_type_id: criteria
   title: Use of Evidence in Grant Programs
+  order: 12
   description: 'Did the state or any of its agencies: (1) invest at least 50% of program
     funds in evidence-based solutions or (2) use evidence of effectiveness when allocating
     funds to eligible grantees (including local governments) from its five largest
     competitive and noncompetitive grant programs?'
-  explanation: Requiring a portion of grant funds to be spent on evidence-based programs
-    allows state governments to use and scale proven program models to achieve better
-    and more uniform results.
+  explanation: |-
+    __Why is this important?__
+    Requiring a portion of grant funds to be spent on evidence-based programs allows state governments to use and scale proven program models to achieve better and more uniform results.
   leading_list:
     sys:
       id: 7KNeicqg9yO6sGOSqGwmM0
@@ -2033,13 +2043,15 @@ criteria:
 - sys:
     id: 7x5w43LqI8IuEC004Q6EIO
     created_at: !ruby/object:DateTime 2018-06-25 14:57:17.422000000 Z
-    updated_at: !ruby/object:DateTime 2018-06-25 14:57:17.422000000 Z
+    updated_at: !ruby/object:DateTime 2018-07-06 15:02:37.165000000 Z
     content_type_id: criteria
   title: Innovation
+  order: 13
   description: Did the state or any of its agencies have staff, policies, and processes
     in place that encouraged innovation to improve outcomes?
-  explanation: Encouraging innovation allows state governments to implement new models
-    that can improve programs while also building their evidence base.
+  explanation: |-
+    __Why is this important?__
+    Encouraging innovation allows state governments to implement new models that can improve programs while also building their evidence base.
   leading_list:
     sys:
       id: 4xJCeleF4ccqS2siQKeoCA
@@ -2233,15 +2245,17 @@ criteria:
 - sys:
     id: 6RKQ1AWFB6uGU6yKiWkM2A
     created_at: !ruby/object:DateTime 2018-06-25 15:03:15.004000000 Z
-    updated_at: !ruby/object:DateTime 2018-06-25 15:03:15.004000000 Z
+    updated_at: !ruby/object:DateTime 2018-07-06 15:03:13.127000000 Z
     content_type_id: criteria
   title: Contracting for Outcomes
+  order: 14
   description: Did the state or any of its agencies enter into performance-based contracts
     and/or use active contract management (frequent use of data and regular communication
     with providers to monitor implementation and progress) to improve outcomes for
     publicly funded programs?
-  explanation: These contracting techniques allow state governments to get better
-    results and value for each taxpayer dollar.
+  explanation: |-
+    __Why is this important?__
+    These contracting techniques allow state governments to get better results and value for each taxpayer dollar.
   leading_list:
     sys:
       id: 3g4ILixKwEIOWsQUmSA46C
@@ -2345,16 +2359,15 @@ criteria:
 - sys:
     id: 2Gj9OMD0RyWOCmwaCugeIa
     created_at: !ruby/object:DateTime 2018-06-25 15:07:19.412000000 Z
-    updated_at: !ruby/object:DateTime 2018-06-25 15:07:19.412000000 Z
+    updated_at: !ruby/object:DateTime 2018-07-06 15:03:28.894000000 Z
     content_type_id: criteria
   title: Repurpose for Results
-  description: Repurposing funds from programs that fail to consistently achieve results
-    to programs that consistently achieve results is a key strategy for state governments
-    to improve their performance while building knowledge about what works.
-  explanation: Repurposing funds from programs that do not get results toward other
-    programs that achieve better outcomes is a key strategy for state governments
-    to improve the performance while building knowledge about which programs may be
-    ineffective.
+  order: 15
+  description: Did the state or any of its agencies shift funds away from any practice,
+    policy, or program which consistently failed to achieve desired outcomes?
+  explanation: |-
+    __Why is this important?__
+    Repurposing funds from programs that fail to consistently achieve results to programs that consistently achieve results is a key strategy for state governments to improve their performance while building knowledge about what works.
   leading_list:
     sys:
       id: 21GlTmTbtmsmoqQeEgoyMU

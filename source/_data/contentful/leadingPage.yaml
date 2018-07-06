@@ -104,7 +104,7 @@ leadingPage:
   - sys:
       id: 2pC37sHv3agKiqCUGEywYY
       created_at: !ruby/object:DateTime 2018-06-25 04:14:47.968000000 Z
-      updated_at: !ruby/object:DateTime 2018-06-29 20:08:01.905000000 Z
+      updated_at: !ruby/object:DateTime 2018-07-06 00:08:54.281000000 Z
       content_type_id: leading
     state: Washington
     state_abbreviation: WA
@@ -201,7 +201,7 @@ leadingPage:
   - sys:
       id: 4ro5ZJXQnKiOASiScmWkU2
       created_at: !ruby/object:DateTime 2018-06-25 04:32:13.605000000 Z
-      updated_at: !ruby/object:DateTime 2018-06-29 20:14:12.386000000 Z
+      updated_at: !ruby/object:DateTime 2018-07-06 00:00:33.351000000 Z
       content_type_id: leading
     state: Massachusetts
     state_abbreviation: MA
@@ -212,7 +212,7 @@ leadingPage:
     long_description: The [Massachusetts Department of Elementary and Secondary Education](http://www.doe.mass.edu/DataAccountability.html)
       has developed a [research agenda](http://www.doe.mass.edu/research/agenda.pdf)
       and posts the results of all [completed evaluations](http://www.doe.mass.edu/research/reports/category.aspx?section=program),
-      as well as o[ther research reports](http://www.doe.mass.edu/research/reports/).
+      as well as [other research reports](http://www.doe.mass.edu/research/reports/).
     criteria: Evaluation Policies
     state_outline:
       sys:

@@ -6,7 +6,7 @@
   height: 100px;
   position: relative;
   .color-overlay {
-    background-color: transparentize($blue, .2);
+    background-color: transparentize($blue, 0.2);
     position: absolute;
     top: 0;
     bottom: 0;
@@ -22,12 +22,5 @@
     @include breakpoint($small-only) {
       padding: 15px;
     }
-  }
-}
-
-.media-icons {
-  display: none;
-  @include breakpoint($large) {
-    display: inline;
   }
 }

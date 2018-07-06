@@ -45,8 +45,15 @@ seo_image_path: #'/images/media/filename.jpg'
 
   <section class="section section__leading-list">
   <!-- <a name="leading-effort"></a> -->
+  {% assign allCriteria = site.data.contentful.criteria.criteria %}
+
     {%for example in leadingList %}
-    {% include example.html example=leadingExample criteriaName=example.criteria%}
+    {%assign criteriaTitle = example.criteria %}
+    {%assign currentCriteria = allCriteria | where: "title", criteriaTitle %}
+    {%assign currentOrder = currentCriteria[0].order%}
+
+
+    {% include example.html example=leadingExample criteriaName=example.criteria order=currentOrder%}
     <div class="row align-center">
       <div class="column large-10">
         <hr class="hr--long">

@@ -1,0 +1,24 @@
+  {%assign encoded_url = page.url | absolute_url | url_encode %}
+  {%assign encoded_title = page.title | url_encode%}
+
+   {%assign escaped_url = page.url | absolute_url | url_encode %}
+  {%assign escaped_title = page.title | escape %}
+
+
+  {%assign facebook_share_link = "https://www.facebook.com/sharer.php?u=" | append: encoded_url | append: "&t=" | append: encoded_title %}
+
+  {% assign twitter_share_link = "https://twitter.com/intent/tweet?url=" | append: encoded_url | append: "&text=" | append: encoded_title | append: "&via=" | append: site.twitter_username %}
+
+  {% assign mail_link = "mailto:?subject=" | append: escaped_title | append: "&body=" | append: escaped_title | append: "%0D%0A%0D%0A" |append: escaped_url%}
+
+  <ul>
+    <li class="social-media-link facebook">
+      <a href="{{facebook_share_link}}" alt="Facebook share link" class="" target="_blank"><i class="fa fa-facebook"></i></a>
+    </li>
+    <li class="social-media-link twitter">
+      <a href="{{twitter_share_link}}" alt="Twitter share link" class="" target="_blank"><i class="fa fa-twitter"></i></a>
+    </li>
+    <li class="social-media-link email">
+      <a href="{{mail_link}}" alt="Email share link" class="" target="_blank"><i class="fa fa-envelope"></i></a>
+    </li>
+  </ul>

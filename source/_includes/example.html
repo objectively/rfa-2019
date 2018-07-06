@@ -2,18 +2,23 @@
 
 
 {%if include.criteriaName%}
-<div class="row align-center"
-  {%if include.criteriaName%}
-  id={{include.criteriaName | slugify}}
-  {%endif%}>
-  <div class="column large-8 medium-8 small-12">
-    <h3 class="example__title--leading">{{include.criteriaName}}</h3>
+  <div class="row align-center"
+    {% if include.criteriaName %}
+    id={{include.criteriaName | slugify}}
+    {% endif %}>
+    <div class="column large-8 medium-8 small-12">
+      <h3 class="example__title--leading">{{include.criteriaName}}</h3>
+    </div>
+  </div>
+{%endif%}
+<div class="row align-center">
+  <div class="column large-10">
+    {{example.long_description | markdownify }}
   </div>
 </div>
-{%endif%}
 <div class="row align-center"
   {%if example.state%}
-  id={{example.state | slugify}}
+    id={{example.state | slugify}}
   {%endif%}>
   <div class="column large-8 medium-8 small-12">
     <div class="example__state-outline">
@@ -32,7 +37,7 @@
 <div class="row align-center">
   <div class="column large-10 markdown">
     {% if example.long_description %}
-    {{ example.long_description | markdownify }}
+      {{ example.long_description | markdownify }}
     {% endif %}
   </div>
 </div>

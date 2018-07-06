@@ -1,6 +1,7 @@
 .top-section {
   padding-top: initial;
   background-color: white;
+  padding-bottom: 0;
   @include breakpoint($large) {
     padding-top: 10px;
   }

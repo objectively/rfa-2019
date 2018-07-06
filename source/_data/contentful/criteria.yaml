@@ -3,13 +3,13 @@ criteria:
 - sys:
     id: 4upxBzECbmmYUQO4wYGWgg
     created_at: !ruby/object:DateTime 2018-06-20 19:13:35.134000000 Z
-    updated_at: !ruby/object:DateTime 2018-07-06 14:56:42.281000000 Z
+    updated_at: !ruby/object:DateTime 2018-07-06 17:48:43.902000000 Z
     content_type_id: criteria
   title: Strategic Goals
   order: 1
   description: Did the Governor have public statewide strategic goals?
   explanation: |-
-    __Why is this important?__
+    __Why is this important?__<br>
     The creation of statewide strategic goals is an important first step in aligning goals, expenditures, and programmatic activities as a way to improve outcomes on a state government’s highest priorities.
   leading_list:
     sys:

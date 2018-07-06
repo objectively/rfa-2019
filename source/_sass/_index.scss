@@ -1,38 +1,42 @@
-.buttons {
-  margin-top: 60px;
+.button-container {
+  margin-top: 50px;
   margin-bottom: 20px;
-  @include breakpoint($small-only) {
-    margin-bottom: 0px;
-  }
-  .download-button {
-    text-align: center;
-    color: $dark-blue;
-    background-color: white;
-    border: 2px solid $blue;
-    font-weight: 600;
-    margin: 0px 0px 20px 0;
-    padding: 10px 10px 10px 50px;
-    @include breakpoint($medium-only) {
-      font-size: .9rem;
-      padding-left: 25px;
-    }
+  text-align: center;
+  .buttons {
     @include breakpoint($small-only) {
-      font-size: .9rem;
-      padding-left: 50px;
+      margin-bottom: 0px;
     }
-    &:hover {
-      background-color: $blue;
-      color: white;
-    }
-    .material-icons {
-      display: inline-block;
-      margin-left: 80px;
-    }
-    &--summary {
+    .download-button {
+      text-align: center;
+      color: $dark-blue;
+      background-color: white;
+      border: 2px solid $blue;
+      font-weight: 600;
+      margin: 0px 0px 20px 0;
+      padding: 11px 10px 10px 20px;
+      @include breakpoint($medium-only) {
+        font-size: .9rem;
+        padding-left: 20px;
+      }
+      @include breakpoint($small-only) {
+        font-size: .9rem;
+        padding-left: 20px;
+      }
+      &:hover {
+        background-color: $blue;
+        color: white;
+      }
       .material-icons {
         display: inline-block;
-        margin-left: 47px;
+        margin-left: 10px;
       }
     }
+  }
+}
+
+.footnote {
+  background-color: $light-gray;
+  p {
+    font-size: 1rem;
   }
 }

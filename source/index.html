@@ -22,12 +22,21 @@ seo_image_path: #'/images/media/filename.jpg'
           {{ page.short_description | markdownify }}
         </div>
       </div>
-      <div class="row align-center buttons">
-        <div class="column large-5 medium-6 small-12">
-          <a href="#" class="button download-button">Download Index<i class="material-icons arrow">arrow_forward</i></a>
+      <div class="button-container">
+        <div class="row align-center buttons">
+          <div class="column large-5 medium-7 small-12">
+            <a href="#" class="button download-button">Download the State Standard<i class="material-icons arrow">arrow_forward</i></a>
+          </div>
         </div>
-        <div class="column large-5 medium-6 small-12">
-          <a href="#" class="button download-button download-button--summary">Download Summary<i class="material-icons arrow">arrow_forward</i></a>
+        <div class="row align-center buttons">
+          <div class="column large-5 medium-7 small-12">
+            <a href="#" class="button download-button">Download Summary Version<i class="material-icons arrow">arrow_forward</i></a>
+          </div>
+        </div>
+        <div class="row align-center buttons">
+          <div class="column large-5 medium-7 small-12">
+            <a href="#" class="button download-button">Download Appendix<i class="material-icons arrow">arrow_forward</i></a>
+          </div>
         </div>
       </div>
     </section>
@@ -46,10 +55,10 @@ seo_image_path: #'/images/media/filename.jpg'
                 S = Statewide
               </span>
               <span>
-                A = Single Agency
+                M = Multiple Agencies
               </span>
               <span>
-                M = Multiple Agencies
+                A = Single Agency
               </span>
             </td>
           </tr>
@@ -59,7 +68,7 @@ seo_image_path: #'/images/media/filename.jpg'
                 {% assign url = "/state-standard-of-excellence/" | append: title | append: ".html" %}
                 <td class="title" onclick="window.location='{{ url | relative_url }}';">
                   <span>
-                    <a href="{{ url | relative_url }}"><span class="before-launch">{{ item.title }}</span><i class="material-icons launch-leading launch-leading--title">launch</i></a>
+                    <a href="{{ url | relative_url }}"><span class="before-launch">{{ item.order }}. {{ item.title }}</span><i class="material-icons launch-leading launch-leading--title">launch</i></a>
                   </span>
                   <span class="tooltip">
                     {{ item.description }}
@@ -94,13 +103,14 @@ seo_image_path: #'/images/media/filename.jpg'
                       </span>
                       <span class="leading-type leading-type--desktop">
                         {% if leading-type %}
-                          {% if leading-type == "Statewide" %}
-                            S
-                          {% else if leading-type == "Single agency" %}
-                            A
-                          {% else if leading-type == "Multiple agencies" %}
-                            M
-                          {% endif %}
+                          {% case leading-type %}
+                            {% when "Statewide" %}
+                              S
+                            {% when "Single agency" %}
+                              A
+                            {% when "Multiple agencies" %}
+                              M
+                          {% endcase %}
                         {% endif %}
                       </span>
                     </div>
@@ -124,13 +134,14 @@ seo_image_path: #'/images/media/filename.jpg'
                       {{ state.state }}
                       {% if promising-type %}
                         <span class="promising-type">
-                          {% if promising-type == "Statewide" %}
-                            S
-                          {% else if promising-type == "Single agency" %}
-                            A
-                          {% else if promising-type == "Multiple agencies" %}
-                            M
-                          {% endif %}
+                          {% case promising-type %}
+                            {% when "Statewide" %}
+                              S
+                            {% when "Single agency" %}
+                              A
+                            {% when "Multiple agencies" %}
+                              M
+                          {% endcase %}
                         </span>
                       {% endif %}
                     </a>
@@ -138,13 +149,14 @@ seo_image_path: #'/images/media/filename.jpg'
                       {{ state.state_abbreviation }}
                       {% if promising-type %}
                         <span class="promising-type">
-                          {% if promising-type == "Statewide" %}
-                            S
-                          {% else if promising-type == "Single agency" %}
-                            A
-                          {% else if promising-type == "Multiple agencies" %}
-                            M
-                          {% endif %}
+                          {% case promising-type %}
+                            {% when "Statewide" %}
+                              S
+                            {% when "Single agency" %}
+                              A
+                            {% when "Multiple agencies" %}
+                              M
+                          {% endcase %}
                         </span>
                       {% endif %}
                     </a>
@@ -153,6 +165,29 @@ seo_image_path: #'/images/media/filename.jpg'
               </tr>
             {% endfor %}
         </table>
+
+      </div>
+      <div class="row align-center expanded footnote">
+        <div class="column large-8 small-12">
+          <p><strong>1.</strong> The views expressed herein are those of Results for America and do not necessarily reflect the views of the Pew Charitable Trusts or the John D. and Catherine T. MacArthur Foundation.</p>
+        </div>
+      </div>
+      <div class="button-container">
+        <div class="row align-center buttons">
+          <div class="column large-5 medium-6 small-12">
+            <a href="#" class="button download-button">Download the State Standard<i class="material-icons arrow">arrow_forward</i></a>
+          </div>
+        </div>
+        <div class="row align-center buttons">
+          <div class="column large-5 medium-6 small-12">
+            <a href="#" class="button download-button">Download Summary Version<i class="material-icons arrow">arrow_forward</i></a>
+          </div>
+        </div>
+        <div class="row align-center buttons">
+          <div class="column large-5 medium-6 small-12">
+            <a href="#" class="button download-button">Download Appendix<i class="material-icons arrow">arrow_forward</i></a>
+          </div>
+        </div>
       </div>
     </section>
 

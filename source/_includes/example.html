@@ -15,7 +15,7 @@
 {% for item in criteria %}
   {% if item.title == include.criteriaName %}
     <div class="row align-center">
-      <div class="column large-10 criteria-description">
+      <div class="column large-10 criteria-description markdown">
         {{ item.description | markdownify }}
       </div>
     </div>

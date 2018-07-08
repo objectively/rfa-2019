@@ -3,14 +3,16 @@ leadingPage:
 - sys:
     id: 3OHvBWPKE0wsMUAYCWq6us
     created_at: !ruby/object:DateTime 2018-06-25 15:16:05.213000000 Z
-    updated_at: !ruby/object:DateTime 2018-07-06 16:30:27.107000000 Z
+    updated_at: !ruby/object:DateTime 2018-07-08 17:55:41.606000000 Z
     content_type_id: leadingPage
   title: Leading Examples Page
-  description: The 2018 State Standard of Excellence highlights the structure state
-    governments need to have in place to be able to use data, evidence, and evaluation
-    when making budget, policy, and management decisions. Below are the leading efforts,
-    policies, programs, and systems that were in effect in state governments in April
-    2018.
+  description: 'Results for America classified state governments’ data-driven and
+    evidence-based practices, policies, programs, and systems as “leading” examples
+    based on whether the examples met the requirements of the criteria question; were
+    in effect in April 2018; were verifiable with publicly available information;
+    and the extent to which the examples exhibited four characteristics: breadth,
+    depth, legal framework, and interconnectedness. See Methodology (p. 14) section
+    of the full report for more details. '
   leading_list:
   - sys:
       id: 4CxWgqjHzqkCAgY00SIMuK
@@ -222,6 +224,19 @@ leadingPage:
       title: massachusetts
       description: 
       url: "//images.ctfassets.net/cu0oxaxjfcsj/1f7jJ3CtbckIsAeACuc4KI/45f430f4a8d147a78b45ae4ad5d66311/massachusetts.svg"
+    year: '2018'
+  - sys:
+      id: 27CW9N7CjOUyKgsYq8uac4
+      created_at: !ruby/object:DateTime 2018-06-26 22:02:13.609000000 Z
+      updated_at: !ruby/object:DateTime 2018-07-06 00:25:12.884000000 Z
+      content_type_id: leading
+    state: None
+    state_abbreviation: "--"
+    short_description: Results for America was not able to identify any states with
+      leading or promising examples for this criteria.
+    long_description: Results for America was not able to identify __any__ states
+      with leading or promising examples for this criteria.
+    criteria: Evaluation Resources
     year: '2018'
   - sys:
       id: 1wbZOUfttiEe8Smm2MCqQk

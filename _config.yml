@@ -22,7 +22,7 @@ url: "https://objectively.github.io" # the base hostname & protocol for your sit
 project_url: "/state-standard-of-excellence/"
 twitter_username: results4america
 github_username:
-seo_image_path: #'/images/media/filename.jpg'
+seo_image_path: '/images/rfa-og.jpg'
 
 # Build settings
 markdown: kramdown

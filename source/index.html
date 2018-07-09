@@ -82,13 +82,14 @@ seo_image_path: #'/images/media/filename.jpg'
                       <a style="text-decoration:none;" href="{{ url-leading-example | relative_url }}">{{item.leading_list.state_abbreviation}}
                         <span class="leading-type">
                           {% if leading-type %}
-                            {% if leading-type == "Statewide" %}
-                              S
-                            {% else if leading-type == "Single agency" %}
-                              A
-                            {% else if leading-type == "Multiple agencies" %}
-                              M
-                            {% endif %}
+                            {% case leading-type %}
+                              {% when "Statewide" %}
+                                S
+                              {% when "Single agency" %}
+                                A
+                              {% when "Multiple agencies" %}
+                                M
+                            {% endcase %}
                           {% endif %}
                         </span>
                       </a>

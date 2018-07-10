@@ -22,23 +22,7 @@ seo_image_path: #'/images/media/filename.jpg'
           {{ page.short_description | markdownify }}
         </div>
       </div>
-      <div class="button-container">
-        <div class="row align-center buttons">
-          <div class="column large-5 medium-7 small-12">
-            <a href="{{page.download_url}}" target="_blank" class="button download-button">Download the State Standard<i class="material-icons arrow">arrow_forward</i></a>
-          </div>
-        </div>
-        <div class="row align-center buttons">
-          <div class="column large-5 medium-7 small-12">
-            <a href="{{page.download_summary}}" target="_blank" class="button download-button">Download Summary Version<i class="material-icons arrow">arrow_forward</i></a>
-          </div>
-        </div>
-        <div class="row align-center buttons">
-          <div class="column large-5 medium-7 small-12">
-            <a href="{{page.download_appendix}}" target="_blank" class="button download-button">Download Appendix<i class="material-icons arrow">arrow_forward</i></a>
-          </div>
-        </div>
-      </div>
+      {% include buttons.html %}
     </section>
 
     <section class="table">
@@ -173,26 +157,8 @@ seo_image_path: #'/images/media/filename.jpg'
           <p><strong>1.</strong> The views expressed herein are those of Results for America and do not necessarily reflect the views of the Pew Charitable Trusts or the John D. and Catherine T. MacArthur Foundation.</p>
         </div>
       </div>
-      <div class="button-container">
-        <div class="row align-center buttons">
-          <div class="column large-5 medium-6 small-12">
-            <a href="{{page.download_url}}" target="_blank" class="button download-button">Download the State Standard<i class="material-icons arrow">arrow_forward</i></a>
-          </div>
-        </div>
-        <div class="row align-center buttons">
-          <div class="column large-5 medium-6 small-12">
-            <a href="{{page.download_summary}}" target="_blank" class="button download-button">Download Summary Version<i class="material-icons arrow">arrow_forward</i></a>
-          </div>
-        </div>
-        <div class="row align-center buttons">
-          <div class="column large-5 medium-6 small-12">
-            <a href="{{page.download_appendix}}" target="_blank" class="button download-button">Download Appendix<i class="material-icons arrow">arrow_forward</i></a>
-          </div>
-        </div>
-      </div>
+      {% include buttons.html %}
     </section>
-
-
 
   </main>
 {% endfor %}

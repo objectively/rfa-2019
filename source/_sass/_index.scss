@@ -16,19 +16,31 @@
       padding: 11px 10px 10px 20px;
       @include breakpoint($medium-only) {
         font-size: .9rem;
-        padding-left: 20px;
+        padding-left: 15px;
       }
       @include breakpoint($small-only) {
-        font-size: .9rem;
-        padding-left: 20px;
+        font-size: .85rem;
+        padding-left: 15px;
       }
       &:hover {
         background-color: $blue;
         color: white;
       }
+      &--large:before {
+        content: "Download State Standard Criteria Questions";
+        @include breakpoint($small-only) {
+          content: "Download Criteria Questions";
+        }
+      }
       .material-icons {
         display: inline-block;
         margin-left: 10px;
+        @include breakpoint($medium-only) {
+          font-size: 1.2rem;
+        }
+        @include breakpoint($small-only) {
+          font-size: 1.1rem;
+        }
       }
     }
   }

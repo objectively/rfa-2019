@@ -1,19 +1,140 @@
-var gulp = require('gulp');
+/* =========================================
+  gulp plugins
+========================================= */
 
-// For Development: `gulp` will run `gulp serve`, to build and watch
+const autoprefixer = require('gulp-autoprefixer');
+const browserSync = require('browser-sync');
+const cleanCSS = require('gulp-clean-css');
+const htmlmin = require('gulp-htmlmin');
+const ghPages = require('gulp-gh-pages');
+const gulp = require('gulp');
+const mocha = require('gulp-spawn-mocha');
+const plumber = require('gulp-plumber');
+const rename = require('gulp-rename');
+const sass = require('gulp-sass');
+const shell = require('gulp-shell');
+const webpack = require('webpack-stream');
+const webpackDevConfig = require('./webpack-dev.config.js');
+const webpackProdConfig = require('./webpack-prod.config.js');
 
-// For Deployment: `gulp deploy`
+/* =========================================
+  html
+========================================= */
 
-require('./gulp/tasks/build_dev')();
-require('./gulp/tasks/build_prod')();
-require('./gulp/tasks/deploy')();
-require('./gulp/tasks/html')();
-require('./gulp/tasks/images')();
-require('./gulp/tasks/scripts')();
-require('./gulp/tasks/serve')();
-require('./gulp/tasks/styles')();
-require("./gulp/tasks/tests")();
-require('./gulp/tasks/watch')();
+gulp.task('build:html', () =>
+  gulp
+    .src('_site/**/*.html')
+    .pipe(htmlmin({ collapseWhitespace: true }))
+    .pipe(gulp.dest('_site/'))
+);
 
-// DEFAULT
-gulp.task('default', ['serve']);
+/* =========================================
+  styles
+========================================= */
+
+gulp.task('build:styles', () =>
+  gulp
+    .src('source/_sass/styles.scss')
+    .pipe(plumber())
+    .pipe(sass())
+    .pipe(
+      autoprefixer({
+        browsers: ['last 2 versions', '> 5%', 'IE 9']
+      })
+    )
+    .pipe(cleanCSS({ compatibility: 'ie8' }))
+    .pipe(rename('style.min.css'))
+    .pipe(gulp.dest('source/assets/'))
+    .pipe(gulp.dest('_site/assets/'))
+    .pipe(browserSync.stream())
+);
+
+/* =========================================
+  scripts
+========================================= */
+
+gulp.task('build:scripts:dev', () =>
+  gulp
+    .src('source/_js/scripts.js')
+    .pipe(plumber())
+    .pipe(webpack(webpackDevConfig))
+    .pipe(gulp.dest('source/assets/'))
+    .pipe(gulp.dest('_site/assets/'))
+);
+
+gulp.task('build:scripts:prod', () =>
+  gulp
+    .src('source/_js/scripts.js')
+    .pipe(plumber())
+    .pipe(webpack(webpackProdConfig))
+    .pipe(gulp.dest('source/assets/'))
+    .pipe(gulp.dest('_site/assets/'))
+);
+
+/* =========================================
+ build dev
+========================================= */
+
+gulp.task('build:jekyll', shell.task('bundle exec jekyll build --incremental --config _config.yml,_config_dev.yml'));
+
+gulp.task('build:jekyll:dev', gulp.series('build:jekyll', 'build:html'));
+
+gulp.task('build:dev', gulp.series(gulp.series('build:scripts:dev', 'build:styles'), 'build:jekyll', 'build:html'));
+
+/* =========================================
+  build prod
+========================================= */
+gulp.task('jekyll:clean', shell.task(['bundle exec jekyll clean']));
+
+gulp.task('build:jekyll:prod', shell.task('bundle exec jekyll build'));
+
+gulp.task(
+  'build:prod',
+  gulp.series('jekyll:clean', 'build:scripts:prod', 'build:styles', 'build:jekyll:prod', 'build:html')
+);
+
+
+/* =========================================
+  deploy
+========================================= */
+
+gulp.task('push-gh-master', shell.task(['git push origin master']));
+
+gulp.task('push-gh-pages', () => gulp.src('_site/**/*').pipe(ghPages({ force: true })));
+
+gulp.task('deploy', gulp.series('build:prod', 'push-gh-master', 'push-gh-pages'));
+
+/* =========================================
+  serve
+========================================= */
+
+// BrowserSync Reload
+function browserSyncReload(done) {
+  browserSync.reload();
+  done();
+}
+
+gulp.task('build:jekyll:watch', gulp.series('build:jekyll:dev'), done => {
+  browserSync.reload();
+  done();
+});
+gulp.task('build:scripts:watch', gulp.series('build:scripts:dev'), done => {
+  browserSync.reload();
+  done();
+});
+
+gulp.task('serve', done => {
+  browserSync.init({
+    server: '_site',
+    ghostMode: false,
+    logFileChanges: true,
+    open: false
+  });
+  gulp.watch('source/**/*.scss', gulp.series('build:styles'));
+  gulp.watch('source/_js/*.js', gulp.series('build:scripts:dev', browserSyncReload));
+  gulp.watch(['source/**/*.html', '!_site/**/*.*'], gulp.series('build:jekyll:dev', browserSyncReload));
+  gulp.watch('_data/**.*+(yml|yaml|csv|json)', gulp.series('build:jekyll:dev', browserSyncReload));
+  done();
+});
+
+gulp.task('default', gulp.series('build:dev', 'serve'));

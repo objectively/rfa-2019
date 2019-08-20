@@ -3,8 +3,9 @@ criteria:
 - sys:
     id: 4upxBzECbmmYUQO4wYGWgg
     created_at: !ruby/object:DateTime 2018-06-20 19:13:35.134000000 Z
-    updated_at: !ruby/object:DateTime 2018-07-06 19:56:42.129000000 Z
+    updated_at: !ruby/object:DateTime 2019-08-14 14:34:52.514000000 Z
     content_type_id: criteria
+    revision: 7
   title: Strategic Goals
   order: 1
   description: Did the Governor have public statewide strategic goals?
@@ -17,6 +18,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-20 19:03:08.652000000 Z
       updated_at: !ruby/object:DateTime 2018-06-26 21:57:49.126000000 Z
       content_type_id: leading
+      revision: 4
     state: Colorado
     state_abbreviation: CO
     type: Statewide
@@ -42,6 +44,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-20 19:07:17.885000000 Z
       updated_at: !ruby/object:DateTime 2018-07-05 23:57:59.973000000 Z
       content_type_id: promising
+      revision: 4
     state: Oregon
     state_abbreviation: OR
     type: Statewide
@@ -64,6 +67,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-20 19:10:56.038000000 Z
       updated_at: !ruby/object:DateTime 2018-06-20 19:10:56.038000000 Z
       content_type_id: promising
+      revision: 1
     state: Tennessee
     state_abbreviation: TN
     type: Statewide
@@ -91,6 +95,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-20 19:11:54.091000000 Z
       updated_at: !ruby/object:DateTime 2018-06-29 18:01:50.349000000 Z
       content_type_id: promising
+      revision: 3
     state: Washington
     state_abbreviation: WA
     type: Statewide
@@ -105,11 +110,13 @@ criteria:
       importance, and tracks progress using data, graphs, and charts.'
     criteria: Strategic Goals
     year: '2018'
+  year: '2018'
 - sys:
     id: 1aFm8xMg3GCk0iWa4OgkEq
     created_at: !ruby/object:DateTime 2018-06-22 15:57:55.278000000 Z
-    updated_at: !ruby/object:DateTime 2018-07-06 20:00:23.920000000 Z
+    updated_at: !ruby/object:DateTime 2019-08-14 14:37:31.538000000 Z
     content_type_id: criteria
+    revision: 5
   title: Performance Management / Continuous Improvement
   order: 2
   description: Did the state or any of its agencies implement a performance management
@@ -126,6 +133,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-22 15:55:10.657000000 Z
       updated_at: !ruby/object:DateTime 2018-06-22 15:55:10.657000000 Z
       content_type_id: leading
+      revision: 1
     state: Tennessee
     state_abbreviation: TN
     type: Statewide
@@ -159,6 +167,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-22 15:32:48.568000000 Z
       updated_at: !ruby/object:DateTime 2018-06-29 18:05:22.112000000 Z
       content_type_id: promising
+      revision: 2
     state: California
     state_abbreviation: CA
     type: Single agency
@@ -178,6 +187,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-22 15:33:27.362000000 Z
       updated_at: !ruby/object:DateTime 2018-07-05 23:55:31.206000000 Z
       content_type_id: promising
+      revision: 3
     state: Colorado
     state_abbreviation: CO
     type: Statewide
@@ -200,6 +210,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-22 15:34:05.632000000 Z
       updated_at: !ruby/object:DateTime 2018-06-29 18:09:10.466000000 Z
       content_type_id: promising
+      revision: 2
     state: Florida
     state_abbreviation: FL
     type: Single agency
@@ -225,6 +236,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-22 15:36:08.661000000 Z
       updated_at: !ruby/object:DateTime 2018-07-05 23:56:08.435000000 Z
       content_type_id: promising
+      revision: 3
     state: Maryland
     state_abbreviation: MD
     type: Statewide
@@ -247,6 +259,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-22 15:36:42.475000000 Z
       updated_at: !ruby/object:DateTime 2018-07-05 23:56:27.166000000 Z
       content_type_id: promising
+      revision: 4
     state: Minnesota
     state_abbreviation: MN
     type: Statewide
@@ -264,6 +277,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-22 15:37:37.017000000 Z
       updated_at: !ruby/object:DateTime 2018-07-02 15:14:56.031000000 Z
       content_type_id: promising
+      revision: 3
     state: New Mexico
     state_abbreviation: NM
     type: Statewide
@@ -286,6 +300,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-22 15:44:58.644000000 Z
       updated_at: !ruby/object:DateTime 2018-06-22 15:44:58.644000000 Z
       content_type_id: promising
+      revision: 1
     state: Oklahoma
     state_abbreviation: OK
     type: Statewide
@@ -302,6 +317,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-22 15:45:40.964000000 Z
       updated_at: !ruby/object:DateTime 2018-06-29 18:18:19.893000000 Z
       content_type_id: promising
+      revision: 2
     state: Oregon
     state_abbreviation: OR
     type: Statewide
@@ -320,6 +336,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-22 15:46:30.432000000 Z
       updated_at: !ruby/object:DateTime 2018-07-05 23:57:17.779000000 Z
       content_type_id: promising
+      revision: 3
     state: Virginia
     state_abbreviation: VA
     type: Statewide
@@ -344,6 +361,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-22 15:48:20.006000000 Z
       updated_at: !ruby/object:DateTime 2018-06-29 18:23:07.517000000 Z
       content_type_id: promising
+      revision: 2
     state: Washington
     state_abbreviation: WA
     type: Statewide
@@ -374,6 +392,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-22 15:48:49.588000000 Z
       updated_at: !ruby/object:DateTime 2018-06-29 18:24:49.099000000 Z
       content_type_id: promising
+      revision: 2
     state: Wisconsin
     state_abbreviation: WI
     type: Statewide
@@ -385,11 +404,13 @@ criteria:
       containing agency goals and performance data.
     criteria: Performance Management / Continuous Improvement
     year: '2018'
+  year: '2018'
 - sys:
     id: 3TZiYbQEC4mo0uuUgocyOQ
     created_at: !ruby/object:DateTime 2018-06-25 04:13:22.401000000 Z
-    updated_at: !ruby/object:DateTime 2018-07-06 20:00:09.957000000 Z
+    updated_at: !ruby/object:DateTime 2019-08-14 14:37:19.085000000 Z
     content_type_id: criteria
+    revision: 5
   title: Data Leadership
   order: 3
   description: 'Did the governor’s office or any state agency have a senior staff
@@ -407,6 +428,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-25 04:09:55.477000000 Z
       updated_at: !ruby/object:DateTime 2018-06-29 20:06:27.862000000 Z
       content_type_id: leading
+      revision: 3
     state: Indiana
     state_abbreviation: IN
     type: Statewide
@@ -441,6 +463,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-07-02 14:01:48.089000000 Z
       updated_at: !ruby/object:DateTime 2018-07-02 14:01:48.089000000 Z
       content_type_id: promising
+      revision: 1
     state: Arkansas
     state_abbreviation: AR
     type: Statewide
@@ -463,6 +486,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-25 04:10:51.633000000 Z
       updated_at: !ruby/object:DateTime 2018-07-02 15:15:27.254000000 Z
       content_type_id: promising
+      revision: 3
     state: Connecticut
     state_abbreviation: CT
     type: Statewide
@@ -490,6 +514,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-25 04:11:33.516000000 Z
       updated_at: !ruby/object:DateTime 2018-06-29 18:31:02.962000000 Z
       content_type_id: promising
+      revision: 2
     state: Michigan
     state_abbreviation: MI
     type: Statewide
@@ -514,6 +539,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-25 04:12:12.963000000 Z
       updated_at: !ruby/object:DateTime 2018-07-02 15:16:14.250000000 Z
       content_type_id: promising
+      revision: 3
     state: North Carolina
     state_abbreviation: NC
     type: Statewide
@@ -531,11 +557,13 @@ criteria:
       budgets, and results.”
     criteria: Data Leadership
     year: '2018'
+  year: '2018'
 - sys:
     id: 5ew88SpH0QSmIUus060mw0
     created_at: !ruby/object:DateTime 2018-06-25 04:20:08.423000000 Z
-    updated_at: !ruby/object:DateTime 2018-07-06 19:59:44.374000000 Z
+    updated_at: !ruby/object:DateTime 2019-08-14 14:37:07.487000000 Z
     content_type_id: criteria
+    revision: 4
   title: Data Policies / Agreements
   order: 4
   description: 'Did the state or any of its agencies have data-sharing policies and
@@ -553,6 +581,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-25 04:14:47.968000000 Z
       updated_at: !ruby/object:DateTime 2018-07-06 00:08:54.281000000 Z
       content_type_id: leading
+      revision: 4
     state: Washington
     state_abbreviation: WA
     type: Multiple agencies
@@ -582,6 +611,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-25 04:15:35.268000000 Z
       updated_at: !ruby/object:DateTime 2018-07-02 15:16:57.208000000 Z
       content_type_id: promising
+      revision: 3
     state: Connecticut
     state_abbreviation: CT
     type: Statewide
@@ -603,6 +633,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-25 04:16:09.623000000 Z
       updated_at: !ruby/object:DateTime 2018-06-29 18:38:19.053000000 Z
       content_type_id: promising
+      revision: 2
     state: Delaware
     state_abbreviation: DE
     type: Statewide
@@ -627,6 +658,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-25 04:16:53.930000000 Z
       updated_at: !ruby/object:DateTime 2018-06-29 18:39:09.855000000 Z
       content_type_id: promising
+      revision: 2
     state: Georgia
     state_abbreviation: GA
     type: Single agency
@@ -648,6 +680,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-25 04:17:42.009000000 Z
       updated_at: !ruby/object:DateTime 2018-06-29 18:41:08.456000000 Z
       content_type_id: promising
+      revision: 2
     state: Maryland
     state_abbreviation: MD
     type: Statewide
@@ -669,6 +702,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-25 04:18:17.413000000 Z
       updated_at: !ruby/object:DateTime 2018-06-29 18:42:42.486000000 Z
       content_type_id: promising
+      revision: 3
     state: Michigan
     state_abbreviation: MI
     type: Statewide
@@ -692,6 +726,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-25 04:18:54.926000000 Z
       updated_at: !ruby/object:DateTime 2018-07-05 23:58:23.317000000 Z
       content_type_id: promising
+      revision: 4
     state: Texas
     state_abbreviation: TX
     type: Single agency
@@ -713,11 +748,13 @@ criteria:
       on trend and outcome data for students from prekindergarten through college.
     criteria: Data Policies / Agreements
     year: '2018'
+  year: '2018'
 - sys:
     id: 3U3n8nD0PuuuOcSIwQ2Osa
     created_at: !ruby/object:DateTime 2018-06-25 04:28:30.220000000 Z
-    updated_at: !ruby/object:DateTime 2018-07-06 19:59:30.432000000 Z
+    updated_at: !ruby/object:DateTime 2019-08-14 14:36:57.514000000 Z
     content_type_id: criteria
+    revision: 4
   title: Data Use
   order: 5
   description: Did the state or any of its agencies have data systems consistent with
@@ -733,6 +770,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-25 04:21:16.267000000 Z
       updated_at: !ruby/object:DateTime 2018-06-29 20:10:54.669000000 Z
       content_type_id: leading
+      revision: 3
     state: Kentucky
     state_abbreviation: KY
     type: Multiple agencies
@@ -772,6 +810,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-25 04:22:16.079000000 Z
       updated_at: !ruby/object:DateTime 2018-06-29 18:47:51.365000000 Z
       content_type_id: promising
+      revision: 2
     state: California
     state_abbreviation: CA
     type: Single agency
@@ -795,6 +834,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-25 04:22:54.682000000 Z
       updated_at: !ruby/object:DateTime 2018-06-29 18:48:33.098000000 Z
       content_type_id: promising
+      revision: 2
     state: Illinois
     state_abbreviation: IL
     type: Multiple agencies
@@ -813,6 +853,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-25 04:23:44.161000000 Z
       updated_at: !ruby/object:DateTime 2018-06-29 18:49:35.155000000 Z
       content_type_id: promising
+      revision: 2
     state: Indiana
     state_abbreviation: IN
     type: Multiple agencies
@@ -837,6 +878,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-25 04:24:27.175000000 Z
       updated_at: !ruby/object:DateTime 2018-06-29 18:50:55.308000000 Z
       content_type_id: promising
+      revision: 2
     state: Maryland
     state_abbreviation: MD
     type: Multiple agencies
@@ -861,6 +903,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-25 04:25:01.768000000 Z
       updated_at: !ruby/object:DateTime 2018-06-29 18:52:28.924000000 Z
       content_type_id: promising
+      revision: 2
     state: Massachusetts
     state_abbreviation: MA
     type: Multiple agencies
@@ -884,6 +927,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-25 04:25:32.914000000 Z
       updated_at: !ruby/object:DateTime 2018-06-29 18:53:18.138000000 Z
       content_type_id: promising
+      revision: 2
     state: Minnesota
     state_abbreviation: MN
     type: Multiple agencies
@@ -902,6 +946,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-25 04:26:09.079000000 Z
       updated_at: !ruby/object:DateTime 2018-06-29 18:54:12.875000000 Z
       content_type_id: promising
+      revision: 2
     state: South Carolina
     state_abbreviation: SC
     type: Multiple agencies
@@ -923,6 +968,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-25 04:26:46.031000000 Z
       updated_at: !ruby/object:DateTime 2018-06-29 18:55:44.989000000 Z
       content_type_id: promising
+      revision: 2
     state: Washington
     state_abbreviation: WA
     type: Multiple agencies
@@ -954,6 +1000,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-25 04:27:29.124000000 Z
       updated_at: !ruby/object:DateTime 2018-06-29 18:57:13.605000000 Z
       content_type_id: promising
+      revision: 2
     state: Wisconsin
     state_abbreviation: WI
     type: Multiple agencies
@@ -971,11 +1018,13 @@ criteria:
       among relevant state agencies, and has strong privacy protections.
     criteria: Data Use
     year: '2018'
+  year: '2018'
 - sys:
     id: 4YAtsHCws088YgE8QYGSw4
     created_at: !ruby/object:DateTime 2018-06-25 04:31:09.371000000 Z
-    updated_at: !ruby/object:DateTime 2018-07-06 19:59:16.595000000 Z
+    updated_at: !ruby/object:DateTime 2019-08-14 14:36:47.479000000 Z
     content_type_id: criteria
+    revision: 5
   title: Evaluation Leadership
   order: 6
   description: 'Did the governor’s office or any state agency have a senior staff
@@ -990,6 +1039,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-25 04:29:26.330000000 Z
       updated_at: !ruby/object:DateTime 2018-06-29 20:12:18.657000000 Z
       content_type_id: leading
+      revision: 3
     state: Colorado
     state_abbreviation: CO
     type: Statewide
@@ -1022,6 +1072,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-25 04:30:02.777000000 Z
       updated_at: !ruby/object:DateTime 2018-06-29 18:57:45.071000000 Z
       content_type_id: promising
+      revision: 2
     state: California
     state_abbreviation: CA
     type: Single agency
@@ -1035,11 +1086,13 @@ criteria:
       and programs.
     criteria: Evaluation Leadership
     year: '2018'
+  year: '2018'
 - sys:
     id: 5DxMcK9C9imG8KmKmEM0uc
     created_at: !ruby/object:DateTime 2018-06-25 04:35:11.927000000 Z
-    updated_at: !ruby/object:DateTime 2018-07-06 19:59:01.877000000 Z
+    updated_at: !ruby/object:DateTime 2019-08-14 14:36:38.367000000 Z
     content_type_id: criteria
+    revision: 4
   title: Evaluation Policies
   order: 7
   description: Did the state or any of its agencies have an evaluation policy, evaluation
@@ -1054,6 +1107,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-25 04:32:13.605000000 Z
       updated_at: !ruby/object:DateTime 2018-07-06 00:00:33.351000000 Z
       content_type_id: leading
+      revision: 4
     state: Massachusetts
     state_abbreviation: MA
     type: Single agency
@@ -1080,6 +1134,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-25 04:32:55.654000000 Z
       updated_at: !ruby/object:DateTime 2018-06-29 18:58:19.153000000 Z
       content_type_id: promising
+      revision: 2
     state: Kentucky
     state_abbreviation: KY
     type: Multiple agencies
@@ -1099,6 +1154,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-25 04:33:24.697000000 Z
       updated_at: !ruby/object:DateTime 2018-06-29 19:00:09.087000000 Z
       content_type_id: promising
+      revision: 2
     state: Tennessee
     state_abbreviation: TN
     type: Single agency
@@ -1123,6 +1179,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-25 04:34:15.424000000 Z
       updated_at: !ruby/object:DateTime 2018-06-29 19:00:44.642000000 Z
       content_type_id: promising
+      revision: 2
     state: Virginia
     state_abbreviation: VA
     type: Multiple agencies
@@ -1141,11 +1198,13 @@ criteria:
       Commission.'
     criteria: Evaluation Policies
     year: '2018'
+  year: '2018'
 - sys:
     id: 6kH5A9tSzmkCqYsooe2Kca
     created_at: !ruby/object:DateTime 2018-06-25 04:36:32.441000000 Z
-    updated_at: !ruby/object:DateTime 2018-07-06 19:58:51.683000000 Z
+    updated_at: !ruby/object:DateTime 2019-08-14 14:36:28.491000000 Z
     content_type_id: criteria
+    revision: 6
   title: Evaluation Resources
   order: 8
   description: Did the state or any of its agencies invest at least 1% of program
@@ -1159,6 +1218,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-26 22:02:13.609000000 Z
       updated_at: !ruby/object:DateTime 2018-07-06 00:25:12.884000000 Z
       content_type_id: leading
+      revision: 3
     state: None
     state_abbreviation: "--"
     short_description: Results for America was not able to identify any states with
@@ -1173,6 +1233,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-26 22:02:58.537000000 Z
       updated_at: !ruby/object:DateTime 2018-07-06 00:25:57.479000000 Z
       content_type_id: promising
+      revision: 3
     state: None
     state_abbreviation: None
     short_description: Results for America was not able to identify any states with
@@ -1181,11 +1242,13 @@ criteria:
       with leading or promising examples for this criteria.
     criteria: Evaluation Resources
     year: '2018'
+  year: '2018'
 - sys:
     id: 5sGW6L7g7CosWowKQW6ssK
     created_at: !ruby/object:DateTime 2018-06-25 04:43:15.604000000 Z
-    updated_at: !ruby/object:DateTime 2018-07-06 19:58:35.266000000 Z
+    updated_at: !ruby/object:DateTime 2019-08-14 14:36:16.801000000 Z
     content_type_id: criteria
+    revision: 4
   title: Outcome Data
   order: 9
   description: Did the state or any of its agencies report or require outcome data
@@ -1199,6 +1262,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-25 04:37:39.405000000 Z
       updated_at: !ruby/object:DateTime 2018-06-29 20:15:25.120000000 Z
       content_type_id: leading
+      revision: 3
     state: New Mexico
     state_abbreviation: NM
     type: Statewide
@@ -1229,6 +1293,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-25 04:38:26.682000000 Z
       updated_at: !ruby/object:DateTime 2018-06-29 19:02:00.471000000 Z
       content_type_id: promising
+      revision: 2
     state: Colorado
     state_abbreviation: CO
     type: Statewide
@@ -1256,6 +1321,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-25 04:39:05.922000000 Z
       updated_at: !ruby/object:DateTime 2018-06-29 19:02:36.791000000 Z
       content_type_id: promising
+      revision: 2
     state: Minnesota
     state_abbreviation: MN
     type: Statewide
@@ -1273,6 +1339,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-25 04:39:55.128000000 Z
       updated_at: !ruby/object:DateTime 2018-06-29 19:03:53.928000000 Z
       content_type_id: promising
+      revision: 2
     state: Mississippi
     state_abbreviation: MS
     type: Multiple agencies
@@ -1300,6 +1367,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-25 04:40:34.468000000 Z
       updated_at: !ruby/object:DateTime 2018-06-29 19:04:53.723000000 Z
       content_type_id: promising
+      revision: 2
     state: Oregon
     state_abbreviation: OR
     type: Statewide
@@ -1320,6 +1388,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-25 04:41:09.265000000 Z
       updated_at: !ruby/object:DateTime 2018-06-29 19:05:16.882000000 Z
       content_type_id: promising
+      revision: 2
     state: Utah
     state_abbreviation: UT
     type: Statewide
@@ -1338,11 +1407,13 @@ criteria:
       and evaluation will be used to track program outcomes.'
     criteria: Outcome Data
     year: '2018'
+  year: '2018'
 - sys:
     id: rD6cYuWgxMWaAsemuMA8W
     created_at: !ruby/object:DateTime 2018-06-25 04:56:17.282000000 Z
-    updated_at: !ruby/object:DateTime 2018-07-06 19:58:22.475000000 Z
+    updated_at: !ruby/object:DateTime 2019-08-14 14:36:07.068000000 Z
     content_type_id: criteria
+    revision: 4
   title: Evidence Definition and Program Inventory
   order: 10
   description: Did the state or any of its agencies release a common evidence framework,
@@ -1358,6 +1429,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-25 04:44:42.643000000 Z
       updated_at: !ruby/object:DateTime 2018-06-29 20:17:49.704000000 Z
       content_type_id: leading
+      revision: 3
     state: Minnesota
     state_abbreviation: MN
     type: Multiple agencies
@@ -1394,6 +1466,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-25 04:45:48.560000000 Z
       updated_at: !ruby/object:DateTime 2018-06-29 19:07:38.431000000 Z
       content_type_id: promising
+      revision: 2
     state: California
     state_abbreviation: CA
     type: Single agency
@@ -1424,6 +1497,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-25 04:46:50.214000000 Z
       updated_at: !ruby/object:DateTime 2018-06-29 19:09:34.817000000 Z
       content_type_id: promising
+      revision: 2
     state: Colorado
     state_abbreviation: CO
     type: Multiple agencies
@@ -1450,6 +1524,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-25 04:47:25.963000000 Z
       updated_at: !ruby/object:DateTime 2018-06-29 19:09:47.084000000 Z
       content_type_id: promising
+      revision: 2
     state: Connecticut
     state_abbreviation: CT
     type: Multiple agencies
@@ -1472,6 +1547,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-25 04:47:59.016000000 Z
       updated_at: !ruby/object:DateTime 2018-06-29 19:10:31.663000000 Z
       content_type_id: promising
+      revision: 2
     state: Florida
     state_abbreviation: FL
     type: Single agency
@@ -1493,6 +1569,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-25 04:48:48.028000000 Z
       updated_at: !ruby/object:DateTime 2018-06-29 19:11:47.063000000 Z
       content_type_id: promising
+      revision: 2
     state: Mississippi
     state_abbreviation: MS
     type: Multiple agencies
@@ -1522,6 +1599,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-25 04:49:42.402000000 Z
       updated_at: !ruby/object:DateTime 2018-07-02 16:55:23.272000000 Z
       content_type_id: promising
+      revision: 4
     state: New Mexico
     state_abbreviation: NM
     type: Multiple agencies
@@ -1549,6 +1627,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-25 04:52:40.377000000 Z
       updated_at: !ruby/object:DateTime 2018-07-02 15:22:36.493000000 Z
       content_type_id: promising
+      revision: 3
     state: Oregon
     state_abbreviation: OR
     type: Multiple agencies
@@ -1582,6 +1661,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-25 04:53:46.258000000 Z
       updated_at: !ruby/object:DateTime 2018-07-02 15:22:32.905000000 Z
       content_type_id: promising
+      revision: 4
     state: Utah
     state_abbreviation: UT
     type: Single agency
@@ -1610,6 +1690,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-25 04:55:13.481000000 Z
       updated_at: !ruby/object:DateTime 2018-07-02 16:08:42.518000000 Z
       content_type_id: promising
+      revision: 3
     state: Washington
     state_abbreviation: WA
     type: Multiple agencies
@@ -1637,11 +1718,13 @@ criteria:
       evidence-based, research-based, and cost beneficial (p. 2).'
     criteria: Evidence Definition and Program Inventory
     year: '2018'
+  year: '2018'
 - sys:
     id: 4iuiaoaxP2AE2G8iMoK0EW
     created_at: !ruby/object:DateTime 2018-06-25 14:44:16.093000000 Z
-    updated_at: !ruby/object:DateTime 2018-07-06 19:57:57.194000000 Z
+    updated_at: !ruby/object:DateTime 2019-08-14 14:35:57.556000000 Z
     content_type_id: criteria
+    revision: 4
   title: Cost-Benefit Analysis
   order: 11
   description: Did the state or any of its agencies assess and make publicly available
@@ -1655,6 +1738,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-25 14:34:39.554000000 Z
       updated_at: !ruby/object:DateTime 2018-07-02 16:57:22.766000000 Z
       content_type_id: leading
+      revision: 4
     state: Washington
     state_abbreviation: WA
     type: Multiple agencies
@@ -1690,6 +1774,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-25 14:35:32.754000000 Z
       updated_at: !ruby/object:DateTime 2018-06-29 19:27:19.932000000 Z
       content_type_id: promising
+      revision: 2
     state: Colorado
     state_abbreviation: CO
     type: Multiple agencies
@@ -1719,6 +1804,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-25 14:36:33.261000000 Z
       updated_at: !ruby/object:DateTime 2018-06-29 19:28:26.526000000 Z
       content_type_id: promising
+      revision: 2
     state: Connecticut
     state_abbreviation: CT
     type: Multiple agencies
@@ -1743,6 +1829,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-25 14:37:08.114000000 Z
       updated_at: !ruby/object:DateTime 2018-06-29 19:30:14.118000000 Z
       content_type_id: promising
+      revision: 2
     state: Minnesota
     state_abbreviation: MN
     type: Multiple agencies
@@ -1763,6 +1850,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-25 14:37:39.498000000 Z
       updated_at: !ruby/object:DateTime 2018-06-29 19:32:34.494000000 Z
       content_type_id: promising
+      revision: 2
     state: Mississippi
     state_abbreviation: MS
     type: Multiple agencies
@@ -1788,6 +1876,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-25 14:38:51.795000000 Z
       updated_at: !ruby/object:DateTime 2018-07-02 15:35:07.795000000 Z
       content_type_id: promising
+      revision: 3
     state: New Mexico
     state_abbreviation: NM
     type: Multiple agencies
@@ -1811,6 +1900,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-25 14:39:23.819000000 Z
       updated_at: !ruby/object:DateTime 2018-06-29 19:35:41.350000000 Z
       content_type_id: promising
+      revision: 3
     state: New York
     state_abbreviation: NY
     type: Multiple agencies
@@ -1831,6 +1921,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-25 14:41:22.742000000 Z
       updated_at: !ruby/object:DateTime 2018-07-02 15:35:29.293000000 Z
       content_type_id: promising
+      revision: 3
     state: Oregon
     state_abbreviation: OR
     type: Multiple agencies
@@ -1857,6 +1948,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-25 14:41:55.108000000 Z
       updated_at: !ruby/object:DateTime 2018-07-02 16:09:40.065000000 Z
       content_type_id: promising
+      revision: 4
     state: Rhode Island
     state_abbreviation: RI
     type: Multiple agencies
@@ -1877,6 +1969,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-25 14:43:11.254000000 Z
       updated_at: !ruby/object:DateTime 2018-06-29 19:38:13.613000000 Z
       content_type_id: promising
+      revision: 2
     state: Utah
     state_abbreviation: UT
     type: Statewide
@@ -1892,11 +1985,13 @@ criteria:
       create the capacity to do more with the same or fewer resources (improved throughput).”'
     criteria: Cost-Benefit Analysis
     year: '2018'
+  year: '2018'
 - sys:
     id: 4790fdelW8mIKscumQuCO6
     created_at: !ruby/object:DateTime 2018-06-25 14:51:16.454000000 Z
-    updated_at: !ruby/object:DateTime 2018-07-06 19:57:40.665000000 Z
+    updated_at: !ruby/object:DateTime 2019-08-14 14:35:48.011000000 Z
     content_type_id: criteria
+    revision: 4
   title: Use of Evidence in Grant Programs
   order: 12
   description: 'Did the state or any of its agencies: (1) invest at least 50% of program
@@ -1912,6 +2007,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-25 14:45:46.494000000 Z
       updated_at: !ruby/object:DateTime 2018-06-29 20:19:31.810000000 Z
       content_type_id: leading
+      revision: 3
     state: Oregon
     state_abbreviation: OR
     type: Multiple agencies
@@ -1945,6 +2041,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-25 14:46:35.205000000 Z
       updated_at: !ruby/object:DateTime 2018-06-29 19:39:01.290000000 Z
       content_type_id: promising
+      revision: 2
     state: Florida
     state_abbreviation: FL
     type: Multiple agencies
@@ -1966,6 +2063,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-25 14:47:05.345000000 Z
       updated_at: !ruby/object:DateTime 2018-06-29 19:39:26.875000000 Z
       content_type_id: promising
+      revision: 2
     state: Georgia
     state_abbreviation: GA
     type: Single agency
@@ -1989,6 +2087,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-25 14:47:52.179000000 Z
       updated_at: !ruby/object:DateTime 2018-06-29 19:41:59.514000000 Z
       content_type_id: promising
+      revision: 3
     state: New York
     state_abbreviation: NY
     type: Multiple agencies
@@ -2007,6 +2106,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-25 14:48:28.149000000 Z
       updated_at: !ruby/object:DateTime 2018-06-29 19:42:54.573000000 Z
       content_type_id: promising
+      revision: 2
     state: Ohio
     state_abbreviation: OH
     type: Single agency
@@ -2027,6 +2127,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-25 14:49:17.402000000 Z
       updated_at: !ruby/object:DateTime 2018-07-02 15:38:10.436000000 Z
       content_type_id: promising
+      revision: 3
     state: Tennessee
     state_abbreviation: TN
     type: Multiple agencies
@@ -2040,11 +2141,13 @@ criteria:
       The 2010 [Complete College Tennessee Act](https://www.tbr.edu/sites/tbr.edu/files/media/2015/01/Complete%20College%20TN%20Act%202010%20-%20signed.pdf) included provisions for using evidence of effectiveness in the funding system for public colleges and universities in the state. The competitive [outcomes-based funding system](https://www.tn.gov/content/dam/tn/thec/bureau/fiscal_admin/fiscal_pol/obff/1_-_Outcomes_Based_Funding_Formula_Overview_-_One_Page.pdf) allocates state funds based on student progress and completion metrics, rather than traditional enrollment-based criteria. The Tennessee Higher Education Commission [annually updates](https://www.tn.gov/thec/bureaus/finance-and-administration/fiscal-policy/redirect-fiscal-policy/outcomes-based-funding-formula-resources/redirect-outcomes-based-funding-formula-resources/2015-20-outcomes-based-funding-formula.html) the funding formula based on outcome data.
     criteria: Use of Evidence in Grant Programs
     year: '2018'
+  year: '2018'
 - sys:
     id: 7x5w43LqI8IuEC004Q6EIO
     created_at: !ruby/object:DateTime 2018-06-25 14:57:17.422000000 Z
-    updated_at: !ruby/object:DateTime 2018-07-06 19:57:25.376000000 Z
+    updated_at: !ruby/object:DateTime 2019-08-14 14:35:38.681000000 Z
     content_type_id: criteria
+    revision: 4
   title: Innovation
   order: 13
   description: Did the state or any of its agencies have staff, policies, and processes
@@ -2058,6 +2161,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-25 14:52:12.465000000 Z
       updated_at: !ruby/object:DateTime 2018-06-29 20:21:26.545000000 Z
       content_type_id: leading
+      revision: 3
     state: California
     state_abbreviation: CA
     type: Multiple agencies
@@ -2103,6 +2207,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-25 14:50:05.360000000 Z
       updated_at: !ruby/object:DateTime 2018-06-29 19:46:42.841000000 Z
       content_type_id: promising
+      revision: 2
     state: Colorado
     state_abbreviation: CO
     type: Multiple agencies
@@ -2130,6 +2235,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-25 14:53:02.446000000 Z
       updated_at: !ruby/object:DateTime 2018-06-29 19:47:47.933000000 Z
       content_type_id: promising
+      revision: 2
     state: Michigan
     state_abbreviation: MI
     type: Statewide
@@ -2158,6 +2264,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-25 14:53:48.218000000 Z
       updated_at: !ruby/object:DateTime 2018-06-29 19:51:02.658000000 Z
       content_type_id: promising
+      revision: 2
     state: Ohio
     state_abbreviation: OH
     type: Statewide
@@ -2180,6 +2287,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-25 14:54:21.526000000 Z
       updated_at: !ruby/object:DateTime 2018-06-29 19:51:55.325000000 Z
       content_type_id: promising
+      revision: 2
     state: Oregon
     state_abbreviation: OR
     type: Single agency
@@ -2201,6 +2309,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-25 14:55:12.618000000 Z
       updated_at: !ruby/object:DateTime 2018-06-29 19:58:39.210000000 Z
       content_type_id: promising
+      revision: 2
     state: Rhode Island
     state_abbreviation: RI
     type: Statewide
@@ -2222,6 +2331,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-25 14:56:01.764000000 Z
       updated_at: !ruby/object:DateTime 2018-07-02 15:40:36.507000000 Z
       content_type_id: promising
+      revision: 3
     state: Washington
     state_abbreviation: WA
     type: Statewide
@@ -2242,11 +2352,13 @@ criteria:
       housed within the governor’s office.
     criteria: Innovation
     year: '2018'
+  year: '2018'
 - sys:
     id: 6RKQ1AWFB6uGU6yKiWkM2A
     created_at: !ruby/object:DateTime 2018-06-25 15:03:15.004000000 Z
-    updated_at: !ruby/object:DateTime 2018-07-06 19:57:06.368000000 Z
+    updated_at: !ruby/object:DateTime 2019-08-14 14:35:26.014000000 Z
     content_type_id: criteria
+    revision: 4
   title: Contracting for Outcomes
   order: 14
   description: Did the state or any of its agencies enter into performance-based contracts
@@ -2262,6 +2374,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-25 14:58:30.313000000 Z
       updated_at: !ruby/object:DateTime 2018-06-29 20:21:59.316000000 Z
       content_type_id: leading
+      revision: 3
     state: Rhode Island
     state_abbreviation: RI
     type: Single agency
@@ -2300,6 +2413,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-25 14:59:21.758000000 Z
       updated_at: !ruby/object:DateTime 2018-07-02 15:39:43.693000000 Z
       content_type_id: promising
+      revision: 3
     state: Massachusetts
     state_abbreviation: MA
     type: Single agency
@@ -2324,6 +2438,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-25 15:01:05.159000000 Z
       updated_at: !ruby/object:DateTime 2018-06-29 20:01:32.921000000 Z
       content_type_id: promising
+      revision: 2
     state: Tennessee
     state_abbreviation: TN
     type: Single agency
@@ -2344,6 +2459,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-25 15:02:03.174000000 Z
       updated_at: !ruby/object:DateTime 2018-06-29 20:02:05.547000000 Z
       content_type_id: promising
+      revision: 2
     state: Various States
     state_abbreviation: Various States
     short_description: 'Four states (California, Connecticut, Michigan, and South
@@ -2356,11 +2472,13 @@ criteria:
       or [Social Finance](http://socialfinance.org/what-is-pay-for-success/).
     criteria: Contracting for Outcomes
     year: '2018'
+  year: '2018'
 - sys:
     id: 2Gj9OMD0RyWOCmwaCugeIa
     created_at: !ruby/object:DateTime 2018-06-25 15:07:19.412000000 Z
-    updated_at: !ruby/object:DateTime 2018-07-06 19:56:53.668000000 Z
+    updated_at: !ruby/object:DateTime 2019-08-14 14:35:04.633000000 Z
     content_type_id: criteria
+    revision: 5
   title: Repurpose for Results
   order: 15
   description: Did the state or any of its agencies shift funds away from any practice,
@@ -2374,6 +2492,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-25 15:05:06.943000000 Z
       updated_at: !ruby/object:DateTime 2018-06-29 20:24:08.575000000 Z
       content_type_id: leading
+      revision: 3
     state: Minnesota
     state_abbreviation: MN
     type: Multiple agencies
@@ -2400,6 +2519,7 @@ criteria:
       created_at: !ruby/object:DateTime 2018-06-25 15:06:17.582000000 Z
       updated_at: !ruby/object:DateTime 2018-06-29 20:03:05.175000000 Z
       content_type_id: promising
+      revision: 2
     state: Pennsylvania
     state_abbreviation: PA
     type: Single agency
@@ -2413,3 +2533,458 @@ criteria:
       dropped by 11.3%.
     criteria: Repurpose for Results
     year: '2018'
+  year: '2018'
+- sys:
+    id: 6hdFczh4fDYPnoWMATlz6V
+    created_at: !ruby/object:DateTime 2019-08-14 15:21:06.192000000 Z
+    updated_at: !ruby/object:DateTime 2019-08-20 16:47:07.320000000 Z
+    content_type_id: criteria
+    revision: 2
+  title: Strategic Goals
+  order: 1
+  description: Did the Governor have public statewide strategic goals? [2019]
+  explanation: "__Why is this important?__  \nThe creation of statewide strategic
+    goals is an important first step in aligning goals, expenditures, and programmatic
+    activities as a way to improve outcomes on a state government’s highest priorities."
+  leading_list:
+    sys:
+      id: HnUKdv1w8lt7E0EfeFGLT
+      created_at: !ruby/object:DateTime 2019-08-14 15:12:05.368000000 Z
+      updated_at: !ruby/object:DateTime 2019-08-14 15:12:05.368000000 Z
+      content_type_id: leading
+      revision: 1
+    state: Colorado
+    state_abbreviation: CO
+    type: Statewide
+    short_description: 'The Colorado Governor’s Office dashboard outlines four high-priority
+      strategic goals: tax reform and economic development; energy and renewables;
+      health; and education and the workforce. Each goal is aligned with a subset
+      of measurable metrics and goals and the strategies for accomplishing them. '
+    long_description: 'The [Colorado Governor’s Office](https://www.example.com/)
+      dashboard outlines four high-priority strategic goals: [tax reform and economic
+      development](https://www.example.com/); [energy and renewables](https://www.example.com/);
+      [health](https://www.example.com/); and [education and the workforce](https://www.example.com/).
+      Each goal is aligned with a subset of measurable metrics and goals and the strategies
+      for accomplishing them. '
+    criteria: Strategic Goals
+    issue:
+    - Issue 1
+    state_outline:
+      sys:
+        id: 1fBCZ8QhmmqQauoWMyOAk6
+        created_at: !ruby/object:DateTime 2018-06-26 21:56:20.502000000 Z
+        updated_at: !ruby/object:DateTime 2018-06-26 21:56:20.502000000 Z
+      title: colorado
+      description: 
+      url: "//images.ctfassets.net/cu0oxaxjfcsj/1fBCZ8QhmmqQauoWMyOAk6/fcc0968b5e4b46d710a7a59504edef64/colorado.svg"
+    year: '2019'
+    status: Updated from 2018
+  promising_list:
+  - sys:
+      id: 53yZI9E3M4LNV2nWqy3vAU
+      created_at: !ruby/object:DateTime 2019-08-14 15:11:48.160000000 Z
+      updated_at: !ruby/object:DateTime 2019-08-14 15:11:48.160000000 Z
+      content_type_id: promising
+      revision: 1
+    state: Minnesota
+    state_abbreviation: MN
+    type: Single agency
+    short_description: 'The Minnesota Management and Budget (MMB) led a process which
+      required state agencies to document the evidence of effectiveness for proposals
+      for new programs as well as proposals to change or expand existing activities. '
+    long_description: The Minnesota Management and Budget (MMB) led a process which
+      required state agencies to document the evidence of effectiveness for proposals
+      for new programs as well as proposals to change or expand existing activities.
+      The [Governor’s Office](https://www.example.com/) used this information, combined
+      with input from communities across the state, and included 17 proposals ($150
+      million) with strong causal evidence of effectiveness in the FY 2020-2021 Governor's
+      Budget. The enacted budget ultimately included $87 million in evidence-based
+      proposals, including items initiated by the legislature.
+    criteria: Strategic Goals
+    issue:
+    - Isssue 4
+    year: '2019'
+  - sys:
+      id: 3GpLFz1WCjMzaR9uvmXmAg
+      created_at: !ruby/object:DateTime 2019-08-14 15:11:48.174000000 Z
+      updated_at: !ruby/object:DateTime 2019-08-14 15:11:48.174000000 Z
+      content_type_id: promising
+      revision: 1
+    state: North Carolina
+    state_abbreviation: NC
+    type: Statewide
+    short_description: North Carolina’s Office of State Budget and Management (OSBM)
+      strategic planning initiative, Systems Analysis, combines of strategic planning,
+      operational improvement analysis, and ongoing performance monitoring.
+    long_description: 'North Carolina’s Office of State Budget and Management (OSBM)
+      strategic planning initiative, [Systems Analysis](https://www.example.com/),
+      combines of strategic planning, operational improvement analysis, and ongoing
+      performance monitoring with the goal of evaluating statewide and agency-specific
+      operations, identifying areas of progress, and developing, executing, and tracking
+      plans for the future. OSBM provides resources, such as a [memo](https://www.example.com/),
+      [guidance](https://www.example.com/), and [strategic plan template](https://www.example.com/),
+      for developing strategic plans that align the governor’s priority goals. The
+      strategic plans are publicly available. '
+    criteria: Strategic Goals
+    issue:
+    - Issue 2
+    year: '2019'
+  - sys:
+      id: 4dIZOWeEf8NX0ssmMAmo07
+      created_at: !ruby/object:DateTime 2019-08-14 15:11:48.172000000 Z
+      updated_at: !ruby/object:DateTime 2019-08-14 15:11:48.172000000 Z
+      content_type_id: promising
+      revision: 1
+    state: Oregon
+    state_abbreviation: OR
+    type: Statewide
+    short_description: 'The 2018 Action Plan for Oregon identified key priorities
+      with aligned measures, strategies, and plans. '
+    long_description: 'The 2018 Action Plan for Oregon identified key priorities with
+      aligned measures, strategies, and plans in the areas of: [environment](https://www.example.com/),
+      healthcare, education, [transportation](https://www.example.com/), good government,
+      earthquake preparedness, housing and homelessness, child welfare, and job training. '
+    criteria: Strategic Goals
+    issue:
+    - Issue 2
+    year: '2019'
+    status: Updated from 2018
+  - sys:
+      id: 7tZufi8tjAgZKil6WDnmMx
+      created_at: !ruby/object:DateTime 2019-08-14 15:11:48.173000000 Z
+      updated_at: !ruby/object:DateTime 2019-08-14 15:11:48.173000000 Z
+      content_type_id: promising
+      revision: 1
+    state: Utah
+    state_abbreviation: UT
+    type: Statewide
+    short_description: The Utah Governor’s Office of Management and Budget’s SUCCESS
+      Framework includes three phases as part of the Utah Life Elevated 2020 Initiative.
+    long_description: 'The Utah Governor’s Office of Management and Budget’s SUCCESS
+      Framework includes three phases as part of the [Utah Life Elevated 2020 Initiative:](https://www.example.com/)
+      effective and efficient government, thriving communities, qualified workforce,
+      and equitable and competitive revenue. SUCCESS Framework resources assist agencies
+      to reach their performance goals. One such agency goal focused on reducing opioid
+      overdoses which resulted in 13% decline in opioid use.  '
+    criteria: Strategic Goals
+    issue:
+    - Issue 1
+    year: '2019'
+  year: '2019'
+- sys:
+    id: 7vzkv3lzBopljVxYvK6uW
+    created_at: !ruby/object:DateTime 2019-08-14 15:21:06.209000000 Z
+    updated_at: !ruby/object:DateTime 2019-08-14 15:21:06.209000000 Z
+    content_type_id: criteria
+    revision: 1
+  title: Performance Management / Continuous Improvement
+  order: 2
+  description: Did the state or any of its agencies implement a performance management
+    system aligned with their statewide strategic goals; with clear and prioritized
+    outcome-focused goals, program objectives, and measures; and did it consistently
+    collect, analyze, and use data and evidence to improve outcomes, return on investment,
+    and other dimensions of performance?
+  explanation: "__Why is this important?__  \nPerformance management systems are important
+    tools to help state governments monitor and improve customer service, program
+    performance, and outcomes for their residents."
+  leading_list:
+    sys:
+      id: 1afTRJd8O9nArBx8yKlUgf
+      created_at: !ruby/object:DateTime 2019-08-14 15:12:05.356000000 Z
+      updated_at: !ruby/object:DateTime 2019-08-14 15:12:05.356000000 Z
+      content_type_id: leading
+      revision: 1
+    state: California
+    state_abbreviation: CA
+    type: Multiple agencies
+    short_description: 'California’s Department of Health Care Services is one of
+      several departments that has created a performance dashboard. '
+    long_description: California’s Department of Health Care Services is one of several
+      departments that has created a [performance dashboard](https://www.example.com/).
+      Other dashboards include the Department of Social Services’s [Cal-OAR](https://www.example.com/)
+      system, which is a local, data-driven program management system that facilitates
+      continuous improvement of county CalWORKs programs by collecting, analyzing,
+      and disseminating outcomes and best practices. The [CalFresh Dashboard](https://www.example.com/),
+      also operated by the Department of Social Services, is a full service, one-stop
+      dashboard used statewide and locally to help inform program delivery. At the
+      enterprise-level, the California Government Operations is linking each of the
+      state’s existing data portals, so that all of the state’s open data sets can
+      be searched on a statewide [open data portal](https://www.example.com/).
+    criteria: Performance Management / Continuous Improvement
+    issue:
+    - Issue 2
+    - Issue 4
+    state_outline:
+      sys:
+        id: 1HoXTQbMDSyCQM44oi0U8w
+        created_at: !ruby/object:DateTime 2018-06-26 21:53:46.418000000 Z
+        updated_at: !ruby/object:DateTime 2018-06-26 21:53:46.418000000 Z
+      title: california
+      description: 
+      url: "//images.ctfassets.net/cu0oxaxjfcsj/1HoXTQbMDSyCQM44oi0U8w/17c70a4224ea6286d90efdc426f90132/california.svg"
+    year: '2019'
+  promising_list:
+  - sys:
+      id: 5a0BFBdN2dRsAJNjR8jdoR
+      created_at: !ruby/object:DateTime 2019-08-14 15:11:47.378000000 Z
+      updated_at: !ruby/object:DateTime 2019-08-14 15:11:47.378000000 Z
+      content_type_id: promising
+      revision: 1
+    state: Colorado
+    state_abbreviation: CO
+    type: Single agency
+    short_description: Since 2012, the Colorado Department of Human Services has implemented
+      a performance management framework, C-Stat to improve delivery of food and cash
+      assistance programs as mandated by a court order.
+    long_description: Since 2012, the Colorado Department of Human Services has implemented
+      a performance management framework, [C-Stat](https://www.example.com/) to improve
+      delivery of food and cash assistance programs as mandated by a court order.
+      According to the C-Stat website, the framework “moves CDHS to an outcomes-oriented
+      and collaborative approach to affect change at every level. The goals are to
+      collect timely data, increase transparency, conduct regular executive meetings
+      to assess the effectiveness of the strategies, and to identify new performance
+      measures, all in support of continuous quality improvement.” Each division within
+      the department collects and reports performance data. Meetings are held weekly
+      on a rotating basis for each division. The online dashboard contains data on
+      nine systems with reports released quarterly. County level data is included
+      on a dashboard. The Department’s Performance and Peer Exchange program, a peer
+      exchange and learning opportunity, allows counties to learn from each other
+      and produces broader learnings for the field, which are available online. This
+      case study has details on design and implementation for policymakers.
+    criteria: Performance Management / Continuous Improvement
+    issue:
+    - Issue 2
+    year: '2019'
+  - sys:
+      id: 5gjdcL6rtylRLHqWNsvGfY
+      created_at: !ruby/object:DateTime 2019-08-14 15:11:48.178000000 Z
+      updated_at: !ruby/object:DateTime 2019-08-14 15:11:48.178000000 Z
+      content_type_id: promising
+      revision: 1
+    state: Connecticut
+    state_abbreviation: CT
+    type: Single agency
+    short_description: EdSight, the Connecticut State Department of Education’s student
+      data portal has the capacity to generate student performance Report Card.
+    long_description: "[EdSight](https://www.example.com/), the Connecticut State
+      Department of Education’s student data portal has the capacity to generate student
+      performance Report Card which provides data on enrollment, absenteeism, suspension/expulsion,
+      expenditures, achievement, accountability, graduation, and college readiness.
+      In addition, Connecticut develops an Early Indication Tool report which provides
+      an individualized student support-level for all students in the state based
+      on longitudinal data and their likelihood of reaching academic milestones. This
+      is a secure report and is available to authorized users in all districts and
+      schools."
+    criteria: Performance Management / Continuous Improvement
+    issue:
+    - Issue 3
+    year: '2019'
+  - sys:
+      id: 3H2Nwws0YC2AgUnhL0sFjL
+      created_at: !ruby/object:DateTime 2019-08-14 15:11:47.164000000 Z
+      updated_at: !ruby/object:DateTime 2019-08-14 15:11:47.164000000 Z
+      content_type_id: promising
+      revision: 1
+    state: Kentucky
+    state_abbreviation: KY
+    type: Statewide
+    short_description: The Kentucky Center for Statistics (KYSTATS) collects and links
+      data to evaluate the state’s education and workforce efforts.
+    long_description: The Kentucky Center for Statistics (KYSTATS) collects and links
+      data to evaluate the state’s education and workforce efforts. Interactive dashboards
+      are used for continuous improvement and performance management. Examples include
+      the [Kentucky Workforce Dashboard](https://www.example.com/), which provides
+      an overview of Kentucky’s workforce and labor market and includes data from
+      10 partner organizations from the state and local levels; moreover, the quarterly
+      reported data reflect the Workforce Innovation Board’s strategic plan to, “create
+      a workforce development system that is value driven for employers, aligns education
+      with industry demands, prepares Kentuckians for the future of work and drives
+      economic development.”
+    criteria: Performance Management / Continuous Improvement
+    issue:
+    - Issue 1
+    - Issue 2
+    year: '2019'
+    status: Updated from 2018
+  - sys:
+      id: 4ZOGJlXzDmbigQqhikDqXM
+      created_at: !ruby/object:DateTime 2019-08-14 15:11:47.156000000 Z
+      updated_at: !ruby/object:DateTime 2019-08-14 15:11:47.156000000 Z
+      content_type_id: promising
+      revision: 1
+    state: Minnesota
+    state_abbreviation: MN
+    type: Statewide
+    short_description: The Minnesota Management and Budget Office convening state
+      agencies and departments for ”state-stat" meetings focused on key population
+      outcomes identified on its public dashboard.
+    long_description: The Minnesota Management and Budget Office convening state agencies
+      and departments for ”state-stat" meetings focused on key population outcomes
+      identified on its public dashboard. In addition to monitoring progress on population
+      outcomes, these meetings are used to monitor program performance and to identify
+      opportunities to enhance collaboration and make new investments. To-date these
+      meetings have been internal to the executive branch, but many of the program
+      measures that are reviewed are published in agency budgets.
+    criteria: Performance Management / Continuous Improvement
+    issue:
+    - Issue 2
+    year: '2019'
+    status: Updated from 2018
+  - sys:
+      id: 58gwCyBFPU87FKt3o8gn8M
+      created_at: !ruby/object:DateTime 2019-08-14 15:11:47.163000000 Z
+      updated_at: !ruby/object:DateTime 2019-08-14 15:11:47.163000000 Z
+      content_type_id: promising
+      revision: 1
+    state: Utah
+    state_abbreviation: UT
+    type: Multiple agencies
+    short_description: Utah’s Governor’s Office of Management and Budget (GOMB) developed
+      the SUCCESS framework, which is a performance formula used to calculate work,
+      quality, and expenses across the government functions.
+    long_description: 'Utah’s Governor’s Office of Management and Budget (GOMB) developed
+      the SUCCESS framework, which is a performance formula used to calculate work,
+      quality, and expenses across the government functions. In January 2013, the
+      Governor challenged Cabinet-level agencies to hit a 25 percent improvement target
+      over four years. As of the end of 2018, the State exceeded that goal by improving
+      more than 40 percent. GOMB also supports agencies define their  performance
+      measures beyond the SUCCESS’s dimensions, with lengths of stay as performance
+      metric fortate hospitals, for example. As an independent agency, the Utah Department
+      of Transportation has brought together data from across the system in a dashboard.
+      Their strategic plan demonstrates the purpose for that dashboard, and, in a
+      State Scoop article, another appeal of the dashboard was explained: “Another
+      part of the appeal, Marshall said, is that the data previously only shared once
+      a year through the agency’s paper-bound ‘strategic direction’ book is now accessible
+      to the public in real time — allowing the department to eliminate the paper
+      version of book entirely.”'
+    criteria: Performance Management / Continuous Improvement
+    issue:
+    - Issue 2
+    year: '2019'
+  year: '2019'
+- sys:
+    id: 6aDphmTQhAttzAL6vmR1X3
+    created_at: !ruby/object:DateTime 2019-08-14 15:21:06.209000000 Z
+    updated_at: !ruby/object:DateTime 2019-08-14 15:21:06.209000000 Z
+    content_type_id: criteria
+    revision: 1
+  title: Data Leadership
+  order: 3
+  description: 'Did the governor’s office or any state agency have a senior staff
+    member(s) with the authority, staff, and budget to collect, analyze, share, and
+    use high-quality administrative and survey data—consistent with strong privacy
+    protections—to improve (or help other entities including but not limited to local
+    governments and nonprofit organizations improve) federal, state, and local programs?
+    (Example: chief data officer)'
+  explanation: "__Why is this important?__  \nA designated chief data officer can
+    create a coherent set of policies, structures, and guidance for how a state government
+    and its agencies should routinely use data to improve programs."
+  leading_list:
+    sys:
+      id: 6M2p9uyltgsGutYZXyrGFY
+      created_at: !ruby/object:DateTime 2019-08-14 15:12:05.361000000 Z
+      updated_at: !ruby/object:DateTime 2019-08-14 15:12:05.361000000 Z
+      content_type_id: leading
+      revision: 1
+    state: Indiana
+    state_abbreviation: IN
+    type: Statewide
+    short_description: A 2017 Indiana law established the position of chief data officer
+      with the budget, staff, and authority to coordinate data analytics and data
+      transparency for state agencies; advise state agencies regarding best practices
+      for data maintenance, security, and privacy; and oversee the Indiana Management
+      Performance Hub.
+    long_description: A [2017 Indiana law](https://www.example.com/) established the
+      position of chief data officer (p. 8) with the budget, staff, and authority
+      to (1) coordinate data analytics and data transparency for state agencies; (2)
+      advise state agencies regarding best practices for data maintenance, security,
+      and privacy; and (3) oversee the [Indiana Management Performance Hub](https://www.example.com/),
+      which uses state data to provide “analytics solutions tailored to address complex
+      management and policy questions enabling improved outcomes.” This [2018 Annual
+      Report](https://www.example.com/) estimates a return on investment of $40 million
+      for the State.
+    criteria: Data Leadership
+    issue:
+    - Issue 4
+    - Issue 5
+    state_outline:
+      sys:
+        id: 1bRacwPuE2AAG0EWugMamq
+        created_at: !ruby/object:DateTime 2018-06-26 21:57:24.432000000 Z
+        updated_at: !ruby/object:DateTime 2018-06-26 21:57:24.432000000 Z
+      title: indiana
+      description: 
+      url: "//images.ctfassets.net/cu0oxaxjfcsj/1bRacwPuE2AAG0EWugMamq/707ed980ebd7851be891a1e57ac68dc5/indiana.svg"
+    year: '2019'
+    status: Updated from 2018
+  promising_list:
+  - sys:
+      id: 6WKWj4s0lWTWWTip4Xb4sR
+      created_at: !ruby/object:DateTime 2019-08-14 15:11:47.154000000 Z
+      updated_at: !ruby/object:DateTime 2019-08-14 15:11:47.154000000 Z
+      content_type_id: promising
+      revision: 1
+    state: Kentucky
+    state_abbreviation: KY
+    type: Statewide
+    short_description: In 2018, Kentucky established a Chief Data Officer as the chief
+      data steward to “coordinate and oversee the sharing of data and shall implement
+      effective data governance strategies designed to maintain data integrity, confidentiality,
+      availability, security, and to promote access to data.”
+    long_description: In 2018, Kentucky established a Chief Data Officer as the chief
+      data steward to “coordinate and oversee the sharing of data and shall implement
+      effective data governance strategies designed to maintain data integrity, confidentiality,
+      availability, security, and to promote access to data.” The accompanying Enterprise
+      Data Management Policy established the Office of Data, Information, and Analytics
+      (ODIA), led by the CDO, and required Executive Branch agencies to identify an
+      Agency Data Steward that would report directly to the Cabinet Secretary or Agency
+      Head. The Data Steward would carry out the functions of the data stewardship
+      across the state through the master data sharing agreement, acting as liaison
+      to the CDO/ODIA.
+    criteria: Data Leadership
+    issue:
+    - Issue 2
+    year: '2019'
+  - sys:
+      id: 2WqibAla62rn8LfwnTDkie
+      created_at: !ruby/object:DateTime 2019-08-14 15:11:47.155000000 Z
+      updated_at: !ruby/object:DateTime 2019-08-14 15:11:47.155000000 Z
+      content_type_id: promising
+      revision: 1
+    state: Oregon
+    state_abbreviation: OR
+    type: Statewide
+    short_description: A 2018 Oregon law created a state Chief Data Officer who is
+      responsible for centralized data strategy, including an enterprise wide open
+      data platform.
+    long_description: 'A 2018 Oregon law created a state Chief Data Officer who is
+      responsible for centralized data strategy, including an enterprise wide open
+      data platform. The Chief Data Officer is responsible for creating open data
+      standards; for providing information protection and privacy guidance for state
+      agencies; identify opportunities for data sharing to support state efforts internally
+      and externally with partners; and design stakeholder engagement strategies including
+      an advisory committee and public engagement component. '
+    criteria: Data Leadership
+    issue:
+    - Issue 2
+    year: '2019'
+  - sys:
+      id: T3CiHCCLAVWJklbZYafTx
+      created_at: !ruby/object:DateTime 2019-08-14 15:11:47.144000000 Z
+      updated_at: !ruby/object:DateTime 2019-08-14 15:11:47.144000000 Z
+      content_type_id: promising
+      revision: 1
+    state: Utah
+    state_abbreviation: UT
+    type: Statewide
+    short_description: Utah's Chief Data Officer, a member of the Operational Excellence
+      team, uses QT/OE to help agencies measure what matters, including an effort
+      to merge social services case management data.
+    long_description: Utah's Chief Data Officer, a member of the Operational Excellence
+      team, uses QT/OE to help agencies measure what matters, including an effort
+      to merge social services case management data.
+    criteria: Data Leadership
+    issue:
+    - Issue 2
+    year: '2019'
+  year: '2019'

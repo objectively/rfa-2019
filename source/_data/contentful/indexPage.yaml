@@ -5,6 +5,7 @@ indexPage:
     created_at: !ruby/object:DateTime 2018-06-21 14:06:09.169000000 Z
     updated_at: !ruby/object:DateTime 2018-07-09 15:44:05.812000000 Z
     content_type_id: indexPage
+    revision: 10
   year: '2018'
   short_description: |-
     The 2018 Invest in What Works State Standard of Excellence sets a national standard – a “north star” – for how state governments can consistently and effectively use data and evidence in budget, policy, and management decisions to achieve better outcomes for their residents.
@@ -25,8 +26,9 @@ indexPage:
   - sys:
       id: 4upxBzECbmmYUQO4wYGWgg
       created_at: !ruby/object:DateTime 2018-06-20 19:13:35.134000000 Z
-      updated_at: !ruby/object:DateTime 2018-07-06 19:56:42.129000000 Z
+      updated_at: !ruby/object:DateTime 2019-08-14 14:34:52.514000000 Z
       content_type_id: criteria
+      revision: 7
     title: Strategic Goals
     order: 1
     description: Did the Governor have public statewide strategic goals?
@@ -43,11 +45,13 @@ indexPage:
         id: kKfcRItiKWi42WICcOqAU
     - sys:
         id: 2yDgp9IJowGiOy0ys8ieQO
+    year: '2018'
   - sys:
       id: 1aFm8xMg3GCk0iWa4OgkEq
       created_at: !ruby/object:DateTime 2018-06-22 15:57:55.278000000 Z
-      updated_at: !ruby/object:DateTime 2018-07-06 20:00:23.920000000 Z
+      updated_at: !ruby/object:DateTime 2019-08-14 14:37:31.538000000 Z
       content_type_id: criteria
+      revision: 5
     title: Performance Management / Continuous Improvement
     order: 2
     description: Did the state or any of its agencies implement a performance management
@@ -84,11 +88,13 @@ indexPage:
         id: 1Y6vN5MQYEuu2gm8uQMMOq
     - sys:
         id: 3uapKfOcGImQoWCYoOOGOo
+    year: '2018'
   - sys:
       id: 3TZiYbQEC4mo0uuUgocyOQ
       created_at: !ruby/object:DateTime 2018-06-25 04:13:22.401000000 Z
-      updated_at: !ruby/object:DateTime 2018-07-06 20:00:09.957000000 Z
+      updated_at: !ruby/object:DateTime 2019-08-14 14:37:19.085000000 Z
       content_type_id: criteria
+      revision: 5
     title: Data Leadership
     order: 3
     description: 'Did the governor’s office or any state agency have a senior staff
@@ -112,11 +118,13 @@ indexPage:
         id: T35jpM1OISWSwEm4cEqGy
     - sys:
         id: 2kWeTa0c2wogsSQyEeU4Oi
+    year: '2018'
   - sys:
       id: 5ew88SpH0QSmIUus060mw0
       created_at: !ruby/object:DateTime 2018-06-25 04:20:08.423000000 Z
-      updated_at: !ruby/object:DateTime 2018-07-06 19:59:44.374000000 Z
+      updated_at: !ruby/object:DateTime 2019-08-14 14:37:07.487000000 Z
       content_type_id: criteria
+      revision: 4
     title: Data Policies / Agreements
     order: 4
     description: 'Did the state or any of its agencies have data-sharing policies
@@ -144,11 +152,13 @@ indexPage:
         id: rJI7OICVNIYeKwA0o6kQU
     - sys:
         id: 3VMkRRdIbmG0MeSME4Isqg
+    year: '2018'
   - sys:
       id: 3U3n8nD0PuuuOcSIwQ2Osa
       created_at: !ruby/object:DateTime 2018-06-25 04:28:30.220000000 Z
-      updated_at: !ruby/object:DateTime 2018-07-06 19:59:30.432000000 Z
+      updated_at: !ruby/object:DateTime 2019-08-14 14:36:57.514000000 Z
       content_type_id: criteria
+      revision: 4
     title: Data Use
     order: 5
     description: Did the state or any of its agencies have data systems consistent
@@ -180,11 +190,13 @@ indexPage:
         id: 6zFJOcl1V6mwWUquGyOME8
     - sys:
         id: 4DEIbWLogo284qOigiUyQK
+    year: '2018'
   - sys:
       id: 4YAtsHCws088YgE8QYGSw4
       created_at: !ruby/object:DateTime 2018-06-25 04:31:09.371000000 Z
-      updated_at: !ruby/object:DateTime 2018-07-06 19:59:16.595000000 Z
+      updated_at: !ruby/object:DateTime 2019-08-14 14:36:47.479000000 Z
       content_type_id: criteria
+      revision: 5
     title: Evaluation Leadership
     order: 6
     description: 'Did the governor’s office or any state agency have a senior staff
@@ -199,11 +211,13 @@ indexPage:
     promising_list:
     - sys:
         id: tQ2kfDzSTuI8Q6WGm8c8K
+    year: '2018'
   - sys:
       id: 5DxMcK9C9imG8KmKmEM0uc
       created_at: !ruby/object:DateTime 2018-06-25 04:35:11.927000000 Z
-      updated_at: !ruby/object:DateTime 2018-07-06 19:59:01.877000000 Z
+      updated_at: !ruby/object:DateTime 2019-08-14 14:36:38.367000000 Z
       content_type_id: criteria
+      revision: 4
     title: Evaluation Policies
     order: 7
     description: Did the state or any of its agencies have an evaluation policy, evaluation
@@ -222,11 +236,13 @@ indexPage:
         id: 69udZm3V7Oq4IUUAis6QGw
     - sys:
         id: 2Ww9aqww5Wo0KWGueY0QWy
+    year: '2018'
   - sys:
       id: 6kH5A9tSzmkCqYsooe2Kca
       created_at: !ruby/object:DateTime 2018-06-25 04:36:32.441000000 Z
-      updated_at: !ruby/object:DateTime 2018-07-06 19:58:51.683000000 Z
+      updated_at: !ruby/object:DateTime 2019-08-14 14:36:28.491000000 Z
       content_type_id: criteria
+      revision: 6
     title: Evaluation Resources
     order: 8
     description: Did the state or any of its agencies invest at least 1% of program
@@ -240,11 +256,13 @@ indexPage:
     promising_list:
     - sys:
         id: 2fb7vjBTDicusGYIiYK440
+    year: '2018'
   - sys:
       id: 5sGW6L7g7CosWowKQW6ssK
       created_at: !ruby/object:DateTime 2018-06-25 04:43:15.604000000 Z
-      updated_at: !ruby/object:DateTime 2018-07-06 19:58:35.266000000 Z
+      updated_at: !ruby/object:DateTime 2019-08-14 14:36:16.801000000 Z
       content_type_id: criteria
+      revision: 4
     title: Outcome Data
     order: 9
     description: Did the state or any of its agencies report or require outcome data
@@ -266,11 +284,13 @@ indexPage:
         id: 1gfHmOs98SkG0UAWmQM8ge
     - sys:
         id: 3eeyAxfTxm8iyQgACoQmsy
+    year: '2018'
   - sys:
       id: rD6cYuWgxMWaAsemuMA8W
       created_at: !ruby/object:DateTime 2018-06-25 04:56:17.282000000 Z
-      updated_at: !ruby/object:DateTime 2018-07-06 19:58:22.475000000 Z
+      updated_at: !ruby/object:DateTime 2019-08-14 14:36:07.068000000 Z
       content_type_id: criteria
+      revision: 4
     title: Evidence Definition and Program Inventory
     order: 10
     description: Did the state or any of its agencies release a common evidence framework,
@@ -302,11 +322,13 @@ indexPage:
         id: 3vX0lcYeIUIYgWKO8AAgGI
     - sys:
         id: 5AGTFJsZpuqsCEEYqyuuMG
+    year: '2018'
   - sys:
       id: 4iuiaoaxP2AE2G8iMoK0EW
       created_at: !ruby/object:DateTime 2018-06-25 14:44:16.093000000 Z
-      updated_at: !ruby/object:DateTime 2018-07-06 19:57:57.194000000 Z
+      updated_at: !ruby/object:DateTime 2019-08-14 14:35:57.556000000 Z
       content_type_id: criteria
+      revision: 4
     title: Cost-Benefit Analysis
     order: 11
     description: Did the state or any of its agencies assess and make publicly available
@@ -336,11 +358,13 @@ indexPage:
         id: xQJqEueOOGQGE2cGoOM2S
     - sys:
         id: 2gRpeD8UXOoUgOmk6gWei4
+    year: '2018'
   - sys:
       id: 4790fdelW8mIKscumQuCO6
       created_at: !ruby/object:DateTime 2018-06-25 14:51:16.454000000 Z
-      updated_at: !ruby/object:DateTime 2018-07-06 19:57:40.665000000 Z
+      updated_at: !ruby/object:DateTime 2019-08-14 14:35:48.011000000 Z
       content_type_id: criteria
+      revision: 4
     title: Use of Evidence in Grant Programs
     order: 12
     description: 'Did the state or any of its agencies: (1) invest at least 50% of
@@ -364,11 +388,13 @@ indexPage:
         id: 5bpVmEkuLmsQcAwUSk8AwI
     - sys:
         id: 18cvYqO2DS02w6OCEKq0cQ
+    year: '2018'
   - sys:
       id: 7x5w43LqI8IuEC004Q6EIO
       created_at: !ruby/object:DateTime 2018-06-25 14:57:17.422000000 Z
-      updated_at: !ruby/object:DateTime 2018-07-06 19:57:25.376000000 Z
+      updated_at: !ruby/object:DateTime 2019-08-14 14:35:38.681000000 Z
       content_type_id: criteria
+      revision: 4
     title: Innovation
     order: 13
     description: Did the state or any of its agencies have staff, policies, and processes
@@ -392,11 +418,13 @@ indexPage:
         id: 4BpR3eoGkw2mIYCQuQ6qGS
     - sys:
         id: 3ekiSrUpK842EQWGUCeKK0
+    year: '2018'
   - sys:
       id: 6RKQ1AWFB6uGU6yKiWkM2A
       created_at: !ruby/object:DateTime 2018-06-25 15:03:15.004000000 Z
-      updated_at: !ruby/object:DateTime 2018-07-06 19:57:06.368000000 Z
+      updated_at: !ruby/object:DateTime 2019-08-14 14:35:26.014000000 Z
       content_type_id: criteria
+      revision: 4
     title: Contracting for Outcomes
     order: 14
     description: Did the state or any of its agencies enter into performance-based
@@ -416,11 +444,13 @@ indexPage:
         id: 1XzGYFlgdS8EQsK2WMM2M0
     - sys:
         id: 5OZwAVW51Yw2wgesAC6aOs
+    year: '2018'
   - sys:
       id: 2Gj9OMD0RyWOCmwaCugeIa
       created_at: !ruby/object:DateTime 2018-06-25 15:07:19.412000000 Z
-      updated_at: !ruby/object:DateTime 2018-07-06 19:56:53.668000000 Z
+      updated_at: !ruby/object:DateTime 2019-08-14 14:35:04.633000000 Z
       content_type_id: criteria
+      revision: 5
     title: Repurpose for Results
     order: 15
     description: Did the state or any of its agencies shift funds away from any practice,
@@ -434,3 +464,111 @@ indexPage:
     promising_list:
     - sys:
         id: 1ECMGPFF6YSKUmYM24gYye
+    year: '2018'
+- sys:
+    id: 7phigY3mdsj5RPGGit45yp
+    created_at: !ruby/object:DateTime 2019-08-14 15:21:34.254000000 Z
+    updated_at: !ruby/object:DateTime 2019-08-14 15:21:34.254000000 Z
+    content_type_id: indexPage
+    revision: 1
+  year: '2019'
+  short_description: |-
+    The 2019 Invest in What Works State Standard of Excellence sets a national standard – a “north star” – for how state governments can consistently and effectively use data and evidence in budget, policy, and management decisions to achieve better outcomes for their residents.
+
+    - Results for America identified 88 leading and promising data-driven and evidence-based practices, policies, programs, and systems in effect in April 2018 in 30 states across the country.
+
+    - Five states are recognized as leading the way with their data-driven and evidence-based examples: Washington, Colorado, Oregon, Minnesota, and Tennessee.
+
+    - We identified these examples across 15 criteria: Strategic Goals, Performance Management/Continuous Improvement, Data Leadership, Data Policies/Agreements, Data Use, Evaluation Leadership, Evaluation Policies, Evaluation Resources, Outcome Data, Evidence Definition and Program Inventory, Cost-Benefit Analysis, Use of Evidence in Grant Programs, Innovation, Contracting for Outcomes, and Repurpose for Results.
+
+    The purpose of the 2019 Invest in What Works State Standard of Excellence is to inform policymakers and the public about state governments’ use of data, evidence, and evaluation to invest taxpayer dollars in what works. By identifying specific efforts currently underway in state governments, Results for America hopes to facilitate the broader adoption of evidence-based policymaking in state governments across the country.
+
+    Results for America’s analysis is based on data provided under license by the [Pew-MacArthur Results First Initiative](http://www.pewtrusts.org/en/projects/pew-macarthur-results-first-initiative) (which was used to inform its [2017 report](http://www.pewtrusts.org/en/research-and-analysis/reports/2017/01/how-states-engage-in-evidence-based-policymaking) on states’ engagement in evidence-based policymaking) and input from more than 90 current and former state government officials and other experts.<sup>1</sup>
+  download_url: https://2018state.results4america.org/2018_Invest_In_What_Works_State_Standard_of_Excellence.pdf
+  download_summary: https://2018state.results4america.org/Summary_Chart.pdf
+  download_appendix: https://2018state.results4america.org/Criteria_and_Descriptions.pdf
+  criteria:
+  - sys:
+      id: 6hdFczh4fDYPnoWMATlz6V
+      created_at: !ruby/object:DateTime 2019-08-14 15:21:06.192000000 Z
+      updated_at: !ruby/object:DateTime 2019-08-20 16:47:07.320000000 Z
+      content_type_id: criteria
+      revision: 2
+    title: Strategic Goals
+    order: 1
+    description: Did the Governor have public statewide strategic goals? [2019]
+    explanation: "__Why is this important?__  \nThe creation of statewide strategic
+      goals is an important first step in aligning goals, expenditures, and programmatic
+      activities as a way to improve outcomes on a state government’s highest priorities."
+    leading_list:
+      sys:
+        id: HnUKdv1w8lt7E0EfeFGLT
+    promising_list:
+    - sys:
+        id: 53yZI9E3M4LNV2nWqy3vAU
+    - sys:
+        id: 3GpLFz1WCjMzaR9uvmXmAg
+    - sys:
+        id: 4dIZOWeEf8NX0ssmMAmo07
+    - sys:
+        id: 7tZufi8tjAgZKil6WDnmMx
+    year: '2019'
+  - sys:
+      id: 7vzkv3lzBopljVxYvK6uW
+      created_at: !ruby/object:DateTime 2019-08-14 15:21:06.209000000 Z
+      updated_at: !ruby/object:DateTime 2019-08-14 15:21:06.209000000 Z
+      content_type_id: criteria
+      revision: 1
+    title: Performance Management / Continuous Improvement
+    order: 2
+    description: Did the state or any of its agencies implement a performance management
+      system aligned with their statewide strategic goals; with clear and prioritized
+      outcome-focused goals, program objectives, and measures; and did it consistently
+      collect, analyze, and use data and evidence to improve outcomes, return on investment,
+      and other dimensions of performance?
+    explanation: "__Why is this important?__  \nPerformance management systems are
+      important tools to help state governments monitor and improve customer service,
+      program performance, and outcomes for their residents."
+    leading_list:
+      sys:
+        id: 1afTRJd8O9nArBx8yKlUgf
+    promising_list:
+    - sys:
+        id: 5a0BFBdN2dRsAJNjR8jdoR
+    - sys:
+        id: 5gjdcL6rtylRLHqWNsvGfY
+    - sys:
+        id: 3H2Nwws0YC2AgUnhL0sFjL
+    - sys:
+        id: 4ZOGJlXzDmbigQqhikDqXM
+    - sys:
+        id: 58gwCyBFPU87FKt3o8gn8M
+    year: '2019'
+  - sys:
+      id: 6aDphmTQhAttzAL6vmR1X3
+      created_at: !ruby/object:DateTime 2019-08-14 15:21:06.209000000 Z
+      updated_at: !ruby/object:DateTime 2019-08-14 15:21:06.209000000 Z
+      content_type_id: criteria
+      revision: 1
+    title: Data Leadership
+    order: 3
+    description: 'Did the governor’s office or any state agency have a senior staff
+      member(s) with the authority, staff, and budget to collect, analyze, share,
+      and use high-quality administrative and survey data—consistent with strong privacy
+      protections—to improve (or help other entities including but not limited to
+      local governments and nonprofit organizations improve) federal, state, and local
+      programs? (Example: chief data officer)'
+    explanation: "__Why is this important?__  \nA designated chief data officer can
+      create a coherent set of policies, structures, and guidance for how a state
+      government and its agencies should routinely use data to improve programs."
+    leading_list:
+      sys:
+        id: 6M2p9uyltgsGutYZXyrGFY
+    promising_list:
+    - sys:
+        id: 6WKWj4s0lWTWWTip4Xb4sR
+    - sys:
+        id: 2WqibAla62rn8LfwnTDkie
+    - sys:
+        id: T3CiHCCLAVWJklbZYafTx
+    year: '2019'

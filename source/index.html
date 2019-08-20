@@ -1,11 +1,11 @@
 ---
 layout: default
-title: 2018 Results for America
+title: 2019 Results for America
 description:
 seo_image_path: #'/images/media/filename.jpg'
 ---
-{% assign index = site.data.contentful.indexPage.indexPage %}
-{% assign criteria = site.data.contentful.criteria.criteria %}
+{% assign index = site.data.contentful.indexPage.indexPage | where: "year", site.content_year %}
+{% assign criteria = site.data.contentful.criteria.criteria |  where: "year", site.content_year %}
 
 {% for page in index %}
   <main role="main" id="index">

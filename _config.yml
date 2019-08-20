@@ -78,3 +78,4 @@ page_gen:
     template: criteria
     name: title
     dir: state-standard-of-excellence
+    filter_condition: "record['year'] == '2019'"

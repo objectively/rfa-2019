@@ -2,10 +2,10 @@
 layout: default
 
 ---
-{% assign criteriaYear = "2018" %}
+{% assign criteriaYear = site.content_year %}
 {% assign leadingExample = page.leading_list %}
 {% assign promisingExamples = page.promising_list | where: 'year', criteriaYear %}
-{% assign allCriteria = site.data.contentful.criteria.criteria%}
+{% assign allCriteria = site.data.contentful.criteria.criteria | where: 'year', criteriaYear %}
 
 {% assign currentOrder = page.order%}
 

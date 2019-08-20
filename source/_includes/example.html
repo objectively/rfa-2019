@@ -1,5 +1,5 @@
 {% assign example = include.example %}
-{% assign criteria = site.data.contentful.criteria.criteria %}
+{% assign criteria = site.data.contentful.criteria.criteria | where: "year", site.content_year %}
 
 {%if include.criteriaName%}
   <div class="row align-center"

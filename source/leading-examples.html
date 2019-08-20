@@ -6,7 +6,7 @@ permalink: /state-standard-of-excellence/leading-examples
 seo_image_path: #'/images/media/filename.jpg'
 ---
 
-{% assign criteriaYear = "2018" %}
+{% assign criteriaYear = site.content_year %}
 {% assign leadingExamples = site.data.contentful.leadingPage.leadingPage | where: 'year', criteriaYear%}
 {%assign pageContent = leadingExamples[0]%}
 {%assign leadingList = pageContent.leading_list%}

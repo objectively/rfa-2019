@@ -10,8 +10,6 @@
     <link rel="shortcut icon" href="{{'/images/rfa-favicon.png' | relative_url}}" type="image/x-icon">
     <link rel="stylesheet" href="{{'/vendor/foundation.min.css' | relative_url}}">
     <link rel="stylesheet" href="{{'/vendor/styleguide-v2.1.css' | relative_url}}">
-    <link rel="stylesheet" href="{{'/vendor/slick.css' | relative_url}}"/>
-    <link rel="stylesheet" href="{{ '/vendor/foundation.min.css' | relative_url}}">
     <link rel="stylesheet" href="{{ '/assets/style.min.css' | relative_url}}">
 
     <script src="https://use.typekit.net/gyb7dga.js"></script>
@@ -30,8 +28,11 @@
     {% include copyright.html %}
 
     <div id="overlay" class="js-overlay"></div>
-    <script src="{{'/vendor/jquery-2.1.4.min.js' | relative_url}}"></script>
-    <script src="{{'/vendor/slick.min.js' | relative_url}}"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous">
+    </script>
     <script src="{{'/assets/bundle.js' | relative_url}}"></script>
 
   </body>

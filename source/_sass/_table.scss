@@ -210,7 +210,6 @@ table {
       color: $primary-green;
       font-size: 1.1rem;
       font-weight: bold;
-      margin-left: 15px;
       text-transform: uppercase;
       @include breakpoint($medium-only) {
         display: none;

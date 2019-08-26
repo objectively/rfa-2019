@@ -6,19 +6,39 @@
   vertical-align: text-bottom;
   @extend .u-material-icons;
   font-size: .9rem;
-  &--issue-1::before {
+  &--issue-1::after {
     content: '3d_rotation'
   }
-  &--issue-2::before {
+  &--issue-2::after {
     content: 'account_box'
   }
-  &--issue-3::before {
+  &--issue-3::after {
     content: 'all_inbox'
   }
-  &--issue-4::before {
+  &--issue-4::after {
     content: 'assignment'
   }
-  &--issue-5::before {
+  &--issue-5::after {
     content: 'backup'
+  }
+}
+
+.issue--leading {
+  color: $primary-green;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.issue--mobile {
+  display: inline-block;
+  @include breakpoint($large) {
+    display: none;
+  }
+
+  .issue {
+    margin: 0 2px;
+    font-size: .9rem;
+    vertical-align: top;
+    margin-top: .5rem;
   }
 }

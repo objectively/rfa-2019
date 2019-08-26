@@ -1,0 +1,24 @@
+.state__title {
+  color: white;
+}
+.issue {
+  display: inline-block;
+  vertical-align: text-bottom;
+  @extend .u-material-icons;
+  font-size: .9rem;
+  &--issue-1::before {
+    content: '3d_rotation'
+  }
+  &--issue-2::before {
+    content: 'account_box'
+  }
+  &--issue-3::before {
+    content: 'all_inbox'
+  }
+  &--issue-4::before {
+    content: 'assignment'
+  }
+  &--issue-5::before {
+    content: 'backup'
+  }
+}

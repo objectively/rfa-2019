@@ -5,7 +5,6 @@ description:
 seo_image_path: #'/images/media/filename.jpg'
 ---
 {% assign index = site.data.contentful.indexPage.indexPage | where: "year", site.content_year %}
-{% assign criteria = site.data.contentful.criteria.criteria |  where: "year", site.content_year %}
 
 {% for page in index %}
   <main role="main" id="index">
@@ -25,133 +24,9 @@ seo_image_path: #'/images/media/filename.jpg'
       {% include buttons.html %}
     </section>
 
-    <section class="table">
-      <div class="row expanded">
-        <table>
-          <tr>
-            <th>Criteria</th>
-            <th class="title-leading"><a href="{{ '/state-standard-of-excellence/leading-examples.html' | relative_url }}">Leading Examples<i class="material-icons launch-leading">launch</i></a></th>
-            <th class="title-promising">Promising Examples</th>
-          </tr>
-          <tr class="state-types">
-            <td colspan="3">
-              <span>
-                S = Statewide
-              </span>
-              <span>
-                M = Multiple Agencies
-              </span>
-              <span>
-                A = Single Agency
-              </span>
-            </td>
-          </tr>
-            {% for item in criteria %}
-              <tr class="criteria">
-                {% assign title = item.title | replace: "/", "0000" | slugify | remove: "0000" %}
-                {% assign url = "/state-standard-of-excellence/" | append: title | append: ".html" %}
-                <td class="title" onclick="window.location='{{ url | relative_url }}';">
-                  <span>
-                    <a href="{{ url | relative_url }}"><span class="before-launch">{{ item.order }}. {{ item.title }}</span><i class="material-icons launch-leading launch-leading--title">launch</i></a>
-                  </span>
-                  <span class="tooltip">
-                    {{ item.description }}
-                  </span>
-                </td>
-                {% assign leading-type = item.leading_list.type %}
-                {% assign url-leading-example = "/state-standard-of-excellence/" | append: title | append: ".html" | append: "#leading-example"%}
-                <td class="leading leading--mobile" onclick="window.location='{{ url-leading-example | relative_url }}';">
-                  <div class="row">
-                    <div class="leading__state column large-3">
-                      <a style="text-decoration:none;" href="{{ url-leading-example | relative_url }}">{{item.leading_list.state_abbreviation}}
-                        <span class="leading-type">
-                          {% if leading-type %}
-                            {% case leading-type %}
-                              {% when "Statewide" %}
-                                S
-                              {% when "Single agency" %}
-                                A
-                              {% when "Multiple agencies" %}
-                                M
-                            {% endcase %}
-                          {% endif %}
-                        </span>
-                      </a>
-                    </div>
-                </td>
-                <td class="leading leading--desktop">
-                  <div class="row collapse">
-                    <div class="leading__state column large-3" style="text-align:center">
-                      <span class="state-abbrev">
-                        <a style="text-decoration:none;" href="{{ url-leading-example | relative_url }}">{{item.leading_list.state_abbreviation}}
-                        </a>
-                      </span>
-                      <span class="leading-type leading-type--desktop">
-                        {% if leading-type %}
-                          {% case leading-type %}
-                            {% when "Statewide" %}
-                              S
-                            {% when "Single agency" %}
-                              A
-                            {% when "Multiple agencies" %}
-                              M
-                          {% endcase %}
-                        {% endif %}
-                      </span>
-                    </div>
-                    <div class="description column large-8" style="padding-left: 10px;">
-                      {{item.leading_list.short_description}}
-                    </div>
-                  </div>
-                  <div class="link row align-right">
-                    <div class="column large-5">
-                      <a class="learn-more" href="{{ url-leading-example | relative_url }}">Learn More</a>
-                    </div>
-                  </div>
-                </td>
+    {% include table.html %}
 
-                <td class="promising">
-                  {% for state in item.promising_list %}
-                    {% assign promising-type = state.type %}
-                    {% assign state-slug = state.state | slugify %}
-                    {% assign url-promising-examples = "/state-standard-of-excellence/" | append: title | append: ".html#" | append: state-slug  %}
-                    <a href="{{ url-promising-examples | relative_url }}" class="promising__state promising__state--desktop">
-                      {{ state.state }}
-                      {% if promising-type %}
-                        <span class="promising-type">
-                          {% case promising-type %}
-                            {% when "Statewide" %}
-                              S
-                            {% when "Single agency" %}
-                              A
-                            {% when "Multiple agencies" %}
-                              M
-                          {% endcase %}
-                        </span>
-                      {% endif %}
-                    </a>
-                    <a href="{{ url-promising-examples | relative_url }}" class="promising__state promising__state--mobile">
-                      {{ state.state_abbreviation }}
-                      {% if promising-type %}
-                        <span class="promising-type">
-                          {% case promising-type %}
-                            {% when "Statewide" %}
-                              S
-                            {% when "Single agency" %}
-                              A
-                            {% when "Multiple agencies" %}
-                              M
-                          {% endcase %}
-                        </span>
-                      {% endif %}
-                    </a>
-                  {% endfor %}
-                </td>
-              </tr>
-            {% endfor %}
-        </table>
-
-      </div>
+    <section>
       <div class="row align-center expanded footnote">
         <div class="column large-8 small-12">
           <p><strong>1.</strong> The views expressed herein are those of Results for America and do not necessarily reflect the views of the Pew Charitable Trusts or the John D. and Catherine T. MacArthur Foundation.</p>

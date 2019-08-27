@@ -1,34 +1,44 @@
+// index issues in table
 .state__title {
-  color: white;
+  color: #fff;
 }
 .issue {
   display: inline-block;
-  vertical-align: text-bottom;
-  @extend .u-material-icons;
-  font-size: .9rem;
-  &--issue-1::after {
-    content: '3d_rotation'
+  &::before {
+    font-size: 0.9rem;
+    vertical-align: text-bottom;
   }
-  &--issue-2::after {
-    content: 'account_box'
+  &--issue-1::before {
+    @extend .u-material-icons;
+    content: '3d_rotation';
   }
-  &--issue-3::after {
-    content: 'all_inbox'
+  &--issue-2::before {
+    @extend .u-material-icons;
+    content: 'account_box';
   }
-  &--issue-4::after {
-    content: 'assignment'
+  &--issue-3::before {
+    @extend .u-material-icons;
+    content: 'all_inbox';
   }
-  &--issue-5::after {
-    content: 'backup'
+  &--issue-4::before {
+    @extend .u-material-icons;
+    content: 'assignment';
+  }
+  &--issue-5::before {
+    @extend .u-material-icons;
+    content: 'backup';
   }
 }
 
 .issue--leading {
   color: $primary-green;
-  font-size: 2rem;
   font-weight: 700;
+  &::before {
+    font-size: 2rem;
+  }
 }
 
+// issues icon on tablet/mobile index
 .issue--mobile {
   display: inline-block;
   @include breakpoint($large) {
@@ -37,8 +47,28 @@
 
   .issue {
     margin: 0 2px;
-    font-size: .9rem;
+    font-size: 0.9rem;
     vertical-align: top;
-    margin-top: .5rem;
+    margin-top: 0.5rem;
+  }
+}
+
+// criteria & includes/example layout
+.criteria-issues {
+  font-weight: 700;
+  .issue {
+    margin: 0.5rem 0.5rem 0;
+    font-size: 0.8rem;
+    &::before {
+      margin: 0 4px;
+      font-size: 1.5rem;
+      vertical-align: bottom;
+    }
+  }
+  .issue--leading {
+    color: $primary-green;
+  }
+  .issue--promising {
+    color: $primary-orange;
   }
 }

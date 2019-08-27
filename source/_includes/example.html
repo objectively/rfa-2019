@@ -1,4 +1,5 @@
 {% assign example = include.example %}
+{% assign exampleType = include.exampleType %}
 {% assign criteria = site.data.contentful.criteria.criteria | where: "year", site.content_year %}
 
 {%if include.criteriaName%}
@@ -37,6 +38,13 @@
     {% endif %}
     {% if example.type %}
       <p class="example__type">{{example.type}}</p>
+    {% endif %}
+    {% if example.issue %}
+    <div class="criteria-issues row align-center">
+      {% for issue in example.issue %}
+      <div class="issue issue--{{issue | slugify}} issue--{{exampleType}}"><span>{{issue}}</span></div>
+      {% endfor %}
+    </div>
     {% endif %}
   </div>
 </div>

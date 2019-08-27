@@ -468,9 +468,9 @@ indexPage:
 - sys:
     id: 7phigY3mdsj5RPGGit45yp
     created_at: !ruby/object:DateTime 2019-08-14 15:21:34.254000000 Z
-    updated_at: !ruby/object:DateTime 2019-08-14 15:21:34.254000000 Z
+    updated_at: !ruby/object:DateTime 2019-08-23 18:40:54.626000000 Z
     content_type_id: indexPage
-    revision: 1
+    revision: 2
   year: '2019'
   short_description: |-
     The 2019 Invest in What Works State Standard of Excellence sets a national standard – a “north star” – for how state governments can consistently and effectively use data and evidence in budget, policy, and management decisions to achieve better outcomes for their residents.

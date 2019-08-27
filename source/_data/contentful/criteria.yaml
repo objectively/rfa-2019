@@ -2583,9 +2583,9 @@ criteria:
   - sys:
       id: 53yZI9E3M4LNV2nWqy3vAU
       created_at: !ruby/object:DateTime 2019-08-14 15:11:48.160000000 Z
-      updated_at: !ruby/object:DateTime 2019-08-14 15:11:48.160000000 Z
+      updated_at: !ruby/object:DateTime 2019-08-26 15:29:48.221000000 Z
       content_type_id: promising
-      revision: 1
+      revision: 3
     state: Minnesota
     state_abbreviation: MN
     type: Single agency
@@ -2602,7 +2602,8 @@ criteria:
       proposals, including items initiated by the legislature.
     criteria: Strategic Goals
     issue:
-    - Isssue 4
+    - Issue 3
+    - Issue 4
     year: '2019'
   - sys:
       id: 3GpLFz1WCjMzaR9uvmXmAg

@@ -136,3 +136,32 @@
     }
   }
 }
+
+// criteria page dropdown nav
+.criteria-dropdown-nav.page-section--nav {
+  background-color: $dark-blue;
+  color: #fff;
+  padding: 0;
+}
+.criteria-dropdown-nav.select {
+  background-color: transparent;
+  margin: 0;
+  font-size: 1rem;
+  padding: 0;
+  text-align: center;
+  &::before {
+    color: #fff;
+  }
+}
+.criteria-dropdown-nav__select {
+  text-align: center;
+  text-align-last: center;
+  margin: 0;
+  @include breakpoint($small-only) {
+    width: 100%;
+  }
+}
+.criteria-dropdown-nav__option {
+  color: #000;
+  font-size: 1rem;
+}

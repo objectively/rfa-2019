@@ -1,0 +1,33 @@
+
+// overrides
+.select::before {
+  width: 33px;
+  @extend .u-material-icons;
+  right: 3px;
+}
+.select {
+  position: relative;
+  font-weight: 700;
+  font-size: 0.8rem;
+  padding-right: 2rem !important;
+
+  select {
+    padding: 0 30px 0 0;
+    width: calc(100% + 33px);
+    @include breakpoint($small-only) {
+      width: 100% !important;
+    }
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    &::-ms-expand {
+      display: none;
+    }
+    overflow: hidden;
+    white-space: nowrap;
+
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+  }
+}

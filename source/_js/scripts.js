@@ -1,4 +1,4 @@
-// import Footer from './Footer';
+import FixedNav from './fixed-nav';
 import Overlay from './overlay';
 import Nav from './nav';
 import Scroll from './scroll';
@@ -7,6 +7,7 @@ import Sticky from './sticky';
 import Tooltip from './tooltip';
 import Utils from './utils';
 
+FixedNav.init();
 Nav.init();
 Overlay.init();
 Scroll.init();

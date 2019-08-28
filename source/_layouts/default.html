@@ -34,7 +34,13 @@
   <script src="{{'/assets/bundle.js' | relative_url}}"></script>
   <script>
     function goBack() {
-      window.history.back();
+      const indexUrl = 'http://localhost:3000/';
+      const referrerUrl = document.referrer;
+      if (referrerUrl === indexUrl) {
+        window.history.back();
+      } else {
+        window.location = indexUrl;
+      }
     }
   </script>
   </body>

@@ -18,9 +18,47 @@
   }
   &__logo {
     display: block;
+    width: 25%;
+    margin: auto;
     padding: 22px;
     @include breakpoint($small-only) {
       padding: 15px;
     }
   }
+  &__controls {
+    text-align: left;
+    margin-bottom: 2.5rem;
+  }
+  &__button {
+    z-index: 2;
+    height: 3rem;
+  }
 }
+
+
+.main-menu {
+  box-shadow: none;
+  overflow: auto;
+
+  .main-link {
+    font-size: 1.3rem;
+    font-weight: 700;
+  }
+  .sub-link {
+    font-size: 1rem;
+  }
+  &.js-active-menu {
+    right: 78%;
+  }
+  &.main-menu--left a {
+    color: #fff;
+    text-align: left;
+    border-bottom: none;
+    text-transform: none;
+    padding: .5rem 3rem;
+    cursor: pointer;
+    line-height: 1.8rem;
+
+  }
+}
+

@@ -31,7 +31,8 @@
   }
   &__button {
     z-index: 2;
-    height: 3rem;
+    height: 3.5rem;
+    font-size: 2.2rem;
   }
 }
 
@@ -41,16 +42,17 @@
   overflow: auto;
 
   .main-link {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     font-weight: 700;
   }
   .sub-link {
     font-size: 1rem;
+    font-weight: 500
   }
   &.js-active-menu {
     right: 78%;
   }
-  &.main-menu--left a {
+  .main-menu--links a {
     color: #fff;
     text-align: left;
     border-bottom: none;
@@ -58,7 +60,6 @@
     padding: .5rem 3rem;
     cursor: pointer;
     line-height: 1.8rem;
-
   }
 }
 

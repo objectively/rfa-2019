@@ -1,0 +1,72 @@
+#downloadsPage {
+  .spotlights-section {
+    h2 {
+      text-align: center;
+      color: #222;
+      text-transform: none;
+      font-family: Lora, serif;
+      font-size: 2.8rem;
+      margin: 0;
+      line-height: 1.2;
+    }
+  }
+  .standard-download-wrapper {
+    margin: 1rem 0 2rem;
+    @include breakpoint($small-only) {
+      margin: 0;
+    }
+  }
+  .standard-download-link , .spotlight-download-link {
+    text-decoration: none;
+  }
+  .standard-download {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: $blue solid 4px;
+    color: black;
+    text-align: left;
+    padding: 1rem;
+    margin: 1rem 0;
+    &__title {
+      font-size: 1.5rem;
+      font-weight: 700;
+      line-height: 2rem;
+    }
+    &__icon {
+      @extend .u-material-icons;
+      text-align: right;
+    }
+  }
+}
+
+.spotlight-download-wrapper {
+}
+.spotlight-download {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: $blue solid 4px;
+  color: black;
+  text-align: left;
+  // padding: .5rem;
+  margin: 1rem;
+  &__title {
+    font-weight: 700;
+    font-size: 3rem;
+    margin: 0 1rem;
+  }
+  &__subtitle {
+    text-align: left;
+
+  }
+  &__icon {
+    @extend .u-material-icons;
+    text-align: right;
+  }
+  &__row {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 1rem .5rem;
+  }
+}

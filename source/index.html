@@ -7,33 +7,38 @@ seo_image_path: #'/images/media/filename.jpg'
 {% assign index = site.data.contentful.indexPage.indexPage | where: "year", site.content_year %}
 
 {% for page in index %}
-  <main role="main" id="index">
-    <section class="top-section">
-      <div class="row align-center">
-        <div class="column large-8 medium-8 small-12">
-          <h1 class="index-year">{{ page.year }}</h1>
-          <hr>
-          <h2>Invest in What Works<br>State Standard of Excellence</h2>
-        </div>
+<main role="main" id="index">
+  <section class="top-section">
+    <div class="row align-center">
+      <div class="column large-8 medium-8 small-12">
+        <h1 class="index-year">{{ page.year }}</h1>
+        <hr>
+        <h2>Invest in What Works<br>State Standard of Excellence</h2>
       </div>
+    </div>
+
+    <div class="expandable">
       <div class="row align-center">
         <div class="column large-11 markdown">
           {{ page.short_description | markdownify }}
         </div>
       </div>
       {% include buttons.html %}
-    </section>
+      <button class="read-more button">Read more</button>
+    </div>
+  </section>
 
-    {% include table.html %}
+  {% include table.html %}
 
-    <section>
-      <div class="row align-center expanded footnote">
-        <div class="column large-8 small-12">
-          <p><strong>1.</strong> The views expressed herein are those of Results for America and do not necessarily reflect the views of the Pew Charitable Trusts or the John D. and Catherine T. MacArthur Foundation.</p>
-        </div>
+  <section>
+    <div class="row align-center expanded footnote">
+      <div class="column large-8 small-12">
+        <p><strong>1.</strong> The views expressed herein are those of Results for America and do not necessarily
+          reflect the views of the Pew Charitable Trusts or the John D. and Catherine T. MacArthur Foundation.</p>
       </div>
-      {% include buttons.html %}
-    </section>
+    </div>
+    {% include buttons.html %}
+  </section>
 
-  </main>
+</main>
 {% endfor %}

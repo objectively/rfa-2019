@@ -1,0 +1,28 @@
+.expandable {
+  /*
+  will hide the first paragraph of a markdown paragraph contained in a foundation row and column ie
+  <div class="expandable>
+    <div class="row">
+      <div class="column markdown">
+        <p>{markdown content}</p>
+      </div>
+    </div>
+  </div>
+  */
+  > * {
+    > * {
+      * {
+        display: none;
+      }
+      .read-more {
+        display: block;
+      }
+    }
+  }
+}
+
+// this will show the first element in the markdown column
+.expandable > :first-child > :first-child > :first-child  {
+  //  border: red solid 1px;
+   display: block;
+ }

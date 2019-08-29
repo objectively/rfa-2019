@@ -27,7 +27,7 @@ seo_image_path: #'/images/media/filename.jpg'
           {% for download in downloadsPage.standard_files%}
           <div class="standard-download-wrapper columns small-8 large-4">
             <a class="standard-download-link" href="{{download.download_url}}">
-              <div class="standard-download">
+              <div class="standard-download button--download">
                 <div class="standard-download__title">
                   {{download.download_title}}
                 </div>
@@ -66,7 +66,7 @@ seo_image_path: #'/images/media/filename.jpg'
             {% for download in downloadsPage.spotlights_files%}
             <div class="spotlight-download-wrapper large-3 medium-4 small-8">
               <a class="spotlight-download-link" href="{{download.download_url}}">
-                <div class="spotlight-download">
+                <div class="spotlight-download button--download">
                   
                   <div class="spotlight-download__title">
                     {{download.state_abbreviation}}

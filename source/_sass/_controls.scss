@@ -135,3 +135,18 @@
     font-size: 1.3rem;
   }
 }
+
+// downloads buttons
+// background-color: #008bb9;
+// color: #fff;
+
+.button--download {
+  @extend .u-transition;
+  color: $dark-blue;
+  background-color: #fff;
+  border: 2px solid $blue;
+  &:hover {
+    background-color: $blue;
+    color: #fff;
+  }
+}

@@ -71,7 +71,7 @@
           {% assign leading_issues = leading_issues | push: issue_slug %}
           {% endfor %}
 
-          <div class="examples-wrapper all {{leading_issues | join: " "}}" data-examples="all {{leading_issues | join: " "}}">
+          <div class="examples-wrapper" data-examples="all {{leading_issues | join: " "}}">
             <div class="row align-center">
               <div class="leading__state column large-12">
 
@@ -88,7 +88,7 @@
           </div>
         </td>
         <td class="leading leading--desktop">
-          <div class="examples-wrapper all {{leading_issues | join: " "}}" data-examples="all {{leading_issues | join: " "}}">
+          <div class="examples-wrapper" data-examples="all {{leading_issues | join: " "}}">
             <div class="row">
               <div class="leading__state column large-12">
                 <span class="state-abbrev">
@@ -126,7 +126,7 @@
           {% assign promising_issues = promising_issues | push: issue_slug %}
           {% endfor %}
 
-          <div class="examples-wrapper all {{promising_issues | join: " "}}" data-examples="all {{promising_issues | join: " "}}">
+          <div class="examples-wrapper" data-examples="all {{promising_issues | join: " "}}">
 
             <a href="{{ url-promising-examples | relative_url }}" class="promising__state promising__state--desktop">
               <div class="state__issues promising-type">
@@ -141,7 +141,7 @@
             </a>
           </div>
 
-          <div class="examples-wrapper all {{promising_issues | join: " "}}" data-examples="all {{promising_issues | join: " "}}">
+          <div class="examples-wrapper" data-examples="all {{promising_issues | join: " "}}">
 
             <a href="{{ url-promising-examples | relative_url }}" class="promising__state promising__state--mobile">
               <div class="state__issues promising-type">

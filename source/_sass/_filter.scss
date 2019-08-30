@@ -1,0 +1,9 @@
+.examples-wrapper {
+  display: inline;
+}
+.examples-wrapper--hidden {
+  @extend .u-transition;
+  // visibility: hidden;
+  * {
+  }
+}

@@ -1,4 +1,5 @@
 import Expandable from './expandable';
+import Filter from './filter';
 import FixedNav from './fixed-nav';
 import Overlay from './overlay';
 import Nav from './nav';
@@ -9,6 +10,7 @@ import Tooltip from './tooltip';
 import Utils from './utils';
 
 Expandable.init();
+Filter.init();
 FixedNav.init();
 Nav.init();
 Overlay.init();

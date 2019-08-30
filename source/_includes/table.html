@@ -10,22 +10,18 @@
               class="material-icons launch-leading">launch</i></a></th>
         <th class="title-promising">Promising Examples</th>
       </tr>
-      {%comment%}
-      // convert to issues filter and key menu bar
+
       <tr class="state-types">
         <td colspan="3">
-          <span>
-            S = Statewide
-          </span>
-          <span>
-            M = Multiple Agencies
-          </span>
-          <span>
-            A = Single Agency
-          </span>
+          <div class="dropdown">
+            <select>
+              <option>1</option>
+              <option value="">2</option>
+            </select>
+          </div>
         </td>
       </tr>
-      {%endcomment%}
+
 
       {% for item in criteria %}
       <tr class="criteria">
@@ -41,41 +37,55 @@
         </td>
         {% assign leading-type = item.leading_list.type %}
         {% assign url-leading-example = "/state-standard-of-excellence/" | append: title | append: ".html" | append: "#leading-example"%}
+
+        {%comment%} Leading Mobile and Desktop{%endcomment%}
         <td class="leading leading--mobile" onclick="window.location='{{ url-leading-example | relative_url }}';">
-          <div class="row align-center">
-            <div class="leading__state column large-12">
-              <a style="text-decoration:none;"
-                href="{{ url-leading-example | relative_url }}">{{item.leading_list.state_abbreviation}}
-              </a>
-              <div class="issue--mobile">
-                {% for issue in item.leading_list.issue %}
-                <div class="issue issue--leading issue--{{ issue | slugify }}"></div>
-                {% endfor %}
+          <!-- Leading issues -->
+          {% assign leading_issues = "" | split: "" %}
+          {% for issue in item.leading_list.issue %}
+          {% assign issue_slug = issue | slugify %}
+          {% assign leading_issues = leading_issues | push: issue_slug %}
+          {% endfor %}
+
+          <div class="examples-wrapper" data-examples="{{leading_issues | join: " "}}">
+            <div class="row align-center">
+              <div class="leading__state column large-12">
+
+                <a style="text-decoration:none;"
+                  href="{{ url-leading-example | relative_url }}">{{item.leading_list.state_abbreviation}}
+                </a>
+                <div class="issue--mobile">
+                  {% for issue in item.leading_list.issue %}
+                  <div class="issue issue--leading issue--{{ issue | slugify }}"></div>
+                  {% endfor %}
+                </div>
               </div>
             </div>
           </div>
         </td>
         <td class="leading leading--desktop">
-          <div class="row">
-            <div class="leading__state column large-12">
-              <span class="state-abbrev">
-                <a style="text-decoration:none;"
-                  href="{{ url-leading-example | relative_url }}">{{item.leading_list.state_abbreviation}}
-                </a>
-              </span>
+          <div class="examples-wrapper" data-examples="{{leading_issues | join: " "}}">
+            <div class="row">
+              <div class="leading__state column large-12">
+                <span class="state-abbrev">
+                  <a style="text-decoration:none;"
+                    href="{{ url-leading-example | relative_url }}">{{item.leading_list.state_abbreviation}}
+                  </a>
+                </span>
+              </div>
+              <div class="description column large-12">
+                {{item.leading_list.short_description}}
+              </div>
             </div>
-            <div class="description column large-12">
-              {{item.leading_list.short_description}}
-            </div>
-          </div>
-          <div class="link row">
-            <div class="column large-7">
-              {% for issue in item.leading_list.issue %}
-              <span class="issue issue--leading issue--{{ issue | slugify }}"></span>
-              {% endfor %}
-            </div>
-            <div class="column large-5">
-              <a class="learn-more" href="{{ url-leading-example | relative_url }}">Learn More</a>
+            <div class="link row">
+              <div class="column large-7">
+                {% for issue in item.leading_list.issue %}
+                <span class="issue issue--leading issue--{{ issue | slugify }}"></span>
+                {% endfor %}
+              </div>
+              <div class="column large-5">
+                <a class="learn-more" href="{{ url-leading-example | relative_url }}">Learn More</a>
+              </div>
             </div>
           </div>
         </td>
@@ -85,28 +95,42 @@
           {% assign issues = state.issue %}
           {% assign state-slug = state.state | slugify %}
           {% assign url-promising-examples = "/state-standard-of-excellence/" | append: title | append: ".html#" | append: state-slug  %}
-          <a href="{{ url-promising-examples | relative_url }}" class="promising__state promising__state--desktop">
-            <div class="state__issues promising-type">
-              <span class="state__title">{{ state.state }}</span>
+          <!-- Promsing issues -->
+          {% assign promising_issues = "" | split: "" %}
+          {% for issue in issues %}
+          {% assign issue_slug = issue | slugify %}
+          {% assign promising_issues = promising_issues | push: issue_slug %}
+          {% endfor %}
 
-              {% if issues %}
-              {% for issue in issues %}
-              <span class="issue issue--{{ issue | slugify }}"></span>
-              {% endfor %}
-              {% endif %}
-            </div>
-          </a>
-          <a href="{{ url-promising-examples | relative_url }}" class="promising__state promising__state--mobile">
-            <div class="state__issues promising-type">
-              <span class="state__title">{{ state.state_abbreviation }}</span>
+          <div class="examples-wrapper" data-examples="{{promising_issues | join: " "}}">
 
-              {% if issues %}
-              {% for issue in issues %}
-              <span class="issue issue--{{ issue | slugify }}"></span>
-              {% endfor %}
-              {% endif %}
-            </div>
-          </a>
+            <a href="{{ url-promising-examples | relative_url }}" class="promising__state promising__state--desktop">
+              <div class="state__issues promising-type">
+                <span class="state__title">{{ state.state }}</span>
+
+                {% if issues %}
+                {% for issue in issues %}
+                <span class="issue issue--{{ issue | slugify }}"></span>
+                {% endfor %}
+                {% endif %}
+              </div>
+            </a>
+          </div>
+
+          <div class="examples-wrapper" data-examples="{{promising_issues | join: " "}}">
+
+            <a href="{{ url-promising-examples | relative_url }}" class="promising__state promising__state--mobile">
+              <div class="state__issues promising-type">
+                <span class="state__title">{{ state.state_abbreviation }}</span>
+
+                {% if issues %}
+                {% for issue in issues %}
+                <span class="issue issue--{{ issue | slugify }}"></span>
+                {% endfor %}
+                {% endif %}
+              </div>
+            </a>
+          </div>
           {% endfor %}
         </td>
       </tr>

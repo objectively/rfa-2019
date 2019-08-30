@@ -1,3 +1,4 @@
+import Expandable from './expandable';
 import FixedNav from './fixed-nav';
 import Overlay from './overlay';
 import Nav from './nav';
@@ -7,6 +8,7 @@ import Sticky from './sticky';
 import Tooltip from './tooltip';
 import Utils from './utils';
 
+Expandable.init();
 FixedNav.init();
 Nav.init();
 Overlay.init();

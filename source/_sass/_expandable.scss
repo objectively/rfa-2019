@@ -1,28 +1,54 @@
+/**
+* will show the first html element of a content block contained in a foundation row and column ie
+* <div class="expandable>
+*   <div class="row">
+*     <div class="column">
+*       <p>{first element of content}</p> 
+*     </div>
+*   </div>
+* </div>
+ */
+
 .expandable {
-  /*
-  will hide the first paragraph of a markdown paragraph contained in a foundation row and column ie
-  <div class="expandable>
-    <div class="row">
-      <div class="column markdown">
-        <p>{markdown content}</p>
-      </div>
-    </div>
-  </div>
-  */
-  > * {
-    > * {
-      * {
-        display: none;
-      }
-      .read-more {
+
+  > :first-child {
+    > :first-child {
+      > :first-child {
         display: block;
       }
     }
   }
+
+  > * > * > * {
+    display: none;
+  }
+  
+  .read-more {
+    @extend .u-transition;
+    &:hover {
+      color: $blue;
+    }
+    display: block;
+    font-size: 1.1rem;
+    font-weight: 700;
+    background-color: #fff;
+    padding: 0;
+    color: $hyperlink-orange;
+    &:after {
+      content: 'Read More';
+    }
+  }
 }
 
-// this will show the first element in the markdown column
-.expandable > :first-child > :first-child > :first-child  {
-  //  border: red solid 1px;
-   display: block;
- }
+// Styles when expanded
+.expandable.js-expandable-active {
+  > * > * > * {
+    display: block;
+  }
+  .read-more {
+    display: block;
+    &:after {
+      content: 'Read Less';
+    }
+  }
+}

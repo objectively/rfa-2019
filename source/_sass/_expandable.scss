@@ -22,15 +22,18 @@
   > * > * > * {
     display: none;
   }
-  
+  .read-more-wrapper {
+    text-align: right;
+    padding-bottom: 1rem;
+  }
   .read-more {
     @extend .u-transition;
     &:hover {
       color: $blue;
     }
-    display: block;
-    font-size: 1.1rem;
-    font-weight: 700;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 800;
     background-color: #fff;
     padding: 0;
     color: $hyperlink-orange;
@@ -46,7 +49,7 @@
     display: block;
   }
   .read-more {
-    display: block;
+    display: inline-block;
     &:after {
       content: 'Read Less';
     }

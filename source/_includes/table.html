@@ -1,4 +1,24 @@
 {% assign criteria = site.data.contentful.criteria.criteria |  where: "year", site.content_year %}
+{% assign leadingExamples = site.data.contentful.leading.leading | where: "year", site.content_year %}
+{% assign promisingExamples = site.data.contentful.promising.promising | where: "year", site.content_year %}
+
+<!-- Grab all used Issues -->
+{% assign all_issues = "" | split: "" %}
+
+{% for leading_example in leadingExamples %}
+  {% for issue in leading_example.issue %} 
+    {% assign all_issues = all_issues | push: issue %}
+  {% endfor %}
+{% endfor %}
+
+{% for promising_example in promisingExamples %}
+  {% for issue in promising_example.issue %} 
+    {% assign all_issues = all_issues | push: issue  %}
+  {% endfor %}
+{% endfor %}
+
+{% assign all_issues = all_issues | uniq | sort %}
+
 
 <section class="table">
   <div class="row expanded">
@@ -13,11 +33,15 @@
 
       <tr class="state-types">
         <td colspan="3">
-          <div class="dropdown">
-            <select>
-              <option>1</option>
-              <option value="">2</option>
-            </select>
+          <div class="issues-dropdown-filter-wrapper row align-center">
+            <div class="select issues-dropdown-filter">
+              <select aria-label="issues dropdown filter" class="issues-dropdown-filter__select">
+                  <option class="issues-dropdown-filter__option" value="all">Select an Issue</option>
+                {% for issue in all_issues %}
+                  <option class="issues-dropdown-filter__option" value="{{issue | slugify }}" data-page="{{ issue | slugify }}">{{issue}}</option>
+                {% endfor %}
+              </select>
+            </div>
           </div>
         </td>
       </tr>
@@ -47,7 +71,7 @@
           {% assign leading_issues = leading_issues | push: issue_slug %}
           {% endfor %}
 
-          <div class="examples-wrapper" data-examples="{{leading_issues | join: " "}}">
+          <div class="examples-wrapper all {{leading_issues | join: " "}}" data-examples="all {{leading_issues | join: " "}}">
             <div class="row align-center">
               <div class="leading__state column large-12">
 
@@ -64,7 +88,7 @@
           </div>
         </td>
         <td class="leading leading--desktop">
-          <div class="examples-wrapper" data-examples="{{leading_issues | join: " "}}">
+          <div class="examples-wrapper all {{leading_issues | join: " "}}" data-examples="all {{leading_issues | join: " "}}">
             <div class="row">
               <div class="leading__state column large-12">
                 <span class="state-abbrev">
@@ -102,7 +126,7 @@
           {% assign promising_issues = promising_issues | push: issue_slug %}
           {% endfor %}
 
-          <div class="examples-wrapper" data-examples="{{promising_issues | join: " "}}">
+          <div class="examples-wrapper all {{promising_issues | join: " "}}" data-examples="all {{promising_issues | join: " "}}">
 
             <a href="{{ url-promising-examples | relative_url }}" class="promising__state promising__state--desktop">
               <div class="state__issues promising-type">
@@ -117,7 +141,7 @@
             </a>
           </div>
 
-          <div class="examples-wrapper" data-examples="{{promising_issues | join: " "}}">
+          <div class="examples-wrapper all {{promising_issues | join: " "}}" data-examples="all {{promising_issues | join: " "}}">
 
             <a href="{{ url-promising-examples | relative_url }}" class="promising__state promising__state--mobile">
               <div class="state__issues promising-type">

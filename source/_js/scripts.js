@@ -12,7 +12,6 @@ import Utils from './utils';
 
 CompactPanel.init();
 Expandable.init();
-Filter.init();
 FixedNav.init();
 Nav.init();
 Overlay.init();
@@ -21,3 +20,8 @@ Search.init();
 Sticky.init();
 Tooltip.init();
 Utils.markdownLinksNewPage();
+
+
+if (window.location.pathname === '/' || window.location.pathname === '/rfa-2019') {
+  Filter.init();
+};

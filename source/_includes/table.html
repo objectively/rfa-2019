@@ -22,7 +22,7 @@
 
 <section class="table">
   <div class="row expanded">
-    <table>
+    <table class="js-active-key slide-panel__wrapper--compact">
       <tr>
         <th>Criteria</th>
         <th class="title-leading"><a
@@ -30,7 +30,7 @@
               class="material-icons launch-leading">launch</i></a></th>
         <th class="title-promising">Promising Examples</th>
       </tr>
-
+      <span class="top-bar__button js-trigger-menu">more_vert</span>
       <tr class="state-types">
         <td colspan="3">
           <div class="issues-dropdown-filter-wrapper row align-center">
@@ -42,6 +42,7 @@
                 {% endfor %}
               </select>
             </div>
+            {%include key-content.html issues=all_issues%}
           </div>
         </td>
       </tr>

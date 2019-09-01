@@ -72,3 +72,11 @@
     color: $primary-orange;
   }
 }
+
+// issues in index key
+.issue--key {
+  &::before {
+    margin-right: 1rem;
+    font-size: 1.2rem;
+  }
+}

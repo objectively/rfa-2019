@@ -1,3 +1,4 @@
+import CompactPanel from './compact-panel';
 import Expandable from './expandable';
 import Filter from './filter';
 import FixedNav from './fixed-nav';
@@ -9,6 +10,7 @@ import Sticky from './sticky';
 import Tooltip from './tooltip';
 import Utils from './utils';
 
+CompactPanel.init();
 Expandable.init();
 Filter.init();
 FixedNav.init();

@@ -34,8 +34,18 @@
     height: 3.5rem;
     font-size: 2.2rem;
   }
+  &__button--more {
+    @extend .u-material-icons;
+  }
 }
 
+.js-trigger-sidepanel {
+  @extend .u-material-icons;
+  &:before {
+    font-family: 'Material Icons';
+    content: "more_vert";
+  }
+}
 
 .main-menu {
   box-shadow: none;
@@ -47,7 +57,7 @@
   }
   .sub-link {
     font-size: 1rem;
-    font-weight: 500
+    font-weight: 500;
   }
   &.js-active-menu {
     right: 78%;
@@ -57,9 +67,8 @@
     text-align: left;
     border-bottom: none;
     text-transform: none;
-    padding: .5rem 3rem;
+    padding: 0.5rem 3rem;
     cursor: pointer;
     line-height: 1.8rem;
   }
 }
-

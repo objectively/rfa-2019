@@ -1,17 +1,18 @@
 .examples-grid {
   margin: 0;
   .examples-grid__header {
-    color: #fff;
-  
+    outline: red solid 1px;
+    z-index: 1;
   }
   .examples-grid__header-row {
+    color: #fff;
     width: 100%;
     margin: 0;
   }
   .examples-grid__filter-row {
     text-align: center;
     background-color: lighten($dark-blue, 10);
-    color: white;
+    // color: white;
     padding: 10px;
     @include breakpoint($small-only) {
       padding: 5px;
@@ -92,5 +93,195 @@
   width: 38%;
   @include breakpoint($small-only) {
     width: 40%;
+  }
+}
+
+.examples-grid__content-row {
+
+    &:nth-of-type(odd) {
+      .title  {
+        background-color: $medium-gray;
+      }
+      .leading  {
+        background-color: $dark-green-tint;
+      }
+      .promising {
+        background-color: $dark-orange-tint;
+      }
+    }
+    &:nth-of-type(even) {
+      .title  {
+        background-color: $light-gray;
+      }
+      .leading  {
+        background-color: $light-green-tint;
+      }
+      .promising {
+        background-color: $light-orange-tint;
+      }
+    }
+  .examples-grid__content-cell {
+    padding: 50px 40px 0 35px;
+    &.title {
+      font-size: 1.2rem;
+      font-weight: 400;
+      line-height: 1.2;
+      position: relative;
+      &:hover {
+        color: $blue;
+        cursor: pointer;
+        @extend .u-transition;
+      }
+      a {
+        text-decoration: none;
+        &:hover {
+          color: $blue;
+          @extend .u-transition;
+        }
+      }
+      @include breakpoint($medium-only) {
+        font-size: 1rem;
+        padding: 25px 15px 20px 15px;
+      }
+      @include breakpoint($small-only) {
+        font-size: .9rem;
+        padding: 25px 15px 0 15px;
+      }
+    }
+    .leading {
+      padding: 50px 0 20px 35px;
+      @include breakpoint($medium-only) {
+        padding-top: 25px;
+        padding-left: 0;
+      }
+      @include breakpoint($small-only) {
+        padding-top: 25px;
+        padding-left: 0;
+      }
+      &--mobile {
+        &:hover {
+          cursor: pointer;
+        }
+        @include breakpoint($large) {
+          display: none;
+        }
+      }
+      &--desktop {
+        color: lighten($font-dark-gray, 15);
+        @include breakpoint($medium-only) {
+          display: none;
+        }
+        @include breakpoint($small-only) {
+          display: none;
+        }
+      }
+      &__state {
+        color: $primary-green;
+        font-size: 3.9rem;
+        font-weight: bold;
+        line-height: 1;
+        position: relative;
+        text-align: left;
+        @include breakpoint($medium-only) {
+          text-align: center;
+        }
+        @include breakpoint($small-only) {
+          font-size: 2.8rem;
+          line-height: 1;
+        }
+        .leading-type {
+          font-size: 1rem;
+          position: absolute;
+          top: 8px;
+          @include breakpoint($small-only) {
+            top: 5px;
+          }
+          &--desktop {
+            @include breakpoint($between-large) {
+              right: 0px;
+            }
+          }
+        }
+      }
+      .description {
+        font-size: 1.06rem;
+        padding-bottom: 15px;
+        @include breakpoint($medium-only) {
+          display: none;
+        }
+        @include breakpoint($small-only) {
+          display: none;
+        }
+      }
+      .link {
+        padding-bottom: 30px;
+      }
+      .learn-more {
+   
+      }
+    }
+  
+    .promising {
+      padding: 50px 0 0 35px;
+      @include breakpoint($medium-only) {
+        padding: 25px 0 20px 15px;
+      }
+      @include breakpoint($small-only) {
+        padding: 25px 0 20px 15px;
+      }
+      &__state {
+        background-color: $primary-orange;
+        border-radius: 10px;
+        color: white;
+        display: inline-block;
+        font-size: .8rem;
+        font-weight: bold;
+        margin: auto 10px 10px auto;
+        padding: 7px 10px 7px 10px;
+        text-decoration: none;
+        text-transform: uppercase;
+        &:hover {
+          background-color: darken($primary-orange, 12);
+          @extend .u-transition;
+        }
+        @include breakpoint($small-only) {
+          border-radius: 5px;
+          padding: 5px 6px 5px 6px;
+        }
+        .promising-type {
+          color: darken($primary-orange, 30);
+          padding-left: 5px;
+        }
+        &--desktop {
+          display: none;
+          @include breakpoint($large) {
+            display: inline-block;
+          }
+        }
+        &--mobile {
+          margin-bottom: 7px;
+          margin-right: 7px;
+          @include breakpoint($large) {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+.link {
+  padding: 1rem 0;
+  .learn-more {
+    color: $primary-green;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    @include breakpoint($medium-only) {
+      display: none;
+    }
+    @include breakpoint($small-only) {
+      display: none;
+    }
   }
 }

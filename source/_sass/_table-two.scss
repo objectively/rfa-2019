@@ -1,0 +1,96 @@
+.examples-grid {
+  margin: 0;
+  .examples-grid__header {
+    color: #fff;
+  
+  }
+  .examples-grid__header-row {
+    width: 100%;
+    margin: 0;
+  }
+  .examples-grid__filter-row {
+    text-align: center;
+    background-color: lighten($dark-blue, 10);
+    color: white;
+    padding: 10px;
+    @include breakpoint($small-only) {
+      padding: 5px;
+      font-size: .65rem;
+    }
+    span {
+      text-transform: uppercase;
+      font-weight: 600;
+      padding: 20px;
+      @include breakpoint($small-only) {
+        padding: 10px;
+        font-size: .65rem;
+      }
+    }
+  }
+  .examples-grid__header-cell {
+    font-weight:: 700;
+    color: #fff;
+    text-align: left;
+    text-transform: uppercase;
+    background-color: $dark-blue;
+    font-size: 1.4rem;
+    letter-spacing: .05em;
+    padding: 15px 0 15px 35px;
+    @include breakpoint($medium-only) {
+      font-size: 1.2rem;
+      padding: 15px;
+    }
+    @include breakpoint($small-only) {
+      font-size: .65rem;
+      padding: 5px 10px;
+    }
+    &:nth-child(2) {
+      background-color: lighten($dark-blue, 3);
+    }
+  }
+}
+
+.title-leading {
+  width: 38%;
+  a {
+    &:hover {
+      color: $blue;
+      text-decoration: none;
+      @extend .u-transition;
+    }
+  }
+}
+
+.launch-leading {
+  vertical-align: middle;
+  @include breakpoint($medium-only) {
+    font-size: 1.2rem;
+    margin-top: -4px;
+  }
+  @include breakpoint($small-only) {
+    font-size: .75rem;
+    margin-top: -2px;
+  }
+  @include breakpoint($large) {
+    margin-top: -3px;
+  }
+}
+
+.before-launch {
+  @include breakpoint($medium-only) {
+    padding-right: 5px;
+  }
+  @include breakpoint($small-only) {
+    padding-right: 2px;
+  }
+  @include breakpoint($large) {
+    padding-right: 5px;
+  }
+}
+
+.title-promising {
+  width: 38%;
+  @include breakpoint($small-only) {
+    width: 40%;
+  }
+}

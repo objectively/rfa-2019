@@ -1,0 +1,47 @@
+{% assign criteria = site.data.contentful.criteria.criteria |  where: "year", site.content_year %}
+{% assign leadingExamples = site.data.contentful.leading.leading | where: "year", site.content_year %}
+{% assign promisingExamples = site.data.contentful.promising.promising | where: "year", site.content_year %}
+
+<!-- Grab all used Issues -->
+{% assign all_issues = "" | split: "" %}
+
+{% for leading_example in leadingExamples %}
+{% for issue in leading_example.issue %}
+{% assign all_issues = all_issues | push: issue %}
+{% endfor %}
+{% endfor %}
+
+{% for promising_example in promisingExamples %}
+{% for issue in promising_example.issue %}
+{% assign all_issues = all_issues | push: issue  %}
+{% endfor %}
+{% endfor %}
+
+{% assign all_issues = all_issues | uniq | sort %}
+
+<section class="table examples-grid js-active-key slide-panel__wrapper--compact fixed-section-wrapper">
+  <div class="row expanded examples-grid__header">
+    <div class="row expanded examples-grid__header-row">
+      <div class="columns large-4 examples-grid__header-cell">Criteria</div>
+      <div class="columns large-4 examples-grid__header-cell title-leading"><a
+        href="{{ '/state-standard-of-excellence/leading-examples.html' | relative_url }}">Leading Examples<i
+          class="material-icons launch-leading">launch</i></a></div>
+      <div class="columns large-4 examples-grid__header-cell title-promising">Promising Examples</div>
+    </div>
+    <div class="row expanded  align-center examples-grid__header-row examples-grid__filter-row">
+      <div class="issues-dropdown-filter-wrapper">
+          <div class="select issues-dropdown-filter">
+            <select aria-label="issues dropdown filter" class="issues-dropdown-filter__select">
+              <option class="issues-dropdown-filter__option" value="all">Select an Issue</option>
+              {% for issue in all_issues %}
+              <option class="issues-dropdown-filter__option" value="{{issue | slugify }}"
+                data-page="{{ issue | slugify }}">{{issue}}</option>
+              {% endfor %}
+            </select>
+          </div>
+        </div>
+        {%include key-content.html issues=all_issues%}
+    </div>
+
+  </div>
+</section>

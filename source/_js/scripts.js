@@ -2,6 +2,7 @@ import CompactPanel from './compact-panel';
 import Expandable from './expandable';
 import Filter from './filter';
 import FixedNav from './fixed-nav';
+import FixedSection from './fixed-section';
 import Overlay from './overlay';
 import Nav from './nav';
 import Scroll from './scroll';
@@ -21,6 +22,7 @@ Sticky.init();
 Tooltip.init();
 Utils.markdownLinksNewPage();
 
+FixedSection.init();
 
 if (window.location.pathname === '/' || window.location.pathname === '/rfa-2019') {
   Filter.init();

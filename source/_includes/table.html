@@ -6,15 +6,15 @@
 {% assign all_issues = "" | split: "" %}
 
 {% for leading_example in leadingExamples %}
-  {% for issue in leading_example.issue %} 
-    {% assign all_issues = all_issues | push: issue %}
-  {% endfor %}
+{% for issue in leading_example.issue %}
+{% assign all_issues = all_issues | push: issue %}
+{% endfor %}
 {% endfor %}
 
 {% for promising_example in promisingExamples %}
-  {% for issue in promising_example.issue %} 
-    {% assign all_issues = all_issues | push: issue  %}
-  {% endfor %}
+{% for issue in promising_example.issue %}
+{% assign all_issues = all_issues | push: issue  %}
+{% endfor %}
 {% endfor %}
 
 {% assign all_issues = all_issues | uniq | sort %}
@@ -22,32 +22,34 @@
 
 <section class="table">
   <div class="row expanded">
-    <table class="js-active-key slide-panel__wrapper--compact">
-      <tr>
-        <th>Criteria</th>
-        <th class="title-leading"><a
-            href="{{ '/state-standard-of-excellence/leading-examples.html' | relative_url }}">Leading Examples<i
-              class="material-icons launch-leading">launch</i></a></th>
-        <th class="title-promising">Promising Examples</th>
-      </tr>
-      <span class="top-bar__button js-trigger-menu">more_vert</span>
-      <tr class="state-types">
-        <td colspan="3">
-          <div class="issues-dropdown-filter-wrapper row align-center">
-            <div class="select issues-dropdown-filter">
-              <select aria-label="issues dropdown filter" class="issues-dropdown-filter__select">
+    <table class="js-active-key slide-panel__wrapper--compact fixed-section-wrapper">
+      <thead class="fixed-section">
+        <tr>
+          <th>Criteria</th>
+          <th class="title-leading"><a
+              href="{{ '/state-standard-of-excellence/leading-examples.html' | relative_url }}">Leading Examples<i
+                class="material-icons launch-leading">launch</i></a></th>
+          <th class="title-promising">Promising Examples</th>
+        </tr>
+        <span class="top-bar__button js-trigger-menu">more_vert</span>
+        <tr class="state-types">
+          <td colspan="3">
+            <div class="issues-dropdown-filter-wrapper row align-center">
+              <div class="select issues-dropdown-filter">
+                <select aria-label="issues dropdown filter" class="issues-dropdown-filter__select">
                   <option class="issues-dropdown-filter__option" value="all">Select an Issue</option>
-                {% for issue in all_issues %}
-                  <option class="issues-dropdown-filter__option" value="{{issue | slugify }}" data-page="{{ issue | slugify }}">{{issue}}</option>
-                {% endfor %}
-              </select>
+                  {% for issue in all_issues %}
+                  <option class="issues-dropdown-filter__option" value="{{issue | slugify }}"
+                    data-page="{{ issue | slugify }}">{{issue}}</option>
+                  {% endfor %}
+                </select>
+              </div>
+              {%include key-content.html issues=all_issues%}
             </div>
-            {%include key-content.html issues=all_issues%}
-          </div>
-        </td>
-      </tr>
-
-
+          </td>
+        </tr>
+      </thead>
+      <tbody>
       {% for item in criteria %}
       <tr class="criteria">
         {% assign title = item.title | replace: "/", "0000" | slugify | remove: "0000" %}
@@ -160,6 +162,7 @@
         </td>
       </tr>
       {% endfor %}
+      </tbody>
     </table>
 
   </div>

@@ -149,8 +149,17 @@
   font-size: 1rem;
   padding: 0;
   text-align: center;
+  padding: 0!important;
+  width: 14rem;
+  @include breakpoint($small-only) {
+    width: 12rem;
+  }
   &::before {
     color: #fff;
+    right: 10px;
+    @include breakpoint($small-only) {
+      right: 12px;
+    }
   }
 }
 .criteria-dropdown-nav__select {

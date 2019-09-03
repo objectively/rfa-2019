@@ -50,7 +50,7 @@ const FixedSection = {
           const fixedSectionHeight = fixedSectionWrapper.height;
           // when offset top of wrapper = height of wrapper remove fixed
           $('.content-section').css('margin-top', $('.fixed-section').height())
-          $('.examples-grid__content-row:first-of-type .examples-grid__content-cell').css('padding-top','8rem');
+          $('.examples-grid__content-row:first-of-type .examples-grid__content-cell').css('padding-top','7rem');
             fixedSectionHeight <= Math.abs(fixedSectionTop) ? $fixedSection.css('opacity', 0) : $fixedSection.css('opacity', 1)
         } else {
           $fixedSection.removeClass('fixed');

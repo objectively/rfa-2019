@@ -42,11 +42,16 @@
           </select>
         </div>
       </div>
-      {%include key-content.html issues=all_issues%}
+
+        <a class="key slide-panel__open" data-term="key">Key<i class="material-icons">more_vert</i></a>
+
     </div>
   </div>
-  <div class="content-section">
 
+  {%include key-content.html issues=all_issues%}
+
+  <div class="content-section">
+    
     <!-- grid content -->
     {% for item in criteria %}
     {% assign title = item.title | replace: "/", "0000" | slugify | remove: "0000" %}

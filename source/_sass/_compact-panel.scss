@@ -1,17 +1,19 @@
-.key-control {
-  display: inline-block;
-}
-.key-control .slide-panel__open-trigger {
+
+.slide-panel__open {
+
   position: absolute;
   right: 0;
   padding-top: 4px;
-  font-size: 0.8rem;
+  font-size: .8rem;
   @include breakpoint ($large) {
-    padding-top: 5px;
+    // padding-top: 5px;
     font-size: 0.9rem;
   }
   cursor: pointer;
   text-decoration: none;
+  &:hover {
+    text-decoration: none;
+  }
   i {
     vertical-align: bottom;
   }

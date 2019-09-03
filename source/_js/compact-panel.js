@@ -13,10 +13,10 @@ const CompactPanel = {
       const dataTarget = e.currentTarget.getAttribute('data-term');
       const targetSlideContainer = $(`[data-value="${dataTarget}"]`);
       if (targetSlideContainer.hasClass('is-visible')) {
-        CompactPanel.slideTarget.animate({ right: '-100%' }, 400).fadeOut(5);
+        CompactPanel.slideTarget.animate({ right: '-100%' }, 300).fadeOut(5);
         targetSlideContainer.removeClass('is-visible');
       } else {
-        CompactPanel.slideTarget.animate({ right: '0%' }, 400).css('display', 'block');
+        CompactPanel.slideTarget.animate({ right: '0%' }, 300).css('display', 'block');
         targetSlideContainer.addClass('is-visible');
         $('#overlay').addClass('js-active');
       }

@@ -55,13 +55,12 @@ const FixedSection = {
         } else {
           $fixedSection.removeClass('fixed');
           $('.content-section').css('margin-top', 'initial');
+          $('.examples-grid__content-row:first-of-type .examples-grid__content-cell').css('padding-top','3rem');
         }
-
       });
     }
-    
+
   }
 };
 
 module.exports = FixedSection;
-

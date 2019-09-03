@@ -48,8 +48,6 @@
   <div class="content-section">
 
     <!-- grid content -->
-
-    <div class="row expanded examples-grid__content-row criteria"></div>
     {% for item in criteria %}
     {% assign title = item.title | replace: "/", "0000" | slugify | remove: "0000" %}
     {% assign url = "/state-standard-of-excellence/" | append: title | append: ".html" %}

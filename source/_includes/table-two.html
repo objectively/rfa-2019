@@ -19,7 +19,7 @@
 
 {% assign all_issues = all_issues | uniq | sort %}
 
-<section class="table examples-grid js-active-key slide-panel__wrapper--compact fixed-section-wrapper">
+<section class="table table-two examples-grid js-active-key slide-panel__wrapper--compact fixed-section-wrapper">
 
   <!-- examples-grid header -->
   <div class="row expanded examples-grid__header fixed-section ">
@@ -48,7 +48,7 @@
   <div class="content-section">
 
     <!-- grid content -->
-    <!-- buffer for fixed header -->
+
     <div class="row expanded examples-grid__content-row criteria"></div>
     {% for item in criteria %}
     {% assign title = item.title | replace: "/", "0000" | slugify | remove: "0000" %}
@@ -64,6 +64,7 @@
           {{ item.description }}
         </span>
       </div>
+
       <div class="column examples-grid__content-cell leading leading--desktop">
         <!-- Leading issues -->
         {% assign leading_issues = "" | split: "" %}
@@ -85,7 +86,7 @@
             </div>
           </div>
           <div class="link row">
-            <div class="column large-7">
+            <div class="column large-7 issues-container">
               {% for issue in item.leading_list.issue %}
               <span class="issue issue--leading issue--{{ issue | slugify }}"></span>
               {% endfor %}
@@ -113,6 +114,7 @@
           <a href="{{ url-promising-examples | relative_url }}" class="promising__state promising__state--desktop">
             <div class="state__issues promising-type">
               <span class="state__title">{{ state.state }}</span>
+              <span class="state__abbreviation">{{ state.state_abbreviation }}</span>
 
               {% if issues %}
               {% for issue in issues %}
@@ -123,20 +125,6 @@
           </a>
         </div>
 
-        <div class="examples-wrapper" data-examples="all {{promising_issues | join: " "}}">
-
-          <a href="{{ url-promising-examples | relative_url }}" class="promising__state promising__state--mobile">
-            <div class="state__issues promising-type">
-              <span class="state__title">{{ state.state_abbreviation }}</span>
-
-              {% if issues %}
-              {% for issue in issues %}
-              <span class="issue issue--{{ issue | slugify }}"></span>
-              {% endfor %}
-              {% endif %}
-            </div>
-          </a>
-        </div>
         {% endfor %}
       </div>
     </div>

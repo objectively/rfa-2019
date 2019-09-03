@@ -1,7 +1,9 @@
+.table-two {
+  
+}
 .examples-grid {
   margin: 0;
   .examples-grid__header {
-    outline: red solid 1px;
     z-index: 1;
   }
   .examples-grid__header-row {
@@ -121,7 +123,11 @@
       }
     }
   .examples-grid__content-cell {
-    padding: 50px 40px 0 35px;
+    padding: 1rem;
+    @include breakpoint($large) {
+      // padding: 50px 40px 0 35px;
+      padding: 2rem;
+    }
     &.title {
       font-size: 1.2rem;
       font-weight: 400;
@@ -141,11 +147,11 @@
       }
       @include breakpoint($medium-only) {
         font-size: 1rem;
-        padding: 25px 15px 20px 15px;
+        padding: 1rem;
       }
       @include breakpoint($small-only) {
         font-size: .9rem;
-        padding: 25px 15px 0 15px;
+        padding: 1rem;
       }
     }
     .leading {
@@ -157,6 +163,7 @@
       @include breakpoint($small-only) {
         padding-top: 25px;
         padding-left: 0;
+        
       }
       &--mobile {
         &:hover {
@@ -172,7 +179,7 @@
           display: none;
         }
         @include breakpoint($small-only) {
-          display: none;
+          display: none !important;
         }
       }
       &__state {
@@ -213,21 +220,16 @@
           display: none;
         }
       }
-      .link {
-        padding-bottom: 30px;
-      }
-      .learn-more {
-   
-      }
     }
   
     .promising {
       padding: 50px 0 0 35px;
       @include breakpoint($medium-only) {
-        padding: 25px 0 20px 15px;
+        // padding: 25px 0 20px 15px;
+        padding: 1rem;
       }
       @include breakpoint($small-only) {
-        padding: 25px 0 20px 15px;
+        padding: 1rem;
       }
       &__state {
         background-color: $primary-orange;
@@ -253,9 +255,9 @@
           padding-left: 5px;
         }
         &--desktop {
-          display: none;
+          // display: none;
           @include breakpoint($large) {
-            display: inline-block;
+            // display: inline-block;
           }
         }
         &--mobile {
@@ -270,8 +272,12 @@
   }
 }
 
+
+// desktop link
 .link {
-  padding: 1rem 0;
+  @include breakpoint($large) {
+    padding-top: 1rem;
+  }
   .learn-more {
     color: $primary-green;
     font-size: 1.1rem;
@@ -282,6 +288,90 @@
     }
     @include breakpoint($small-only) {
       display: none;
+    }
+  }
+}
+
+
+.tooltip {
+  background: #404040;
+  cursor: auto;
+  color: white;
+  display: none;
+  left: 95%;
+  top: 50%;
+  max-width: 320px;
+  min-width: 320px;
+  opacity: 0;
+  padding: 15px;
+  position: absolute;
+  transition: all .3s ease-in-out;
+  transform: translateY(-50%);
+  visibility: hidden;
+  width: 100%;
+  z-index: 2;
+  @include breakpoint($medium-only) {
+    display: none!important;
+  }
+  @include breakpoint($small-only) {
+    display: none!important;
+  }
+}
+
+.tooltip:before {
+  content: '';
+  position: absolute;
+  left: -15px;
+  width: 0;
+  height: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-right: 15px solid #404040;
+}
+
+
+.examples-grid__header {
+  visibility: visible;
+  // transition: visibility 0s linear 0s, opacity 300ms;
+  .hidden {
+    visibility: hidden;
+    // opacity: 0;
+    // transition: visibility 0s linear 300ms, opacity 300ms;
+  }
+}
+
+// mobile desktop
+.examples-grid__content-cell.leading {
+  @include breakpoint($medium-only){
+    padding: 1rem;
+    .examples-wrapper { display: flex; justify-content: center;}
+    .description, .learn-more {display: none;}
+    .link.row {
+      .issues-container {
+        display: flex;
+       position: relative;
+       top: 6px;
+      }
+    }
+  }
+  
+}
+
+// mobile promising issues tags
+.state__issues {
+  .state__title {
+    display: none;
+    @include breakpoint($large) {
+      display: inline-block;
+    }
+  }
+  .state__abbreviation {
+    color: #fff;
+    display: inline-block;
+    @include breakpoint($large) {
+      display: none !important;
     }
   }
 }

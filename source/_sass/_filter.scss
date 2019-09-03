@@ -18,7 +18,11 @@
 .issues-dropdown-filter.select {
   background-color: transparent;
   margin: 0;
-  font-size: 1rem;
+  font-size: .8rem;
+  @include breakpoint($large) {
+    font-size: 1rem;
+
+  }
   padding: 0;
   text-align: center;
   &::before {

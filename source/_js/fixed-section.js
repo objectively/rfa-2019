@@ -38,8 +38,6 @@ const FixedSection = {
       const margin = 50;
 
       $window.scroll(() => {
-        console.log($window.scrollTop() , elTop)
-        // $fixedSection.toggleClass('fixed', $window.scrollTop() > elTop);
         if ($window.scrollTop() > elTop) {
           $fixedSection.addClass('fixed');
          
@@ -48,11 +46,11 @@ const FixedSection = {
           const fixedSectionTop = Math.abs(fixedSectionWrapper.top) + margin;
           const fixedSectionHeight = fixedSectionWrapper.height;
           // when offset top of wrapper = height of wrapper remove fixed
-          if (fixedSectionHeight <= Math.abs(fixedSectionTop)) {
-            $fixedSection.removeClass('fixed');
-          }
-          // $('.examples-grid__content-row:first-child > .examples-grid__content-cell ').css('padding-top', '60px');
-          // $('.examples-grid__header').height()
+
+          fixedSectionHeight <= Math.abs(fixedSectionTop) ? $fixedSection.css('visibility', 'hidden').css('transition', 'visibility 0s linear 0s, opacity 300ms') : $fixedSection.css('visibility', 'visible').css('transition', 'visibility 0s linear 0s, opacity 300ms')
+          
+          // fixedSectionHeight <= Math.abs(fixedSectionTop) ? $fixedSection.addClass("hidden") : $fixedSection.removeClass('hidden')
+
         } else {
           $fixedSection.removeClass('fixed');
           // $('.examples-grid__content-row:first-child > .examples-grid__content-cell ').css('padding-top', '50px');
@@ -60,54 +58,9 @@ const FixedSection = {
 
       });
     }
-    // if ($('.fixed-section').length > 0) {
-    //   const $fixedSection = $('.fixed-section');
-    //   const $fixedSectionWrapper = $('.fixed-section-wrapper');
-    //   const elTop = $fixedSection.offset().top;
-    //   const margin = $('.fixed-section__cell').height();
-      
-    //   const $window = $(window);
-      
-    //   $window.scroll(() => {
-    //     // $fixedSection.toggleClass('fixed', $window.scrollTop() > elTop);
-    //     // $('.fixed-section-wrapper').css('padding-bottom',( margin * 2));
-        
-    //     if ($window.scrollTop() > elTop) {
-          
-    //       $fixedSection.addClass('fixed');
-    //       $('.fixed-section__row:first-of-type').css('margin-top', margin);
-    //       const fixedSectionWrapper = document.querySelector('.fixed-section-wrapper').getBoundingClientRect();
-    //       const fixedSectionTop = Math.abs(fixedSectionWrapper.top) + margin;
-    //       const fixedSectionHeight = fixedSectionWrapper.height;
-    //       // when offset top of wrapper = height of wrapper remove fixed
-    //       if (fixedSectionHeight <= Math.abs(fixedSectionTop)) {
-    //         $fixedSection.removeClass('fixed');
-    //       }
-    //     } else {
-    //       $fixedSection.removeClass('fixed');
-    //       $('.fixed-section__row:first-of-type').css('margin-top', 0);
-    //     }
-    //   });
-    // }
+    
   }
 };
 
 module.exports = FixedSection;
 
-// $window.scroll(() => {
-//   $fixedSection.toggleClass('fixed', $window.scrollTop() > elTop);
-//   if ($window.scrollTop() > elTop) {
-//     $fixedSection.addClass('fixed');
-//     $('.fixed-section__row:first-of-type').css('margin-top', margin);
-//     const fixedSectionWrapper = document.querySelector('.fixed-section-wrapper').getBoundingClientRect();
-//     const fixedSectionTop = Math.abs(fixedSectionWrapper.top) + margin / 2;
-//     const fixedSectionHeight = fixedSectionWrapper.height;
-//     // when offset top of wrapper = height of wrapper remove fixed
-//     if (fixedSectionHeight <= Math.abs(fixedSectionTop)) {
-//       $fixedSection.removeClass('fixed');
-//     }
-//   } else {
-//     $fixedSection.removeClass('fixed');
-//     $('.fixed-section__row:first-of-type').css('margin-top', 0);
-//   }
-// });

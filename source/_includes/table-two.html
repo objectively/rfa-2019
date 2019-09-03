@@ -56,6 +56,7 @@
     {% for item in criteria %}
     {% assign title = item.title | replace: "/", "0000" | slugify | remove: "0000" %}
     {% assign url = "/state-standard-of-excellence/" | append: title | append: ".html" %}
+    {% assign url_leading_example = "/state-standard-of-excellence/" | append: title | append: ".html" | append: "#leading-example"%}
 
     <div class="row expanded examples-grid__content-row criteria">
       <div class="column large-3 examples-grid__content-cell title"
@@ -80,7 +81,7 @@
             <div class="leading__state column large-12">
               <span class="state-abbrev">
                 <a style="text-decoration:none;"
-                  href="{{ url-leading-example | relative_url }}">{{item.leading_list.state_abbreviation}}
+                  href="{{ url_leading_example | relative_url }}">{{item.leading_list.state_abbreviation}}
                 </a>
               </span>
             </div>
@@ -95,7 +96,7 @@
               {% endfor %}
             </div>
             <div class="column large-5">
-              <a class="learn-more" href="{{ url-leading-example | relative_url }}">Learn More</a>
+              <a class="learn-more" href="{{ url_leading_example | relative_url }}">Learn More</a>
             </div>
           </div>
         </div>

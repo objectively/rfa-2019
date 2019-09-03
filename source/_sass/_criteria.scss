@@ -102,39 +102,6 @@
   //   border-radius: 5px;
   //   border: none;
   // }
-
-  &__nav {
-    background-color: $blue;
-    padding: 1rem 0;
-    color: #fff;
-    text-transform: uppercase;
-    font-weight: 600;
-
-    &--previous,
-    &--next {
-      a {
-        text-decoration: none;
-        &:hover {
-          @extend .u-transition;
-        }
-      }
-      text-align: left;
-      i {
-        vertical-align: bottom;
-      }
-    }
-    &--previous {
-      i {
-        padding-right: 0.8rem;
-      }
-    }
-    &--next {
-      text-align: right;
-      i {
-        padding-left: 0.8rem;
-      }
-    }
-  }
 }
 
 // criteria page dropdown nav

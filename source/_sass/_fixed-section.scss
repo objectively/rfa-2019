@@ -1,10 +1,16 @@
 .fixed {
   position: fixed;
   top: 0;
-  z-index: 2
+  z-index: 2;
 }
 
-.fixed-section-wrapper { margin:0;}
+.fixed-section {
+  @extend .u-transition;
+}
+
+.fixed-section-wrapper {
+  margin: 0;
+}
 
 .table {
   .fixed {

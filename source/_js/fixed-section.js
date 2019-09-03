@@ -44,22 +44,17 @@ const FixedSection = {
       $window.scroll(() => {
         if ($window.scrollTop() > elTop) {
           $fixedSection.addClass('fixed');
-         
           // remove fixed header near bottom of examples grid
           const fixedSectionWrapper = document.querySelector('.fixed-section-wrapper').getBoundingClientRect();
           const fixedSectionTop = Math.abs(fixedSectionWrapper.top) + margin;
           const fixedSectionHeight = fixedSectionWrapper.height;
           // when offset top of wrapper = height of wrapper remove fixed
-
-          // fixedSectionHeight <= Math.abs(fixedSectionTop) ? $fixedSection.css('visibility', 'hidden').css('transition', 'visibility 0s linear 0s, opacity 300ms') : $fixedSection.css('visibility', 'visible').css('transition', 'visibility 0s linear 0s, opacity 300ms')
-
-            fixedSectionHeight <= Math.abs(fixedSectionTop) ? $fixedSection.css('visibility', 'hidden') : $fixedSection.css('visibility', 'visible')
-          
-          // fixedSectionHeight <= Math.abs(fixedSectionTop) ? $fixedSection.addClass("hidden") : $fixedSection.removeClass('hidden')
-
+          $('.content-section').css('margin-top', $('.fixed-section').height())
+          $('.examples-grid__content-row:first-of-type .examples-grid__content-cell').css('padding-top','7rem');
+            fixedSectionHeight <= Math.abs(fixedSectionTop) ? $fixedSection.css('opacity', 0) : $fixedSection.css('opacity', 1)
         } else {
           $fixedSection.removeClass('fixed');
-          // $('.examples-grid__content-row:first-child > .examples-grid__content-cell ').css('padding-top', '50px');
+          $('.content-section').css('margin-top', 'initial');
         }
 
       });

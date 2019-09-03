@@ -5,6 +5,7 @@
   margin: 0;
   .examples-grid__header {
     z-index: 1;
+    transition: opacity 0.1s ease;
   }
   .examples-grid__header-row {
     color: #fff;
@@ -99,7 +100,6 @@
 }
 
 .examples-grid__content-row {
-
     &:nth-of-type(odd) {
       .title  {
         background-color: $medium-gray;
@@ -123,10 +123,10 @@
       }
     }
   .examples-grid__content-cell {
-    padding: 1rem;
+    padding:1rem;
     @include breakpoint($large) {
       // padding: 50px 40px 0 35px;
-      padding: 2rem;
+      padding: 3rem 2rem 2rem 2rem;
     }
     &.title {
       font-size: 1.2rem;
@@ -333,10 +333,10 @@
 
 
 .examples-grid__header {
-  visibility: visible;
+  // visibility: visible;
   // transition: visibility 0s linear 0s, opacity 300ms;
   .hidden {
-    visibility: hidden;
+    // visibility: hidden;
     // opacity: 0;
     // transition: visibility 0s linear 300ms, opacity 300ms;
   }

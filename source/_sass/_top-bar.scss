@@ -50,7 +50,11 @@
 .main-menu {
   box-shadow: none;
   overflow: auto;
-
+  width: 25rem;
+  @include breakpoint($large) {
+    width: 18rem;
+  }
+  
   .main-link {
     font-size: 1.4rem;
     font-weight: 700;
@@ -58,12 +62,6 @@
   .sub-link {
     font-size: 1rem;
     font-weight: 500;
-  }
-  &.js-active-menu {
-    right: 50%;
-    @include breakpoint($large) {
-      right: 78%;
-    }
   }
   .main-menu--links a {
     color: #fff;

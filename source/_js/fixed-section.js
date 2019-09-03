@@ -34,7 +34,11 @@ const FixedSection = {
       const $fixedSection = $('.fixed-section');
       const $fixedSectionWrapper = $('.fixed-section-wrapper');
 
-      const elTop = $fixedSection.offset().top;
+      let elTop = $fixedSection.offset().top;
+      // reassign elTop when read more is expanded
+      $('.read-more').on('click', () => {
+        elTop = $fixedSection.offset().top;
+      })
       const margin = 50;
 
       $window.scroll(() => {
@@ -47,7 +51,9 @@ const FixedSection = {
           const fixedSectionHeight = fixedSectionWrapper.height;
           // when offset top of wrapper = height of wrapper remove fixed
 
-          fixedSectionHeight <= Math.abs(fixedSectionTop) ? $fixedSection.css('visibility', 'hidden').css('transition', 'visibility 0s linear 0s, opacity 300ms') : $fixedSection.css('visibility', 'visible').css('transition', 'visibility 0s linear 0s, opacity 300ms')
+          // fixedSectionHeight <= Math.abs(fixedSectionTop) ? $fixedSection.css('visibility', 'hidden').css('transition', 'visibility 0s linear 0s, opacity 300ms') : $fixedSection.css('visibility', 'visible').css('transition', 'visibility 0s linear 0s, opacity 300ms')
+
+            fixedSectionHeight <= Math.abs(fixedSectionTop) ? $fixedSection.css('visibility', 'hidden') : $fixedSection.css('visibility', 'visible')
           
           // fixedSectionHeight <= Math.abs(fixedSectionTop) ? $fixedSection.addClass("hidden") : $fixedSection.removeClass('hidden')
 

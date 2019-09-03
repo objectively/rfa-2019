@@ -78,6 +78,9 @@
     position: absolute;
 
     width: 30%;
+    @include breakpoint($medium-only) {
+      width: 50%;
+    }
     @include breakpoint($small-only) {
       width: 100%;
     }

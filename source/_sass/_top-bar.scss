@@ -60,7 +60,10 @@
     font-weight: 500;
   }
   &.js-active-menu {
-    right: 78%;
+    right: 50%;
+    @include breakpoint($large) {
+      right: 78%;
+    }
   }
   .main-menu--links a {
     color: #fff;

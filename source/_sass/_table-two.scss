@@ -66,11 +66,11 @@
 .launch-leading {
   vertical-align: middle;
   @include breakpoint($medium-only) {
-    font-size: 1.2rem;
+    font-size: 1.2rem !important;
     margin-top: -4px;
   }
   @include breakpoint($small-only) {
-    font-size: .75rem;
+    font-size: .75rem !important;
     margin-top: -2px;
   }
   @include breakpoint($large) {

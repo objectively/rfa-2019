@@ -1,307 +1,307 @@
-table {
-  width: 100%;
-  th {
-    background-color: $dark-blue;
-    font-size: 1.4rem;
-    letter-spacing: .05em;
-    padding: 15px 0 15px 35px;
-    @include breakpoint($medium-only) {
-      font-size: 1.2rem;
-      padding: 15px;
-    }
-    @include breakpoint($small-only) {
-      font-size: .65rem;
-      padding: 5px 10px;
-    }
-    &:nth-child(2) {
-      background-color: lighten($dark-blue, 3);
-    }
-  }
+// table {
+//   width: 100%;
+//   th {
+//     background-color: $dark-blue;
+//     font-size: 1.4rem;
+//     letter-spacing: .05em;
+//     padding: 15px 0 15px 35px;
+//     @include breakpoint($medium-only) {
+//       font-size: 1.2rem;
+//       padding: 15px;
+//     }
+//     @include breakpoint($small-only) {
+//       font-size: .65rem;
+//       padding: 5px 10px;
+//     }
+//     &:nth-child(2) {
+//       background-color: lighten($dark-blue, 3);
+//     }
+//   }
 
-  tr {
-    &:nth-of-type(odd) {
-      .title  {
-        background-color: $medium-gray;
-      }
-      .leading  {
-        background-color: $dark-green-tint;
-      }
-      .promising {
-        background-color: $dark-orange-tint;
-      }
-    }
-    &:nth-of-type(even) {
-      .title  {
-        background-color: $light-gray;
-      }
-      .leading  {
-        background-color: $light-green-tint;
-      }
-      .promising {
-        background-color: $light-orange-tint;
-      }
-    }
-  }
+//   tr {
+//     &:nth-of-type(odd) {
+//       .title  {
+//         background-color: $medium-gray;
+//       }
+//       .leading  {
+//         background-color: $dark-green-tint;
+//       }
+//       .promising {
+//         background-color: $dark-orange-tint;
+//       }
+//     }
+//     &:nth-of-type(even) {
+//       .title  {
+//         background-color: $light-gray;
+//       }
+//       .leading  {
+//         background-color: $light-green-tint;
+//       }
+//       .promising {
+//         background-color: $light-orange-tint;
+//       }
+//     }
+//   }
 
-  .title {
-    font-size: 1.2rem;
-    font-weight: 400;
-    line-height: 1.2;
-    padding: 50px 40px 0 35px;
-    position: relative;
-    &:hover {
-      color: $blue;
-      cursor: pointer;
-      @extend .u-transition;
-    }
-    a {
-      text-decoration: none;
-      &:hover {
-        color: $blue;
-        @extend .u-transition;
-      }
-    }
-    @include breakpoint($medium-only) {
-      font-size: 1rem;
-      padding: 25px 15px 20px 15px;
-    }
-    @include breakpoint($small-only) {
-      font-size: .9rem;
-      padding: 25px 15px 0 15px;
-    }
-  }
+//   .title {
+//     font-size: 1.2rem;
+//     font-weight: 400;
+//     line-height: 1.2;
+//     padding: 50px 40px 0 35px;
+//     position: relative;
+//     &:hover {
+//       color: $blue;
+//       cursor: pointer;
+//       @extend .u-transition;
+//     }
+//     a {
+//       text-decoration: none;
+//       &:hover {
+//         color: $blue;
+//         @extend .u-transition;
+//       }
+//     }
+//     @include breakpoint($medium-only) {
+//       font-size: 1rem;
+//       padding: 25px 15px 20px 15px;
+//     }
+//     @include breakpoint($small-only) {
+//       font-size: .9rem;
+//       padding: 25px 15px 0 15px;
+//     }
+//   }
 
-  .state-types {
-    text-align: center;
-    td {
-      background-color: lighten($dark-blue, 10);
-      color: white;
-      padding: 10px;
-      @include breakpoint($small-only) {
-        padding: 5px;
-        font-size: .65rem;
-      }
-      span {
-        text-transform: uppercase;
-        font-weight: 600;
-        padding: 20px;
-        @include breakpoint($small-only) {
-          padding: 10px;
-          font-size: .65rem;
-        }
-      }
-    }
-  }
+//   .state-types {
+//     text-align: center;
+//     td {
+//       background-color: lighten($dark-blue, 10);
+//       color: white;
+//       padding: 10px;
+//       @include breakpoint($small-only) {
+//         padding: 5px;
+//         font-size: .65rem;
+//       }
+//       span {
+//         text-transform: uppercase;
+//         font-weight: 600;
+//         padding: 20px;
+//         @include breakpoint($small-only) {
+//           padding: 10px;
+//           font-size: .65rem;
+//         }
+//       }
+//     }
+//   }
 
-  .title-leading {
-    width: 38%;
-    a {
-      &:hover {
-        color: $blue;
-        text-decoration: none;
-        @extend .u-transition;
-      }
-    }
-  }
+//   .title-leading {
+//     width: 38%;
+//     a {
+//       &:hover {
+//         color: $blue;
+//         text-decoration: none;
+//         @extend .u-transition;
+//       }
+//     }
+//   }
 
-  .launch-leading {
-    vertical-align: middle;
-    @include breakpoint($medium-only) {
-      font-size: 1.2rem;
-      margin-top: -4px;
-    }
-    @include breakpoint($small-only) {
-      font-size: .75rem;
-      margin-top: -2px;
-    }
-    @include breakpoint($large) {
-      margin-top: -3px;
-    }
-  }
+//   .launch-leading {
+//     vertical-align: middle;
+//     @include breakpoint($medium-only) {
+//       font-size: 1.2rem;
+//       margin-top: -4px;
+//     }
+//     @include breakpoint($small-only) {
+//       font-size: .75rem;
+//       margin-top: -2px;
+//     }
+//     @include breakpoint($large) {
+//       margin-top: -3px;
+//     }
+//   }
 
-  .before-launch {
-    @include breakpoint($medium-only) {
-      padding-right: 5px;
-    }
-    @include breakpoint($small-only) {
-      padding-right: 2px;
-    }
-    @include breakpoint($large) {
-      padding-right: 5px;
-    }
-  }
+//   .before-launch {
+//     @include breakpoint($medium-only) {
+//       padding-right: 5px;
+//     }
+//     @include breakpoint($small-only) {
+//       padding-right: 2px;
+//     }
+//     @include breakpoint($large) {
+//       padding-right: 5px;
+//     }
+//   }
 
-  .title-promising {
-    width: 38%;
-    @include breakpoint($small-only) {
-      width: 40%;
-    }
-  }
+//   .title-promising {
+//     width: 38%;
+//     @include breakpoint($small-only) {
+//       width: 40%;
+//     }
+//   }
 
-  .leading {
-    padding: 50px 0 20px 35px;
-    @include breakpoint($medium-only) {
-      padding-top: 25px;
-      padding-left: 0;
-    }
-    @include breakpoint($small-only) {
-      padding-top: 25px;
-      padding-left: 0;
-    }
-    &--mobile {
-      &:hover {
-        cursor: pointer;
-      }
-      @include breakpoint($large) {
-        display: none;
-      }
-    }
-    &--desktop {
-      color: lighten($font-dark-gray, 15);
-      @include breakpoint($medium-only) {
-        display: none;
-      }
-      @include breakpoint($small-only) {
-        display: none;
-      }
-    }
-    &__state {
-      color: $primary-green;
-      font-size: 3.9rem;
-      font-weight: bold;
-      line-height: 1;
-      position: relative;
-      text-align: left;
-      @include breakpoint($medium-only) {
-        text-align: center;
-      }
-      @include breakpoint($small-only) {
-        font-size: 2.8rem;
-        line-height: 1;
-      }
-      .leading-type {
-        font-size: 1rem;
-        position: absolute;
-        top: 8px;
-        @include breakpoint($small-only) {
-          top: 5px;
-        }
-        &--desktop {
-          @include breakpoint($between-large) {
-            right: 0px;
-          }
-        }
-      }
-    }
-    .description {
-      font-size: 1.06rem;
-      padding-bottom: 15px;
-      @include breakpoint($medium-only) {
-        display: none;
-      }
-      @include breakpoint($small-only) {
-        display: none;
-      }
-    }
-    .link {
-      padding-bottom: 30px;
-    }
-    .learn-more {
-      color: $primary-green;
-      font-size: 1.1rem;
-      font-weight: bold;
-      text-transform: uppercase;
-      @include breakpoint($medium-only) {
-        display: none;
-      }
-      @include breakpoint($small-only) {
-        display: none;
-      }
-    }
-  }
+//   .leading {
+//     padding: 50px 0 20px 35px;
+//     @include breakpoint($medium-only) {
+//       padding-top: 25px;
+//       padding-left: 0;
+//     }
+//     @include breakpoint($small-only) {
+//       padding-top: 25px;
+//       padding-left: 0;
+//     }
+//     &--mobile {
+//       &:hover {
+//         cursor: pointer;
+//       }
+//       @include breakpoint($large) {
+//         display: none;
+//       }
+//     }
+//     &--desktop {
+//       color: lighten($font-dark-gray, 15);
+//       @include breakpoint($medium-only) {
+//         display: none;
+//       }
+//       @include breakpoint($small-only) {
+//         display: none;
+//       }
+//     }
+//     &__state {
+//       color: $primary-green;
+//       font-size: 3.9rem;
+//       font-weight: bold;
+//       line-height: 1;
+//       position: relative;
+//       text-align: left;
+//       @include breakpoint($medium-only) {
+//         text-align: center;
+//       }
+//       @include breakpoint($small-only) {
+//         font-size: 2.8rem;
+//         line-height: 1;
+//       }
+//       .leading-type {
+//         font-size: 1rem;
+//         position: absolute;
+//         top: 8px;
+//         @include breakpoint($small-only) {
+//           top: 5px;
+//         }
+//         &--desktop {
+//           @include breakpoint($between-large) {
+//             right: 0px;
+//           }
+//         }
+//       }
+//     }
+//     .description {
+//       font-size: 1.06rem;
+//       padding-bottom: 15px;
+//       @include breakpoint($medium-only) {
+//         display: none;
+//       }
+//       @include breakpoint($small-only) {
+//         display: none;
+//       }
+//     }
+//     .link {
+//       padding-bottom: 30px;
+//     }
+//     .learn-more {
+//       color: $primary-green;
+//       font-size: 1.1rem;
+//       font-weight: bold;
+//       text-transform: uppercase;
+//       @include breakpoint($medium-only) {
+//         display: none;
+//       }
+//       @include breakpoint($small-only) {
+//         display: none;
+//       }
+//     }
+//   }
 
-  .promising {
-    padding: 50px 0 0 35px;
-    @include breakpoint($medium-only) {
-      padding: 25px 0 20px 15px;
-    }
-    @include breakpoint($small-only) {
-      padding: 25px 0 20px 15px;
-    }
-    &__state {
-      background-color: $primary-orange;
-      border-radius: 10px;
-      color: white;
-      display: inline-block;
-      font-size: .8rem;
-      font-weight: bold;
-      margin: auto 10px 10px auto;
-      padding: 7px 10px 7px 10px;
-      text-decoration: none;
-      text-transform: uppercase;
-      &:hover {
-        background-color: darken($primary-orange, 12);
-        @extend .u-transition;
-      }
-      @include breakpoint($small-only) {
-        border-radius: 5px;
-        padding: 5px 6px 5px 6px;
-      }
-      .promising-type {
-        color: darken($primary-orange, 30);
-        padding-left: 5px;
-      }
-      &--desktop {
-        display: none;
-        @include breakpoint($large) {
-          display: inline-block;
-        }
-      }
-      &--mobile {
-        margin-bottom: 7px;
-        margin-right: 7px;
-        @include breakpoint($large) {
-          display: none;
-        }
-      }
-    }
-  }
-}
+//   .promising {
+//     padding: 50px 0 0 35px;
+//     @include breakpoint($medium-only) {
+//       padding: 25px 0 20px 15px;
+//     }
+//     @include breakpoint($small-only) {
+//       padding: 25px 0 20px 15px;
+//     }
+//     &__state {
+//       background-color: $primary-orange;
+//       border-radius: 10px;
+//       color: white;
+//       display: inline-block;
+//       font-size: .8rem;
+//       font-weight: bold;
+//       margin: auto 10px 10px auto;
+//       padding: 7px 10px 7px 10px;
+//       text-decoration: none;
+//       text-transform: uppercase;
+//       &:hover {
+//         background-color: darken($primary-orange, 12);
+//         @extend .u-transition;
+//       }
+//       @include breakpoint($small-only) {
+//         border-radius: 5px;
+//         padding: 5px 6px 5px 6px;
+//       }
+//       .promising-type {
+//         color: darken($primary-orange, 30);
+//         padding-left: 5px;
+//       }
+//       &--desktop {
+//         display: none;
+//         @include breakpoint($large) {
+//           display: inline-block;
+//         }
+//       }
+//       &--mobile {
+//         margin-bottom: 7px;
+//         margin-right: 7px;
+//         @include breakpoint($large) {
+//           display: none;
+//         }
+//       }
+//     }
+//   }
+// }
 
-.tooltip {
-  background: #404040;
-  cursor: auto;
-  color: white;
-  display: none;
-  left: 95%;
-  top: 50%;
-  max-width: 320px;
-  min-width: 320px;
-  opacity: 0;
-  padding: 15px;
-  position: absolute;
-  transition: all .3s ease-in-out;
-  transform: translateY(-50%);
-  visibility: hidden;
-  width: 100%;
-  z-index: 2;
-  @include breakpoint($medium-only) {
-    display: none!important;
-  }
-  @include breakpoint($small-only) {
-    display: none!important;
-  }
-}
+// .tooltip {
+//   background: #404040;
+//   cursor: auto;
+//   color: white;
+//   display: none;
+//   left: 95%;
+//   top: 50%;
+//   max-width: 320px;
+//   min-width: 320px;
+//   opacity: 0;
+//   padding: 15px;
+//   position: absolute;
+//   transition: all .3s ease-in-out;
+//   transform: translateY(-50%);
+//   visibility: hidden;
+//   width: 100%;
+//   z-index: 2;
+//   @include breakpoint($medium-only) {
+//     display: none!important;
+//   }
+//   @include breakpoint($small-only) {
+//     display: none!important;
+//   }
+// }
 
-.tooltip:before {
-  content: '';
-  position: absolute;
-  left: -15px;
-  width: 0;
-  height: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  border-top: 15px solid transparent;
-  border-bottom: 15px solid transparent;
-  border-right: 15px solid #404040;
-}
+// .tooltip:before {
+//   content: '';
+//   position: absolute;
+//   left: -15px;
+//   width: 0;
+//   height: 0;
+//   top: 50%;
+//   transform: translateY(-50%);
+//   border-top: 15px solid transparent;
+//   border-bottom: 15px solid transparent;
+//   border-right: 15px solid #404040;
+// }

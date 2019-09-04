@@ -1,6 +1,3 @@
-.table-two {
-
-}
 .examples-grid {
   margin: 0;
   .examples-grid__header {
@@ -15,7 +12,6 @@
   .examples-grid__filter-row {
     text-align: center;
     background-color: lighten($dark-blue, 10);
-    // color: white;
     padding: 10px;
     @include breakpoint($small-only) {
       padding: 5px;
@@ -32,7 +28,7 @@
     }
   }
   .examples-grid__header-cell {
-    font-weight:: 700;
+    font-weight: 700;
     color: #fff;
     text-align: left;
     text-transform: uppercase;
@@ -126,7 +122,6 @@
     padding:1rem;
     @extend .u-transition;
     @include breakpoint($large) {
-      // padding: 50px 40px 0 35px;
       padding: 3rem 2rem 2rem 2rem;
     }
     &.title {
@@ -151,8 +146,8 @@
         padding: 1rem;
       }
       @include breakpoint($small-only) {
-        font-size: .9rem;
-        padding: 1rem;
+        font-size: .8rem;
+        padding: .5rem;
       }
     }
     .leading {
@@ -223,16 +218,20 @@
       }
     }
 
+
     .promising {
+
       padding: 50px 0 0 35px;
       @include breakpoint($medium-only) {
-        // padding: 25px 0 20px 15px;
         padding: 1rem;
       }
       @include breakpoint($small-only) {
         padding: 1rem;
       }
       &__state {
+        @include breakpoint($small-only) {
+          width: 100%;
+        }
         background-color: $primary-orange;
         border-radius: 10px;
         color: white;
@@ -254,11 +253,14 @@
         .promising-type {
           color: darken($primary-orange, 30);
           padding-left: 5px;
+          @include breakpoint($small-only) {
+            padding: 0;
+          }
         }
         &--desktop {
-          // display: none;
+          
           @include breakpoint($large) {
-            // display: inline-block;
+          
           }
         }
         &--mobile {
@@ -341,13 +343,31 @@
 .examples-grid__content-cell.leading {
   @include breakpoint($medium-only){
     padding: 1rem;
-    .examples-wrapper { display: flex; justify-content: center;}
+    .examples-wrapper { 
+      display: flex; 
+      justify-content: center;
+      @include breakpoint($small-only) {
+      }
+
+    }
     .description, .learn-more {display: none;}
     .link.row {
       .issues-container {
         display: flex;
-       position: relative;
-       top: 6px;
+        position: relative;
+        top: 6px;
+        @include breakpoint($medium-only) {
+          .issue--leading::before {
+            font-size: 1.3rem;
+          }
+          top: 0;
+        }
+        @include breakpoint($small-only) {
+          .issue--leading::before {
+            font-size: 1rem;
+          }
+          top: 0;
+        }
       }
     }
   }
@@ -370,3 +390,52 @@
     }
   }
 }
+
+
+//  responsive rows and columns 
+.examples-grid__content-row {
+display: flex;
+width: 100%;
+}
+.examples-grid-column {
+  @include breakpoint($small-only) {
+    padding: .5rem;
+  }
+  &.title {
+    width: 25%;
+    max-width: 25%;
+    @include breakpoint($small-only) {
+      width: calc(100% /3 );
+      max-width:  calc(100% /3 );
+    }
+  }
+  &.leading {
+    width: calc(75% / 2);
+    max-width: calc(75% / 2);
+    @include breakpoint($small-only) {
+      width: calc(100% /3 );
+      max-width:  calc(100% /3 );
+    }
+  }
+  &.promising {
+    width: calc(75% / 2);
+    max-width: calc(75% / 2);
+    @include breakpoint($small-only) {
+      width: calc(100% /3 );
+      max-width:  calc(100% /3 );
+    }
+  }
+
+}
+
+  //  mobile promising examples 
+  .promising .examples-wrapper {
+    display: block;
+  }
+
+  .examples-wrapper {
+    .row {
+      // fixes ie mobile display;
+      display: block;
+    }
+  }

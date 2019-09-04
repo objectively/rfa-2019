@@ -209,6 +209,7 @@
         }
       }
       .description {
+        margin: 1rem 0;
         font-size: 1.06rem;
         padding-bottom: 15px;
         @include breakpoint($medium-only) {
@@ -464,6 +465,9 @@ width: 100%;
   .examples-wrapper {
     .row {
       // fixes ie mobile display;
-      display: block;
+      @include breakpoint($small-only) {
+
+        display: block;
+      }
     }
   }

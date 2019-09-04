@@ -48,6 +48,8 @@
       background-color: lighten($dark-blue, 3);
     }
   }
+
+
 }
 
 .title-leading {
@@ -397,11 +399,37 @@
 display: flex;
 width: 100%;
 }
+
+// column sizes for header and content 
+  // &.title-criteria {
+  //   width: 25%;
+  //   max-width: 25%;
+  //   @include breakpoint($small-only) {
+  //     width: calc(100% /3 );
+  //     max-width:  calc(100% /3 );
+  //   }
+  // }
+  // &.title-leading {
+  //   width: calc(75% / 2);
+  //   max-width: calc(75% / 2);
+  //   @include breakpoint($small-only) {
+  //     width: calc(100% /3 );
+  //     max-width:  calc(100% /3 );
+  //   }
+  // }
+  // &.title-promising {
+  //   width: calc(75% / 2);
+  //   max-width: calc(75% / 2);
+  //   @include breakpoint($small-only) {
+  //     width: calc(100% /3 );
+  //     max-width:  calc(100% /3 );
+  //   }
+  // }
 .examples-grid-column {
   @include breakpoint($small-only) {
     padding: .5rem;
   }
-  &.title {
+  &.title, &.title-criteria {
     width: 25%;
     max-width: 25%;
     @include breakpoint($small-only) {
@@ -409,7 +437,7 @@ width: 100%;
       max-width:  calc(100% /3 );
     }
   }
-  &.leading {
+  &.leading, &.title-leading {
     width: calc(75% / 2);
     max-width: calc(75% / 2);
     @include breakpoint($small-only) {
@@ -417,7 +445,7 @@ width: 100%;
       max-width:  calc(100% /3 );
     }
   }
-  &.promising {
+  &.promising, &.title-promising {
     width: calc(75% / 2);
     max-width: calc(75% / 2);
     @include breakpoint($small-only) {

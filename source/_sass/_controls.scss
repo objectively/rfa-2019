@@ -139,9 +139,8 @@
 // downloads buttons
 .button--download {
   @extend .u-transition;
-  color: $dark-blue;
   background-color: #fff;
-  border: 2px solid $blue;
+  border: 3px solid $blue;
   &:hover {
     background-color: $blue;
     color: #fff;

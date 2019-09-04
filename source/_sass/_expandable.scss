@@ -3,7 +3,7 @@
 * <div class="expandable>
 *   <div class="row">
 *     <div class="column">
-*       <p>{first element of content}</p> 
+*       <p>{first element of content}</p>
 *     </div>
 *   </div>
 * </div>
@@ -24,7 +24,7 @@
   }
   .read-more-wrapper {
     text-align: right;
-    padding-bottom: 1rem;
+    padding-bottom: 3rem!important;
   }
   .read-more {
     @extend .u-transition;

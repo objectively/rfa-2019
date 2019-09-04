@@ -130,18 +130,19 @@
 }
 
 .email {
-  i {
-    margin-top: -2px;
-    font-size: 1.3rem;
+  a {
+    padding-top: 0.55rem;
+    i {
+      font-size: 1.3rem;
+    }
   }
 }
 
 // downloads buttons
 .button--download {
   @extend .u-transition;
-  color: $dark-blue;
   background-color: #fff;
-  border: 2px solid $blue;
+  border: 3px solid $blue;
   &:hover {
     background-color: $blue;
     color: #fff;

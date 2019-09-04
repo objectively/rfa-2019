@@ -11,14 +11,14 @@
 
   {% assign mail_link = "mailto:?subject=" | append: escaped_title | append: "&body=" | append: escaped_title | append: "%0D%0A%0D%0A" |append: escaped_url%}
 
-  <ul>
+  <ul aria-label="social media links">
     <li class="social-media-link facebook">
-      <a href="{{facebook_share_link}}" alt="Facebook share link" class="" target="_blank"><i class="fa fa-facebook"></i></a>
+      <a href="{{facebook_share_link}}" alt="Facebook share link" class="" target="_blank"><i class="fa fa-facebook"><span class="visible-hidden">Facebook Link</span></i></a>
     </li>
     <li class="social-media-link twitter">
-      <a href="{{twitter_share_link}}" alt="Twitter share link" class="" target="_blank"><i class="fa fa-twitter"></i></a>
+      <a href="{{twitter_share_link}}" alt="Twitter share link" class="" target="_blank"><i class="fa fa-twitter"><span class="visible-hidden">Twitter Link</span></i></a>
     </li>
     <li class="social-media-link email">
-      <a href="{{mail_link}}" alt="Email share link" class=""><i class="fa fa-envelope"></i></a>
+      <a href="{{mail_link}}" alt="Email share link" class=""><i class="fa fa-envelope"><span class="visible-hidden">Email Link</span></i></a>
     </li>
   </ul>

@@ -1,0 +1,50 @@
+.nav {
+  z-index: 11!important;
+
+  visibility: hidden;
+  transition: visibility 0.5s;
+  &.is-visible {
+    visibility: visible;
+    transition: visibility 0s;
+  }
+
+  &__container {
+    height: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    color: white;
+    position: fixed;
+    width: 19rem;
+    background-color: #202020;
+    text-align: left;
+    overflow: auto;
+  }
+
+  .main-link {
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 1rem 3rem;
+  }
+
+  .sub-link {
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 0.5rem 3rem;
+  }
+
+  .nav--links a {
+    border-bottom: none;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    text-align: left;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+    text-transform: none;
+    line-height: 1.8rem;
+    &:hover {
+      background-color: darken(#202020, 1);
+    }
+  }
+}

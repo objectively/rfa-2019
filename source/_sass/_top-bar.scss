@@ -46,33 +46,3 @@
     content: "more_vert";
   }
 }
-
-.main-menu {
-  box-shadow: none;
-  overflow: auto;
-  width: 25rem;
-  @include breakpoint($large) {
-    width: 19rem;
-  }
-  .main-link {
-    font-size: 1.5rem;
-    font-weight: 700;
-    padding: 1rem 3rem;
-  }
-  .sub-link {
-    font-size: 1.1rem;
-    font-weight: 500;
-    padding: 0.5rem 3rem;
-  }
-  .main-menu--links a {
-    color: #fff;
-    text-align: left;
-    border-bottom: none;
-    letter-spacing: 0.03em;
-    text-transform: none;
-
-    cursor: pointer;
-    line-height: 1.8rem;
-  }
-  // display: none;
-}

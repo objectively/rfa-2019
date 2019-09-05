@@ -26,9 +26,8 @@
     <div class="row expanded examples-grid__header-row">
       <!-- header columns  -->
       <div class="column examples-grid-column examples-grid__header-cell title-criteria">Criteria</div>
-      <div class="column examples-grid-column examples-grid__header-cell title-leading"><a
-          href="{{ '/state-standard-of-excellence/leading-examples.html' | relative_url }}">Leading Examples<i
-            class="material-icons launch-leading">launch</i></a></div>
+      <div class="column examples-grid-column examples-grid__header-cell title-leading"><a class="external-link-container"
+          href="{{ '/state-standard-of-excellence/leading-examples.html' | relative_url }}">Leading Examples</a></div>
       <div class="column examples-grid-column examples-grid__header-cell title-promising">Promising Examples</div>
     </div>
     <div class="row expanded  align-center examples-grid__header-row examples-grid__filter-row">
@@ -64,21 +63,21 @@
       <div class="column examples-grid-column examples-grid__content-cell title"
         onclick="window.location='{{ url | relative_url }}';">
         <span>
-          <a href="{{ url | relative_url }}"><span class="before-launch">{{ item.order }}. {{ item.title }}</span><i class="material-icons launch-leading launch-leading--title">launch</i></a>
+          <a class="external-link-container" href="{{ url | relative_url }}"><span class="title-order">{{item.order}}. </span>{{ item.title }}</a>
         </span>
         <span class="tooltip">
           {{ item.description }}
         </span>
       </div>
 
-      <div class="column examples-grid-column examples-grid__content-cell leading leading--desktop">
+      <div class="column examples-grid-column examples-grid__content-cell leading">
         <!-- Leading issues -->
         {% assign leading_issues = "" | split: "" %}
         {% for issue in item.leading_list.issue %}
         {% assign issue_slug = issue | slugify %}
         {% assign leading_issues = leading_issues | push: issue_slug %}
         {% endfor %}
-        <div class="examples-wrapper" data-examples="all {{leading_issues | join: " "}}">
+        <div class="examples-wrapper leading-example" data-examples="all {{leading_issues | join: " "}}">
           <div class="row">
             <div class="leading__state column large-12">
               <span class="state-abbrev">
@@ -115,10 +114,10 @@
         {% assign promising_issues = promising_issues | push: issue_slug %}
         {% endfor %}
 
-        <div class="examples-wrapper" data-examples="all {{promising_issues | join: " "}}">
+        <div class="examples-wrapper promising-example" data-examples="all {{promising_issues | join: " "}}">
 
-          <a href="{{ url-promising-examples | relative_url }}" class="promising__state promising__state--desktop">
-            <div class="state__issues promising-type">
+          <a href="{{ url-promising-examples | relative_url }}" class="promising__state">
+            <div class="state__issues">
               <span class="state__title">{{ state.state }}</span>
               <span class="state__abbreviation">{{ state.state_abbreviation }}</span>
 

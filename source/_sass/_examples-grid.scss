@@ -1,0 +1,328 @@
+.examples-grid {
+  margin: 0;
+  .examples-grid__header {
+    transition: opacity 0.1s ease;
+    z-index: 3;
+  }
+  .examples-grid__header-row {
+    color: #fff;
+    margin: 0;
+    width: 100%;
+  }
+  .examples-grid__filter-row {
+    padding: 10px;
+    background-color: lighten($dark-blue, 10);
+    text-align: center;
+    span {
+      font-weight: 600;
+      padding: 20px;
+      text-transform: uppercase;
+      @include breakpoint($small-only) {
+        font-size: 0.65rem;
+        padding: 10px;
+      }
+    }
+    @include breakpoint($small-only) {
+      font-size: 0.65rem;
+      padding: 5px;
+    }
+  }
+  .examples-grid__header-cell {
+    background-color: $dark-blue;
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    padding: 15px 0 15px 35px;
+    text-align: left;
+    text-transform: uppercase;
+    @include breakpoint($medium-only) {
+      font-size: 1.2rem;
+      padding: 15px;
+    }
+    @include breakpoint($small-only) {
+      font-size: 0.65rem;
+      padding: 5px 10px;
+    }
+    &:nth-child(2) {
+      background-color: lighten($dark-blue, 3);
+    }
+  }
+}
+
+.examples-grid-column {
+  @include breakpoint($small-only) {
+    padding: 0.5rem;
+  }
+  &.title,
+  &.title-criteria {
+    width: 25%;
+    max-width: 25%;
+    @include breakpoint($small-only) {
+      width: calc(100% / 3);
+      max-width: calc(100% / 3);
+    }
+  }
+  &.leading,
+  &.title-leading {
+    width: calc(75% / 2);
+    max-width: calc(75% / 2);
+    @include breakpoint($small-only) {
+      width: calc(100% / 3);
+      max-width: calc(100% / 3);
+    }
+  }
+  &.promising,
+  &.title-promising {
+    width: calc(75% / 2);
+    max-width: calc(75% / 2);
+    @include breakpoint($small-only) {
+      width: calc(100% / 3);
+      max-width: calc(100% / 3);
+    }
+  }
+}
+
+// launch material icon in header and title column
+a.external-link-container {
+  &:hover {
+    color: $blue;
+    text-decoration: none;
+    @extend .u-transition;
+  }
+  &:after {
+    @extend .u-material-icons;
+    content: 'launch';
+    padding: 0 5px;
+    font-size: 1.2rem;
+    vertical-align: -3px;
+    display: inline;
+    @include breakpoint($small-only) {
+      font-size: 0.8rem;
+      vertical-align: -2px;
+    }
+  }
+}
+.title-leading {
+  .external-link-container {
+    &:after {
+      font-size: 1.3rem;
+      @include breakpoint($small-only) {
+        font-size: 0.8rem;
+      }
+    }
+  }
+}
+
+// Content elements
+.examples-grid__content-row {
+  display: flex;
+  width: 100%;
+  &:nth-of-type(odd) {
+    .title {
+      background-color: $medium-gray;
+    }
+    .leading {
+      background-color: $dark-green-tint;
+    }
+    .promising {
+      background-color: $dark-orange-tint;
+    }
+  }
+  &:nth-of-type(even) {
+    .title {
+      background-color: $light-gray;
+    }
+    .leading {
+      background-color: $light-green-tint;
+    }
+    .promising {
+      background-color: $light-orange-tint;
+    }
+  }
+}
+
+.examples-grid__content-cell {
+  padding: 1rem;
+  @extend .u-transition;
+  @include breakpoint($large) {
+    padding: 3rem 2rem 2rem 2rem;
+  }
+  &.title {
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.2;
+    position: relative;
+    @include breakpoint($medium-only) {
+      font-size: 1rem;
+      padding: 1rem;
+    }
+    @include breakpoint($small-only) {
+      font-size: 0.8rem;
+      padding: 0.5rem;
+    }
+  }
+  &.leading {
+    padding: 1rem;
+  }
+  .tooltip {
+    &:before {
+      content: '';
+      border-bottom: 15px solid transparent;
+      border-right: 15px solid #404040;
+      border-top: 15px solid transparent;
+      height: 0;
+      left: -15px;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 0;
+    }
+    background: #404040;
+    color: white;
+    cursor: auto;
+    display: none;
+    left: 95%;
+    max-width: 320px;
+    min-width: 320px;
+    opacity: 0;
+    padding: 15px;
+    position: absolute;
+    top: 50%;
+    transition: all 0.3s ease-in-out;
+    transform: translateY(-50%);
+    visibility: hidden;
+    width: 100%;
+    z-index: 2;
+    @include breakpoint($medium-only) {
+      display: none !important;
+    }
+    @include breakpoint($small-only) {
+      display: none !important;
+    }
+  }
+}
+
+.examples-wrapper {
+  .row {
+    // fixes ie medium and small display;
+    @include breakpoint($medium-only) {
+      display: block;
+    }
+    @include breakpoint($small-only) {
+      display: block;
+    }
+  }
+  &.leading-example {
+    .description {
+      margin: 1rem 0;
+      font-size: 1.06rem;
+      padding-bottom: 15px;
+      @include breakpoint($medium-only) {
+        display: none;
+      }
+      @include breakpoint($small-only) {
+        display: none;
+      }
+    }
+    .learn-more {
+      color: $primary-green;
+      font-size: 1.1rem;
+      font-weight: bold;
+      text-transform: uppercase;
+      @include breakpoint($medium-only) {
+        display: none;
+      }
+      @include breakpoint($small-only) {
+        display: none;
+      }
+    }
+    @include breakpoint($medium-only) {
+      display: flex;
+      justify-content: center;
+      .link.row {
+        .issues-container {
+          display: flex;
+          position: relative;
+          top: 6px;
+          @include breakpoint($medium-only) {
+            .issue--leading::before {
+              font-size: 1.3rem;
+            }
+            top: 0;
+          }
+          @include breakpoint($small-only) {
+            .issue--leading::before {
+              font-size: 1rem;
+            }
+            top: 0;
+          }
+        }
+      }
+    }
+  }
+  .leading__state {
+    color: $primary-green;
+    font-size: 3.9rem;
+    font-weight: bold;
+    line-height: 1;
+    position: relative;
+    text-align: left;
+    @include breakpoint($medium-only) {
+      text-align: center;
+    }
+    @include breakpoint($small-only) {
+      font-size: 2.8rem;
+      line-height: 1;
+    }
+  }
+  &.promising-example {
+    display: inline-block;
+    @include breakpoint($small-only) {
+      width: 100%;
+    }
+    .promising__state {
+      background-color: $primary-orange;
+      border-radius: 10px;
+      color: white;
+      display: inline-block;
+      font-size: 0.8rem;
+      font-weight: bold;
+      margin: auto 10px 10px auto;
+      padding: 7px 10px 7px 10px;
+      text-decoration: none;
+      text-transform: uppercase;
+      &:hover {
+        background-color: darken($primary-orange, 12);
+        @extend .u-transition;
+      }
+      @include breakpoint($small-only) {
+        border-radius: 5px;
+        padding: 5px 6px 5px 6px;
+      }
+      @include breakpoint($small-only) {
+        width: 100%;
+      }
+      .state__issues {
+        color: darken($primary-orange, 30);
+        padding-left: 5px;
+        @include breakpoint($small-only) {
+          padding: 0;
+        }
+        .state__title {
+          display: none;
+          @include breakpoint($large) {
+            display: inline-block;
+          }
+        }
+        .state__abbreviation {
+          color: #fff;
+          display: inline-block;
+          @include breakpoint($large) {
+            display: none !important;
+          }
+        }
+      }
+    }
+  }
+}

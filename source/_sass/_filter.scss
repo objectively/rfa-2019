@@ -1,14 +1,18 @@
 .examples-wrapper {
-  
-  visibility: visible;
-  opacity: 1;
-  transition: visibility 0s linear 0s, opacity 300ms;
+  &.leading-example {
+    display: inline-block;
+  }
+  &.promising-example {
+    display: inline-block;
+  }
 }
-.examples-wrapper--hidden {
-  
-  visibility: hidden;
-  opacity: 0;
-  transition: visibility 0s linear 300ms, opacity 300ms;
+.examples-wrapper.examples-wrapper--hidden {
+  &.leading-example {
+    display: none;
+  }
+  &.promising-example {
+    display: none;
+  }
 }
 
 .promising .examples-wrapper {
@@ -18,7 +22,7 @@
 .issues-dropdown-filter.select {
   background-color: transparent;
   margin: 0;
-  font-size: .8rem;
+  font-size: 0.8rem;
   @include breakpoint($large) {
     font-size: 1rem;
   }

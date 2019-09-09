@@ -1,0 +1,18 @@
+<div class="modal examples-grid-modal js-target-modal">
+  <div class="modal__header modal--top-section">
+    <button class="modal__close js-close-modal">
+      <i class="material-icons">close</i>
+    </button>
+  </div>
+  <div class="modal__content">
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus fugiat mollitia doloremque error amet
+      doloribus laborum obcaecati repudiandae eaque reprehenderit?</p>
+    <div class="key-header">Issues</div>
+    <ul>
+      {% for issue in include.issues %}
+      <li class="issue issue--{{issue|slugify}} issue--key">{{issue}}</li>
+      {% endfor %}
+    </ul>
+    
+  </div>
+</div>

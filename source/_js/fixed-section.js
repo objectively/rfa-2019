@@ -28,15 +28,6 @@ const FixedSection = {
 
           const contentBottom = document.querySelector('.slide-panel__wrapper--compact').getBoundingClientRect().bottom;
 
-          const keyBottom = document.querySelector('.slide-panel__content').getBoundingClientRect().bottom;
-
-          if (Math.floor(keyBottom) > Math.floor(contentBottom)) {
-            $('.slide-panel__content').removeClass('panel-fixed');
-          } else {
-            $('.slide-panel__content')
-              .addClass('panel-fixed')
-              .addClass('fixed-bottom');
-          }
         } else {
           $fixedSection.removeClass('fixed');
           $('.content-section').css('margin-top', 'initial');
@@ -46,14 +37,6 @@ const FixedSection = {
             .removeClass('fixed-bottom');
         }
       });
-    }
-  },
-  positionKey() {
-    const contentBottom = document.querySelector('.slide-panel__wrapper--compact').getBoundingClientRect().bottom;
-    const keyBottom = document.querySelector('.slide-panel__content').getBoundingClientRect().bottom;
-    if (Math.floor(keyBottom) > Math.floor(contentBottom)) {
-      $('.slide-panel__content')
-      .addClass('fixed-bottom').removeClass('panel-fixed');
     }
   },
   init() {

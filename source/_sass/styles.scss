@@ -40,15 +40,8 @@ $hyperlink-orange: #f77c50;
 @import 'downloads';
 @import 'expandable';
 @import 'filter';
-@import 'compact-panel';
+// @import 'compact-panel';
 @import 'nav';
 @import 'examples-grid';
 @import 'accessibility';
-
-
-// .row, .column, .columns {
-//   outline: purple solid 1px;
-// }
-
-
-
+@import 'modal';

@@ -34,7 +34,7 @@
       <div class="issues-dropdown-filter-wrapper">
         <div class="select issues-dropdown-filter">
           <select aria-label="issues dropdown filter" class="issues-dropdown-filter__select">
-            <option class="issues-dropdown-filter__option" value="all">Select an Issue</option>
+            <option class="issues-dropdown-filter__option" value="all">All Issues</option>
             {% for issue in all_issues %}
             <option class="issues-dropdown-filter__option" value="{{issue | slugify }}"
               data-page="{{ issue | slugify }}">{{issue}}</option>

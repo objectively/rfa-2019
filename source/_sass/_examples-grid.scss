@@ -144,7 +144,6 @@ a.external-link-container {
 
 .examples-grid__content-cell {
   padding: 1rem;
-  @extend .u-transition;
   @include breakpoint($large) {
     padding: 3rem 2rem 2rem 2rem;
   }
@@ -163,7 +162,7 @@ a.external-link-container {
     }
   }
   &.leading {
-    padding: 1rem;
+    // padding: 1rem;
   }
   .tooltip {
     &:before {
@@ -199,6 +198,26 @@ a.external-link-container {
     }
     @include breakpoint($small-only) {
       display: none !important;
+    }
+  }
+  &.filterable {
+    
+    &--empty {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      &:after {
+        content: '--';  
+        font-size: 3.9rem;
+        font-weight: 700;
+        line-height: 1;
+      }
+      &.leading {
+        color: $primary-green;
+      }
+      &.promising {
+        color: $primary-orange;
+      }
     }
   }
 }

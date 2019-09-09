@@ -3,10 +3,10 @@
 
   position: absolute;
   right: 0;
-  padding-top: 4px;
-  font-size: .8rem;
+  padding-top: 2px;
+  font-size: .74rem;
   @include breakpoint ($large) {
-    // padding-top: 5px;
+    padding-top: 6px;
     font-size: 0.9rem;
   }
   cursor: pointer;
@@ -16,6 +16,10 @@
   }
   i {
     vertical-align: bottom;
+    font-size: 1.5rem;
+    @include breakpoint($small-only) {
+      font-size: 1.2rem;
+    }
   }
 }
 
@@ -56,6 +60,9 @@
         margin: 0;
         display: block;
         font-size: 1rem;
+      }
+      .slide-panel__content {
+
       }
     }
     i.slide-close-key {

@@ -26,7 +26,8 @@
     <div class="row expanded examples-grid__header-row">
       <!-- header columns  -->
       <div class="column examples-grid-column examples-grid__header-cell title-criteria">Criteria</div>
-      <div class="column examples-grid-column examples-grid__header-cell title-leading"><a class="external-link-container"
+      <div class="column examples-grid-column examples-grid__header-cell title-leading"><a
+          class="external-link-container"
           href="{{ '/state-standard-of-excellence/leading-examples.html' | relative_url }}">Leading Examples</a></div>
       <div class="column examples-grid-column examples-grid__header-cell title-promising">Promising Examples</div>
     </div>
@@ -34,7 +35,7 @@
       <div class="issues-dropdown-filter-wrapper">
         <div class="select issues-dropdown-filter">
           <select aria-label="issues dropdown filter" class="issues-dropdown-filter__select">
-            <option class="issues-dropdown-filter__option" value="all">Select an Issue</option>
+            <option class="issues-dropdown-filter__option" value="all">All Issues</option>
             {% for issue in all_issues %}
             <option class="issues-dropdown-filter__option" value="{{issue | slugify }}"
               data-page="{{ issue | slugify }}">{{issue}}</option>
@@ -43,7 +44,7 @@
         </div>
       </div>
 
-        <a class="key slide-panel__open" data-term="key">Key<i class="material-icons">more_vert</i></a>
+      <a class="key slide-panel__open" data-term="key">Key<i class="material-icons">more_vert</i></a>
 
     </div>
   </div>
@@ -51,7 +52,7 @@
   {%include key-content.html issues=all_issues%}
 
   <div class="content-section">
-    
+
     <!-- grid content -->
     {% for item in criteria %}
     {% assign title = item.title | replace: "/", "0000" | slugify | remove: "0000" %}
@@ -63,14 +64,15 @@
       <div class="column examples-grid-column examples-grid__content-cell title"
         onclick="window.location='{{ url | relative_url }}';">
         <span>
-          <a class="external-link-container" href="{{ url | relative_url }}"><span class="title-order">{{item.order}}. </span>{{ item.title }}</a>
+          <a class="external-link-container" href="{{ url | relative_url }}"><span class="title-order">{{item.order}}.
+            </span>{{ item.title }}</a>
         </span>
         <span class="tooltip">
           {{ item.description }}
         </span>
       </div>
 
-      <div class="column examples-grid-column examples-grid__content-cell leading">
+      <div class="column examples-grid-column examples-grid__content-cell leading filterable">
         <!-- Leading issues -->
         {% assign leading_issues = "" | split: "" %}
         {% for issue in item.leading_list.issue %}
@@ -102,7 +104,7 @@
           </div>
         </div>
       </div>
-      <div class="column examples-grid-column examples-grid__content-cell promising">
+      <div class="column examples-grid-column examples-grid__content-cell promising filterable">
         {% for state in item.promising_list %}
         {% assign issues = state.issue %}
         {% assign state-slug = state.state | slugify %}

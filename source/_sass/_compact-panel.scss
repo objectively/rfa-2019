@@ -38,9 +38,8 @@
 
   &__container {
     overflow-y: auto;
-    z-index: 3 !important;
+    // z-index: 3 !important;
     &--key {
-      padding: 2rem;
       line-height: 2;
       background-color: $font-dark-gray;
       p {
@@ -62,7 +61,18 @@
         font-size: 1rem;
       }
       .slide-panel__content {
-
+        padding: 2rem 1rem 2rem 2rem;
+        &.fixed-bottom {
+          bottom: 0;
+          position: absolute;
+          // margin: 1rem;
+        }
+        &.panel-fixed {
+          @extend .u-transition;
+          position: fixed;
+          top: 15%;
+          // margin: 1rem;
+        }
       }
     }
     i.slide-close-key {
@@ -80,12 +90,10 @@
       }
     }
     z-index: 1;
-    padding: 1rem 3rem;
     p {
       color: white;
     }
     position: absolute;
-
     width: 30%;
     @include breakpoint($medium-only) {
       width: 50%;

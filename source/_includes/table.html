@@ -19,8 +19,7 @@
 
 {% assign all_issues = all_issues | uniq | sort %}
 
-<section class="table table-two examples-grid js-active-key slide-panel__wrapper--compact fixed-section-wrapper">
-
+<section class="table examples-grid">
   <!-- examples-grid header -->
   <div class="row expanded examples-grid__header fixed-section ">
     <div class="row expanded examples-grid__header-row">
@@ -48,12 +47,16 @@
 
     </div>
   </div>
+</section>
+
+<section class="js-active-key slide-panel__wrapper--compact fixed-section-wrapper">
 
   {%include key-content.html issues=all_issues%}
 
   <div class="content-section">
 
     <!-- grid content -->
+    {% for num in (1..4)%}
     {% for item in criteria %}
     {% assign title = item.title | replace: "/", "0000" | slugify | remove: "0000" %}
     {% assign url = "/state-standard-of-excellence/" | append: title | append: ".html" %}
@@ -135,7 +138,8 @@
         {% endfor %}
       </div>
     </div>
-
+    
+    {% endfor %}
     {% endfor %}
   </div>
   </div>

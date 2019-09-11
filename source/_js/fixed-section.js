@@ -48,8 +48,17 @@ const FixedSection = {
       });
     }
   },
+  positionKey() {
+    const contentBottom = document.querySelector('.slide-panel__wrapper--compact').getBoundingClientRect().bottom;
+    const keyBottom = document.querySelector('.slide-panel__content').getBoundingClientRect().bottom;
+    if (Math.floor(keyBottom) > Math.floor(contentBottom)) {
+      $('.slide-panel__content')
+      .addClass('fixed-bottom').removeClass('panel-fixed');
+    }
+  },
   init() {
     this.fixIndexTable();
+
   }
 };
 

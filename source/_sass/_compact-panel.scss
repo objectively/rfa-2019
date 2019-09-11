@@ -1,6 +1,5 @@
 
 .slide-panel__open {
-
   position: absolute;
   right: 0;
   padding-top: 2px;
@@ -33,7 +32,9 @@
   }
   &__close {
     display: flex;
+    cursor: pointer;
     justify-content: flex-end;
+    &:hover {text-decoration: none;}
   }
 
   &__container {
@@ -46,6 +47,9 @@
         display: block !important;
         color: #fff !important;
         font-size: 1rem;
+        @include breakpoint($small-only) {
+          font-size: .85rem;
+        }
         font-weight: 300;
       }
       ul {
@@ -54,24 +58,32 @@
         font-weight: 700;
         color: #fff;
         font-size: 1rem;
+        @include breakpoint($small-only) {
+          font-size: .8rem;
+        }
       }
       li {
         margin: 0;
         display: block;
         font-size: 1rem;
+        @include breakpoint($small-only) {
+          font-size: .8rem;
+        }
       }
       .slide-panel__content {
         padding: 2rem 1rem 2rem 2rem;
         &.fixed-bottom {
-          bottom: 0;
+          bottom: 5rem;
           position: absolute;
-          // margin: 1rem;
         }
         &.panel-fixed {
-          @extend .u-transition;
           position: fixed;
           top: 15%;
-          // margin: 1rem;
+          @include breakpoint($medium-only) {
+          }
+          @include breakpoint($small-only) {
+            top: 5%;
+          }
         }
       }
     }
@@ -80,6 +92,10 @@
         color: #fff;
         content: 'close';
         font-size: 1.6rem;
+        @include breakpoint($small-only) {
+          font-size: 1.3rem;
+        }
+
       }
     }
     i.slide-close-definition {
@@ -99,7 +115,8 @@
       width: 50%;
     }
     @include breakpoint($small-only) {
-      width: 100%;
+      width: 75%;
+
     }
     height: 100%;
     top: 0;

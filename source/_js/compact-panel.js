@@ -1,3 +1,5 @@
+import FixedSection from './fixed-section';
+
 const CompactPanel = {
   slideTarget: undefined,
   slideContainer: undefined,
@@ -10,6 +12,7 @@ const CompactPanel = {
   },
   handleSlideDisplay: () => {
     $('body').on('click', '.slide-panel__open', e => {
+
       const dataTarget = e.currentTarget.getAttribute('data-term');
       const targetSlideContainer = $(`[data-value="${dataTarget}"]`);
       if (targetSlideContainer.hasClass('is-visible')) {
@@ -19,6 +22,7 @@ const CompactPanel = {
         CompactPanel.slideTarget.animate({ right: '0%' }, 300).css('display', 'block');
         targetSlideContainer.addClass('is-visible');
         $('#overlay').addClass('js-active');
+        FixedSection.positionKey();
       }
     });
   },

@@ -162,7 +162,9 @@ a.external-link-container {
     }
   }
   &.leading {
-    // padding: 1rem;
+
+  }
+  &.promising {
   }
   .tooltip {
     &:before {
@@ -201,13 +203,12 @@ a.external-link-container {
     }
   }
   &.filterable {
-    
     &--empty {
       display: flex;
       justify-content: center;
       align-items: center;
       &:after {
-        content: '--';  
+        content: '--';
         font-size: 3.9rem;
         font-weight: 700;
         line-height: 1;
@@ -233,6 +234,12 @@ a.external-link-container {
     }
   }
   &.leading-example {
+    @include breakpoint($small-only) {
+      flex-direction: column;
+    }
+    @include breakpoint($medium-only) {
+      flex-direction: column;
+    }
     .description {
       margin: 1rem 0;
       font-size: 1.06rem;
@@ -260,6 +267,12 @@ a.external-link-container {
       display: flex;
       justify-content: center;
       .link.row {
+        @include breakpoint($small-only) {
+          text-align: center;
+        }
+        @include breakpoint($medium-only) {
+          text-align: center;
+        }
         .issues-container {
           display: flex;
           position: relative;
@@ -269,8 +282,15 @@ a.external-link-container {
               font-size: 1.3rem;
             }
             top: 0;
+            @include breakpoint($medium-only) {
+              display: inline-block;
+              // width: 50%;
+            }
           }
           @include breakpoint($small-only) {
+            display: inline-block;
+            max-width: 75%;
+            text-align: initial;
             .issue--leading::before {
               font-size: 1rem;
             }
@@ -298,7 +318,7 @@ a.external-link-container {
   &.promising-example {
     display: inline-block;
     @include breakpoint($small-only) {
-      width: 100%;
+      // width: 100%;
     }
     .promising__state {
       background-color: $primary-orange;
@@ -317,10 +337,8 @@ a.external-link-container {
       }
       @include breakpoint($small-only) {
         border-radius: 5px;
-        padding: 5px 6px 5px 6px;
-      }
-      @include breakpoint($small-only) {
-        width: 100%;
+        // padding: 5px 6px 5px 6px;
+        // margin: 0;
       }
       .state__issues {
         color: darken($primary-orange, 30);

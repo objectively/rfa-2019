@@ -84,4 +84,21 @@ criteria_dropdown_nav: true
 
   {% include mobile-index.html %}
 
+  <section class="section criteria__nav">
+   <div class="row">
+     <div class="column small-12 medium-6 large-6 criteria__nav--previous">
+       {% unless currentOrder == 1%}
+         {% assign previous_url = previousCriteria[0].title | replace: "/", "0000" | slugify | remove: "0000" | append: '.html' | prepend: '/state-standard-of-excellence/' | relative_url%}
+         <a href="{{previous_url}}" ><i class="material-icons">arrow_back</i>Previous Criteria</a>
+       {%endunless%}
+     </div>
+     <div class="column small-12 medium-6 large-6 criteria__nav--next">
+       {% unless currentOrder == lastOrder %}
+         {% assign next_url = nextCriteria[0].title | replace: "/", "0000" | slugify | remove: "0000" | append: '.html' | prepend: '/state-standard-of-excellence/' | relative_url%}
+         <a href="{{next_url}}">Next Criteria<i class="material-icons">arrow_forward</i></a>
+       {%endunless%}
+     </div>
+   </div>
+ </section>
+
 </main>

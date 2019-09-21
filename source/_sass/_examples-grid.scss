@@ -56,8 +56,8 @@
   }
   &.title,
   &.title-criteria {
-    width: 25%;
-    max-width: 25%;
+    width: 20%;
+    max-width: 20%;
     @include breakpoint($small-only) {
       width: calc(100% / 3);
       max-width: calc(100% / 3);
@@ -65,8 +65,10 @@
   }
   &.leading,
   &.title-leading {
-    width: calc(75% / 2);
-    max-width: calc(75% / 2);
+    // width: calc(80% / 2);
+    // max-width: calc(80% / 2);
+    width: 35%;
+    max-width: 35%;
     @include breakpoint($small-only) {
       width: calc(100% / 3);
       max-width: calc(100% / 3);
@@ -74,8 +76,10 @@
   }
   &.promising,
   &.title-promising {
-    width: calc(75% / 2);
-    max-width: calc(75% / 2);
+    // width: calc(80% / 2);
+    // max-width: calc(80% / 2);
+    width: 45%;
+    max-width: 45%;
     @include breakpoint($small-only) {
       width: calc(100% / 3);
       max-width: calc(100% / 3);
@@ -224,6 +228,7 @@ a.external-link-container {
 }
 
 .examples-wrapper {
+ 
   .row {
     // fixes ie medium and small display;
     @include breakpoint($medium-only) {
@@ -234,6 +239,7 @@ a.external-link-container {
     }
   }
   &.leading-example {
+    display: block;
     @include breakpoint($small-only) {
       flex-direction: column;
     }

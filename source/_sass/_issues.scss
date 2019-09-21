@@ -8,25 +8,29 @@
     font-size: 0.9rem;
     vertical-align: text-bottom;
   }
-  &--issue-1::before {
+  &--child-welfare::before {
     @extend .u-material-icons;
-    content: '3d_rotation';
+    content: 'emoji_people';
   }
-  &--issue-2::before {
+  &--criminal-justice::before {
     @extend .u-material-icons;
-    content: 'account_box';
+    content: 'gavel';
   }
-  &--issue-3::before {
+  &--economic-opportunity::before {
     @extend .u-material-icons;
-    content: 'all_inbox';
+    content: 'trending_up';
   }
-  &--issue-4::before {
+  &--education::before {
     @extend .u-material-icons;
-    content: 'assignment';
+    content: 'school';
   }
-  &--issue-5::before {
+  &--health::before {
     @extend .u-material-icons;
-    content: 'backup';
+    content: 'local_hospital';
+  }
+  &--workforce::before {
+    @extend .u-material-icons;
+    content: 'people_alt';
   }
 }
 

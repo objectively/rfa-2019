@@ -56,7 +56,6 @@
   <div class="content-section">
 
     <!-- grid content -->
-    {% for num in (1..4)%}
     {% for item in criteria %}
     {% assign title = item.title | replace: "/", "0000" | slugify | remove: "0000" %}
     {% assign url = "/state-standard-of-excellence/" | append: title | append: ".html" %}
@@ -139,7 +138,6 @@
       </div>
     </div>
     
-    {% endfor %}
     {% endfor %}
   </div>
   </div>

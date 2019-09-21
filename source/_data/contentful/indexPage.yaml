@@ -491,84 +491,108 @@ indexPage:
   - sys:
       id: 6hdFczh4fDYPnoWMATlz6V
       created_at: !ruby/object:DateTime 2019-08-14 15:21:06.192000000 Z
-      updated_at: !ruby/object:DateTime 2019-08-20 19:50:50.580000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-20 19:10:41.359000000 Z
       content_type_id: criteria
-      revision: 3
+      revision: 5
     title: Strategic Goals
     order: 1
     description: Did the Governor have public statewide strategic goals?
     explanation: "__Why is this important?__  \nThe creation of statewide strategic
-      goals is an important first step in aligning goals, expenditures, and programmatic
-      activities as a way to improve outcomes on a state government’s highest priorities."
+      goals is an important first step in aligning state government budgets, policies,
+      and programs to improve outcomes on a state government’s highest priorities."
     leading_list:
       sys:
         id: HnUKdv1w8lt7E0EfeFGLT
     promising_list:
     - sys:
-        id: 53yZI9E3M4LNV2nWqy3vAU
+        id: HUbAeoAhLVRIVwT6G9U79
     - sys:
-        id: 3GpLFz1WCjMzaR9uvmXmAg
+        id: 6jtuhxIZ7ahaAx312pABK6
     - sys:
-        id: 4dIZOWeEf8NX0ssmMAmo07
+        id: 4suwtNUtWjEM4MtV8Uv2Ct
     - sys:
-        id: 7tZufi8tjAgZKil6WDnmMx
+        id: 6i7n9E81GYRy42L2h3QLHb
+    - sys:
+        id: 7ukloDeMStVpYtmZgC8ioe
     year: '2019'
   - sys:
       id: 7vzkv3lzBopljVxYvK6uW
       created_at: !ruby/object:DateTime 2019-08-14 15:21:06.209000000 Z
-      updated_at: !ruby/object:DateTime 2019-08-14 15:21:06.209000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-20 19:10:57.032000000 Z
       content_type_id: criteria
-      revision: 1
+      revision: 2
     title: Performance Management / Continuous Improvement
     order: 2
     description: Did the state or any of its agencies implement a performance management
-      system aligned with their statewide strategic goals; with clear and prioritized
+      system aligned with its statewide strategic goals, with clear and prioritized
       outcome-focused goals, program objectives, and measures; and did it consistently
       collect, analyze, and use data and evidence to improve outcomes, return on investment,
       and other dimensions of performance?
-    explanation: "__Why is this important?__  \nPerformance management systems are
-      important tools to help state governments monitor and improve customer service,
-      program performance, and outcomes for their residents."
+    explanation: "__Why is this important?__  \nPerformance management helps state
+      governments monitor and improve customer service, program performance, and outcomes
+      for their residents."
     leading_list:
       sys:
-        id: 1afTRJd8O9nArBx8yKlUgf
+        id: 5VApoXifFGMiTPoVHJ9PpX
     promising_list:
     - sys:
-        id: 5a0BFBdN2dRsAJNjR8jdoR
+        id: 7kc8v4ldxVBhZXvQEvP8fk
     - sys:
-        id: 5gjdcL6rtylRLHqWNsvGfY
+        id: 2C0YItZ3dGm9YetzqIL9au
     - sys:
-        id: 3H2Nwws0YC2AgUnhL0sFjL
+        id: zHqOcGk6q69zQ8m9RP1Pj
     - sys:
-        id: 4ZOGJlXzDmbigQqhikDqXM
+        id: 6hYLpKtcYAj8816i27dTXv
     - sys:
-        id: 58gwCyBFPU87FKt3o8gn8M
+        id: 4Py9PBCi3IeYoV52EwVLSu
+    - sys:
+        id: 7gDVHnjmgoJVNysYKduIjJ
+    - sys:
+        id: 6DCp14Ai2ByC9c6kqn1ofn
+    - sys:
+        id: 70YMDUOzczmf0PAQTSz1tW
+    - sys:
+        id: 2ynR6QRgWEAU5551NxHobt
+    - sys:
+        id: IM1H9Pjq8FqEIAGubWlhi
+    - sys:
+        id: 4OpM7l3lYF3tgzja3aWMJx
+    - sys:
+        id: 50Y8xz6m0OCzoyGB3adaPy
     year: '2019'
   - sys:
       id: 6aDphmTQhAttzAL6vmR1X3
       created_at: !ruby/object:DateTime 2019-08-14 15:21:06.209000000 Z
-      updated_at: !ruby/object:DateTime 2019-08-14 15:21:06.209000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-20 19:08:05.710000000 Z
       content_type_id: criteria
-      revision: 1
+      revision: 2
     title: Data Leadership
     order: 3
     description: 'Did the governor’s office or any state agency have a senior staff
       member(s) with the authority, staff, and budget to collect, analyze, share,
       and use high-quality administrative and survey data—consistent with strong privacy
-      protections—to improve (or help other entities including but not limited to
+      protections— to improve (or help other entities including, but not limited to,
       local governments and nonprofit organizations improve) federal, state, and local
       programs? (Example: chief data officer)'
     explanation: "__Why is this important?__  \nA designated chief data officer can
-      create a coherent set of policies, structures, and guidance for how a state
-      government and its agencies should routinely use data to improve programs."
+      create a coherent set of policies, structures, and guidance for how state agencies
+      should routinely use data to improve programs."
     leading_list:
       sys:
-        id: 6M2p9uyltgsGutYZXyrGFY
+        id: 3Q5XJJm2sR7PJH5aGnwsGY
     promising_list:
     - sys:
-        id: 6WKWj4s0lWTWWTip4Xb4sR
+        id: Lez3Om9NF203uPErxjJij
     - sys:
-        id: 2WqibAla62rn8LfwnTDkie
+        id: XfHj1AZBOXtNhxEmbBZue
     - sys:
-        id: T3CiHCCLAVWJklbZYafTx
+        id: 2FbntRqLSd27koVHN0in3i
+    - sys:
+        id: 7cZdpUe77NPRe95ewve24F
+    - sys:
+        id: 1oNfOzjPYXPkfa6ZE6nOwY
+    - sys:
+        id: 4aO7ePVSLB9ykm3pPyHiCx
+    - sys:
+        id: 1zPGSnc7Gb19x68VgaZlLS
     year: '2019'

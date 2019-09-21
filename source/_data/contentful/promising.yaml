@@ -1783,295 +1783,1311 @@ promising:
   criteria: Data Leadership
   year: '2018'
 - sys:
-    id: T3CiHCCLAVWJklbZYafTx
-    created_at: !ruby/object:DateTime 2019-08-14 15:11:47.144000000 Z
-    updated_at: !ruby/object:DateTime 2019-08-14 15:11:47.144000000 Z
+    id: HUbAeoAhLVRIVwT6G9U79
+    created_at: !ruby/object:DateTime 2019-09-20 17:44:49.522000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-20 17:44:49.522000000 Z
     content_type_id: promising
     revision: 1
-  state: Utah
-  state_abbreviation: UT
+  state: Arizona
+  state_abbreviation: AZ
   type: Statewide
-  short_description: Utah's Chief Data Officer, a member of the Operational Excellence
-    team, uses QT/OE to help agencies measure what matters, including an effort to
-    merge social services case management data.
-  long_description: Utah's Chief Data Officer, a member of the Operational Excellence
-    team, uses QT/OE to help agencies measure what matters, including an effort to
-    merge social services case management data.
-  criteria: Data Leadership
+  long_description: Since 2017, the Arizona Governor’s Office has developed and updated
+    the [Governor's Fundamentals Map](https://ams.az.gov/sites/default/files/media/Govs_Fundamentals_Map.pdf),
+    which lists goals under six statewide [priority areas](https://azgovernor.gov/governor/priorities).
+    All cabinet agencies are required to complete an [annual strategic plan](http://www.ospb.state.az.us/strategic-plans.aspx)
+    that includes strategic issues, mission statement, description, performance measures,
+    and funding.
+  criteria: Strategic Goals
   issue:
-  - Issue 2
+  - Child Welfare
+  - Criminal Justice
+  - Economic Opportunity
+  - Education
+  - Health
+  - Workforce
   year: '2019'
+  status: New
 - sys:
-    id: 6WKWj4s0lWTWWTip4Xb4sR
-    created_at: !ruby/object:DateTime 2019-08-14 15:11:47.154000000 Z
-    updated_at: !ruby/object:DateTime 2019-08-14 15:11:47.154000000 Z
-    content_type_id: promising
-    revision: 1
-  state: Kentucky
-  state_abbreviation: KY
-  type: Statewide
-  short_description: In 2018, Kentucky established a Chief Data Officer as the chief
-    data steward to “coordinate and oversee the sharing of data and shall implement
-    effective data governance strategies designed to maintain data integrity, confidentiality,
-    availability, security, and to promote access to data.”
-  long_description: In 2018, Kentucky established a Chief Data Officer as the chief
-    data steward to “coordinate and oversee the sharing of data and shall implement
-    effective data governance strategies designed to maintain data integrity, confidentiality,
-    availability, security, and to promote access to data.” The accompanying Enterprise
-    Data Management Policy established the Office of Data, Information, and Analytics
-    (ODIA), led by the CDO, and required Executive Branch agencies to identify an
-    Agency Data Steward that would report directly to the Cabinet Secretary or Agency
-    Head. The Data Steward would carry out the functions of the data stewardship across
-    the state through the master data sharing agreement, acting as liaison to the
-    CDO/ODIA.
-  criteria: Data Leadership
-  issue:
-  - Issue 2
-  year: '2019'
-- sys:
-    id: 2WqibAla62rn8LfwnTDkie
-    created_at: !ruby/object:DateTime 2019-08-14 15:11:47.155000000 Z
-    updated_at: !ruby/object:DateTime 2019-08-14 15:11:47.155000000 Z
+    id: 6jtuhxIZ7ahaAx312pABK6
+    created_at: !ruby/object:DateTime 2019-09-20 17:50:21.755000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-20 17:50:21.755000000 Z
     content_type_id: promising
     revision: 1
   state: Oregon
   state_abbreviation: OR
   type: Statewide
-  short_description: A 2018 Oregon law created a state Chief Data Officer who is responsible
-    for centralized data strategy, including an enterprise wide open data platform.
-  long_description: 'A 2018 Oregon law created a state Chief Data Officer who is responsible
-    for centralized data strategy, including an enterprise wide open data platform.
-    The Chief Data Officer is responsible for creating open data standards; for providing
-    information protection and privacy guidance for state agencies; identify opportunities
-    for data sharing to support state efforts internally and externally with partners;
-    and design stakeholder engagement strategies including an advisory committee and
-    public engagement component. '
-  criteria: Data Leadership
+  long_description: 'In 2018, the Oregon Governor’s Office released the [Action Plan
+    for Oregon](https://www.actionplanfororegon.gov/), which identified key priorities
+    for the state in the areas of: [environment](https://www.oregon.gov/gov/policy/Documents/Governor%20Kate%20Brown%20Climate%20Agenda.pdf),
+    [healthcare](https://www.oregon.gov/gov/policy/Documents/Health%20Care%20Agenda-GOVERNOR%20KATE%20BROWN.pdf),
+    [education](https://drive.google.com/file/d/1BIO3DsKCQXHTaLuW8CUhzYXjxAnFyrpQ/view),
+    [transportation](https://www.oregon.gov/gov/policy/Documents/transportation_policy_agenda_Governor_Kate_Brown.pdf),
+    [good government](https://www.oregon.gov/gov/policy/Documents/Information%20Technology_Governor%20Kate%20Brown.pdf),
+    [earthquake preparedness](https://www.oregon.gov/gov/policy/Documents/resiliency-policy-agenda.pdf),
+    [housing and homelessness](https://www.oregon.gov/gov/policy/Documents/Housing%20Agenda%20FINAL.pdf),
+    [child welfare](https://www.oregon.gov/gov/policy/Documents/Child%20Welfare%20Agenda-GOVERNOR%20KATE%20BROWN.pdf),
+    and [job training](https://www.oregon.gov/gov/policy/Documents/Future%20Ready%20Oregon%20Governor%20Kate%20Brown.pdf). '
+  criteria: Strategic Goals
   issue:
-  - Issue 2
-  year: '2019'
-- sys:
-    id: 4ZOGJlXzDmbigQqhikDqXM
-    created_at: !ruby/object:DateTime 2019-08-14 15:11:47.156000000 Z
-    updated_at: !ruby/object:DateTime 2019-08-14 15:11:47.156000000 Z
-    content_type_id: promising
-    revision: 1
-  state: Minnesota
-  state_abbreviation: MN
-  type: Statewide
-  short_description: The Minnesota Management and Budget Office convening state agencies
-    and departments for ”state-stat" meetings focused on key population outcomes identified
-    on its public dashboard.
-  long_description: The Minnesota Management and Budget Office convening state agencies
-    and departments for ”state-stat" meetings focused on key population outcomes identified
-    on its public dashboard. In addition to monitoring progress on population outcomes,
-    these meetings are used to monitor program performance and to identify opportunities
-    to enhance collaboration and make new investments. To-date these meetings have
-    been internal to the executive branch, but many of the program measures that are
-    reviewed are published in agency budgets.
-  criteria: Performance Management / Continuous Improvement
-  issue:
-  - Issue 2
+  - Child Welfare
+  - Economic Opportunity
+  - Education
+  - Health
+  - Workforce
   year: '2019'
   status: Updated from 2018
 - sys:
-    id: 58gwCyBFPU87FKt3o8gn8M
-    created_at: !ruby/object:DateTime 2019-08-14 15:11:47.163000000 Z
-    updated_at: !ruby/object:DateTime 2019-08-14 15:11:47.163000000 Z
+    id: 4suwtNUtWjEM4MtV8Uv2Ct
+    created_at: !ruby/object:DateTime 2019-09-20 17:53:09.729000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-20 17:53:09.729000000 Z
     content_type_id: promising
     revision: 1
   state: Utah
   state_abbreviation: UT
-  type: Multiple agencies
-  short_description: Utah’s Governor’s Office of Management and Budget (GOMB) developed
-    the SUCCESS framework, which is a performance formula used to calculate work,
-    quality, and expenses across the government functions.
-  long_description: 'Utah’s Governor’s Office of Management and Budget (GOMB) developed
-    the SUCCESS framework, which is a performance formula used to calculate work,
-    quality, and expenses across the government functions. In January 2013, the Governor
-    challenged Cabinet-level agencies to hit a 25 percent improvement target over
-    four years. As of the end of 2018, the State exceeded that goal by improving more
-    than 40 percent. GOMB also supports agencies define their  performance measures
-    beyond the SUCCESS’s dimensions, with lengths of stay as performance metric fortate
-    hospitals, for example. As an independent agency, the Utah Department of Transportation
-    has brought together data from across the system in a dashboard. Their strategic
-    plan demonstrates the purpose for that dashboard, and, in a State Scoop article,
-    another appeal of the dashboard was explained: “Another part of the appeal, Marshall
-    said, is that the data previously only shared once a year through the agency’s
-    paper-bound ‘strategic direction’ book is now accessible to the public in real
-    time — allowing the department to eliminate the paper version of book entirely.”'
-  criteria: Performance Management / Continuous Improvement
+  type: Statewide
+  long_description: 'In 2018, the Utah Governor’s Office released the [Utah Life Elevated
+    2020 Initiative](https://gomb.utah.gov/life-elevated-2020-initiative/), which
+    includes four statewide goals: effective and efficient government, thriving communities,
+    qualified workforce, and equitable and competitive revenue.  '
+  criteria: Strategic Goals
   issue:
-  - Issue 2
+  - Economic Opportunity
+  - Health
+  - Workforce
   year: '2019'
+  status: New
 - sys:
-    id: 3H2Nwws0YC2AgUnhL0sFjL
-    created_at: !ruby/object:DateTime 2019-08-14 15:11:47.164000000 Z
-    updated_at: !ruby/object:DateTime 2019-08-14 15:11:47.164000000 Z
+    id: 6i7n9E81GYRy42L2h3QLHb
+    created_at: !ruby/object:DateTime 2019-09-20 17:56:42.026000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-20 17:56:42.026000000 Z
     content_type_id: promising
     revision: 1
-  state: Kentucky
-  state_abbreviation: KY
+  state: Vermont
+  state_abbreviation: VT
   type: Statewide
-  short_description: The Kentucky Center for Statistics (KYSTATS) collects and links
-    data to evaluate the state’s education and workforce efforts.
-  long_description: The Kentucky Center for Statistics (KYSTATS) collects and links
-    data to evaluate the state’s education and workforce efforts. Interactive dashboards
-    are used for continuous improvement and performance management. Examples include
-    the [Kentucky Workforce Dashboard](https://www.example.com/), which provides an
-    overview of Kentucky’s workforce and labor market and includes data from 10 partner
-    organizations from the state and local levels; moreover, the quarterly reported
-    data reflect the Workforce Innovation Board’s strategic plan to, “create a workforce
-    development system that is value driven for employers, aligns education with industry
-    demands, prepares Kentuckians for the future of work and drives economic development.”
-  criteria: Performance Management / Continuous Improvement
+  long_description: 'In 2018, the Vermont Governor’s Office released the state’s [2018-2023
+    Strategic Plan](https://strategicplan.vermont.gov/sites/strategicplan/files/documents/Theme-plans/Strategic%20Plans%20All%20Agencies%20by%20Theme%20v1.3new_wCover.pdf),
+    which outlines four statewide goals related to the [economy](https://strategicplan.vermont.gov/economy),
+    [affordability](http://vermont), [vulnerability](https://strategicplan.vermont.gov/vulnerability),
+    and [modernization](https://strategicplan.vermont.gov/modernization). The goals
+    were established in a 2017 [executive order](https://governor.vermont.gov/sites/scott/files/documents/EO1Strategic%20Goals.FINALpdf2.pdf).
+    As required by a 2014 law, and a related executive order, the state’s [Chief Performance
+    Officer](https://aoa.vermont.gov/secretary/divisions#CPO) annually reports data
+    related to these goals and [fiscal transparency](https://spotlight.vermont.gov/).  '
+  criteria: Strategic Goals
   issue:
-  - Issue 1
-  - Issue 2
+  - Child Welfare
+  - Economic Opportunity
+  - Education
+  - Health
+  - Workforce
+  year: '2019'
+  status: New
+- sys:
+    id: 7ukloDeMStVpYtmZgC8ioe
+    created_at: !ruby/object:DateTime 2019-09-20 17:59:04.029000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-20 17:59:04.029000000 Z
+    content_type_id: promising
+    revision: 1
+  state: Washington
+  state_abbreviation: WA
+  type: Statewide
+  long_description: 'In 2017, the Washington Governor’s Office issued [five overarching
+    goals](https://results.wa.gov/measuring-progress) with aligned outcome measures:
+    [world-class education](https://results.wa.gov/measuring-progress/outcome-measures/world-class-education),
+    [prosperous economy](https://results.wa.gov/measuring-progress/outcome-measures/prosperous-economy),
+    [sustainable energy and clean environment](https://results.wa.gov/measuring-progress/outcome-measures/sustainable-energy-and-clean-environment),
+    [healthy and safe communities](https://results.wa.gov/measuring-progress/outcome-measures/healthy-and-safe-communities),
+    and [effective, efficient, and accountable government](https://results.wa.gov/measuring-progress/outcome-measures/efficient-effective-and-accountable-government).'
+  criteria: Strategic Goals
+  issue:
+  - Economic Opportunity
+  - Education
+  - Health
+  - Workforce
   year: '2019'
   status: Updated from 2018
 - sys:
-    id: 5a0BFBdN2dRsAJNjR8jdoR
-    created_at: !ruby/object:DateTime 2019-08-14 15:11:47.378000000 Z
-    updated_at: !ruby/object:DateTime 2019-08-14 15:11:47.378000000 Z
+    id: 7kc8v4ldxVBhZXvQEvP8fk
+    created_at: !ruby/object:DateTime 2019-09-20 18:06:54.265000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-20 18:06:54.265000000 Z
+    content_type_id: promising
+    revision: 1
+  state: Arizona
+  state_abbreviation: AZ
+  type: Statewide
+  long_description: 'As part of the Arizona Management System, Arizona’s Government
+    Transformation Office implemented an enterprise approach to strategic planning
+    and performance reporting across cabinet agencies, including the [My Agency Scorecard](https://ams.az.gov/my_agency_scorecard)
+    application. The more than 700 metrics reported through this application cover
+    numerous aspects of state government and power executive-level dashboards that
+    inform strategy, operations, and budgeting activities.  '
+  criteria: Performance Management / Continuous Improvement
+  issue:
+  - Child Welfare
+  - Criminal Justice
+  - Economic Opportunity
+  - Education
+  - Health
+  - Workforce
+  year: '2019'
+  status: New
+- sys:
+    id: 2C0YItZ3dGm9YetzqIL9au
+    created_at: !ruby/object:DateTime 2019-09-20 18:09:17.915000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-20 18:09:17.915000000 Z
     content_type_id: promising
     revision: 1
   state: Colorado
   state_abbreviation: CO
-  type: Single agency
-  short_description: Since 2012, the Colorado Department of Human Services has implemented
-    a performance management framework, C-Stat to improve delivery of food and cash
-    assistance programs as mandated by a court order.
-  long_description: Since 2012, the Colorado Department of Human Services has implemented
-    a performance management framework, [C-Stat](https://www.example.com/) to improve
-    delivery of food and cash assistance programs as mandated by a court order. According
-    to the C-Stat website, the framework “moves CDHS to an outcomes-oriented and collaborative
-    approach to affect change at every level. The goals are to collect timely data,
-    increase transparency, conduct regular executive meetings to assess the effectiveness
-    of the strategies, and to identify new performance measures, all in support of
-    continuous quality improvement.” Each division within the department collects
-    and reports performance data. Meetings are held weekly on a rotating basis for
-    each division. The online dashboard contains data on nine systems with reports
-    released quarterly. County level data is included on a dashboard. The Department’s
-    Performance and Peer Exchange program, a peer exchange and learning opportunity,
+  type: Statewide
+  long_description: "A [2013 Colorado law](https://www.colorado.gov/pacific/performancemanagement/smart-act-requirements-performance-plan-guidelines)
+    required all Colorado state agencies to submit [annual performance reports](https://www.colorado.gov/performancemanagement/department-performance-plans)
+    to the Colorado state legislature which must include: (1) performance measures
+    for the major functions of the department; (2) performance goals for at least
+    the subsequent three years; (3) a description of the strategies necessary to achieve
+    those goals; and (4) a summary of the department’s most recent performance evaluation.\n\nThe
+    Colorado Department of Human Services [C-Stat](https://www.colorado.gov/pacific/cdhs/c-stat)
+    performance management framework is designed to [improve](http://www.businessofgovernment.org/sites/default/files/A%20Practitioner%27s%20Framework%20for%20Measuring%20Results.pdf)
+    the delivery of food and cash assistance program benefits. The Department holds
+    weekly performance meetings, releases quarterly performance reports, and summarizes
+    data on county level [dashboard](http://www.businessofgovernment.org/sites/default/files/C-Stat%20County%20Dashboard%20Sample.pdf).
+    A [peer exchange program](https://www.colorado.gov/pacific/cdhs/performance-partnerships-exchange)
     allows counties to learn from each other and produces broader learnings for the
-    field, which are available online. This case study has details on design and implementation
-    for policymakers.
+    field, including [case studies](http://www.businessofgovernment.org/sites/default/files/A%20Practitioner%27s%20Framework%20for%20Measuring%20Results.pdf). "
   criteria: Performance Management / Continuous Improvement
   issue:
-  - Issue 2
+  - Child Welfare
+  - Criminal Justice
+  - Economic Opportunity
+  - Education
+  - Health
+  - Workforce
   year: '2019'
+  status: Updated from 2018
 - sys:
-    id: 53yZI9E3M4LNV2nWqy3vAU
-    created_at: !ruby/object:DateTime 2019-08-14 15:11:48.160000000 Z
-    updated_at: !ruby/object:DateTime 2019-08-26 15:29:48.221000000 Z
+    id: zHqOcGk6q69zQ8m9RP1Pj
+    created_at: !ruby/object:DateTime 2019-09-20 18:13:50.914000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-20 18:13:50.914000000 Z
     content_type_id: promising
-    revision: 3
+    revision: 1
+  state: Florida
+  state_abbreviation: FL
+  type: Single agency
+  long_description: 'A [2014 Florida law](http://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0400-0499/0409/Sections/0409.997.html)
+    created the Florida Department of Children and Families [child welfare results-oriented
+    accountability program](http://www.cwicenter.org/ResultsOrientedAccountablility.shtml)
+    that monitors data from service providers and other entities to report progress
+    via a public child welfare [performance dashboard](http://www.dcf.state.fl.us/programs/childwelfare/dashboard/index.shtml).
+    In addition, the Department publishes interactive [scorecards](http://www.myflfamilies.com/general-information/planning-performance-measures)
+    with detailed information on program performance for: [community based care](http://www.dcf.state.fl.us/programs/childwelfare/dashboard/cbc-scorecard.shtml),
+    [federal child welfare indicators](http://www.dcf.state.fl.us/programs/childwelfare/dashboard/federal-indicators.shtml),
+    [child protective investigations](http://www.dcf.state.fl.us/programs/childwelfare/dashboard/cpi-scorecard.shtml),
+    [adult protective services](https://www.myflfamilies.com/general-information/planning-performance-measures/aps-scorecard.shtml),
+    and [mental health treatment facilities](https://www.myflfamilies.com/general-information/planning-performance-measures/mhtf-scorecard.shtml).'
+  criteria: Performance Management / Continuous Improvement
+  issue:
+  - Child Welfare
+  - Health
+  year: '2019'
+  status: Updated from 2018
+- sys:
+    id: 6hYLpKtcYAj8816i27dTXv
+    created_at: !ruby/object:DateTime 2019-09-20 18:16:25.009000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-20 18:16:25.009000000 Z
+    content_type_id: promising
+    revision: 1
+  state: Illinois
+  state_abbreviation: IL
+  type: Statewide
+  long_description: 'The Illinois [Budgeting for Results Commission](https://www2.illinois.gov/sites/budget/Pages/results.aspx)
+    is the state’s [performance-based budgeting initiative](https://www2.illinois.gov/sites/budget/Documents/Budgeting%20for%20Results/Public%20Meetings/BFR-Commission-Public-Hearing-Presentation-2019.pdf).
+    The Commission [annual report](https://www2.illinois.gov/sites/budget/Documents/Budgeting%20for%20Results/2018%20BFR%20Annual%20Commission%20Report%2011.1.18.pdf)
+    summarizes the state’s performance improvement efforts across [seven statewide
+    results areas](https://www2.illinois.gov/sites/budget/Documents/Budgeting%20for%20Results/2018%20BFR%20Annual%20Commission%20Report%2011.1.18.pdf#page=9):
+    education, economic development, public safety, human services, healthcare, environment
+    and culture, and government services.'
+  criteria: Performance Management / Continuous Improvement
+  issue:
+  - Child Welfare
+  - Criminal Justice
+  - Economic Opportunity
+  - Education
+  - Health
+  - Workforce
+  year: '2019'
+  status: New
+- sys:
+    id: 4Py9PBCi3IeYoV52EwVLSu
+    created_at: !ruby/object:DateTime 2019-09-20 18:18:45.012000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-20 18:18:45.012000000 Z
+    content_type_id: promising
+    revision: 1
+  state: Maryland
+  state_abbreviation: MD
+  type: Statewide
+  long_description: As required by a [2013 Maryland law](http://mgaleg.maryland.gov/webmga/frmStatutesText.aspx?article=gsf&section=3-1002&ext=html&session=2020RS&tab=subject5),
+    the Maryland Department of Budget and Management’s [Managing for Results](http://dbm.maryland.gov/Pages/ManagingResultsMaryland.aspx)
+    initiative publishes [annual performance reports](http://dbm.maryland.gov/Pages/MFRPerformanceReport.aspx)
+    as part of the state’s budget process. These reports track agencies’ key goals,
+    objectives, and performance measures. As part of these efforts, the Governor’s
+    Office of Performance Improvement, established by a [2015 Executive Order](https://gopi.maryland.gov/wp-content/uploads/sites/25/2015/10/EO-01.01.2015.26gopi.pdf),
+    assists “agencies with measuring and managing performance information.” Further,
+    the Maryland Children’s Cabinet has a [Child Welfare Scorecard](http://goc.maryland.gov/wellbeingscorecard/),
+    which tracks [indicators](https://goc.maryland.gov/wellbeingscorecard/) for eight
+    statewide child welfare goals.
+  criteria: Performance Management / Continuous Improvement
+  issue:
+  - Child Welfare
+  - Criminal Justice
+  - Economic Opportunity
+  - Education
+  - Health
+  - Workforce
+  year: '2019'
+  status: Updated from 2018
+- sys:
+    id: 7gDVHnjmgoJVNysYKduIjJ
+    created_at: !ruby/object:DateTime 2019-09-20 18:20:18.098000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-20 18:20:18.098000000 Z
+    content_type_id: promising
+    revision: 1
   state: Minnesota
   state_abbreviation: MN
-  type: Single agency
-  short_description: 'The Minnesota Management and Budget (MMB) led a process which
-    required state agencies to document the evidence of effectiveness for proposals
-    for new programs as well as proposals to change or expand existing activities. '
-  long_description: The Minnesota Management and Budget (MMB) led a process which
-    required state agencies to document the evidence of effectiveness for proposals
-    for new programs as well as proposals to change or expand existing activities.
-    The [Governor’s Office](https://www.example.com/) used this information, combined
-    with input from communities across the state, and included 17 proposals ($150
-    million) with strong causal evidence of effectiveness in the FY 2020-2021 Governor's
-    Budget. The enacted budget ultimately included $87 million in evidence-based proposals,
-    including items initiated by the legislature.
-  criteria: Strategic Goals
+  type: Statewide
+  long_description: Since 2014, Minnesota has maintained a [dashboard](https://mn.gov/mmb/mn-dashboard/)
+    featuring 40 key indicators in the state’s eight key priority areas. Each indicator
+    has a status (good, okay, or poor according to specific [criteria](https://mn.gov/mmb/mn-dashboard/criteria/));
+    indicators can be compared to the performance of other states and many are disaggregated
+    by race, income, or geography. The Minnesota Management and Budget Office uses
+    the dashboard to convene state agencies for “state-stat" meetings to monitor performance
+    and identify opportunities to enhance collaboration.
+  criteria: Performance Management / Continuous Improvement
   issue:
-  - Issue 3
-  - Issue 4
+  - Child Welfare
+  - Criminal Justice
+  - Economic Opportunity
+  - Education
+  - Health
+  - Workforce
   year: '2019'
+  status: Updated from 2018
 - sys:
-    id: 4dIZOWeEf8NX0ssmMAmo07
-    created_at: !ruby/object:DateTime 2019-08-14 15:11:48.172000000 Z
-    updated_at: !ruby/object:DateTime 2019-08-14 15:11:48.172000000 Z
+    id: 6DCp14Ai2ByC9c6kqn1ofn
+    created_at: !ruby/object:DateTime 2019-09-20 18:21:55.059000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-20 18:21:55.059000000 Z
+    content_type_id: promising
+    revision: 1
+  state: Mississippi
+  state_abbreviation: MS
+  type: Single agency
+  long_description: The Mississippi Department of Education’s [Mississippi Succeeds
+    Report Card](https://msrc.mdek12.org/ReportCard/?EntityID=0000-000&SchoolYear=2017)
+    publicly tracks the state’s progress towards its goals for improving student outcomes
+    as outlined in the [State’s Every Student Succeeds Act (ESSA) implementation plan](https://www.mdek12.org/sites/default/files/documents/SSE/MS-ESSA-Plan-2018.pdf).
+  criteria: Performance Management / Continuous Improvement
+  issue:
+  - Education
+  year: '2019'
+  status: New
+- sys:
+    id: 70YMDUOzczmf0PAQTSz1tW
+    created_at: !ruby/object:DateTime 2019-09-20 18:23:47.949000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-20 18:23:47.949000000 Z
+    content_type_id: promising
+    revision: 1
+  state: Missouri
+  state_abbreviation: MO
+  type: Statewide
+  long_description: The Missouri Chief Operating Officer (COO), a position [established](https://www.sos.mo.gov/library/reference/orders/2017/eo4)
+    in 2017, works with all state departments to define strategic priorities and achieve
+    results. Departments represent their priorities and main strategic initiatives
+    on [placemats](https://strategicchange.mo.gov/) that are shared throughout the
+    organization and with the public. All Missouri departments publish annual [performance
+    data on core programs](https://oa.mo.gov/budget-explorer/program-descriptions-forms)
+    as part of the annual budget process. Each department also does a monthly or [quarterly
+    update](https://www.modot.org/sites/default/files/documents/2019JulyTracker_Final.pdf)
+    to track the status of its strategic initiatives and organizational performance;
+    these dashboards are reviewed monthly by the COO and the deputies from each department.
+  criteria: Performance Management / Continuous Improvement
+  year: '2019'
+  status: Updated from 2018
+- sys:
+    id: 2ynR6QRgWEAU5551NxHobt
+    created_at: !ruby/object:DateTime 2019-09-20 18:27:44.888000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-20 18:27:44.888000000 Z
+    content_type_id: promising
+    revision: 1
+  state: New Mexico
+  state_abbreviation: NM
+  type: Statewide
+  long_description: 'A [1999 New Mexico law](https://www.nmlegis.gov/Entity/LFC/Documents/Accountability_In_Goverment_Act/Accountability%20in%20Government%20Act%20Statute.pdf#page=5)
+    required all state agencies to submit annual performance-based budget requests
+    which include: (1) the outputs and outcomes for each program; (2) performance
+    measures and targets for each program; and (3) an evaluation of each program’s
+    performance. This information is released annually in the state’s [policy and
+    fiscal analysis](https://www.nmlegis.gov/Entity/LFC/Documents/Session_Publications/Budget_Recommendations/2020RecommendVolI.pdf),
+    which includes individual agency [performance reports](https://www.nmlegis.gov/Entity/LFC/Documents/Session_Publications/Budget_Recommendations/2020RecommendVolI.pdf#page=94)
+    and information on the [cost effectiveness](https://www.nmlegis.gov/Entity/LFC/Documents/Session_Publications/Budget_Recommendations/2020RecommendVolI.pdf#page=21)
+    of different programs. '
+  criteria: Performance Management / Continuous Improvement
+  issue:
+  - Child Welfare
+  - Criminal Justice
+  - Economic Opportunity
+  - Education
+  - Health
+  - Workforce
+  year: '2019'
+  status: Updated from 2018
+- sys:
+    id: IM1H9Pjq8FqEIAGubWlhi
+    created_at: !ruby/object:DateTime 2019-09-20 18:29:16.248000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-20 18:29:16.248000000 Z
     content_type_id: promising
     revision: 1
   state: Oregon
   state_abbreviation: OR
   type: Statewide
-  short_description: 'The 2018 Action Plan for Oregon identified key priorities with
-    aligned measures, strategies, and plans. '
-  long_description: 'The 2018 Action Plan for Oregon identified key priorities with
-    aligned measures, strategies, and plans in the areas of: [environment](https://www.example.com/),
-    healthcare, education, [transportation](https://www.example.com/), good government,
-    earthquake preparedness, housing and homelessness, child welfare, and job training. '
-  criteria: Strategic Goals
+  long_description: A [2016 Oregon law](https://www.oregonlaws.org/ors/291.110) required
+    all state agencies to develop and use performance measures. Each state agency
+    submits to the Oregon Legislative Fiscal Office an [Annual Performance Progress
+    Report](https://www.oregon.gov/transparency/Pages/Key-Performance-Measures.aspx#Data_Viewer_-_Annual_Performance_Progress_Reports__)
+    detailing the agency’s programmatic outcomes, which are reviewed during the state’s
+    budget process.
+  criteria: Performance Management / Continuous Improvement
   issue:
-  - Issue 2
+  - Child Welfare
+  - Criminal Justice
+  - Economic Opportunity
+  - Education
+  - Health
+  - Workforce
   year: '2019'
   status: Updated from 2018
 - sys:
-    id: 7tZufi8tjAgZKil6WDnmMx
-    created_at: !ruby/object:DateTime 2019-08-14 15:11:48.173000000 Z
-    updated_at: !ruby/object:DateTime 2019-08-14 15:11:48.173000000 Z
+    id: 4OpM7l3lYF3tgzja3aWMJx
+    created_at: !ruby/object:DateTime 2019-09-20 18:31:10.211000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-20 18:31:10.211000000 Z
     content_type_id: promising
     revision: 1
-  state: Utah
-  state_abbreviation: UT
+  state: Tennessee
+  state_abbreviation: TN
   type: Statewide
-  short_description: The Utah Governor’s Office of Management and Budget’s SUCCESS
-    Framework includes three phases as part of the Utah Life Elevated 2020 Initiative.
-  long_description: 'The Utah Governor’s Office of Management and Budget’s SUCCESS
-    Framework includes three phases as part of the [Utah Life Elevated 2020 Initiative:](https://www.example.com/)
-    effective and efficient government, thriving communities, qualified workforce,
-    and equitable and competitive revenue. SUCCESS Framework resources assist agencies
-    to reach their performance goals. One such agency goal focused on reducing opioid
-    overdoses which resulted in 13% decline in opioid use.  '
-  criteria: Strategic Goals
+  long_description: 'Tennessee’s data and performance website, [Transparent TN](https://www.tn.gov/transparenttn.html),
+    has statewide performance dashboards with specific [sub-goals, targets, and performance
+    data](https://www.tn.gov/transparenttn/education-workforce-development/education-workforce-development_rd/education-hilites-education_rd/education-goals.html)
+    in the areas of the state’s [strategic priorities](https://www.tn.gov/transparenttn/about-transparent-tennessee.html).
+    These priorities are connected to each cabinet-level agency’s operational and
+    strategic plan. The site also includes state [fiscal data](https://www.tn.gov/transparenttn/state-financial-overview.html)
+    as well as [OpenMaps](https://openmaps.tn.gov/), which showcases key metrics. '
+  criteria: Performance Management / Continuous Improvement
   issue:
-  - Issue 1
+  - Child Welfare
+  - Criminal Justice
+  - Economic Opportunity
+  - Education
+  - Health
+  - Workforce
   year: '2019'
+  status: Updated from 2018
 - sys:
-    id: 3GpLFz1WCjMzaR9uvmXmAg
-    created_at: !ruby/object:DateTime 2019-08-14 15:11:48.174000000 Z
-    updated_at: !ruby/object:DateTime 2019-08-14 15:11:48.174000000 Z
+    id: 50Y8xz6m0OCzoyGB3adaPy
+    created_at: !ruby/object:DateTime 2019-09-20 18:34:07.300000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-20 18:34:07.300000000 Z
+    content_type_id: promising
+    revision: 1
+  state: Washington
+  state_abbreviation: WA
+  type: Statewide
+  long_description: 'A [2013 Washington State Executive Order](https://www.governor.wa.gov/sites/default/files/exe_order/eo_13-04.pdf)
+    established [Results Washington](https://results.wa.gov/) within the Governor’s
+    office as “an innovative, data-driven, performance management initiative, that
+    will drive the operations of state government.” As part of its work, Results Washington
+    proactively and regularly publishes outcome data within the state’s priority areas
+    of: [world-class education](http://www.results.wa.gov/goals-progress/goals/world-class-education/goal-map);
+    [prosperous economy](http://www.results.wa.gov/goals-progress/goals/prosperous-economy/goal-map);
+    [sustainable energy and clean environment](http://www.results.wa.gov/goals-progress/goals/sustainable-energy-clean-environment/goal-map);
+    [healthy and safe communities](http://www.results.wa.gov/goals-progress/goals/healthy-safe-communities/goal-map);
+    and [efficient, effective and accountable government](http://www.results.wa.gov/goals-progress/goals/efficient-effective-accountable-government/goal-map).
+    In each of these areas, the state [measures progress](https://results.wa.gov/measuring-progress/outcome-measures).
+    Since 2014, Results Washington has conducted Results Review meetings with the
+    Governor 10 times per year. The meetings are [recorded and publicly posted](https://results.wa.gov/measuring-progress/results-reviews)
+    and allow the “Governor and state agency directors to discuss objectives, improvement
+    strategies and metrics.”  '
+  criteria: Performance Management / Continuous Improvement
+  issue:
+  - Child Welfare
+  - Criminal Justice
+  - Economic Opportunity
+  - Education
+  - Health
+  - Workforce
+  year: '2019'
+  status: Updated from 2018
+- sys:
+    id: Lez3Om9NF203uPErxjJij
+    created_at: !ruby/object:DateTime 2019-09-20 18:51:49.669000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-20 18:51:49.669000000 Z
+    content_type_id: promising
+    revision: 1
+  state: Indiana
+  state_abbreviation: IN
+  type: Statewide
+  long_description: 'A [2017 Indiana law](http://iga.in.gov/legislative/2017/bills/house/1470#document-af23f3bf)
+    established the position of Chief Data Officer (p. 8) with the budget, staff,
+    and authority to: (1) coordinate data analytics and data transparency for state
+    agencies; (2) advise state agencies regarding best practices for data maintenance,
+    security, and privacy; and (3) oversee the [Indiana Management Performance Hub](https://www.in.gov/mph/index.htm).
+    The Hub uses state data, such as the [Education and Workforce Development database](https://www.in.gov/mph/917.htm),
+    to provide “analytics solutions tailored to address complex management and policy
+    questions enabling improved outcomes.” The Hub’s [2018 Annual Report](https://www.in.gov/mph/files/MPH-2018-Annual-Report.pdf)
+    estimates a return on investment of $40 million for the state. '
+  criteria: Data Leadership
+  issue:
+  - Education
+  - Health
+  - Workforce
+  year: '2019'
+  status: Updated from 2018
+- sys:
+    id: XfHj1AZBOXtNhxEmbBZue
+    created_at: !ruby/object:DateTime 2019-09-20 18:56:32.611000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-20 18:56:32.611000000 Z
+    content_type_id: promising
+    revision: 1
+  state: Kentucky
+  state_abbreviation: KY
+  type: Statewide
+  long_description: 'In 2018, Kentucky established a [Chief Data Officer](https://technology.ky.gov/about/Pages/default.aspx)
+    to “coordinate and oversee the sharing of data” and “implement effective data
+    governance strategies designed to maintain data integrity, confidentiality, availability,
+    security, and to promote access to data.” The state’s [Enterprise Data Management
+    Policy](https://technology.ky.gov/policy/Pages/CIO-110--Enterprise-Data-Management.aspx)
+    requires each state agency to identify an Agency Data Steward to act as a liaison
+    to the Chief Data Officer in implementing the state’s master data sharing agreement. '
+  criteria: Data Leadership
+  year: '2019'
+  status: New
+- sys:
+    id: 2FbntRqLSd27koVHN0in3i
+    created_at: !ruby/object:DateTime 2019-09-20 18:58:07.027000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-20 18:58:07.027000000 Z
     content_type_id: promising
     revision: 1
   state: North Carolina
   state_abbreviation: NC
   type: Statewide
-  short_description: North Carolina’s Office of State Budget and Management (OSBM)
-    strategic planning initiative, Systems Analysis, combines of strategic planning,
-    operational improvement analysis, and ongoing performance monitoring.
-  long_description: 'North Carolina’s Office of State Budget and Management (OSBM)
-    strategic planning initiative, [Systems Analysis](https://www.example.com/), combines
-    of strategic planning, operational improvement analysis, and ongoing performance
-    monitoring with the goal of evaluating statewide and agency-specific operations,
-    identifying areas of progress, and developing, executing, and tracking plans for
-    the future. OSBM provides resources, such as a [memo](https://www.example.com/),
-    [guidance](https://www.example.com/), and [strategic plan template](https://www.example.com/),
-    for developing strategic plans that align the governor’s priority goals. The strategic
-    plans are publicly available. '
-  criteria: Strategic Goals
+  long_description: 'North Carolina’s [Chief Data Officer](https://it.nc.gov/about/leadership/john-correllus)
+    oversees the [North Carolina Government Data Analytics Center](https://it.nc.gov/services/nc-gdac),
+    which [manages](https://files.nc.gov/ncdit/documents/files/2017_GDAC_Legislative%20Report.pdf)
+    data sharing, integration, and data analytics to improve service delivery and
+    the efficiency of services. In this role, the Chief Data Officer has the authority,
+    staff, and budget “to transform existing data assets into an information utility
+    for the state’s policy and operational leaders for their use in making program
+    investment decisions, managing resources, and improving financial programs, budgets,
+    and results.”  '
+  criteria: Data Leadership
   issue:
-  - Issue 2
+  - Criminal Justice
+  - Economic Opportunity
+  - Education
   year: '2019'
+  status: Updated from 2018
 - sys:
-    id: 5gjdcL6rtylRLHqWNsvGfY
-    created_at: !ruby/object:DateTime 2019-08-14 15:11:48.178000000 Z
-    updated_at: !ruby/object:DateTime 2019-08-14 15:11:48.178000000 Z
+    id: 7cZdpUe77NPRe95ewve24F
+    created_at: !ruby/object:DateTime 2019-09-20 19:01:17.385000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-20 19:01:17.385000000 Z
+    content_type_id: promising
+    revision: 1
+  state: Oregon
+  state_abbreviation: OR
+  type: Statewide
+  long_description: A 2018 Oregon [law](https://olis.leg.state.or.us/liz/2017R1/Downloads/MeasureDocument/HB3361)
+    created a state [Chief Data Officer](http://oregonresearch.org/?p=803) responsible
+    for centralized data strategy, including an enterprise-wide open data platform.
+    The [Chief Data Officer](https://www.youtube.com/watch?v=vWK8y2FuXtc) is charged
+    with creating open data standards, providing privacy guidance for state agencies,
+    identifying opportunities for data sharing, and designing stakeholder engagement
+    strategies including an advisory committee.
+  criteria: Data Leadership
+  year: '2019'
+  status: New
+- sys:
+    id: 1oNfOzjPYXPkfa6ZE6nOwY
+    created_at: !ruby/object:DateTime 2019-09-20 19:02:59.055000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-20 19:02:59.055000000 Z
+    content_type_id: promising
+    revision: 1
+  state: Utah
+  state_abbreviation: UT
+  type: Statewide
+  long_description: 'In 2019, Utah appointed a [Chief Data Officer](https://gomb.utah.gov/rachel-stone/)
+    within the Governor’s Office of Management and Budget. The Chief Data Officer
+    uses the Quality Throughput/Operating Expense (QT/OE) [model](https://docs.google.com/document/d/1hTVt0rcZjzukYospzaye3lhe5NubSOK1F760BdClrTY/edit)
+    to [help agencies](http://civictechie.com/uncategorized/why-i-asked-to-be-chief-data-officer/)
+    measure what matters, including an effort to [merge social services case management
+    data](https://gomb.utah.gov/transforming-social-services/). '
+  criteria: Data Leadership
+  year: '2019'
+  status: New
+- sys:
+    id: 4aO7ePVSLB9ykm3pPyHiCx
+    created_at: !ruby/object:DateTime 2019-09-20 19:04:35.413000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-20 19:04:35.413000000 Z
+    content_type_id: promising
+    revision: 1
+  state: Virginia
+  state_abbreviation: VA
+  type: Statewide
+  long_description: A [2018 Virginia law](https://law.lis.virginia.gov/vacode/title2.2/chapter2/section2.2-203.2:4/)
+    created a [Chief Data Officer](https://www.administration.virginia.gov/about-us/)
+    to coordinate the effective sharing of data among state, regional, and local entities,
+    including the engagement of a [Data Sharing and Analytics Advisory Committee](https://studies.virginiageneralassembly.gov/studies/470).
+    The Chief Data Officer is responsible for the state’s data governance including
+    policies related to open data, data sharing, and data privacy.
+  criteria: Data Leadership
+  issue:
+  - Economic Opportunity
+  - Education
+  year: '2019'
+  status: New
+- sys:
+    id: 1zPGSnc7Gb19x68VgaZlLS
+    created_at: !ruby/object:DateTime 2019-09-20 19:07:56.616000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-20 19:07:56.616000000 Z
+    content_type_id: promising
+    revision: 1
+  state: Washington
+  state_abbreviation: WA
+  type: Single agency
+  long_description: 'The Washington State Department of Social Services [Research
+    and Data Analysis Division](https://www.dshs.wa.gov/ffa/research-and-data-analysis/rdas-organization)
+    is led by a Director who is responsible for [providing policymakers with data
+    and analyses](https://www.cep.gov/events/2017-01-13/2017-1-13-mancuso.pdf) to
+    improve the effectiveness of services for clients. The Director oversees the Department’s
+    [Integrated Client Database](https://www.dshs.wa.gov/sites/default/files/SESA/rda/documents/research-11-205.pdf),
+    which brings together data from [10 state agencies](https://www.dshs.wa.gov/sites/default/files/SESA/rda/documents/research-11-205.pdf),
+    40 separate data systems, and 2.4 million individuals. Under the Director’s leadership
+    this database has been used by the state’s [Health Home Program](https://www.dshs.wa.gov/altsa/washington-health-home-program)
+    to generate tens of millions of dollars in [reduced costs](https://www.cms.gov/blog/washington-mffs-preliminary-evaluation-report)
+    and [shared savings payments](https://www.hca.wa.gov/about-hca/health-home-program-saves-more-100-million-medicare-program-over-three-years). '
+  criteria: Data Leadership
+  issue:
+  - Health
+- sys:
+    id: 3HxYBuwBG0TWRHEBJ83XEp
+    created_at: !ruby/object:DateTime 2019-09-20 19:17:10.603000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-20 19:17:10.603000000 Z
+    content_type_id: promising
+    revision: 1
+  state: Arizona
+  state_abbreviation: AZ
+  type: Multiple agencies
+  long_description: 'In 2019, Arizona’s Department of Administration implemented an
+    enterprise data sharing [memorandum of understanding](https://aset.az.gov/sites/default/files/Arizona%20Interagency%20Data%20Sharing%20Memorandum%20of%20Understanding%20S.pdf)
+    (eMOU), which has been signed by 28 state agencies. The eMOU sets forth governance
+    standards for data sharing according to the statewide [data policy](https://aset.az.gov/sites/default/files/P4440%20Data%20Governance%20Data%20Interoperability%20Policy%20-%20signed.pdf)
+    and has a presumption of data sharing between agencies, unless specifically prohibited
+    by law. '
+  criteria: Data Policies / Agreements
+  year: '2019'
+  status: New
+- sys:
+    id: 6ixBytmp1fMHBQ7D7quo7c
+    created_at: !ruby/object:DateTime 2019-09-20 19:19:16.269000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-20 19:19:16.269000000 Z
+    content_type_id: promising
+    revision: 1
+  state: California
+  state_abbreviation: CA
+  type: Statewide
+  long_description: 'California’s statewide [Open Data Policy](https://cdt.ca.gov/wp-content/uploads/2019/03/TL-19-01.pdf)
+    encourages departments to [share data](https://www.dgsapps.dgs.ca.gov/documents/sam/SamPrint/NEW/SAM_Master/SAM_Master_File/Chap5100/5160.1.pdf)
+    in standard and accessible formats through the [California Open Data Portal](https://data.ca.gov/).
+    As outlined in the [California Open Data Handbook](https://handbook.data.ca.gov/),
+    the state’s open efforts are designed to improve collaboration, expand transparency,
+    encourage innovation, and increase effectiveness. In addition, the state hosts
+    [CalData](https://www.govops.ca.gov/eureka-institute/ca-open-data/), a professional
+    network for government officials and partners to promote the best uses of open
+    data. '
+  criteria: Data Policies / Agreements
+  year: '2019'
+  status: New
+- sys:
+    id: 1IhKQAFLpYRsdJPOX9aMoj
+    created_at: !ruby/object:DateTime 2019-09-20 19:21:13.963000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-20 19:21:13.963000000 Z
+    content_type_id: promising
+    revision: 1
+  state: Colorado
+  state_abbreviation: CO
+  type: Multiple agencies
+  long_description: 'In 2019, the Colorado Governor’s Office and the Colorado Evaluation
+    and Action Lab co-designed the [Linked Information Network of Colorado](https://coloradolab.org/linc/)
+    (LINC) to facilitate data sharing for research and analytics purposes as a way
+    to improve state policies and programs. LINC includes data from the Departments
+    of Health Care Policy and Financing, Higher Education, Human Services, Labor and
+    Employment, and Public Health and Environment. LINC has a [three-tier legal structure](https://coloradolab.org/wp-content/uploads/2019/05/LINC-Data-Initiative-Description.pdf#page=2)
+    which includes: (1) an enterprise memorandum of understanding (eMOU) signed by
+    all data providers; (2) data sharing agreements to secure, handle, and anonymize
+    data for all LINC projects; and (3) data licenses with roles and responsibilities
+    for users of LINC project data.'
+  criteria: Data Policies / Agreements
+  issue:
+  - Economic Opportunity
+  - Education
+  - Health
+  - Workforce
+  year: '2019'
+  status: New
+- sys:
+    id: 6MWU5t8YDN0h0k0S53YZ3O
+    created_at: !ruby/object:DateTime 2019-09-20 19:22:52.142000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-20 19:22:52.142000000 Z
     content_type_id: promising
     revision: 1
   state: Connecticut
   state_abbreviation: CT
-  type: Single agency
-  short_description: EdSight, the Connecticut State Department of Education’s student
-    data portal has the capacity to generate student performance Report Card.
-  long_description: "[EdSight](https://www.example.com/), the Connecticut State Department
-    of Education’s student data portal has the capacity to generate student performance
-    Report Card which provides data on enrollment, absenteeism, suspension/expulsion,
-    expenditures, achievement, accountability, graduation, and college readiness.
-    In addition, Connecticut develops an Early Indication Tool report which provides
-    an individualized student support-level for all students in the state based on
-    longitudinal data and their likelihood of reaching academic milestones. This is
-    a secure report and is available to authorized users in all districts and schools."
-  criteria: Performance Management / Continuous Improvement
-  issue:
-  - Issue 3
+  type: Statewide
+  long_description: 'A [2018 Connecticut law](https://www.cga.ct.gov/2018/ACT/pa/2018PA-00175-R00HB-05517-PA.htm)
+    formalized the Chief Data Officer position, required the creation of an [open
+    data portal](https://data.ct.gov/), and mandated the creation of a [state data
+    plan](https://portal.ct.gov/CTData/Content/Connecticut-State-Data-Plan) to be
+    updated biannually. The state data plan seeks to create a consistent approach
+    to data stewardship; improves data integration across the state; and ensures that
+    data are leveraged as a strategic asset. The plan also contains [11 principles](https://portal.ct.gov/-/media/CT-Data/Connecticut-State-Data-Plan-Final-pdf.pdf?la=en#page=6)
+    and accompanying practices that all agencies should adopt in order to improve
+    their management, use, sharing, and analysis of data. '
+  criteria: Data Policies / Agreements
   year: '2019'
+  status: Updated from 2018
+- sys:
+    id: 5Vg4tyrbVaRhQf22IKRHC5
+    created_at: !ruby/object:DateTime 2019-09-20 19:24:20.970000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-20 19:24:20.970000000 Z
+    content_type_id: promising
+    revision: 1
+  state: Illinois
+  state_abbreviation: IL
+  type: Multiple agencies
+  long_description: The [Illinois enterprise memorandum of understanding](https://www.illinois.gov/IISNews/16-0406-CMS_Enterprise_Memorandum_of_Understanding_.pdf)
+    (eMOU) established a framework for data sharing among state health and human services
+    agencies. The eMOU, which has been integrated into the [state’s Workforce Innovation
+    and Opportunity Act (WIOA) plan](https://www.illinoisworknet.com/WIOA/Resources/Documents/Unified%20State%20Plan%20Modification%20-%20Final%203.15.18.pdf#page=118)
+    for linking wage data, has been signed by 22 agencies and is [designed to help
+    these agencies](https://storage.googleapis.com/proudcity/digitaltransformation/uploads/2017/10/eMOUS.pdf)
+    have reliable data for decision-makers.
+  criteria: Data Policies / Agreements
+  issue:
+  - Child Welfare
+  - Criminal Justice
+  - Education
+  - Health
+  - Workforce
+  year: '2019'
+  status: Updated from 2018
+- sys:
+    id: M3FiMX3PDUMtsBkpU3f3d
+    created_at: !ruby/object:DateTime 2019-09-20 19:26:21.529000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-20 19:26:21.529000000 Z
+    content_type_id: promising
+    revision: 1
+  state: Kentucky
+  state_abbreviation: KY
+  type: Multiple agencies
+  long_description: 'The [Kentucky Center for Statistics](https://kcews.ky.gov/) (KYSTATS)
+    collects and links high-quality, actionable data from [five state agencies](https://kcews.ky.gov/About/Agencies)
+    in order to improve education and workforce programs in the state. KYSTATS has
+    a [data request hub](https://kystats.ky.gov/Reports/DataRequest) which includes
+    a [data access and use policy](https://kystats.ky.gov/Content/DataAccessAndUsePolicy.pdf)
+    and a [data sharing agreement](https://kystats.ky.gov/Content/Data%20&%20Information%20Sharing%20Agreement%20and%20Exhibits%20Template.pdf)
+    for information exchange among state agencies.  '
+  criteria: Data Policies / Agreements
+  issue:
+  - Education
+  - Workforce
+  year: '2019'
+  status: Updated from 2018
+- sys:
+    id: 7N0IPAT106Wbsye1gvmOKZ
+    created_at: !ruby/object:DateTime 2019-09-20 19:27:58.055000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-20 19:27:58.055000000 Z
+    content_type_id: promising
+    revision: 1
+  state: Maryland
+  state_abbreviation: MD
+  type: Statewide
+  long_description: 'In 2019, Maryland unveiled an [updated open data portal](https://opendata.maryland.gov/)
+    with an expanded catalog of data covering education, health, criminal justice,
+    child welfare, workforce, and economic opportunity. The state’s [Council on Open
+    Data](https://opendata.maryland.gov/stories/s/Council-on-Open-Data/vyny-sdaq/)
+    governs the portal and meets on a quarterly basis to coordinate, plan, and promote
+    Maryland’s open data. The Council publishes its [agenda and minutes](https://opendata.maryland.gov/stories/s/4d6b-uhqy). '
+  criteria: Data Policies / Agreements
+  issue:
+  - Child Welfare
+  - Criminal Justice
+  - Economic Opportunity
+  - Education
+  - Health
+  - Workforce
+  year: '2019'
+  status: Updated from 2018
+- sys:
+    id: 5oq6WEal1q3AWNXGzmmf2j
+    created_at: !ruby/object:DateTime 2019-09-20 19:31:03.709000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-20 19:31:03.709000000 Z
+    content_type_id: promising
+    revision: 1
+  state: Massachusetts
+  state_abbreviation: MA
+  type: Single agency
+  long_description: The Massachusetts Department of Elementary and Secondary Education
+    [Researcher’s Guide to Massachusetts State Education Data](https://urldefense.proofpoint.com/v2/url?u=https-3A__www.povertyactionlab.org_sites_default_files_documents_Researcher-2527sGuidetoMAStateEducationDataMay2016.pdf&d=DwMFaQ&c=lDF7oMaPKXpkYvev9V-fVahWL0QWnGCCAfCDz1Bns_w&r=oEBGuap8yyiG_HSW-kp8RjJXobyHS2_yQlG97P79jzs&m=GSjQUw1n4pvbH3Ngi0YgD23tSrWmUmrfKcKh13IBMG0&s=ALYChcTkhrSPkPBfTnFrKgZtofG8-avi0RNupkMbCsg&e=)
+    contains data sharing information about “what data is available, how to obtain
+    and interpret it, and, ultimately, [how] to generate better research projects
+    and more accurate and useful results” for improving student outcomes in the state.
+    The guide has links to data sets such as aggregate data at the [school](http://profiles.doe.mass.edu/)
+    and [district](http://www.doe.mass.edu/dart/) levels as well as information on
+    confidential student-level [data](http://www.doe.mass.edu/infoservices/data/sims/),
+    non-confidential student-level [data](http://www.doe.mass.edu/infoservices/research/),
+    and educator [data](http://www.doe.mass.edu/infoservices/data/epims/). The Department
+    also has a data sharing [memorandum of understanding template](https://drive.google.com/open?id=1KmbBK3PuMVZGxDx9jP_IIz6ROMQmnG2X)
+    and an approval process that ensures the confidentiality of student-level data.
+  criteria: Data Policies / Agreements
+  issue:
+  - Education
+  year: '2019'
+  status: New
+- sys:
+    id: 6CBGy5vqOCtXgOgSQTTCaa
+    created_at: !ruby/object:DateTime 2019-09-20 19:32:49.174000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-20 19:32:49.174000000 Z
+    content_type_id: promising
+    revision: 1
+  state: Michigan
+  state_abbreviation: MI
+  type: Statewide
+  long_description: 'Michigan’s [Enterprise Information Management program](https://drive.google.com/file/d/1pgz6DzTe-2ek2__Fg9aeN3sxAVABOYkN/view)
+    established policies and [protocols](https://drive.google.com/file/d/1a8ZCDfQoCNiWkoS5tG1q5waobl46Vdan/view)
+    for data sharing, management, and governance. As part of these efforts, Michigan
+    developed a [statewide data sharing agreement template](https://drive.google.com/file/d/1fzydCPt9-jwoGTKN59tKEJ-JroiikeOd/view)
+    to facilitate improved data sharing among agencies and departments. '
+  criteria: Data Policies / Agreements
+  year: '2019'
+  status: Updated from 2018
+- sys:
+    id: 5sRJANPce8pVEkD7R0RJug
+    created_at: !ruby/object:DateTime 2019-09-20 19:34:15.106000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-20 19:34:15.106000000 Z
+    content_type_id: promising
+    revision: 1
+  state: New Jersey
+  state_abbreviation: NJ
+  type: Multiple agencies
+  long_description: 'New Jersey partners with Rutgers, The State University of New
+    Jersey, to operate the [New Jersey Education to Earnings Data System](http://njed2earndata.org/)
+    (NJEEDS), which uses a [data sharing agreement](http://njed2earndata.org/wp-content/uploads/2018/01/NJ_FEDSA_MOA.pdf)
+    to link data from the Departments of Education and Labor, the Office of the Secretary
+    of Higher Education, and the Higher Education Student Assistance Authority. '
+  criteria: Data Policies / Agreements
+  issue:
+  - Education
+  - Workforce
+  year: '2019'
+  status: New
+- sys:
+    id: 1Zc86FC9Li6plep1bZMJMs
+    created_at: !ruby/object:DateTime 2019-09-20 19:37:31.188000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-20 19:37:31.188000000 Z
+    content_type_id: promising
+    revision: 1
+  state: Ohio
+  state_abbreviation: OH
+  type: Multiple agencies
+  long_description: |-
+    In April 2019, Ohio’s Governor signed [Executive Order 2019-15D](https://gcc01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fgovernor.ohio.gov%2Fwps%2Fportal%2Fgov%2Fgovernor%2Fmedia%2Fexecutive-orders%2F2019-15d&data=02%7C01%7CLaura.Pietenpol%40innovate.ohio.gov%7C2fbbdde921624514429208d72cb5dadd%7C50f8fcc494d84f0784eb36ed57c7c8a2%7C0%7C1%7C637027031886320122&sdata=rHaOC19CArNGbiHkkKpgJbxL%2B1WRHW0Gr5q3ds3kUtw%3D&reserved=0) consolidating state data systems into the [InnovateOhio Platform](https://innovateohio.gov/wps/portal/gov/innovate/platform), which uses data as “a shared strategic asset” whose “value is multiplied when data sets are linked across programs and organizations.” The executive order created a presumption of data sharing between state agencies, except where a specific legal prohibition is identified in writing.
+
+    In 2017, [Ohio’s State Workforce Innovation and Opportunity Act Plan](https://gcc01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww2.ed.gov%2Fabout%2Foffices%2Flist%2Fosers%2Frsa%2Fwioa%2Fstate-plans%2Foh.pdf&data=02%7C01%7CLaura.Pietenpol%40innovate.ohio.gov%7C2fbbdde921624514429208d72cb5dadd%7C50f8fcc494d84f0784eb36ed57c7c8a2%7C0%7C1%7C637027031886330114&sdata=MLq4WLIrJRIDLf3kgr9byRKFFME7UuPKFkci%2B7ClK2k%3D&reserved=0) highlighted its efforts to share and link data, recognizing that “evaluation and research projects on activities under the WIOA core programs first requires access to relevant data.” Specifically, Ohio leveraged a grant from the Workforce Data Quality Initiative and the creation of the [Ohio Longitudinal Data Archive](https://gcc01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fchrr.osu.edu%2Fprojects%2Fohio-longitudinal-data-archive&data=02%7C01%7CLaura.Pietenpol%40innovate.ohio.gov%7C2fbbdde921624514429208d72cb5dadd%7C50f8fcc494d84f0784eb36ed57c7c8a2%7C0%7C1%7C637027031886330114&sdata=AabR8bdv%2FPFDSsLgGiTQhaLzgsuW0VdFTYyhdKRm5Cg%3D&reserved=0) to support “policy analysis, research and program transparency (dashboards).” To facilitate access to the data for research purposes, Ohio Analytics has a [guide with policies and procedures](https://gcc01.safelinks.protection.outlook.com/?url=http%3A%2F%2Fwww.ohioanalytics.gov%2FDataAccess%2FPDF%2FDataAccess.stm&data=02%7C01%7CLaura.Pietenpol%40innovate.ohio.gov%7C2fbbdde921624514429208d72cb5dadd%7C50f8fcc494d84f0784eb36ed57c7c8a2%7C0%7C1%7C637027031886340113&sdata=Eka5T1m8Ji4xZfgv7kNlmFtn1bVq7SlkxIdIFgVBkBE%3D&reserved=0) for using and accessing administrative data.
+  criteria: Data Policies / Agreements
+  issue:
+  - Child Welfare
+  - Criminal Justice
+  - Economic Opportunity
+  - Education
+  - Health
+  - Workforce
+  year: '2019'
+  status: New
+- sys:
+    id: 2KXjCfxZdYTl8ROWtkjgwy
+    created_at: !ruby/object:DateTime 2019-09-20 19:44:11.445000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-20 19:44:11.445000000 Z
+    content_type_id: promising
+    revision: 1
+  state: Texas
+  state_abbreviation: TX
+  type: Multiple agencies
+  long_description: The Texas Education Agency administers the [Texas Student Data
+    System](https://www.texasstudentdatasystem.org/), a statewide platform for collecting,
+    managing, sharing, and reporting state education data. The system has a [dashboard](https://www.texasstudentdatasystem.org/TSDS/studentGPS%C2%AE_Dashboards/),
+    [data standards](https://www.texasstudentdatasystem.org/TSDS/TEDS/Texas_Education_Data_Standards/),
+    and [data governance](https://www.texasstudentdatasystem.org/TSDS/About/Data_Governance/User_Involvement_and_Data_Governance/)
+    process. Additionally, the [Workforce Information System of Texas](https://www.borderplexjobs.com/files/10-18-2018-revised-wsb-policy-manual.pdf#page=22)
+    (TWIST) links data across workforce funding streams for intake, eligibility determination,
+    and reporting on programs such as the Supplemental Nutrition Assistance Program,
+    Employment and Training, and the Workforce Innovation and Opportunity Act.
+  criteria: Data Policies / Agreements
+  issue:
+  - Education
+  - Workforce
+  year: '2019'
+  status: Updated from 2018
+- sys:
+    id: 41IFbwBBjPOZrCtmyhNFg7
+    created_at: !ruby/object:DateTime 2019-09-20 19:51:51.440000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-20 19:51:51.440000000 Z
+    content_type_id: promising
+    revision: 1
+  state: Arkansas
+  state_abbreviation: AR
+  type: Statewide
+  long_description: 'A [2019 Arkansas law](http://www.arkleg.state.ar.us/assembly/2019/2019R/Acts/Act943.pdf)
+    created the Data-Sharing and Data-Driven Decision-Making Task Force “to implement
+    a shared services model for statewide data sharing in order to drive innovation
+    and facilitate efficiency across state agencies, improve the delivery of services,
+    and to better serve the citizens of this state.” State agencies also share [criminal
+    justice data](http://www.arkleg.state.ar.us/assembly/2019/2019R/Acts/Act519.pdf)
+    and have an [online portal](https://ardatacatalog.dis.arkansas.gov/Login.aspx?ReturnUrl=%2f)
+    to identify the utility, value, accountability, and governance requirements of
+    state data sets so they can be leveraged to further improve state business decisions
+    and outcomes. '
+  criteria: Data Use
+  issue:
+  - Criminal Justice
+  - Economic Opportunity
+  year: '2019'
+  status: New
+- sys:
+    id: 3KJq7GQ3lOaSEWZTFSw5WM
+    created_at: !ruby/object:DateTime 2019-09-20 19:54:30.343000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-20 19:54:30.343000000 Z
+    content_type_id: promising
+    revision: 1
+  state: California
+  state_abbreviation: CA
+  type: Single agency
+  long_description: 'The California Workforce Development Board’s Cross-Systems Analytics
+    and Assessment for Learning and Skills Attainment ([CAAL-Skills](https://apps.cce.csus.edu/sites/calworks/17/speakers/uploads/6D%20WIOA%20Pathways%20to%20Partnerships(1)1.pdf#page=11))
+    program brings together over a dozen state agencies for a [data sharing and program
+    evaluation initiative](http://cacareerpathways.clasp.org/directory/annual-workforce-metrics-dashboard-ab2148)
+    to evaluate the outcomes associated with the $6 billion invested annually in California’s
+    workforce development, training, education, and related supportive service programs.
+    As outlined in the [State’s Workforce Innovation and Opportunity Act (WIOA) plan](https://www2.ed.gov/about/offices/list/osers/rsa/wioa/state-plans/ca.pdf),
+    CAAL-Skills utilizes common performance measures to examine the efficacy of participating
+    programs based on participant outcomes, demographics of participants, and any
+    service gaps. '
+  criteria: Data Use
+  issue:
+  - Workforce
+  year: '2019'
+  status: New
+- sys:
+    id: 18Ycx8ZBgTObXRGpHmeGTo
+    created_at: !ruby/object:DateTime 2019-09-20 19:56:17.768000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-20 19:56:17.768000000 Z
+    content_type_id: promising
+    revision: 1
+  state: Colorado
+  state_abbreviation: CO
+  type: Multiple agencies
+  long_description: 'In 2019, the Colorado Governor’s Office and the Colorado Evaluation
+    and Action Lab (CAEL) co-designed the [Linked Information Network of Colorado](https://coloradolab.org/linc/)
+    (LINC) to facilitate data sharing for research and analytics purposes as a way
+    to improve state policies and programs. Using this data, CAEL and state agencies
+    have collaborated on [projects](https://coloradolab.org/projects/2020-projects/)
+    to improve outcomes in areas such as child welfare, criminal justice, health,
+    education, economic opportunity, and workforce. '
+  criteria: Data Use
+  issue:
+  - Child Welfare
+  - Criminal Justice
+  - Economic Opportunity
+  - Education
+  - Health
+  - Workforce
+  year: '2019'
+  status: New
+- sys:
+    id: 7ckhSCifoT7IkFLcX3TB6m
+    created_at: !ruby/object:DateTime 2019-09-20 19:57:59.499000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-20 19:57:59.499000000 Z
+    content_type_id: promising
+    revision: 1
+  state: Connecticut
+  state_abbreviation: CT
+  type: Multiple agencies
+  long_description: 'The Connecticut [P20WIN](http://www.ct.edu/p20win) system brings
+    together secure workforce and education data to evaluate the state’s education
+    programs. Created by [participating agencies](http://www.ct.edu/p20win/about#governance),
+    it has [extensive documentation](http://www.ct.edu/p20win/about) including data
+    sharing agreements, a robust [data management process](http://www.ct.edu/files/pdfs/P20WIN-DataRequestProcedure-Final_01202015.pdf),
+    and a data dictionary.  '
+  criteria: Data Use
+  issue:
+  - Education
+  - Workforce
+  year: '2019'
+  status: New
+- sys:
+    id: 3YOCW7PNefI9NpOY0Ax9z0
+    created_at: !ruby/object:DateTime 2019-09-20 19:59:29.947000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-20 19:59:29.947000000 Z
+    content_type_id: promising
+    revision: 1
+  state: Illinois
+  state_abbreviation: IL
+  type: Multiple agencies
+  long_description: The Illinois Department of Employment Security, Illinois Student
+    Assistance Commission, Illinois Board of Higher Education, Illinois Community
+    College Board, and Illinois State University have partnered to share data for
+    the Illinois’s “[College2Career](https://www.ilcollege2career.com/#/)” resource.
+    The platform uses data sharing to integrate workforce, financial aid, and university
+    data to highlight outcome metrics such as average earnings, earnings growth, and
+    job stability for graduates of Illinois institutions of higher education. The
+    program seeks to use this data to [help](https://govlab.hks.harvard.edu/files/govlabs/files/il_college2career_launch_presentation.pdf)
+    Illinois students make informed education and workforce decisions.
+  criteria: Data Use
+  issue:
+  - Education
+  - Workforce
+  year: '2019'
+  status: New
+- sys:
+    id: 6AT7X8He3n8vUqgqvfMj3r
+    created_at: !ruby/object:DateTime 2019-09-20 20:01:14.711000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-20 20:01:14.711000000 Z
+    content_type_id: promising
+    revision: 1
+  state: Florida
+  state_abbreviation: FL
+  type: Multiple agencies
+  long_description: Florida’s [PK-20 Education Data Warehouse](http://www.fldoe.org/accountability/data-sys/edw/)
+    provides public access to data linked across elementary and secondary education,
+    university, and workforce outcomes. This comprehensive longitudinal data system
+    supports the State’s Workforce Innovation and Opportunity Act (WIOA) plan [commitments
+    to evidence-based practices](https://www2.ed.gov/about/offices/list/osers/rsa/wioa/state-plans/fl.pdf#page=165)
+    and continuous improvement.
+  criteria: Data Use
+  issue:
+  - Education
+  - Workforce
+  year: '2019'
+  status: New
+- sys:
+    id: 5EVDKkIAXDd62gUhrK1YFo
+    created_at: !ruby/object:DateTime 2019-09-20 20:05:04.757000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-20 20:05:04.757000000 Z
+    content_type_id: promising
+    revision: 1
+  state: Kentucky
+  state_abbreviation: KY
+  type: Multiple agencies
+  long_description: 'A [2013 Kentucky law](https://law.justia.com/codes/kentucky/2013/chapter-151b/section-151b.132/)
+    established the [Kentucky Center for Statistics](https://kcews.ky.gov/) (KYSTATS)
+    which collects and links high-quality, actionable data from five state agencies
+    to improve education and workforce programs in the state. By providing [data sets](https://kcews.ky.gov/Reports/Files),
+    publishing [reports](https://kcews.ky.gov/Reports/Reports), and fulfilling [research
+    requests](https://kcews.ky.gov/Reports/DataRequest), the Center provides state-specific
+    [insights](https://kcews.ky.gov/About/History) with appropriate [data privacy](https://kcews.ky.gov/About/Security)
+    and [data access](https://kcews.ky.gov/Content/DataAccessAndUsePolicy.pdf) controls.
+    It has more than [40 staff members](https://kcews.ky.gov/About/Staff) who are
+    [dedicated](https://kcews.ky.gov/About) to “developing reports, responding to
+    research requests, and providing statistical data about these efforts so policymakers,
+    agencies, and the general public can make better informed decisions.” The Center
+    is run by an executive director with oversight from a [board](https://kcews.ky.gov/About/Board)
+    composed of participating state agencies. The Center has developed a [research
+    agenda](https://kcews.ky.gov/Content/BoardDocs/ResearchAgendaFINAL2017-2019_12_6_16.pdf)
+    for 2017–2019. '
+  criteria: Data Use
+  issue:
+  - Education
+  - Workforce
+  year: '2019'
+  status: Updated from 2018
+- sys:
+    id: 6XYx8LLjpLATijncX8UaIG
+    created_at: !ruby/object:DateTime 2019-09-20 20:07:47.031000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-20 20:07:47.031000000 Z
+    content_type_id: promising
+    revision: 1
+  state: Maryland
+  state_abbreviation: MD
+  type: Multiple agencies
+  long_description: A [2010 Maryland law](http://mgaleg.maryland.gov/2010rs/chapters_noln/ch_190_sb0275e.pdf)
+    established the [Maryland Longitudinal Data System Center](https://mldscenter.maryland.gov/Aboutus.html)
+    as an independent agency to bring together education and workforce data from the
+    Maryland Higher Education Commission, the Maryland State Department of Education,
+    and the Maryland Department of Labor. In partnership with the University of Maryland
+    System and under the guidance of a [governing board](https://mldscenter.maryland.gov/Governance.html),
+    the Center’s [12 staff members](https://mldscenter.maryland.gov/Staff.html) produce
+    a variety of [reports](https://mldscenter.maryland.gov/ResearchReports.html) about
+    student performance at the elementary, secondary, and postsecondary level to improve
+    the state’s education system and guide decision-makers at all levels.
+  criteria: Data Use
+  issue:
+  - Education
+  - Workforce
+  year: '2019'
+  status: Updated from 2018
+- sys:
+    id: 5rl1NbQYDWhg0fddHrGjgT
+    created_at: !ruby/object:DateTime 2019-09-20 20:09:22.468000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-20 20:09:22.468000000 Z
+    content_type_id: promising
+    revision: 1
+  state: Minnesota
+  state_abbreviation: MN
+  type: Multiple agencies
+  long_description: Minnesota’s [Statewide Longitudinal Education Data System](http://sleds.mn.gov/)
+    and [Early Childhood Education Data System](http://eclds.mn.gov/) match administrative
+    education and employment data from five state agencies. Together, these two systems
+    form a P-20 education data system, which captures, analyzes, and uses student
+    data from preschool to high school, college, and the workforce.
+  criteria: Data Use
+  issue:
+  - Education
+  - Workforce
+  year: '2019'
+  status: Updated from 2018
+- sys:
+    id: 54sXWz2am87kjVuFiDWYd8
+    created_at: !ruby/object:DateTime 2019-09-20 20:11:25.782000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-20 20:11:25.782000000 Z
+    content_type_id: promising
+    revision: 1
+  state: Mississippi
+  state_abbreviation: MS
+  type: Multiple agencies
+  long_description: "[Mississippi LifeTracks](https://lifetracks.ms.gov/) is an interoperable
+    data system that supports research and analysis by providing linkages between
+    early childhood, [K-12](https://lifetracks.ms.gov/PK12/Home.aspx) education, [postsecondary
+    education](https://lifetracks.ms.gov/CommunityCollege/Reports.aspx), and [workforce](https://swib.ms.gov/)
+    data. The system, governed by an [interagency board](https://lifetracks.ms.gov/About.aspx#board),
+    increases the state’s ability to link, match, and share education and workforce
+    data to improve career-readiness outcomes for students."
+  criteria: Data Use
+  issue:
+  - Education
+  - Workforce
+  year: '2019'
+  status: New
+- sys:
+    id: 7aaKpBqN35hTfxOP1ncCi2
+    created_at: !ruby/object:DateTime 2019-09-20 20:12:51.282000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-20 20:12:51.282000000 Z
+    content_type_id: promising
+    revision: 1
+  state: Nevada
+  state_abbreviation: NV
+  type: Multiple agencies
+  long_description: 'The Nevada [state longitudinal data system](http://npwr.nv.gov/about)
+    integrates data from the state’s PK-12, higher education, and workforce agencies.
+    The system leaves all private data behind agency firewalls and uses a matching
+    algorithm that de-identifies data during the matching process. A wide variety
+    of [reports](http://npwr.nv.gov/reports) provide agency leaders greater insights
+    into Nevada''s education and workforce programs, initiatives, and outcomes. '
+  criteria: Data Use
+  issue:
+  - Education
+  - Workforce
+  year: '2019'
+  status: New
+- sys:
+    id: 7Jpqc6fWoBSXoRHXizNuRR
+    created_at: !ruby/object:DateTime 2019-09-20 20:16:03.225000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-20 20:16:03.225000000 Z
+    content_type_id: promising
+    revision: 1
+  state: New Jersey
+  state_abbreviation: NJ
+  type: Multiple agencies
+  long_description: 'New Jersey partners with Rutgers, The State University of New
+    Jersey, to operate the [New Jersey Education to Earnings Data System](http://njed2earndata.org/)
+    (NJEEDS), a statewide longitudinal data system designed to improve the performance
+    of state education and workforce initiatives. The data contained within NJEEDS
+    are [diverse](http://njed2earndata.org/learn-about-the-data/available-data/) and
+    overseen by an [executive leadership council](http://njed2earndata.org/wp-content/uploads/2018/12/ELC_Members.pdf)
+    as well as a [data stewards work group](http://njed2earndata.org/wp-content/uploads/2018/12/Data_Steward_Work_Group_Members.pdf)
+    from relevant state agencies. Also, four state agencies partner with Rutgers to
+    operate the [Integrated Population Health Data](http://www.cshp.rutgers.edu/content/nj-iphd)
+    project to promote population health research. '
+  criteria: Data Use
+  issue:
+  - Education
+  - Health
+  - Workforce
+  year: '2019'
+  status: New
+- sys:
+    id: 16MPkt2ADhCLG6GKL97FOc
+    created_at: !ruby/object:DateTime 2019-09-20 20:20:12.142000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-20 20:20:12.142000000 Z
+    content_type_id: promising
+    revision: 1
+  state: Ohio
+  state_abbreviation: OH
+  type: Multiple agencies
+  long_description: 'The [Ohio Education Research Center](http://oerc.osu.edu) brings
+    together state education and workforce data through a series of [dashboards](https://oerc.osu.edu/dashboards)
+    designed to inform government policy and program decisions. The dashboards are
+    responsive to the[ Ohio State Workforce Innovation and Opportunity Act (WIOA)
+    Plan](https://www2.ed.gov/about/offices/list/osers/rsa/wioa/state-plans/oh.pdf#page=81),
+    which highlights the state’s efforts to share and link data, recognizing that
+    “evaluation and research projects on activities under the WIOA core programs first
+    requires access to relevant data.” '
+  criteria: Data Use
+  issue:
+  - Education
+  - Workforce
+  year: '2019'
+  status: New
+- sys:
+    id: 68ZlBGCyYQ12NNYpdRANIF
+    created_at: !ruby/object:DateTime 2019-09-20 20:22:09.020000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-20 20:22:09.020000000 Z
+    content_type_id: promising
+    revision: 1
+  state: Rhode Island
+  state_abbreviation: RI
+  type: Multiple agencies
+  long_description: 'Rhode Island’s [Data Ecosystem](https://www.aisp.upenn.edu/network-site/rhode-island),
+    managed by the Executive Office of Health and Human Services, uses data from more
+    than 15 sources, including health, child welfare, and human services. In 2018,
+    the Data Ecosystem used health and child welfare information to [examine](http://preventoverdoseri.org/wp-content/uploads/2018/11/Nov-2018.pdf#page=9)
+    child maltreatment and fatalities. Among other findings, this analysis identified
+    a small group of families with particularly complex cases that were five times
+    more likely to have a child welfare investigation within two years of birth than
+    the general risk positive population. Based on these findings, the state is piloting
+    enhanced outreach and support services to families with these characteristics
+    in one region of the state, with plans to ultimately scale the new data-driven
+    targeting strategy statewide.  '
+  criteria: Data Use
+  issue:
+  - Child Welfare
+  - Health
+  year: '2019'
+  status: New
+- sys:
+    id: 5LQKbLjZL2D6AqyG4wMnJb
+    created_at: !ruby/object:DateTime 2019-09-20 20:24:51.108000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-20 20:24:51.108000000 Z
+    content_type_id: promising
+    revision: 1
+  state: South Carolina
+  state_abbreviation: SC
+  type: Multiple agencies
+  long_description: The [South Carolina Revenue and Fiscal Affairs](https://drive.google.com/file/d/1ee7PNWfXCwh4KF90AF_1UnetGQzoWhV1/view?usp=sharing)
+    Office maintains an [integrated data system](https://www.aisp.upenn.edu/wp-content/uploads/2015/08/SouthCarolina_CaseStudy.pdf)
+    which stores data and is able to link individuals being served by more than 20
+    state agencies and other organizations. This system has facilitated program improvement
+    efforts and [numerous research studies](https://www.povertyactionlab.org/sites/default/files/documents/stateandlocal-southcarolina_0.pdf),
+    including a [randomized controlled trial](https://govlab.hks.harvard.edu/files/siblab/files/south_carolina_nfp_pfs_project.pdf),
+    as a part of the state’s Pay for Success initiative to improve outcomes for low-income
+    mothers and their babies.
+  criteria: Data Use
+  issue:
+  - Child Welfare
+  - Health
+  year: '2019'
+  status: Updated from 2018
+- sys:
+    id: 4Mw9VdOHewVrR8hAym6H91
+    created_at: !ruby/object:DateTime 2019-09-20 20:30:32.557000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-20 20:30:32.557000000 Z
+    content_type_id: promising
+    revision: 1
+  state: Utah
+  state_abbreviation: UT
+  type: Multiple agencies
+  long_description: A [2017 Utah law](https://le.utah.gov/xcode/Title35A/Chapter14/C35A-14_2017050920170701.pdf)
+    created the [Utah Data Research Center](https://udrc.utah.gov/) to [integrate](https://udrc.utah.gov/UDRCP20MetricsD3DataNarrative/PostRed.html)
+    data from the Utah System of Higher Education, Utah System of Technical Colleges,
+    Utah State Board of Education, Utah Department of Health, and the Utah Department
+    of Workforce Services. The Center has a [research agenda](https://udrc.utah.gov/research.html)
+    and [provides](https://udrc.utah.gov/jsp/researcher/products) both “data products”
+    and “data-as-a-product.” The Center’s [governance structure](https://jobs.utah.gov/edo/udrcadvisory/udrcgovernance.pdf)
+    includes [staff](https://udrc.utah.gov/team.html), an [advisory board](https://www.utah.gov/pmn/sitemap/publicbody/6073.html)
+    of agency designees, an [institutional review board](https://udrc.utah.gov/USBE-IRB-Policy-v2.pdf),
+    and a [peer review](https://udrc.utah.gov/peerreviewprocess.pdf) process.
+  criteria: Data Use
+  issue:
+  - Economic Opportunity
+  - Education
+  - Health
+  - Workforce
+  year: '2019'
+  status: New
+- sys:
+    id: 1P0FFTQEaDBXcdnyM3pcKq
+    created_at: !ruby/object:DateTime 2019-09-20 20:32:57.771000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-20 20:32:57.771000000 Z
+    content_type_id: promising
+    revision: 1
+  state: Washington
+  state_abbreviation: WA
+  type: Multiple agencies
+  long_description: The Washington State Department of Social and Health Services
+    maintains an [Integrated Client Database](http://www.aisp.upenn.edu/wp-content/uploads/2015/08/WAState_CaseStudy.pdf)
+    with data from [10 state agencies](https://www.dshs.wa.gov/sites/default/files/SESA/rda/documents/research-11-205.pdf),
+    40 separate data systems, and 2.4 million individuals. This data is used for rapid-cycle
+    policy analysis, program evaluation, [predictive modeling](https://ocio-website-files.s3-us-west-2.amazonaws.com/Digital-States-Survey-PRISM-Predictive-Risk-App.pdf),
+    and performance measurement to help agencies understand how health and other factors
+    are related to outcomes for persons served by public assistance programs. The
+    database has been used by the state’s [Health Home Program](https://www.dshs.wa.gov/altsa/washington-health-home-program),
+    which  provides intensive care management services to high-risk Medicaid beneficiaries,
+    to improve beneficiary health outcomes and lower costs. These lower costs have
+    included [over $20 million in savings](https://www.cms.gov/blog/washington-mffs-preliminary-evaluation-report)
+    to the state as well as tens of millions in dollars in shared savings [payments](https://www.hca.wa.gov/about-hca/health-home-program-saves-more-100-million-medicare-program-over-three-years)
+    from the federal Centers for Medicare and Medicaid Services, which has [evaluated](https://innovation.cms.gov/Files/reports/fai-wa-secondevalrpt.pdf)
+    the program and encouraged other states to consider developing similar programs.
+  criteria: Data Use
+  issue:
+  - Child Welfare
+  - Criminal Justice
+  - Economic Opportunity
+  - Education
+  - Health
+  - Workforce
+  year: '2019'
+  status: Updated from 2018
+- sys:
+    id: 2lWpg3MDzDRQlvrZAHQFCt
+    created_at: !ruby/object:DateTime 2019-09-20 20:36:14.770000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-20 20:36:14.770000000 Z
+    content_type_id: promising
+    revision: 1
+  state: Wisconsin
+  state_abbreviation: WI
+  type: Multiple agencies
+  long_description: The Wisconsin [Early Childhood Integrated Data System](https://dpi.wi.gov/early-childhood/ecids)
+    integrates data from the state Departments of Children and Families, Health Services,
+    and Public Instruction. The system links, collects, and monitors early childhood
+    data from 11 [state programs](https://dpi.wi.gov/early-childhood/ecids/ecids-rtt-project).
+    The state engaged in [an inclusive planning process](https://dpi.wi.gov/early-childhood/ecids/ecids-history)
+    to design the system which, although not an integrated data warehouse, provides
+    for [data sharing](https://dpi.wi.gov/sites/default/files/imce/early-childhood/WI-ECIDS-fact-sheet-final.pdf)
+    among relevant state agencies. The system also has strong privacy protections,
+    including an overarching [memorandum of understanding](https://drive.google.com/open?id=13MfIzsU1p2KzFPpTlsBKwMWjTLrzrnya)
+    and individual data sharing agreements from the Departments of [Children and Families](https://drive.google.com/open?id=1Q6DOmS9FzSyo9Jng1VsX-Q8bnp5k6Gut),
+    [Health Services](https://drive.google.com/open?id=1pL4Skkfu5ULg6Xbzent_qNi5kOtT4H9M),
+    and [Public Instruction](https://drive.google.com/open?id=1yLGQC9y1SzbVJPPuM4k3m2ufs78MtKVE),
+    which are used with each inter-agency data sharing project.
+  criteria: Data Use
+  issue:
+  - Child Welfare
+  - Education
+  - Health
+  year: '2019'
+  status: Updated from 2018

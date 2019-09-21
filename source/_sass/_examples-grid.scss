@@ -67,8 +67,8 @@
   &.title-leading {
     // width: calc(80% / 2);
     // max-width: calc(80% / 2);
-    width: 35%;
-    max-width: 35%;
+    width: 37%;
+    max-width: 37%;
     @include breakpoint($small-only) {
       width: calc(100% / 3);
       max-width: calc(100% / 3);
@@ -78,8 +78,8 @@
   &.title-promising {
     // width: calc(80% / 2);
     // max-width: calc(80% / 2);
-    width: 45%;
-    max-width: 45%;
+    width: 43%;
+    max-width: 43%;
     @include breakpoint($small-only) {
       width: calc(100% / 3);
       max-width: calc(100% / 3);

@@ -22,8 +22,8 @@ Sticky.init();
 Tooltip.init();
 Utils.markdownLinksNewPage();
 
-FixedSection.init();
-Filter.init();
 
 if (window.location.pathname === '/' || window.location.pathname === '/rfa-2019') {
+  FixedSection.init();
+  Filter.init();
 };

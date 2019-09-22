@@ -1,8 +1,13 @@
 
-.slide-panel__open {
+button.slide-panel__open {
+  &:hover {
+    background-color: transparent;
+  }
+  background-color: transparent;
+  padding: 2px 0 0 0;
+  text-transform: none;
   position: absolute;
   right: 0;
-  padding-top: 2px;
   font-size: .74rem;
   @include breakpoint ($large) {
     padding-top: 6px;
@@ -14,7 +19,7 @@
     text-decoration: none;
   }
   i {
-    vertical-align: bottom;
+    margin-top: -6px;
     font-size: 1.5rem;
     @include breakpoint($small-only) {
       font-size: 1.2rem;

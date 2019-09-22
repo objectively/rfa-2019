@@ -4,7 +4,7 @@
 <section class="page-section page-section--nav criteria-dropdown-nav">
   <div class="criteria-dropdown-wrapper row align-center">
     <div class="select criteria-dropdown-nav">
-      <select aria-label="criteria menu" class="criteria-dropdown-nav__select">
+      <select  aria-label="criteria menu" class="criteria-dropdown-nav__select">
         <option class="criteria-dropdown-nav__option" >Select a Criteria</option>
         {% for criteria in allCriteria | sort: order %}
           <option class="criteria-dropdown-nav__option" value="{{criteria.title | replace: "/", "0000" | slugify | remove: "0000" }}" data-page="{{ criteria.title | replace: "/", "0000" | slugify | remove: "0000" }}" data-path="{{ criteria.title | replace: "/", "0000" | slugify | remove: "0000" | append: '.html'| prepend: '/state-standard-of-excellence/' | relative_url }}">{{criteria.title}}</option>

@@ -1,19 +1,20 @@
-import CompactPanel from './compact-panel';
+// import CompactPanel from './compact-panel';
 import Expandable from './expandable';
 import Filter from './filter';
 import FixedNav from './fixed-nav';
 import FixedSection from './fixed-section';
-import Overlay from './overlay';
+import Modal from './modal';
 import Nav from './nav';
+import Overlay from './overlay';
 import Scroll from './scroll';
 import Search from './search';
 import Sticky from './sticky';
 import Tooltip from './tooltip';
 import Utils from './utils';
 
-CompactPanel.init();
 Expandable.init();
 FixedNav.init();
+Modal.init();
 Nav.init();
 Overlay.init();
 Scroll.init();

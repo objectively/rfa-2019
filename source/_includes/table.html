@@ -43,15 +43,14 @@
         </div>
       </div>
 
-      <button tabindex="0" class="key slide-panel__open" data-term="key">Key<i class="material-icons">more_vert</i></button>
-
+      <button tabindex="0" class="key key-modal__open  js-open-modal" data-term="key">Key<i class="material-icons">more_vert</i></button>
+      {% include key-modal.html issues=all_issues%}
     </div>
   </div>
 </section>
 
 <section class="js-active-key slide-panel__wrapper--compact fixed-section-wrapper">
 
-  {%include key-content.html issues=all_issues%}
 
   <div class="content-section">
 

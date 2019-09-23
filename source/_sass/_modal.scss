@@ -1,0 +1,66 @@
+.examples-grid {
+  .examples-grid-modal {
+    background-color: $font-dark-gray;
+    top: 25%;
+    @include breakpoint($small-only) {
+      width: 80%;
+      margin: 0;
+      left: 10%;
+      
+    }
+    .modal__header {
+      .modal__close {
+        i {margin-left: 0;}
+        color: #fff;
+      }
+    }
+    .modal__content {
+      text-align: left;
+      padding: 1rem 2rem;
+      p {
+        color: #fff;
+        font-size: .9rem;
+      }
+      .key-header {
+        font-size: 1rem;
+        font-weight: 700;
+      }
+      ul {
+        padding-left: 0;
+        li {
+          font-size: .9rem;
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+
+button.key-modal__open {
+  &:hover {
+    background-color: transparent;
+  }
+  background-color: transparent;
+  padding: .5rem;
+  text-transform: none;
+  position: absolute;
+  right: 0;
+  font-size: .74rem;
+  @include breakpoint ($large) {
+    padding-top: 6px;
+    font-size: 0.9rem;
+  }
+  cursor: pointer;
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+  }
+  i {
+    margin-top: -6px;
+    font-size: 1.5rem;
+    @include breakpoint($small-only) {
+      font-size: 1.2rem;
+    }
+  }
+}

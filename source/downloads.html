@@ -14,15 +14,18 @@ seo_image_path: #'/images/media/filename.jpg'
         <h2>{{downloadsPage.standard_title}}</h2>
       </div>
     </div>
+    <div class="button-container button-container--align-left row">
+      <a tabindex="0" class="button button--index" onclick="goBack()"><span>Back to<br>Standard</span></a>
+    </div>
   </section>
   <section class="standard-downloads-section">
     <div class="row align-center">
-      <div class="column large-11 markdown">
+      <div class="column large-10 markdown">
         {{ downloadsPage.standard_description | markdownify }}
       </div>
     </div>
     <div class="row align-center">
-      <div class="column large-11">
+      <div class="column large-10">
         <div class="row align-center">
           {% for download in downloadsPage.standard_files%}
           <div class="standard-download-wrapper columns small-7 large-4">
@@ -44,47 +47,47 @@ seo_image_path: #'/images/media/filename.jpg'
   </section>
   <section class="section ">
     <div class="row expanded align-center">
-      <div class="column large-11">
+      <div class="column large-10">
         <hr class="hr--long">
       </div>
     </div>
   </section>
   <section class="page-section spotlights-section">
     <div class="row align-center">
-      <div class="column large-11">
+      <div class="column large-10">
         <h2>{{downloadsPage.spotlights_title}}</h2>
       </div>
     </div>
     <div class="row align-center">
-      <div class="column large-11 markdown">
+      <div class="column large-10 markdown">
         {{ downloadsPage.spotlights_description | markdownify }}
       </div>
     </div>
     <div class="row expanded align-center">
-        <div class="column large-9">
-          <div class="row align-center">
-            {% for download in downloadsPage.spotlights_files%}
-            <div class="spotlight-download-wrapper large-3 medium-4 small-6">
-              <a class="spotlight-download-link" href="{{download.download_url}}">
-                <div class="spotlight-download button--download">
+      <div class="column large-8">
+        <div class="row align-center">
+          {% for download in downloadsPage.spotlights_files%}
+          <div class="spotlight-download-wrapper large-3 medium-4 small-6">
+            <a class="spotlight-download-link" href="{{download.download_url}}">
+              <div class="spotlight-download button--download">
 
-                  <div class="spotlight-download__title">
-                    {{download.state_abbreviation}}
+                <div class="spotlight-download__title">
+                  {{download.state_abbreviation}}
+                </div>
+                <div class="spotlight-download__row">
+                  <div class="spotlight-download__subtitle">
+                    {{download.download_title}}
                   </div>
-                  <div class="spotlight-download__row">
-                    <div class="spotlight-download__subtitle">
-                      {{download.download_title}}
-                    </div>
-                    <div class="spotlight-download__icon">
-                      save_alt
-                    </div>
+                  <div class="spotlight-download__icon">
+                    save_alt
                   </div>
                 </div>
-              </a>
-            </div>
-            {% endfor %}
+              </div>
+            </a>
           </div>
+          {% endfor %}
         </div>
       </div>
+    </div>
   </section>
 </main>

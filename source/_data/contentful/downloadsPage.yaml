@@ -3,9 +3,9 @@ downloadsPage:
 - sys:
     id: 3evwsbCSStHT1ohjiz3i8
     created_at: !ruby/object:DateTime 2019-08-23 15:54:22.806000000 Z
-    updated_at: !ruby/object:DateTime 2019-09-30 14:34:24.786000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-30 20:25:23.881000000 Z
     content_type_id: downloadsPage
-    revision: 2
+    revision: 3
   page_title: '2019'
   standard_title: State Standard
   standard_description: The 2019 Invest in What Works State Standard of Excellence
@@ -18,27 +18,43 @@ downloadsPage:
   - sys:
       id: 3ZNYIWCO2V8PkYqQFwtWpb
       created_at: !ruby/object:DateTime 2019-08-23 15:51:32.914000000 Z
-      updated_at: !ruby/object:DateTime 2019-08-23 15:51:32.914000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-30 20:22:02.513000000 Z
       content_type_id: downloads
-      revision: 1
+      revision: 2
     download_title: 2019 State Standard
-    download_url: https://www.example.com/
+    download_url: http://objectively.is/rfa-2019/2019-invest-in-what-works-state-standard-of-excellence.pdf
   - sys:
       id: 7MQEbC92T8qLOLyU2ndrFT
       created_at: !ruby/object:DateTime 2019-08-23 15:51:32.699000000 Z
-      updated_at: !ruby/object:DateTime 2019-08-23 15:51:32.699000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-30 20:22:30.913000000 Z
       content_type_id: downloads
-      revision: 1
+      revision: 2
     download_title: 2019 Leading Examples
-    download_url: https://www.example.com/
+    download_url: http://objectively.is/rfa-2019/2019-summary-chart.pdf
   - sys:
       id: 7m6pjPmlZz27Cd5qRexxoh
       created_at: !ruby/object:DateTime 2019-08-23 15:51:32.679000000 Z
-      updated_at: !ruby/object:DateTime 2019-08-23 15:51:32.679000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-30 20:22:47.978000000 Z
+      content_type_id: downloads
+      revision: 2
+    download_title: 2019 Criteria Questions
+    download_url: http://objectively.is/rfa-2019/2019-criteria-and-descriptions.pdf
+  - sys:
+      id: 6cTftF35qqZyuy8ApBVGI
+      created_at: !ruby/object:DateTime 2019-09-30 20:24:20.686000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-30 20:24:20.686000000 Z
       content_type_id: downloads
       revision: 1
-    download_title: 2019 Criteria Questions
-    download_url: https://www.example.com/
+    download_title: Analyses
+    download_url: http://objectively.is/rfa-2019/2019-state-standard-of-excellence-analyses.pdf
+  - sys:
+      id: 32GXuWoa4K3iovpyd6pw7q
+      created_at: !ruby/object:DateTime 2019-09-30 20:25:01.385000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-30 20:25:01.385000000 Z
+      content_type_id: downloads
+      revision: 1
+    download_title: Methodology and Acknowledgements
+    download_url: http://objectively.is/rfa-2019/2019-methodology-and-acknowledgements.pdf
   spotlights_title: State Spotlights
   spotlights_description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad

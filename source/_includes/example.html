@@ -27,7 +27,7 @@
   {%if example.state%}
     id={{example.state | slugify}}
   {%endif%}>
-  <div class="column large-8 medium-8 small-12">
+  <div class="column large-10 medium-10 small-12">
     <div class="example__state-outline">
       {% if example.state_outline.url %}
         <img class="{{example.state_abbreviation | slugify | prepend: 'example__state-outline--'}}" src={{example.state_outline.url}} alt="{{example.state | append: ' Outline'}}" />

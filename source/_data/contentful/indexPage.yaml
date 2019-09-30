@@ -468,9 +468,9 @@ indexPage:
 - sys:
     id: 7phigY3mdsj5RPGGit45yp
     created_at: !ruby/object:DateTime 2019-08-14 15:21:34.254000000 Z
-    updated_at: !ruby/object:DateTime 2019-09-29 22:26:39.377000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-30 16:26:00.904000000 Z
     content_type_id: indexPage
-    revision: 3
+    revision: 4
   year: '2019'
   short_description: "Executive Summary\n\nThe 2019 Invest in What Works State Standard
     of Excellence sets a national standard—a “north star”—for how state governments
@@ -509,6 +509,8 @@ indexPage:
   download_url: https://2018state.results4america.org/2018_Invest_In_What_Works_State_Standard_of_Excellence.pdf
   download_summary: https://2018state.results4america.org/Summary_Chart.pdf
   download_appendix: https://2018state.results4america.org/Criteria_and_Descriptions.pdf
+  download_analyses: http://example.com
+  download_methodology: http://example.com
   criteria:
   - sys:
       id: 6hdFczh4fDYPnoWMATlz6V

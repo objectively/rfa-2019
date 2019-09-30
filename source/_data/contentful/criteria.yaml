@@ -33,10 +33,10 @@ criteria:
       sys:
         id: 1fBCZ8QhmmqQauoWMyOAk6
         created_at: !ruby/object:DateTime 2018-06-26 21:56:20.502000000 Z
-        updated_at: !ruby/object:DateTime 2018-06-26 21:56:20.502000000 Z
+        updated_at: !ruby/object:DateTime 2019-09-29 14:23:17.008000000 Z
       title: colorado
       description: 
-      url: "//images.ctfassets.net/cu0oxaxjfcsj/1fBCZ8QhmmqQauoWMyOAk6/fcc0968b5e4b46d710a7a59504edef64/colorado.svg"
+      url: "//images.ctfassets.net/cu0oxaxjfcsj/1fBCZ8QhmmqQauoWMyOAk6/8cd16aed556a4ae47964bad4c1edb549/Colorado.svg"
     year: '2018'
   promising_list:
   - sys:
@@ -452,10 +452,10 @@ criteria:
       sys:
         id: 1bRacwPuE2AAG0EWugMamq
         created_at: !ruby/object:DateTime 2018-06-26 21:57:24.432000000 Z
-        updated_at: !ruby/object:DateTime 2018-06-26 21:57:24.432000000 Z
+        updated_at: !ruby/object:DateTime 2019-09-29 14:50:04.134000000 Z
       title: indiana
       description: 
-      url: "//images.ctfassets.net/cu0oxaxjfcsj/1bRacwPuE2AAG0EWugMamq/707ed980ebd7851be891a1e57ac68dc5/indiana.svg"
+      url: "//images.ctfassets.net/cu0oxaxjfcsj/1bRacwPuE2AAG0EWugMamq/60ce568e17765cfbf308f9d420379f0f/Indiana.svg"
     year: '2018'
   promising_list:
   - sys:
@@ -600,10 +600,10 @@ criteria:
       sys:
         id: 3zudCcXzzyom4EIOaq8wW
         created_at: !ruby/object:DateTime 2018-06-26 21:54:40.666000000 Z
-        updated_at: !ruby/object:DateTime 2018-06-26 21:54:40.666000000 Z
+        updated_at: !ruby/object:DateTime 2019-09-29 14:37:43.495000000 Z
       title: washington
       description: 
-      url: "//images.ctfassets.net/cu0oxaxjfcsj/3zudCcXzzyom4EIOaq8wW/194d8be778cdb448b67310392b520b46/washington.svg"
+      url: "//images.ctfassets.net/cu0oxaxjfcsj/3zudCcXzzyom4EIOaq8wW/b19989c51f53830b72d55d905abcef6c/Washington.svg"
     year: '2018'
   promising_list:
   - sys:
@@ -1061,10 +1061,10 @@ criteria:
       sys:
         id: 1fBCZ8QhmmqQauoWMyOAk6
         created_at: !ruby/object:DateTime 2018-06-26 21:56:20.502000000 Z
-        updated_at: !ruby/object:DateTime 2018-06-26 21:56:20.502000000 Z
+        updated_at: !ruby/object:DateTime 2019-09-29 14:23:17.008000000 Z
       title: colorado
       description: 
-      url: "//images.ctfassets.net/cu0oxaxjfcsj/1fBCZ8QhmmqQauoWMyOAk6/fcc0968b5e4b46d710a7a59504edef64/colorado.svg"
+      url: "//images.ctfassets.net/cu0oxaxjfcsj/1fBCZ8QhmmqQauoWMyOAk6/8cd16aed556a4ae47964bad4c1edb549/Colorado.svg"
     year: '2018'
   promising_list:
   - sys:
@@ -1455,10 +1455,10 @@ criteria:
       sys:
         id: YlOt55v1CeImIm2qQQEg6
         created_at: !ruby/object:DateTime 2018-06-26 21:52:54.906000000 Z
-        updated_at: !ruby/object:DateTime 2018-06-26 21:52:54.906000000 Z
+        updated_at: !ruby/object:DateTime 2019-09-29 15:18:49.311000000 Z
       title: minnesota
       description: 
-      url: "//images.ctfassets.net/cu0oxaxjfcsj/YlOt55v1CeImIm2qQQEg6/915ccc408fa5ac6b56efeef2a918cac1/minnesota.svg"
+      url: "//images.ctfassets.net/cu0oxaxjfcsj/YlOt55v1CeImIm2qQQEg6/0f75f66c41a82a3f43bf985186ec5959/Minnesota.svg"
     year: '2018'
   promising_list:
   - sys:
@@ -1763,10 +1763,10 @@ criteria:
       sys:
         id: 3zudCcXzzyom4EIOaq8wW
         created_at: !ruby/object:DateTime 2018-06-26 21:54:40.666000000 Z
-        updated_at: !ruby/object:DateTime 2018-06-26 21:54:40.666000000 Z
+        updated_at: !ruby/object:DateTime 2019-09-29 14:37:43.495000000 Z
       title: washington
       description: 
-      url: "//images.ctfassets.net/cu0oxaxjfcsj/3zudCcXzzyom4EIOaq8wW/194d8be778cdb448b67310392b520b46/washington.svg"
+      url: "//images.ctfassets.net/cu0oxaxjfcsj/3zudCcXzzyom4EIOaq8wW/b19989c51f53830b72d55d905abcef6c/Washington.svg"
     year: '2018'
   promising_list:
   - sys:
@@ -2196,10 +2196,10 @@ criteria:
       sys:
         id: 1HoXTQbMDSyCQM44oi0U8w
         created_at: !ruby/object:DateTime 2018-06-26 21:53:46.418000000 Z
-        updated_at: !ruby/object:DateTime 2018-06-26 21:53:46.418000000 Z
+        updated_at: !ruby/object:DateTime 2019-09-29 15:43:05.876000000 Z
       title: california
       description: 
-      url: "//images.ctfassets.net/cu0oxaxjfcsj/1HoXTQbMDSyCQM44oi0U8w/17c70a4224ea6286d90efdc426f90132/california.svg"
+      url: "//images.ctfassets.net/cu0oxaxjfcsj/1HoXTQbMDSyCQM44oi0U8w/faf38f579cff209b83ecbe45eb8ecbc2/California.svg"
     year: '2018'
   promising_list:
   - sys:
@@ -2402,10 +2402,10 @@ criteria:
       sys:
         id: 4dD1eTKWtGMoyWYeI66y4G
         created_at: !ruby/object:DateTime 2018-06-26 21:53:22.004000000 Z
-        updated_at: !ruby/object:DateTime 2018-06-26 21:53:22.004000000 Z
+        updated_at: !ruby/object:DateTime 2019-09-29 15:41:30.737000000 Z
       title: rhodeisland
       description: 
-      url: "//images.ctfassets.net/cu0oxaxjfcsj/4dD1eTKWtGMoyWYeI66y4G/db344de7818e4a72130727d1dbbdeae3/rhodeisland.svg"
+      url: "//images.ctfassets.net/cu0oxaxjfcsj/4dD1eTKWtGMoyWYeI66y4G/ff7c1d6771c47879c8da4e10602adea6/Rhode_Island.svg"
     year: '2018'
   promising_list:
   - sys:
@@ -2508,10 +2508,10 @@ criteria:
       sys:
         id: YlOt55v1CeImIm2qQQEg6
         created_at: !ruby/object:DateTime 2018-06-26 21:52:54.906000000 Z
-        updated_at: !ruby/object:DateTime 2018-06-26 21:52:54.906000000 Z
+        updated_at: !ruby/object:DateTime 2019-09-29 15:18:49.311000000 Z
       title: minnesota
       description: 
-      url: "//images.ctfassets.net/cu0oxaxjfcsj/YlOt55v1CeImIm2qQQEg6/915ccc408fa5ac6b56efeef2a918cac1/minnesota.svg"
+      url: "//images.ctfassets.net/cu0oxaxjfcsj/YlOt55v1CeImIm2qQQEg6/0f75f66c41a82a3f43bf985186ec5959/Minnesota.svg"
     year: '2018'
   promising_list:
   - sys:
@@ -2550,9 +2550,9 @@ criteria:
     sys:
       id: HnUKdv1w8lt7E0EfeFGLT
       created_at: !ruby/object:DateTime 2019-08-14 15:12:05.368000000 Z
-      updated_at: !ruby/object:DateTime 2019-09-20 16:30:03.600000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 14:23:24.515000000 Z
       content_type_id: leading
-      revision: 2
+      revision: 3
     state: Colorado
     state_abbreviation: CO
     type: Statewide
@@ -2581,24 +2581,24 @@ criteria:
       sys:
         id: 1fBCZ8QhmmqQauoWMyOAk6
         created_at: !ruby/object:DateTime 2018-06-26 21:56:20.502000000 Z
-        updated_at: !ruby/object:DateTime 2018-06-26 21:56:20.502000000 Z
+        updated_at: !ruby/object:DateTime 2019-09-29 14:23:17.008000000 Z
       title: colorado
       description: 
-      url: "//images.ctfassets.net/cu0oxaxjfcsj/1fBCZ8QhmmqQauoWMyOAk6/fcc0968b5e4b46d710a7a59504edef64/colorado.svg"
+      url: "//images.ctfassets.net/cu0oxaxjfcsj/1fBCZ8QhmmqQauoWMyOAk6/8cd16aed556a4ae47964bad4c1edb549/Colorado.svg"
     year: '2019'
     status: Updated from 2018
   promising_list:
   - sys:
       id: HUbAeoAhLVRIVwT6G9U79
       created_at: !ruby/object:DateTime 2019-09-20 17:44:49.522000000 Z
-      updated_at: !ruby/object:DateTime 2019-09-20 17:44:49.522000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 15:57:42.362000000 Z
       content_type_id: promising
-      revision: 1
+      revision: 2
     state: Arizona
     state_abbreviation: AZ
     type: Statewide
     long_description: Since 2017, the Arizona Governor’s Office has developed and
-      updated the [Governor's Fundamentals Map](https://ams.az.gov/sites/default/files/media/Govs_Fundamentals_Map.pdf),
+      updated the [Governor's Fundamentals Map](https://ams.az.gov/sites/default/files/Fundamentals%20Map%20vFINAL-U01.pdf),
       which lists goals under six statewide [priority areas](https://azgovernor.gov/governor/priorities).
       All cabinet agencies are required to complete an [annual strategic plan](http://www.ospb.state.az.us/strategic-plans.aspx)
       that includes strategic issues, mission statement, description, performance
@@ -2665,21 +2665,22 @@ criteria:
   - sys:
       id: 6i7n9E81GYRy42L2h3QLHb
       created_at: !ruby/object:DateTime 2019-09-20 17:56:42.026000000 Z
-      updated_at: !ruby/object:DateTime 2019-09-20 17:56:42.026000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 15:50:32.126000000 Z
       content_type_id: promising
-      revision: 1
+      revision: 3
     state: Vermont
     state_abbreviation: VT
     type: Statewide
     long_description: 'In 2018, the Vermont Governor’s Office released the state’s
       [2018-2023 Strategic Plan](https://strategicplan.vermont.gov/sites/strategicplan/files/documents/Theme-plans/Strategic%20Plans%20All%20Agencies%20by%20Theme%20v1.3new_wCover.pdf),
       which outlines four statewide goals related to the [economy](https://strategicplan.vermont.gov/economy),
-      [affordability](http://vermont), [vulnerability](https://strategicplan.vermont.gov/vulnerability),
+      [affordability](https://strategicplan.vermont.gov/affordability), [vulnerability](https://strategicplan.vermont.gov/vulnerability),
       and [modernization](https://strategicplan.vermont.gov/modernization). The goals
       were established in a 2017 [executive order](https://governor.vermont.gov/sites/scott/files/documents/EO1Strategic%20Goals.FINALpdf2.pdf).
-      As required by a 2014 law, and a related executive order, the state’s [Chief
-      Performance Officer](https://aoa.vermont.gov/secretary/divisions#CPO) annually
-      reports data related to these goals and [fiscal transparency](https://spotlight.vermont.gov/).  '
+      As required by a [2014 law](http://www.leg.state.vt.us/DOCS/2014/ACTS/ACT186.PDF),
+      and a related [executive order](https://governor.vermont.gov/sites/scott/files/documents/EO4PIVOT%20EO%20Final.pdf),
+      the state’s [Chief Performance Officer](https://aoa.vermont.gov/secretary/divisions#CPO)
+      annually reports data related to these goals and [fiscal transparency](https://spotlight.vermont.gov/).  '
     criteria: Strategic Goals
     issue:
     - Child Welfare
@@ -2717,9 +2718,9 @@ criteria:
 - sys:
     id: 7vzkv3lzBopljVxYvK6uW
     created_at: !ruby/object:DateTime 2019-08-14 15:21:06.209000000 Z
-    updated_at: !ruby/object:DateTime 2019-09-20 19:10:57.032000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-29 16:05:42.374000000 Z
     content_type_id: criteria
-    revision: 2
+    revision: 3
   title: Performance Management / Continuous Improvement
   order: 2
   description: Did the state or any of its agencies implement a performance management
@@ -2734,12 +2735,15 @@ criteria:
     sys:
       id: 5VApoXifFGMiTPoVHJ9PpX
       created_at: !ruby/object:DateTime 2019-09-20 16:30:09.826000000 Z
-      updated_at: !ruby/object:DateTime 2019-09-20 16:30:09.826000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 14:37:48.525000000 Z
       content_type_id: leading
-      revision: 1
+      revision: 2
     state: Washington
     state_abbreviation: WA
     type: Statewide
+    short_description: A 2013 Washington State Executive Order established Results
+      Washington within the Governor’s office as “an innovative, data-driven, performance
+      management initiative, that will drive the operations of state government.”
     long_description: 'A [2013 Washington State Executive Order](https://www.governor.wa.gov/sites/default/files/exe_order/eo_13-04.pdf)
       established [Results Washington](https://results.wa.gov/) within the Governor’s
       office as “an innovative, data-driven, performance management initiative, that
@@ -2749,7 +2753,7 @@ criteria:
       [prosperous economy](http://www.results.wa.gov/goals-progress/goals/prosperous-economy/goal-map);
       [sustainable energy and clean environment](http://www.results.wa.gov/goals-progress/goals/sustainable-energy-clean-environment/goal-map);
       [healthy and safe communities](http://www.results.wa.gov/goals-progress/goals/healthy-safe-communities/goal-map);
-      and [efficient, effective and accountable government](http://www.results.wa.gov/goals-progress/goals/efficient-effective-accountable-government/goal-map).
+      and [efficient, effective and accountable government](https://results.wa.gov/measuring-progress/archived-outcome-measures/goal-5-efficient-effective-accountable-government-goal).
       In each of these areas, the state [measures progress](https://results.wa.gov/measuring-progress/outcome-measures).
       Since 2014, Results Washington has conducted Results Review meetings with the
       Governor 10 times per year. The meetings are [recorded and publicly posted](https://results.wa.gov/measuring-progress/results-reviews)
@@ -2767,29 +2771,29 @@ criteria:
       sys:
         id: 3zudCcXzzyom4EIOaq8wW
         created_at: !ruby/object:DateTime 2018-06-26 21:54:40.666000000 Z
-        updated_at: !ruby/object:DateTime 2018-06-26 21:54:40.666000000 Z
+        updated_at: !ruby/object:DateTime 2019-09-29 14:37:43.495000000 Z
       title: washington
       description: 
-      url: "//images.ctfassets.net/cu0oxaxjfcsj/3zudCcXzzyom4EIOaq8wW/194d8be778cdb448b67310392b520b46/washington.svg"
+      url: "//images.ctfassets.net/cu0oxaxjfcsj/3zudCcXzzyom4EIOaq8wW/b19989c51f53830b72d55d905abcef6c/Washington.svg"
     year: '2019'
     status: Updated from 2018
   promising_list:
   - sys:
       id: 7kc8v4ldxVBhZXvQEvP8fk
       created_at: !ruby/object:DateTime 2019-09-20 18:06:54.265000000 Z
-      updated_at: !ruby/object:DateTime 2019-09-20 18:06:54.265000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 15:56:41.240000000 Z
       content_type_id: promising
-      revision: 1
+      revision: 2
     state: Arizona
     state_abbreviation: AZ
     type: Statewide
-    long_description: 'As part of the Arizona Management System, Arizona’s Government
+    long_description: As part of the Arizona Management System, Arizona’s Government
       Transformation Office implemented an enterprise approach to strategic planning
       and performance reporting across cabinet agencies, including the [My Agency
       Scorecard](https://ams.az.gov/my_agency_scorecard) application. The more than
       700 metrics reported through this application cover numerous aspects of state
       government and power executive-level dashboards that inform strategy, operations,
-      and budgeting activities.  '
+      and budgeting activities.
     criteria: Performance Management / Continuous Improvement
     issue:
     - Child Welfare
@@ -2962,9 +2966,9 @@ criteria:
   - sys:
       id: 70YMDUOzczmf0PAQTSz1tW
       created_at: !ruby/object:DateTime 2019-09-20 18:23:47.949000000 Z
-      updated_at: !ruby/object:DateTime 2019-09-20 18:23:47.949000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 16:04:01.892000000 Z
       content_type_id: promising
-      revision: 1
+      revision: 2
     state: Missouri
     state_abbreviation: MO
     type: Statewide
@@ -2980,6 +2984,13 @@ criteria:
       these dashboards are reviewed monthly by the COO and the deputies from each
       department.
     criteria: Performance Management / Continuous Improvement
+    issue:
+    - Child Welfare
+    - Criminal Justice
+    - Economic Opportunity
+    - Education
+    - Health
+    - Workforce
     year: '2019'
     status: Updated from 2018
   - sys:
@@ -3061,40 +3072,6 @@ criteria:
     - Workforce
     year: '2019'
     status: Updated from 2018
-  - sys:
-      id: 50Y8xz6m0OCzoyGB3adaPy
-      created_at: !ruby/object:DateTime 2019-09-20 18:34:07.300000000 Z
-      updated_at: !ruby/object:DateTime 2019-09-20 18:34:07.300000000 Z
-      content_type_id: promising
-      revision: 1
-    state: Washington
-    state_abbreviation: WA
-    type: Statewide
-    long_description: 'A [2013 Washington State Executive Order](https://www.governor.wa.gov/sites/default/files/exe_order/eo_13-04.pdf)
-      established [Results Washington](https://results.wa.gov/) within the Governor’s
-      office as “an innovative, data-driven, performance management initiative, that
-      will drive the operations of state government.” As part of its work, Results
-      Washington proactively and regularly publishes outcome data within the state’s
-      priority areas of: [world-class education](http://www.results.wa.gov/goals-progress/goals/world-class-education/goal-map);
-      [prosperous economy](http://www.results.wa.gov/goals-progress/goals/prosperous-economy/goal-map);
-      [sustainable energy and clean environment](http://www.results.wa.gov/goals-progress/goals/sustainable-energy-clean-environment/goal-map);
-      [healthy and safe communities](http://www.results.wa.gov/goals-progress/goals/healthy-safe-communities/goal-map);
-      and [efficient, effective and accountable government](http://www.results.wa.gov/goals-progress/goals/efficient-effective-accountable-government/goal-map).
-      In each of these areas, the state [measures progress](https://results.wa.gov/measuring-progress/outcome-measures).
-      Since 2014, Results Washington has conducted Results Review meetings with the
-      Governor 10 times per year. The meetings are [recorded and publicly posted](https://results.wa.gov/measuring-progress/results-reviews)
-      and allow the “Governor and state agency directors to discuss objectives, improvement
-      strategies and metrics.”  '
-    criteria: Performance Management / Continuous Improvement
-    issue:
-    - Child Welfare
-    - Criminal Justice
-    - Economic Opportunity
-    - Education
-    - Health
-    - Workforce
-    year: '2019'
-    status: Updated from 2018
   year: '2019'
 - sys:
     id: 6aDphmTQhAttzAL6vmR1X3
@@ -3117,12 +3094,17 @@ criteria:
     sys:
       id: 3Q5XJJm2sR7PJH5aGnwsGY
       created_at: !ruby/object:DateTime 2019-09-20 16:30:16.581000000 Z
-      updated_at: !ruby/object:DateTime 2019-09-20 16:30:16.581000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 14:42:20.235000000 Z
       content_type_id: leading
-      revision: 1
+      revision: 2
     state: Connecticut
     state_abbreviation: CT
     type: Statewide
+    short_description: A 2018 Connecticut law formalized the position of Chief Data
+      Officer, created the Connecticut Data Analysis Technology Advisory Board, and
+      required each state agency to designate an agency data officer to manage high
+      value data sets and coordinate data-related activities with the state Chief
+      Data Officer.
     long_description: 'A [2018 Connecticut law](https://www.cga.ct.gov/2018/ACT/pa/2018PA-00175-R00HB-05517-PA.htm)
       formalized the position of [Chief Data Officer](https://portal.ct.gov/OPM/Secr-General/Chief-Data-Officer/Connecticut-Open-Data-Initiative),
       created the [Connecticut Data Analysis Technology Advisory Board](https://www.cga.ct.gov/gae/taskforce.asp?TF=20180726_Connecticut%20Data%20Analysis%20Technology%20Advisory%20Board),
@@ -3135,6 +3117,14 @@ criteria:
       and accompanying practices that all agencies should adopt in order to improve
       their management, use, sharing, and analysis of data. '
     criteria: Data Leadership
+    state_outline:
+      sys:
+        id: 2smU65Ssod8NRx8MKXFBnq
+        created_at: !ruby/object:DateTime 2019-09-29 14:42:14.252000000 Z
+        updated_at: !ruby/object:DateTime 2019-09-29 14:42:14.252000000 Z
+      title: connecticut
+      description: 
+      url: "//images.ctfassets.net/cu0oxaxjfcsj/2smU65Ssod8NRx8MKXFBnq/282b22ae96c5428b0c986f57c7ecaabd/Connecticut.svg"
     year: '2019'
     status: Updated from 2018
   promising_list:
@@ -3269,9 +3259,9 @@ criteria:
   - sys:
       id: 1zPGSnc7Gb19x68VgaZlLS
       created_at: !ruby/object:DateTime 2019-09-20 19:07:56.616000000 Z
-      updated_at: !ruby/object:DateTime 2019-09-20 19:07:56.616000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 17:02:25.381000000 Z
       content_type_id: promising
-      revision: 1
+      revision: 2
     state: Washington
     state_abbreviation: WA
     type: Single agency
@@ -3289,6 +3279,8 @@ criteria:
     criteria: Data Leadership
     issue:
     - Health
+    year: '2019'
+    status: New
   year: '2019'
 - sys:
     id: 6rzvGAw4KYz4BVcNG4yCAG
@@ -3311,12 +3303,15 @@ criteria:
     sys:
       id: 7g9PIQ5dZH9zQDvwPTjWro
       created_at: !ruby/object:DateTime 2019-09-20 16:30:25.362000000 Z
-      updated_at: !ruby/object:DateTime 2019-09-20 16:30:25.362000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 14:46:36.387000000 Z
       content_type_id: leading
-      revision: 1
+      revision: 2
     state: Washington
     state_abbreviation: WA
     type: Multiple agencies
+    short_description: The Washington Education Research and Data Center has a memorandum
+      of understanding which identifies how data will be collected and shared among
+      partners with a strong focus on protecting individual privacy.
     long_description: |-
       The [Washington Education Research and Data Center](https://erdc.wa.gov/) has a [memorandum of understanding](https://erdc.wa.gov/research-partners/our-partners/memorandum-understanding) which identifies how data will be collected and shared among partners with a [strong focus on protecting individual privacy](https://erdc.wa.gov/research-partners/privacy-considerations). The Center brings together [eleven partners](https://erdc.wa.gov/research-partners/our-partners), including state workforce, education, and child welfare agencies, to compile education and workforce data to improve student achievement and workforce outcomes.
 
@@ -3332,10 +3327,10 @@ criteria:
       sys:
         id: 3zudCcXzzyom4EIOaq8wW
         created_at: !ruby/object:DateTime 2018-06-26 21:54:40.666000000 Z
-        updated_at: !ruby/object:DateTime 2018-06-26 21:54:40.666000000 Z
+        updated_at: !ruby/object:DateTime 2019-09-29 14:37:43.495000000 Z
       title: washington
       description: 
-      url: "//images.ctfassets.net/cu0oxaxjfcsj/3zudCcXzzyom4EIOaq8wW/194d8be778cdb448b67310392b520b46/washington.svg"
+      url: "//images.ctfassets.net/cu0oxaxjfcsj/3zudCcXzzyom4EIOaq8wW/b19989c51f53830b72d55d905abcef6c/Washington.svg"
     year: '2019'
     status: Updated from 2018
   promising_list:
@@ -3630,12 +3625,17 @@ criteria:
     sys:
       id: 6YZVOSIBsz7BOaxZKT1n2J
       created_at: !ruby/object:DateTime 2019-09-20 16:30:34.697000000 Z
-      updated_at: !ruby/object:DateTime 2019-09-20 16:30:34.697000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 14:50:10.352000000 Z
       content_type_id: leading
-      revision: 1
+      revision: 2
     state: Indiana
     state_abbreviation: IN
     type: Statewide
+    short_description: The Indiana Management Performance Hub, overseen by the state’s
+      Chief Data Officer, houses the integrated Education and Workforce Development
+      database, which brings together data from the Indiana Commission for Higher
+      Education, the Indiana Department of Education, the Department of Workforce
+      Development, and the Family and Social Services Administration.
     long_description: 'The [Indiana Management Performance Hub](https://www.in.gov/mph/index.htm),
       overseen by the state’s Chief Data Officer, houses the integrated [Education
       and Workforce Development database](https://www.in.gov/mph/917.htm), which brings
@@ -3658,10 +3658,10 @@ criteria:
       sys:
         id: 1bRacwPuE2AAG0EWugMamq
         created_at: !ruby/object:DateTime 2018-06-26 21:57:24.432000000 Z
-        updated_at: !ruby/object:DateTime 2018-06-26 21:57:24.432000000 Z
+        updated_at: !ruby/object:DateTime 2019-09-29 14:50:04.134000000 Z
       title: indiana
       description: 
-      url: "//images.ctfassets.net/cu0oxaxjfcsj/1bRacwPuE2AAG0EWugMamq/707ed980ebd7851be891a1e57ac68dc5/indiana.svg"
+      url: "//images.ctfassets.net/cu0oxaxjfcsj/1bRacwPuE2AAG0EWugMamq/60ce568e17765cfbf308f9d420379f0f/Indiana.svg"
     year: '2019'
     status: Updated from 2018
   promising_list:
@@ -3765,17 +3765,17 @@ criteria:
   - sys:
       id: 6AT7X8He3n8vUqgqvfMj3r
       created_at: !ruby/object:DateTime 2019-09-20 20:01:14.711000000 Z
-      updated_at: !ruby/object:DateTime 2019-09-20 20:01:14.711000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 22:03:44.445000000 Z
       content_type_id: promising
-      revision: 1
+      revision: 2
     state: Florida
     state_abbreviation: FL
     type: Multiple agencies
     long_description: Florida’s [PK-20 Education Data Warehouse](http://www.fldoe.org/accountability/data-sys/edw/)
       provides public access to data linked across elementary and secondary education,
       university, and workforce outcomes. This comprehensive longitudinal data system
-      supports the State’s Workforce Innovation and Opportunity Act (WIOA) plan [commitments
-      to evidence-based practices](https://www2.ed.gov/about/offices/list/osers/rsa/wioa/state-plans/fl.pdf#page=165)
+      supports the State’s Workforce Innovation and Opportunity Act (WIOA) plan's
+      [commitments to evidence-based practices](https://www2.ed.gov/about/offices/list/osers/rsa/wioa/state-plans/fl.pdf#page=165)
       and continuous improvement.
     criteria: Data Use
     issue:
@@ -3786,9 +3786,9 @@ criteria:
   - sys:
       id: 3YOCW7PNefI9NpOY0Ax9z0
       created_at: !ruby/object:DateTime 2019-09-20 19:59:29.947000000 Z
-      updated_at: !ruby/object:DateTime 2019-09-20 19:59:29.947000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 22:04:02.855000000 Z
       content_type_id: promising
-      revision: 1
+      revision: 2
     state: Illinois
     state_abbreviation: IL
     type: Multiple agencies
@@ -3799,7 +3799,7 @@ criteria:
       The platform uses data sharing to integrate workforce, financial aid, and university
       data to highlight outcome metrics such as average earnings, earnings growth,
       and job stability for graduates of Illinois institutions of higher education.
-      The program seeks to use this data to [help](https://govlab.hks.harvard.edu/files/govlabs/files/il_college2career_launch_presentation.pdf)
+      The program seeks to use these data to [help](https://govlab.hks.harvard.edu/files/govlabs/files/il_college2career_launch_presentation.pdf)
       Illinois students make informed education and workforce decisions.
     criteria: Data Use
     issue:
@@ -4055,9 +4055,9 @@ criteria:
   - sys:
       id: 1P0FFTQEaDBXcdnyM3pcKq
       created_at: !ruby/object:DateTime 2019-09-20 20:32:57.771000000 Z
-      updated_at: !ruby/object:DateTime 2019-09-20 20:32:57.771000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 22:05:40.081000000 Z
       content_type_id: promising
-      revision: 1
+      revision: 2
     state: Washington
     state_abbreviation: WA
     type: Multiple agencies
@@ -4069,7 +4069,7 @@ criteria:
       and performance measurement to help agencies understand how health and other
       factors are related to outcomes for persons served by public assistance programs.
       The database has been used by the state’s [Health Home Program](https://www.dshs.wa.gov/altsa/washington-health-home-program),
-      which  provides intensive care management services to high-risk Medicaid beneficiaries,
+      which provides intensive care management services to high-risk Medicaid beneficiaries,
       to improve beneficiary health outcomes and lower costs. These lower costs have
       included [over $20 million in savings](https://www.cms.gov/blog/washington-mffs-preliminary-evaluation-report)
       to the state as well as tens of millions in dollars in shared savings [payments](https://www.hca.wa.gov/about-hca/health-home-program-saves-more-100-million-medicare-program-over-three-years)
@@ -4113,6 +4113,1995 @@ criteria:
     - Child Welfare
     - Education
     - Health
+    year: '2019'
+    status: Updated from 2018
+  year: '2019'
+- sys:
+    id: QqFwvJiKOWItEuZZQIySN
+    created_at: !ruby/object:DateTime 2019-09-29 17:46:34.731000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-29 17:46:38.006000000 Z
+    content_type_id: criteria
+    revision: 2
+  title: Evaluation Leadership
+  order: 6
+  description: 'Did the governor’s office or any state agency have a senior staff
+    member(s) with the authority, staff, and budget to evaluate its major programs
+    and inform policy decisions affecting them? (Example: chief evaluation officer)'
+  explanation: "__Why is this important?__  \nEvaluation leadership positions are
+    an important tool for state governments to ensure that evidence of what works
+    is a primary consideration when making programmatic and budget decisions."
+  leading_list:
+    sys:
+      id: 5eYHX5RaNHGDOAWfE56erP
+      created_at: !ruby/object:DateTime 2019-09-20 16:30:39.535000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 15:16:52.826000000 Z
+      content_type_id: leading
+      revision: 2
+    state: Ohio
+    state_abbreviation: OH
+    type: Single agency
+    short_description: The Director of the Ohio Department of Education’s Office of
+      Research, Evaluation and Advanced Analytics is responsible for helping educational
+      leaders across the state recognize, gather, analyze, evaluate, and leverage
+      data to solve problems and improve student outcomes.
+    long_description: The Director of the Ohio Department of Education’s [Office of
+      Research, Evaluation and Advanced Analytics](http://education.ohio.gov/Topics/Research-Evaluation-and-Advanced-Analytics)
+      is responsible for helping educational leaders across the state recognize, gather,
+      analyze, evaluate, and leverage data to solve problems and improve student outcomes.
+      Initiatives such as [Empowered by Evidence](http://education.ohio.gov/Topics/Research-Evaluation-and-Advanced-Analytics/5-Steps-to-Being-Empowered-by-Evidence)
+      and the [Ohio’s Evidence-Based Clearinghouse](https://essa.chrr.ohio-state.edu/home)
+      are designed for “a culture of continuous learning...[and to] create the framework
+      and processes needed for actionable research.” The Department has partnered
+      with the [Ohio Education Research Center](https://oerc.osu.edu/home) to share
+      education data across the state.
+    criteria: Evaluation Leadership
+    issue:
+    - Education
+    state_outline:
+      sys:
+        id: 7IK6k8NBwjTAp9yUBvcrWf
+        created_at: !ruby/object:DateTime 2019-09-29 15:16:45.560000000 Z
+        updated_at: !ruby/object:DateTime 2019-09-29 15:16:45.560000000 Z
+      title: ohio
+      description: 
+      url: "//images.ctfassets.net/cu0oxaxjfcsj/7IK6k8NBwjTAp9yUBvcrWf/40d6758dbd38670a0c5958bcf278b109/Ohio.svg"
+    year: '2019'
+    status: New
+  promising_list:
+  - sys:
+      id: 2HucYj7EMUydhAhL8Vnmoy
+      created_at: !ruby/object:DateTime 2019-09-29 17:39:50.183000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 17:39:50.183000000 Z
+      content_type_id: promising
+      revision: 1
+    state: Connecticut
+    state_abbreviation: CT
+    type: Single agency
+    long_description: The Connecticut State Department of Education’s [Office of Performance](https://portal.ct.gov/SDE/Performance/Performance-Office-Home-Page)
+      is led by a [Chief Performance Officer](https://portal.ct.gov/-/media/SDE/SDE-Photo-Directories/Performance-Staff-Directory.pdf?la=en),
+      who is responsible for using data, evaluation, research, and technology to improve
+      student outcomes. The Chief Performance Officer oversees the department’s data
+      collection, assessment, information technology, reporting, research, and accountability
+      activities, including the management of its performance dashboard, [EdSight](http://edsight.ct.gov/SASPortal/main.do).
+      The office hosts an annual [Performance Matters Forum](https://portal.ct.gov/SDE/Performance/Performance-Matters-Forum),
+      which focuses on performance, continuous improvement, research, and evaluation
+      topics.
+    criteria: Evaluation Leadership
+    issue:
+    - Education
+    year: '2019'
+    status: New
+  - sys:
+      id: 2N4ihB2TosMRt0ww9tgRZy
+      created_at: !ruby/object:DateTime 2019-09-29 17:44:14.035000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 17:44:14.035000000 Z
+      content_type_id: promising
+      revision: 1
+    state: Massachusetts
+    state_abbreviation: MA
+    type: Single agency
+    long_description: The Massachusetts Department of Elementary and Secondary Education’s
+      [Office of Planning and Research](http://www.doe.mass.edu/research/) is led
+      by a [Chief Strategy and Research Officer](http://www.doe.mass.edu/research/contact.html)
+      who is responsible for improving the use of data and research findings to influence
+      policy and program decision-making, including the goal of preparing all students
+      for success after high school along with the department’s [other five priorities](http://www.doe.mass.edu/research/StrategicPlan-Summary.pdf).
+      The position oversees all activities related to research, performance management,
+      research partnerships, and strategic planning.
+    criteria: Evaluation Resources
+    issue:
+    - Education
+    year: '2019'
+    status: New
+  - sys:
+      id: 1JqWAzbPJHnzt1BDx5ExXF
+      created_at: !ruby/object:DateTime 2019-09-29 17:46:03.776000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 17:46:03.776000000 Z
+      content_type_id: promising
+      revision: 1
+    state: Mississippi
+    state_abbreviation: MS
+    type: Single agency
+    long_description: The Mississippi Department of Education’s [Office of Research
+      and Development](https://mdek12.org/OTSS/ORD) is led by a Director charged with
+      using data and research to improve student outcomes. The office’s work, guided
+      by a [Dynamic Research Framework](https://mdek12.org/OTSS/ORD/Dynamic-Framework),
+      uses its [longitudinal data system](https://nces.ed.gov/programs/slds/state.asp?stateabbr=MS)
+      to evaluate the effectiveness of programs in areas such as [Early Learning](https://mdek12.org/sites/default/files/Offices/MDE/OTSS/ORD/statsdc2018.pdf).
+    criteria: Evaluation Resources
+    issue:
+    - Education
+    year: '2019'
+    status: New
+  year: '2019'
+- sys:
+    id: 7BGv0Cxxm17Okqdo1lWyPi
+    created_at: !ruby/object:DateTime 2019-09-29 18:05:52.403000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-29 18:05:52.403000000 Z
+    content_type_id: criteria
+    revision: 1
+  title: Evaluation Policies
+  order: 7
+  description: Did the state or any of its agencies have an evaluation policy, evaluation
+    plan, and research/learning agenda(s), and did it publicly release the findings
+    of all completed evaluations?
+  explanation: "__Why is this important?__  \nEvaluation policies allow state governments
+    to align their evaluation and research priorities, learn about what works, and
+    share information with outside researchers about additional areas where they want
+    to increase their knowledge base."
+  leading_list:
+    sys:
+      id: kJepHSEBDmqljuiIPs5mM
+      created_at: !ruby/object:DateTime 2019-09-20 16:30:45.378000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 22:06:40.282000000 Z
+      content_type_id: leading
+      revision: 3
+    state: Minnesota
+    state_abbreviation: MN
+    type: Statewide
+    short_description: In 2018, Minnesota Management and Budget adopted an evaluation
+      policy, which governs its use of evaluations and requires the release of all
+      completed evaluation reports regardless of findings.
+    long_description: 'In 2018, Minnesota Management and Budget adopted an [evaluation
+      policy](https://mn.gov/mmb-stat/results-first/evaluation-policy.pdf), which
+      governs its use of evaluations and requires the release of all completed evaluation
+      reports regardless of findings. The policy outlines key principles for evaluation:
+      rigor; relevance; independence; transparency; and ethics. Relatedly, Minnesota
+      Management and Budget also [defines evidence](https://mn.gov/mmb/results-first/definitions-of-evidence/)
+      for research, evaluation, and funding purposes.'
+    criteria: Evaluation Policies
+    issue:
+    - Child Welfare
+    - Criminal Justice
+    - Economic Opportunity
+    - Education
+    - Health
+    state_outline:
+      sys:
+        id: YlOt55v1CeImIm2qQQEg6
+        created_at: !ruby/object:DateTime 2018-06-26 21:52:54.906000000 Z
+        updated_at: !ruby/object:DateTime 2019-09-29 15:18:49.311000000 Z
+      title: minnesota
+      description: 
+      url: "//images.ctfassets.net/cu0oxaxjfcsj/YlOt55v1CeImIm2qQQEg6/0f75f66c41a82a3f43bf985186ec5959/Minnesota.svg"
+    year: '2019'
+    status: New
+  promising_list:
+  - sys:
+      id: 3Yve3F5ogndXU7gEcrZ5iq
+      created_at: !ruby/object:DateTime 2019-09-29 17:50:16.528000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 17:50:16.528000000 Z
+      content_type_id: promising
+      revision: 1
+    state: Kentucky
+    state_abbreviation: KY
+    type: Multiple agencies
+    long_description: 'The [Kentucky Center for Statistics](https://kcews.ky.gov/)
+      (KYSTATS) has a [research agenda](https://kcews.ky.gov/Content/BoardDocs/ResearchAgendaFINAL2017-2019_12_6_16.pdf)
+      covering the period from 2017-2019. The detailed agenda includes four primary
+      research areas related to education and workforce pathways: (1) expanding data
+      to inform education and workforce decisions; (2) evaluating outcomes of education
+      and workforce programs over time; (3) connecting supply and demand of the state’s
+      future workforce; and (4) generating data about out-of-state workforce migration.
+      All research results, statistical information, and reports are made [publicly
+      available](https://kcews.ky.gov/Reports/Reports).'
+    criteria: Evaluation Policies
+    issue:
+    - Education
+    - Workforce
+    year: '2019'
+    status: Updated from 2018
+  - sys:
+      id: 7eD3sokHbFDQPDR4hpvyo9
+      created_at: !ruby/object:DateTime 2019-09-29 17:51:49.837000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 17:51:49.837000000 Z
+      content_type_id: promising
+      revision: 1
+    state: Maryland
+    state_abbreviation: MD
+    type: Multiple agencies
+    long_description: 'The [Maryland Longitudinal Data Systems Center](https://mldscenter.maryland.gov/Aboutus.html)
+      brings together education and workforce data from the Maryland Higher Education
+      Commission, the Maryland State Department of Education, and the Maryland Department
+      of Labor, Licensing, and Regulation. The Center’s [research agenda](https://mldscenter.maryland.gov/ResearchAgenda.html)
+      is established by its [governing board](https://mldscenter.maryland.gov/Governance.html). '
+    criteria: Evaluation Policies
+    issue:
+    - Education
+    - Workforce
+    year: '2019'
+    status: New
+  - sys:
+      id: 6Xvfd0cQDAaFhlAYPRMgIA
+      created_at: !ruby/object:DateTime 2019-09-29 17:53:08.698000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 22:07:02.101000000 Z
+      content_type_id: promising
+      revision: 2
+    state: Massachusetts
+    state_abbreviation: MA
+    type: Single agency
+    long_description: The Massachusetts Department of Elementary and Secondary Education
+      has developed a [research agenda](http://www.doe.mass.edu/research/agenda.html)
+      and posts online the results of all [completed evaluations](http://www.doe.mass.edu/research/reports/category.aspx?section=program),
+      as well as [other research reports](http://www.doe.mass.edu/research/reports/).
+    criteria: Evaluation Policies
+    issue:
+    - Education
+    year: '2019'
+    status: Updated from 2018
+  - sys:
+      id: vx6UzbKMyAi0MoQ5tGecm
+      created_at: !ruby/object:DateTime 2019-09-29 17:59:49.869000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 17:59:49.869000000 Z
+      content_type_id: promising
+      revision: 1
+    state: Mississippi
+    state_abbreviation: MS
+    type: Single agency
+    long_description: The Mississippi Department of Education has a [research agenda](https://mdek12.org/OTSS/ORD/Research-Agenda)
+      informed by the State Board of Education’s strategic plan and a [focus group](https://mdek12.org/OTSS/ORD/RAFG)
+      of department staff members. The agenda’s [associated questions](https://mdek12.org/OTSS/ORD/Associated-Questions)
+      and a [dynamic framework](https://mdek12.org/OTSS/ORD/Dynamic-Framework) help
+      inform the activities of the [Office of Research and Development](https://mdek12.org/OTSS/ORD),
+      which uses data to inform the Department’s evidence-based decision-making.
+    criteria: Evaluation Policies
+    issue:
+    - Education
+    year: '2019'
+    status: New
+  - sys:
+      id: 2eycb3kV14j66DL4ihbLI8
+      created_at: !ruby/object:DateTime 2019-09-29 18:02:41.054000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 18:02:41.054000000 Z
+      content_type_id: promising
+      revision: 1
+    state: Tennessee
+    state_abbreviation: TN
+    type: Single agency
+    long_description: The [Tennessee Education Research Alliance](https://peabody.vanderbilt.edu/research/tnedresearchalliance/index.php)
+      is a formal research partnership between the Tennessee Department of Education
+      and Vanderbilt University’s Peabody College of Education. Led by seven full-time
+      staff and guided by a steering committee and advisory council, the Department
+      and the University have co-developed a [research agenda](https://peabody.vanderbilt.edu/TERA/research-agenda.php)
+      that builds a body of knowledge to better position the state to make data-driven
+      and evidence-based decisions. The Alliance [conducts independent studies](https://peabody.vanderbilt.edu/TERA/professional_learning.php)
+      and directs external research to provide relevant and timely information to
+      state policymakers across a variety of topical areas, including early reading,
+      professional learning, and school improvement.
+    criteria: Evaluation Policies
+    issue:
+    - Education
+    year: '2019'
+    status: Updated from 2018
+  - sys:
+      id: 46lP3XUj2ZBLXVMe7xKKT7
+      created_at: !ruby/object:DateTime 2019-09-29 18:04:40.813000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 18:04:40.813000000 Z
+      content_type_id: promising
+      revision: 1
+    state: Utah
+    state_abbreviation: UT
+    type: Multiple agencies
+    long_description: The [Utah Data Research Center](https://udrc.utah.gov/) has
+      a [research agenda](https://udrc.utah.gov/research.html) to investigate themes
+      related to the state’s education and workforce policies and programs. The  research
+      agenda was developed using the Center’s [governance structure](https://jobs.utah.gov/edo/udrcadvisory/udrcgovernance.pdf),
+      which includes involvement by [staff](https://udrc.utah.gov/team.html), an [Advisory
+      Board](https://www.utah.gov/pmn/sitemap/publicbody/6073.html), an [institutional
+      review board](https://udrc.utah.gov/USBE-IRB-Policy-v2.pdf), and a [peer review](https://udrc.utah.gov/peerreviewprocess.pdf)
+      process.
+    criteria: Evaluation Policies
+    issue:
+    - Education
+    - Workforce
+    year: '2019'
+    status: New
+  - sys:
+      id: 5cxqFCMw4d43o490pqwiCc
+      created_at: !ruby/object:DateTime 2019-09-29 18:05:44.788000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 18:05:44.788000000 Z
+      content_type_id: promising
+      revision: 1
+    state: Virginia
+    state_abbreviation: VA
+    type: Multiple agencies
+    long_description: 'The following Virginia agencies have released [research agendas](https://vlds.virginia.gov/insights/agency-research-agendas/)
+      for questions they are seeking to answer using data from the [Virginia Longitudinal
+      Data System](https://vlds.virginia.gov/): Virginia Department of Education,
+      State Council of Higher Education for Virginia, Virginia Department of Social
+      Services, Virginia Community College System, Department for Aging and Rehabilitative
+      Services, Virginia Department of Health Professions, and Virginia Employment
+      Commission.'
+    criteria: Evaluation Policies
+    issue:
+    - Education
+    - Economic Opportunity
+    - Health
+    - Workforce
+    year: '2019'
+    status: Updated from 2018
+  year: '2019'
+- sys:
+    id: 6yCHOLHvsrX5juDRP1J0HV
+    created_at: !ruby/object:DateTime 2019-09-29 18:08:56.355000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-29 18:08:56.355000000 Z
+    content_type_id: criteria
+    revision: 1
+  title: Evaluation Resources
+  order: 8
+  description: Did the state or any of its agencies invest at least 1% of program
+    funds in evaluations?
+  explanation: "__Why is this important?__  \nMaking specific funding commitments
+    to evaluation is critical and ensures that state governments have the necessary
+    funds to evaluate whether state programs are achieving their desired outcomes.
+    At the federal level, several agencies have made commitments to spend 1% of program
+    funds on evaluation, which has allowed them to improve programmatic outcomes and
+    build their knowledge base about what works."
+  leading_list:
+    sys:
+      id: vopBrHjd6kNmP6inEIG8m
+      created_at: !ruby/object:DateTime 2019-09-29 15:23:26.985000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 15:23:26.985000000 Z
+      content_type_id: leading
+      revision: 1
+    state: None
+    state_abbreviation: "--"
+    short_description: Results for America was not able to identify any states with
+      leading or promising examples for this criteria. No examples were identified
+      in 2018 either.
+    long_description: Results for America was not able to identify any states with
+      leading or promising examples for this criteria. No examples were identified
+      in 2018 either.
+    criteria: Evaluation Resources
+    year: '2019'
+  year: '2019'
+- sys:
+    id: 47WqoGUv21WbNXGuGCYB4m
+    created_at: !ruby/object:DateTime 2019-09-29 20:05:34.975000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-29 20:05:34.975000000 Z
+    content_type_id: criteria
+    revision: 1
+  title: Outcome Data
+  order: 9
+  description: Did the state or any of its agencies report or require outcome data
+    for its state-funded programs during their budget process?
+  explanation: "__Why is this important?__  \nUsing data and evidence as part of the
+    budget process helps state policymakers allocate funds based on information about
+    what works."
+  leading_list:
+    sys:
+      id: ws6Fo5ETAgAiUWMhR1MZA
+      created_at: !ruby/object:DateTime 2019-09-20 16:30:52.488000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 15:24:56.506000000 Z
+      content_type_id: leading
+      revision: 2
+    state: Colorado
+    state_abbreviation: CO
+    type: Statewide
+    short_description: The 2013 Colorado State Measurement for Accountable, Responsive
+      and Transparent Government (SMART) Act required all Colorado state agencies
+      to submit annual performance reports to the Colorado state legislature as part
+      of the state’s budget process.
+    long_description: 'The 2013 [Colorado State Measurement for Accountable, Responsive
+      and Transparent Government (SMART) Act](https://www.colorado.gov/performancemanagement)
+      required all Colorado state agencies to submit annual performance reports to
+      the Colorado state legislature as part of the state’s budget process. These
+      reports include: (1) performance measures for the major functions of the department;
+      (2) performance goals for at least the following three years; (3) a description
+      of the strategies necessary to achieve  those goals; and (4) a summary of the
+      department’s most recent performance evaluation. In addition, the state’s FY
+      2019-2020 [budget development instructions](https://drive.google.com/drive/folders/1XMSMXuo1bL-DmXZJgq9fOLX5X7CWPQKv)
+      (pp. 43-47) prioritize new program requests “based on the evidence and body
+      of research supporting the program’s effect on desired outcomes and proposed
+      implementation plan.” The instructions also include information on tiered evidence
+      frameworks and program evaluation requirements. In the FY 2020-2021 budget cycle,
+      the state applied an [evidence continuum](https://leg.colorado.gov/sites/default/files/ebp_12-11-2018.pdf#page=14)
+      to budget requests and used that criteria to inform resource allocation decisions.'
+    criteria: Outcome Data
+    issue:
+    - Child Welfare
+    - Criminal Justice
+    - Economic Opportunity
+    - Education
+    - Health
+    - Workforce
+    state_outline:
+      sys:
+        id: 1fBCZ8QhmmqQauoWMyOAk6
+        created_at: !ruby/object:DateTime 2018-06-26 21:56:20.502000000 Z
+        updated_at: !ruby/object:DateTime 2019-09-29 14:23:17.008000000 Z
+      title: colorado
+      description: 
+      url: "//images.ctfassets.net/cu0oxaxjfcsj/1fBCZ8QhmmqQauoWMyOAk6/8cd16aed556a4ae47964bad4c1edb549/Colorado.svg"
+    year: '2019'
+    status: Updated from 2018
+  promising_list:
+  - sys:
+      id: 4eV9znbHauZJnWWeeEH6UU
+      created_at: !ruby/object:DateTime 2019-09-29 18:11:27.241000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 22:10:24.413000000 Z
+      content_type_id: promising
+      revision: 2
+    state: Maryland
+    state_abbreviation: MD
+    type: Statewide
+    long_description: 'A [2013 Maryland law](http://mgaleg.maryland.gov/webmga/frmStatutesText.aspx?article=gsf&section=3-1002&ext=html&session=2020RS&tab=subject5)
+      requires the Maryland Department of Budget and Management to submit an annual
+      [Managing for Results](https://dbm.maryland.gov/Pages/ManagingResultsMaryland.aspx)
+      performance [report](https://dbm.maryland.gov/Pages/MFRPerformanceReport.aspx)
+      to the state legislature as part of the budget process. This report contains
+      the following information for each state agency: (1) the outcomes or results
+      that have been achieved toward annual performance measures; (2) a three-year
+      review of performance for each of the indicators; and (3) an estimate of expected
+      program outcomes over the next two years.'
+    criteria: Outcome Data
+    issue:
+    - Criminal Justice
+    - Child Welfare
+    - Education
+    - Economic Opportunity
+    - Health
+    - Workforce
+    year: '2019'
+    status: New
+  - sys:
+      id: 2fahPWRmERcgGC8KWX2bDz
+      created_at: !ruby/object:DateTime 2019-09-29 18:13:12.604000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 18:13:12.604000000 Z
+      content_type_id: promising
+      revision: 1
+    state: Minnesota
+    state_abbreviation: MN
+    type: Statewide
+    long_description: A [2017 Minnesota law](https://www.revisor.mn.gov/statutes/cite/16a.10)
+      required state agencies to include performance data in their biennial budget
+      documents. Minnesota Management and Budget issued [guidance](https://mn.gov/mmb/assets/RBA-Instructions-Accessible_tcm1059-244343.pdf)
+      on how to report outcome data to help agencies and departments meet this statutory
+      requirement. In addition, the state also used evidence to [inform funding decisions](https://mn.gov/mmb/evidence/proposal/)
+      resulting in [$87 million in new or expanded evidence-based programming](https://mn.gov/mmb-stat/2-gen/enacted-budget-ebp-investments.pdf)
+      in the FY 2020-2021 budget.
+    criteria: Outcome Data
+    issue:
+    - Child Welfare
+    - Criminal Justice
+    - Economic Opportunity
+    - Education
+    - Health
+    - Workforce
+    year: '2019'
+    status: Updated from 2018
+  - sys:
+      id: 63QbnW9CGGHzsCAl2eqZQm
+      created_at: !ruby/object:DateTime 2019-09-29 20:00:15.081000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 22:10:20.087000000 Z
+      content_type_id: promising
+      revision: 2
+    state: Mississippi
+    state_abbreviation: MS
+    type: Statewide
+    long_description: A [2014 Mississippi law](https://law.justia.com/codes/mississippi/2014/title-27/chapter-103/mississippi-performance-budget-and-strategic-planning-act-of-1994/section-27-103-159)
+      requires the Mississippi Departments of Corrections, Health, Education, and
+      Transportation to report programs' [performance measures](http://www.lbo.ms.gov/pdfs/perfmeasure_review_june_2019.pdf)
+      and cost-benefit ratios during the budget process. Many [other agencies report](http://www.lbo.ms.gov/pdfs/obrsforms/2021_strategic_plan_instructions.pdf#page=4)
+      similar information and Mississippi’s FY 2021 budget formulation process [required
+      all state agencies](http://www.lbo.ms.gov/pdfs/obrsforms/2021_budget_instructions.pdf#page=15)
+      to include the level of evidence, performance measures, and a fidelity plan
+      for any new proposed programs.
+    criteria: Outcome Data
+    issue:
+    - Child Welfare
+    - Criminal Justice
+    - Economic Opportunity
+    - Education
+    - Health
+    - Workforce
+    year: '2019'
+    status: Updated from 2018
+  - sys:
+      id: 2vwiGSBPbnvsWuZrfqSSoF
+      created_at: !ruby/object:DateTime 2019-09-29 20:01:57.658000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 20:01:57.658000000 Z
+      content_type_id: promising
+      revision: 1
+    state: Missouri
+    state_abbreviation: MO
+    type: Statewide
+    long_description: The [Missouri Budget Explorer](https://oa.mo.gov/budget-explorer),
+      launched in 2018, is a public-facing tool that provides transparency on state
+      budget expenditures, hosts department-level [budget summaries](https://oa.mo.gov/budget-explorer/department-budget-summaries),
+      and includes information on [performance at the programmatic level](https://oa.mo.gov/budget-explorer/program-descriptions-forms).
+      The state’s [FY2020 budget instructions](https://oa.mo.gov/sites/default/files/FY_2020_Budget_Instructions.pdf#page=36)
+      for [program descriptions](https://oa.mo.gov/sites/default/files/FY_20_Program_Description_Form_Fnl.docx)
+      required each department to provide a standard set of performance measures for
+      more than 600 major state programs, including activities, quality, impact, and
+      efficiency.
+    criteria: Outcome Data
+    issue:
+    - Child Welfare
+    - Criminal Justice
+    - Economic Opportunity
+    - Education
+    - Health
+    - Workforce
+    year: '2019'
+    status: New
+  - sys:
+      id: 65teYyPR55im00tVAajCwA
+      created_at: !ruby/object:DateTime 2019-09-29 20:03:11.489000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 20:03:11.489000000 Z
+      content_type_id: promising
+      revision: 1
+    state: New Mexico
+    state_abbreviation: NM
+    type: Statewide
+    long_description: 'A [1999 New Mexico law](https://www.nmlegis.gov/Entity/LFC/Documents/Accountability_In_Goverment_Act/Accountability%20in%20Government%20Act%20Statute.pdf#page=5)
+      required all New Mexico state agencies to submit annual performance-based budget
+      requests which include: (1) the outputs and outcomes from each program; (2)
+      performance measures and performance targets for each program; and (3) an evaluation
+      of the program’s performance. This information is [released annually](https://www.nmlegis.gov/Entity/LFC/Session_Publications)
+      in the state’s [policy and fiscal analysis](https://www.nmlegis.gov/Entity/LFC/Documents/Session_Publications/Budget_Recommendations/2020RecommendVolI.pdf),
+      which includes individual agency performance reports (pp. 95–157).'
+    criteria: Outcome Data
+    issue:
+    - Child Welfare
+    - Economic Opportunity
+    - Criminal Justice
+    - Education
+    - Health
+    - Workforce
+    year: '2019'
+    status: Updated from 2018
+  - sys:
+      id: 4i5iHSfcvQdkithlWnlWe7
+      created_at: !ruby/object:DateTime 2019-09-29 20:04:17.952000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 20:04:17.952000000 Z
+      content_type_id: promising
+      revision: 1
+    state: North Carolina
+    state_abbreviation: NC
+    type: Statewide
+    long_description: In 2018, North Carolina [redesigned its budget process](https://files.nc.gov/ncosbm/documents/files/memo20180531_OSBM_Reorganization.pdf)
+      to increase the use of  evidence-based decision-making. As a result, the [2019-2021
+      budget development instructions](https://www.osbm.nc.gov/2019-21-budget-instructions-change-budget)
+      require that agency requests “for new or expanded programs or services must
+      include evidence and research supporting the program's effect on desired outcomes.”
+    criteria: Outcome Data
+    issue:
+    - Child Welfare
+    - Criminal Justice
+    - Economic Opportunity
+    - Education
+    - Health
+    - Workforce
+    year: '2019'
+    status: New
+  - sys:
+      id: 5IZVhUAUNNAdwzjcHqJ54K
+      created_at: !ruby/object:DateTime 2019-09-29 20:05:23.149000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 20:05:23.149000000 Z
+      content_type_id: promising
+      revision: 1
+    state: Oregon
+    state_abbreviation: OR
+    type: Statewide
+    long_description: A [2016 Oregon law](https://www.oregonlaws.org/ors/291.110)
+      (section 2) requires all Oregon state agencies to develop and use performance
+      measures. The agencies must also submit to the Oregon Legislative Fiscal Office
+      an [Annual Performance Progress Report](https://www.oregon.gov/transparency/Pages/Key-Performance-Measures.aspx#Oregon_State_Agencies_F_-_M:_Annual_Performance_Progress_Reports)
+      detailing the agency’s programmatic outcomes, which are reviewed during the
+      state’s budget process.
+    criteria: Outcome Data
+    issue:
+    - Child Welfare
+    - Economic Opportunity
+    - Criminal Justice
+    - Education
+    - Health
+    - Workforce
+    year: '2019'
+    status: Updated from 2018
+  year: '2019'
+- sys:
+    id: 2z0aKw0jJrM5s2iF6v9645
+    created_at: !ruby/object:DateTime 2019-09-29 20:34:24.575000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-29 20:34:24.575000000 Z
+    content_type_id: criteria
+    revision: 1
+  title: Evidence Definition and Program Inventory
+  order: 10
+  description: Did the state or any of its agencies release a common evidence framework,
+    guidelines, or standards to inform its research and funding decisions and make
+    publicly available an inventory of state-funded programs categorized based on
+    at least two tiers of evidence?
+  explanation: "__Why is this important?__  \nDefining evidence and conducting program
+    inventories can help state governments ensure that their programs are using proven
+    practices and that their interventions are effective in meeting the state’s desired
+    goals as well as improving outcomes for residents."
+  leading_list:
+    sys:
+      id: SKZcZnTe5yMUz45T3vsKY
+      created_at: !ruby/object:DateTime 2019-09-20 16:30:58.658000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 22:11:45.363000000 Z
+      content_type_id: leading
+      revision: 3
+    state: Minnesota
+    state_abbreviation: MN
+    type: Statewide
+    short_description: Under a 2015 Minnesota law (section 13), Minnesota Management
+      and Budget has developed numerous inventories of evidence-based programs, including
+      in the areas of criminal justice, mental health, child welfare, and higher education.
+    long_description: 'Under a [2015 Minnesota law](https://www.revisor.mn.gov/laws/2015/0/77/)
+      (section 13), Minnesota Management and Budget has developed numerous [inventories](https://mn.gov/mmb/results-first/inventory-of-services/)
+      of evidence-based programs, including in the areas of [criminal justice](https://mn.gov/mmb/results-first/adult-criminal-justice/prison.jsp),
+      [mental health](https://mn.gov/mmb/results-first/adult-mental-health/), [child
+      welfare](https://mn.gov/mmb/results-first/child-welfare/), and [higher education](https://mn.gov/mmb/results-first/higher-education/).
+      Minnesota Management and Budget also maintains the [Minnesota Inventory](https://mn.gov/mmb/results-first/inventory/),
+      a searchable clearinghouse of more than 400 programs operating in the state.
+      As part of the inventory, the state developed a [guide](https://mn.gov/mmb/evidence/)
+      for using evidence in policymaking and [evidence definitions](https://mn.gov/mmb/results-first/definitions-of-evidence/)
+      to categorize interventions as proven effective, promising, theory based, or
+      no effect. These resources helped [inform funding decisions](https://mn.gov/mmb/evidence/proposal/)
+      in the state, including [$87 million in new or expanded evidence-based programming](https://mn.gov/mmb-stat/2-gen/enacted-budget-ebp-investments.pdf)
+      in the FY 2020-2021 budget. '
+    criteria: Evidence Definition and Program Inventory
+    issue:
+    - Child Welfare
+    - Criminal Justice
+    - Economic Opportunity
+    - Education
+    - Health
+    - Workforce
+    state_outline:
+      sys:
+        id: YlOt55v1CeImIm2qQQEg6
+        created_at: !ruby/object:DateTime 2018-06-26 21:52:54.906000000 Z
+        updated_at: !ruby/object:DateTime 2019-09-29 15:18:49.311000000 Z
+      title: minnesota
+      description: 
+      url: "//images.ctfassets.net/cu0oxaxjfcsj/YlOt55v1CeImIm2qQQEg6/0f75f66c41a82a3f43bf985186ec5959/Minnesota.svg"
+    year: '2019'
+    status: Updated from 2018
+  promising_list:
+  - sys:
+      id: 3T5WIaHeCzuFpbkrSAuhU9
+      created_at: !ruby/object:DateTime 2019-09-29 20:08:27.830000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 20:08:27.830000000 Z
+      content_type_id: promising
+      revision: 1
+    state: California
+    state_abbreviation: CA
+    type: Single agency
+    long_description: The California Department of Social Services created an [Evidence-Based
+      Clearinghouse for Child Welfare](http://www.cebc4cw.org/), which [allows](https://www.cebc4cw.org/home/using-the-cebc/)
+      child welfare providers and professionals to “identify, select, and implement
+      evidence-based child welfare practices that will improve child safety, increase
+      permanency, increase family and community stability, and promote child and family
+      well-being.” This tool helps [identify best practices](http://www.cebc4cw.org/home/)
+      and provides [guidance and support for program implementation](http://www.cebc4cw.org/implementing-programs/).
+      The Clearinghouse’s numerical [rating scale](http://www.cebc4cw.org/home/how-are-programs-on-the-cebc-reviewed/)
+      categorizes programs into six tiers of evidence and uses a [relevance scale](http://www.cebc4cw.org/home/how-are-programs-on-the-cebc-reviewed/child-welfare-relevance-levels/)
+      as a complement to the scientific rating scale and to demonstrate applicability
+      for client populations.
+    criteria: Evidence Definition and Program Inventory
+    issue:
+    - Child Welfare
+    year: '2019'
+    status: Updated from 2018
+  - sys:
+      id: 0reWFHpzCOx6OyV9Hl6M9
+      created_at: !ruby/object:DateTime 2019-09-29 20:09:28.996000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 20:09:28.996000000 Z
+      content_type_id: promising
+      revision: 1
+    state: Colorado
+    state_abbreviation: CO
+    type: Statewide
+    long_description: 'The Colorado Governor’s Office of State Planning and Budgeting
+      publishes periodic Results First [reports](https://sites.google.com/state.co.us/rfpfs/colorado-results-first/reports)
+      that categorize all state-funded prevention programs in the areas of child welfare,
+      criminal justice, and juvenile justice according to three tiers of evidence:
+      evidence-based, promising, and needs additional research. In 2018, a [findings
+      report](https://drive.google.com/file/d/14vLnFcLBKN-VP_bsb90RYUbiMVAulfnC/view?usp=sharing)
+      applied the cost-benefit analysis framework to health programs.'
+    criteria: Evidence Definition and Program Inventory
+    issue:
+    - Child Welfare
+    - Criminal Justice
+    - Education
+    - Health
+    year: '2019'
+    status: Updated from 2018
+  - sys:
+      id: 7cvD3Lj6nbf0KWnTLYVAx8
+      created_at: !ruby/object:DateTime 2019-09-29 20:10:27.771000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 20:10:27.771000000 Z
+      content_type_id: promising
+      revision: 1
+    state: Connecticut
+    state_abbreviation: CT
+    type: Multiple agencies
+    long_description: 'A [2015 Connecticut law](https://www.cga.ct.gov/2015/act/pa/pdf/2015PA-00005-R00SB-01502SS1-PA.pdf#page=650)
+      defines the following three tiers of evidence for programs operated by the Connecticut
+      Departments of Correction, Children and Families, and Mental Health and Addiction
+      Services, and the Court Support Services Division of the Judicial Branch: evidence-based;
+      research-based; and promising. The law requires these same agencies to categorize
+      their programs by these evidence tiers in even-numbered fiscal years. Additionally,
+      the law charges the Institute for Municipal and Regional Policy at Central Connecticut
+      State University with submitting a report containing a cost-benefit analysis
+      of the programs, which in 2018 was entitled [Benefit-Cost Analyses of Evidence-Based
+      Programs](http://resultsfirstct.org/wp-content/uploads/2018/11/Benefit-Cost-Analyses-November-2018.pdf).'
+    criteria: Evidence Definition and Program Inventory
+    issue:
+    - Child Welfare
+    - Criminal Justice
+    - Health
+    year: '2019'
+    status: Updated from 2018
+  - sys:
+      id: 2Gc9BY5sAfdfWceDwxubkj
+      created_at: !ruby/object:DateTime 2019-09-29 20:11:59.477000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 20:11:59.477000000 Z
+      content_type_id: promising
+      revision: 1
+    state: Mississippi
+    state_abbreviation: MS
+    type: Multiple agencies
+    long_description: A [2014 Mississippi state law](https://law.justia.com/codes/mississippi/2014/title-27/chapter-103/mississippi-performance-budget-and-strategic-planning-act-of-1994/section-27-103-159)
+      required the Mississippi Departments of Corrections, Health, Education, and
+      Transportation to (1) develop an inventory of their programs based on four levels
+      of evidence (evidence-based program, research-based program, promising practice,
+      or other programs and activities) and (2) report during the budget process about
+      their programs’ cost-benefit ratios and effectiveness. The Mississippi Joint
+      Legislative Committee on Performance Evaluation and Expenditure Review [publishes](https://www.peer.ms.gov/Pages/Publications.aspx)
+      cost-benefit analyses and reports on program effectiveness.
+    criteria: Evidence Definition and Program Inventory
+    issue:
+    - Criminal Justice
+    - Education
+    - Health
+    year: '2019'
+    status: Updated from 2018
+  - sys:
+      id: 579kN4UBpv0AfMRHjPs7Sq
+      created_at: !ruby/object:DateTime 2019-09-29 20:15:17.040000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 20:15:17.040000000 Z
+      content_type_id: promising
+      revision: 1
+    state: New Mexico
+    state_abbreviation: NM
+    type: Multiple agencies
+    long_description: New Mexico has published a series of inventory and cost-benefit
+      reports in the areas of [children’s behavioral health](https://www.nmlegis.gov/Entity/LFC/Documents/Results_First/Results%20First%20Children's%20Behavioral%20Health.pdf),
+      [adult behavioral health](https://www.nmlegis.gov/Entity/LFC/Documents/Results_First/Evidence-Based%20Behavioral%20Health%20Programs%20to%20Improve%20Outcomes%20for%20Adults.pdf),
+      [early education](https://www.nmlegis.gov/Entity/LFC/Documents/Results_First/Evidence-Based%20Early%20Education%20Programs%20to%20Improve%20Education%20Outcomes.pdf),
+      [child welfare](https://www.nmlegis.gov/Entity/LFC/Documents/Results_First/Evidence-Based%20Programs%20to%20Reduce%20Child%20Maltreatment.pdf),
+      [criminal justice](https://www.nmlegis.gov/Entity/LFC/Documents/Results_First/Evidence-Based%20Programs%20to%20Reduce%20Recidivism%20and%20Improve%20Public%20Safety%20in%20Adult%20Corrections.pdf),
+      [healthcare, infant and maternal health](https://www.nmlegis.gov/Entity/LFC/Documents/Results_First/Results%20First%20Cost%20and%20Benefits%20of%20Selected%20Interventions%20for%20Healthcare.pdf),
+      and [education](https://www.nmlegis.gov/Entity/LFC/Documents/Results_First/Results%20First%20Costs%20and%20Benefits%20of%20Selected%20Evidence-based%20Interventions%20in%20Public%20Education.pdf).
+      The Legislative Finance Committee’s Evaluation Unit publishes Results First
+      reports, program evaluations, information technology reviews, and health policy
+      reviews [publicly](https://www.nmlegis.gov/Entity/LFC/Evaluation_Unit_Reports).
+      The state has also conducted [cost-benefit analyses of its programs](http://www.pewtrusts.org/~/media/assets/2014/08/nm_results_first_brief_final.pdf)
+      and published [guidance on Legislating for Results](https://www.nmlegis.gov/Entity/LFC/Documents/Accountability_In_Goverment_Act/Legislating%20For%20Results.pdf).
+    criteria: Evidence Definition and Program Inventory
+    issue:
+    - Child Welfare
+    - Criminal Justice
+    - Economic Opportunity
+    - Education
+    - Health
+    year: '2019'
+    status: Updated from 2018
+  - sys:
+      id: 5a6x1n4DrytadwUSey1osW
+      created_at: !ruby/object:DateTime 2019-09-29 20:19:46.995000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 20:19:46.995000000 Z
+      content_type_id: promising
+      revision: 1
+    state: North Carolina
+    state_abbreviation: NC
+    type: Statewide
+    long_description: In 2019, the North Carolina Office of State Budget and Management
+      published a [child and family health](https://www.osbm.nc.gov/results-first-child-and-family-health)
+      program inventory and cost-benefit analysis. The state also publishes periodic
+      Results First [progress reports](https://www.osbm.nc.gov/results-first-reports)
+      and has released a [tiered evidence definition](https://www.osbm.nc.gov/results-first-evidence-definitions).
+    criteria: Evidence Definition and Program Inventory
+    issue:
+    - Child Welfare
+    - Health
+    year: '2019'
+    status: New
+  - sys:
+      id: 68r0n8s1HDZj7Hu6hUTk3
+      created_at: !ruby/object:DateTime 2019-09-29 20:21:51.589000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 20:21:51.589000000 Z
+      content_type_id: promising
+      revision: 1
+    state: Oregon
+    state_abbreviation: OR
+    type: Multiple agencies
+    long_description: Under a [2003 Oregon law](https://www.oregonlaws.org/ors/182.515)
+      the Oregon Department of Corrections, the Oregon Youth Authority, the Oregon
+      Youth Development Division, and “the part of the Oregon Health Authority that
+      deals with mental health and addiction issues” [are required](https://www.oregonlaws.org/ors/182.525)
+      to compile a biennial program inventory with results from funded programs and
+      to perform cost-benefit analyses. The law also [defines an evidence-based program](https://www.oregonlaws.org/ors/182.515)
+      as being cost effective and incorporating "significant and relevant practices
+      based on scientifically based research,” including “\[u]tilizing randomized
+      controlled trials when possible and appropriate." In 2018, the [Oregon Youth
+      Authority](https://www.oregon.gov/oya/docs/SB267_2018.pdf) and the [Oregon Department
+      of Corrections](https://www.oregonlegislature.gov/citizen_engagement/Reports/2019-DOC-SB-267-Report.pdf)
+      published reports on the costs and benefits of their programs.
+    criteria: Evidence Definition and Program Inventory
+    issue:
+    - Child Welfare
+    - Criminal Justice
+    - Health
+    year: '2019'
+    status: Updated from 2018
+  - sys:
+      id: 5dIYCSo4I5TYObiKZHdLzW
+      created_at: !ruby/object:DateTime 2019-09-29 20:31:41.837000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 22:13:21.547000000 Z
+      content_type_id: promising
+      revision: 2
+    state: Utah
+    state_abbreviation: UT
+    type: Single agency
+    long_description: 'In 2015, in accordance with the state’s [Alcoholic Beverage
+      Control Act](https://codes.findlaw.com/ut/title-32b-alcoholic-beverage-control-act/ut-code-sect-32b-2-402.html)
+      (section f), the Utah Department of Human Services [issued a rule](https://rules.utah.gov/publicat/code/r523/r523-009.htm)
+      to create a [statewide registry](https://dsamh.utah.gov/pdf/epi/EBW%20Approved%20Revised%202.21.2018.pdf)
+      of approved evidence-based substance abuse prevention interventions. The Department’s
+      Division of Substance Abuse and Mental Health [Evidence-based Workgroup](https://dsamh.utah.gov/services/prevention/implement-an-evidence-based-program)
+      defined the following [four levels of effectiveness](https://dsamh.utah.gov/pdf/eb_workgroup/Tiers%20of%20Effectiveness.pdf):
+      well supported, supported, promising, and emerging. In addition to creating
+      these definitions, the Working Group provides resources to support program design
+      and implementation including a [process](https://dsamh.utah.gov/pdf/eb_workgroup/EBW%20Bylaws%20rev%206-11-15.pdf)
+      for [approving](https://dsamh.utah.gov/pdf/eb_workgroup/EB%20Guidelines%20Proposal%20Checklist%202018.pdf)
+      a program as evidence-based and a [logic model guide](https://dsamh.utah.gov/pdf/eb_workgroup/EBW%20Logic%20Model%20Guide%20(L&L).pdf)
+      and [template](https://dsamh.utah.gov/pdf/eb_workgroup/EBW%20Blank%20Logic%20Model%20Utah%202013.pdf).'
+    criteria: Evidence Definition and Program Inventory
+    issue:
+    - Health
+    year: '2019'
+    status: Updated from 2018
+  - sys:
+      id: 5qenKfilxCs3BZxyBKs2GA
+      created_at: !ruby/object:DateTime 2019-09-29 20:34:21.668000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 20:34:21.668000000 Z
+      content_type_id: promising
+      revision: 1
+    state: Washington
+    state_abbreviation: WA
+    type: Multiple agencies
+    long_description: 'A [2012 Washington law](http://lawfilesext.leg.wa.gov/biennium/2011-12/Pdf/Bills/Session%20Laws/House/2536-S2.SL.pdf):
+      (1) stated that “prevention and intervention services delivered to children
+      and juveniles in the areas of mental health, child welfare, and juvenile justice
+      [must] be primarily evidence-based and research-based” (p. 2); (2) directed
+      the Washington State Institute for Public Policy (WSIPP) to develop [definitions](http://www.wsipp.wa.gov/ReportFile/1332/Wsipp_Inventory-of-Evidence-Based-Research-Based-and-Promising-Practices_Full-Report.pdf)
+      for three levels of evidence: evidence-based, research-based, and promising
+      practices (p. 4); and (3) tasked WSIPP with creating an [inventory of evidence-based
+      programs](http://www.wsipp.wa.gov/ReportFile/1333/Wsipp_Inventory-of-Evidence-Based-Research-Based-and-Promising-Practices_Inventory.pdf),
+      which was released in 2012 with subsequent periodic updates, including in [2018](http://www.wsipp.wa.gov/ReportFile/1699/Wsipp_Updated-Inventory-of-Evidence-Based-Research-Based-and-Promising-Practices-For-Prevention-and-Intervention-Services-for-Children-and-Juveniles-in-the-Child-Welfare-Juvenile-Justice-and-Mental-Health-Systems_Inventory.pdf).
+      Other legislatively directed inventories include: [Corrections](http://www.wsipp.wa.gov/ReportFile/1682/Wsipp_Inventory-of-Evidence-Based-Research-Based-and-Promising-Programs-for-Adult-Corrections_Inventory.pdf);
+      Behavioral Health (originally [published in 2014](http://www.wsipp.wa.gov/ReportFile/1558/Wsipp_Inventory-of-Evidence-based-Research-based-and-Promising-Practices-Prevention-and-Intervention-Services-for-Adult-Behavioral-Health_Report.pdf)
+      and [updated in 2016](http://www.wsipp.wa.gov/ReportFile/1645/Wsipp_Updated-Inventory-of-Evidence-based-Research-based-and-Promising-Practices-Prevention-and-Intervention-Services-for-Adult-Behavioral-Health_Inventory.pdf));
+      and K-12 education programs, including the Learning Assistance Program (most
+      recently [published in 2018](http://www.wsipp.wa.gov/ReportFile/1687/Wsipp_Updated-Inventory-of-Evidence-and-Research-Based-Practices-Washington-s-K-12-Learning-Assistance-Program_Inventory.pdf)
+      and featured on the state superintendent’s website as [Menus of Best Practices
+      and Strategies](http://www.k12.wa.us/SSEO/Menus.aspx)). '
+    criteria: Evidence Definition and Program Inventory
+    issue:
+    - Child Welfare
+    - Criminal Justice
+    - Economic Opportunity
+    - Education
+    - Workforce
+    - Health
+    year: '2019'
+    status: Updated from 2018
+  year: '2019'
+- sys:
+    id: ByXo0wKd48SezYbNYJa0d
+    created_at: !ruby/object:DateTime 2019-09-29 20:52:08.970000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-29 20:52:08.970000000 Z
+    content_type_id: criteria
+    revision: 1
+  title: Cost-Benefit Analysis
+  order: 11
+  description: Did the state or any of its agencies assess and make publicly available
+    the costs and benefits of public programs?
+  explanation: "__Why is this important?__  \nCost-benefit analysis helps state governments
+    quantify outcomes and program costs to ensure that public dollars are being efficiently
+    spent to get the most value for taxpayers and the best outcomes for residents."
+  leading_list:
+    sys:
+      id: 6VLi1WAsxcJGuf4dGAAB3R
+      created_at: !ruby/object:DateTime 2019-09-20 16:31:04.025000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 15:27:48.644000000 Z
+      content_type_id: leading
+      revision: 2
+    state: Washington
+    state_abbreviation: WA
+    type: Multiple agencies
+    short_description: A 2013 Washington State law directed the Department of Corrections,
+      in consultation with the Washington State Institute for Public Policy (WSIPP),
+      to compile an inventory of existing programs; determine whether its programs
+      were evidence-based; assess the effectiveness of its programs, including conducting
+      a cost-benefit analysis; and phase out ineffective programs and implement evidence-based
+      programs.
+    long_description: 'A [2013 Washington State law](http://apps.leg.wa.gov/documents/billdocs/2013-14/Pdf/Bills/Session%20Laws/Senate/5034-S.SL.pdf)
+      (pp. 105–106) directed the Department of Corrections, in consultation with the
+      Washington State Institute for Public Policy (WSIPP), to (1) compile an inventory
+      of existing programs; (2) determine whether its programs were evidence-based;
+      (3) assess the effectiveness of its programs, including conducting a cost-benefit
+      analysis; and (4) phase out ineffective programs and implement evidence-based
+      programs. As a result of this and similar laws, WSIPP has published [hundreds
+      of cost-benefit analyses](http://www.wsipp.wa.gov/BenefitCost) in a wide variety
+      of issue areas over the past 10 years. The WSIPP [cost-benefit framework](http://www.wsipp.wa.gov/TechnicalDocumentation/WsippBenefitCostTechnicalDocumentation.pdf)
+      has been widely adopted by governments across the country. '
+    criteria: Cost-Benefit Analysis
+    issue:
+    - Child Welfare
+    - Education
+    - Health
+    - Workforce
+    state_outline:
+      sys:
+        id: 3zudCcXzzyom4EIOaq8wW
+        created_at: !ruby/object:DateTime 2018-06-26 21:54:40.666000000 Z
+        updated_at: !ruby/object:DateTime 2019-09-29 14:37:43.495000000 Z
+      title: washington
+      description: 
+      url: "//images.ctfassets.net/cu0oxaxjfcsj/3zudCcXzzyom4EIOaq8wW/b19989c51f53830b72d55d905abcef6c/Washington.svg"
+    year: '2019'
+    status: Updated from 2018
+  promising_list:
+  - sys:
+      id: 1VZS8O1xqf81SDkDoKRsYi
+      created_at: !ruby/object:DateTime 2019-09-29 20:36:57.997000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 22:13:51.371000000 Z
+      content_type_id: promising
+      revision: 2
+    state: Colorado
+    state_abbreviation: CO
+    type: Multiple agencies
+    long_description: The Colorado Governor’s Office of State Planning and Budgeting
+      proactively publishes periodic [Results First reports](https://sites.google.com/state.co.us/rfpfs/colorado-results-first/reports).
+      The [2018 health findings report](https://drive.google.com/file/d/14vLnFcLBKN-VP_bsb90RYUbiMVAulfnC/view)
+      built on [earlier cost-benefit analyses](https://drive.google.com/file/d/0B5_3yhvPtgh-Q0pnZmhLaDl1NHc/view)
+      in the areas of child welfare, criminal justice, and juvenile justice. As part
+      of these efforts, [Colorado has published technical documentation on the components](https://sites.google.com/state.co.us/rfpfs/colorado-results-first/reports)
+      of its cost-benefit analysis model.
+    criteria: Cost-Benefit Analysis
+    issue:
+    - Child Welfare
+    - Criminal Justice
+    - Health
+    year: '2019'
+    status: Updated from 2018
+  - sys:
+      id: 2aXuAk51rWLGe8oPPP4wyB
+      created_at: !ruby/object:DateTime 2019-09-29 20:38:15.699000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 20:38:15.699000000 Z
+      content_type_id: promising
+      revision: 1
+    state: Connecticut
+    state_abbreviation: CT
+    type: Multiple agencies
+    long_description: A [2015 Connecticut law](https://www.cga.ct.gov/2015/act/pa/pdf/2015PA-00005-R00SB-01502SS1-PA.pdf)
+      (pp. 649–651) requires the Institute for Municipal and Regional Policy at Central
+      Connecticut State University to perform cost-benefit analyses of programs operated
+      by the Connecticut Departments of Correction, Children and Families, and Mental
+      Health and Addiction Services as well as the Court Support Services Division
+      of the Judicial Branch. The initiative [issues regular reports](http://resultsfirstct.org/research-policy-and-reports/reports),
+      including the 2018 [Benefit-Cost Analyses of Evidence-Based Programs](http://resultsfirstct.org/wp-content/uploads/2018/11/Benefit-Cost-Analyses-November-2018.pdf)
+      report, which “found the Judicial Branch’s Court Support Services Division spent
+      92% of their adult funding and 99% of juvenile funding on evidence-based programs
+      and Department of Corrections spent 97% on such programs.”
+    criteria: Cost-Benefit Analysis
+    issue:
+    - Child Welfare
+    - Criminal Justice
+    - Health
+    year: '2019'
+    status: Updated from 2018
+  - sys:
+      id: 1xSg9I7QAAsxUDjHxdPep9
+      created_at: !ruby/object:DateTime 2019-09-29 20:39:16.829000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 20:39:16.829000000 Z
+      content_type_id: promising
+      revision: 1
+    state: Illinois
+    state_abbreviation: IL
+    type: Single agency
+    long_description: In 2018, the Illinois Sentencing Policy Council issued a [cost-benefit
+      analysis report](http://www.icjia.state.il.us/spac/pdf/The_High_Cost_of_Recidivism_Supplement_2018.pdf)
+      on recidivism. As noted in an accompanying [brief](http://www.icjia.state.il.us/spac/pdf/Illinois_Result_First-The_High_Cost_of_Recidivism_2018.pdf),
+      the analysis found that the cost associated with one recidivism event is over
+      $150,000.
+    criteria: Cost-Benefit Analysis
+    issue:
+    - Criminal Justice
+    year: '2019'
+    status: New
+  - sys:
+      id: 63q5BIcu0b61WVDSuevMP
+      created_at: !ruby/object:DateTime 2019-09-29 20:41:34.119000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 22:14:52.478000000 Z
+      content_type_id: promising
+      revision: 2
+    state: Minnesota
+    state_abbreviation: MN
+    type: Single agency
+    long_description: 'A [2015 Minnesota law](https://www.revisor.mn.gov/laws/?id=77&year=2015&type=0)
+      (section 13) directs Minnesota Management and Budget to develop a [cost-benefit
+      inventory of evidence-based interventions](https://mn.gov/mmb/results-first/reports/).
+      As a result, the state developed cost-benefit analyses in the areas of [criminal
+      justice](https://mn.gov/mmb/results-first/adult-criminal-justice/prison.jsp),
+      [adult mental health](https://mn.gov/mmb-stat/results-first/adult-mental-health-report.pdf),
+      [children’s mental health](https://mn.gov/mmb-stat/results-first/cmh-report.pdf),
+      [child welfare](https://mn.gov/mmb/results-first/child-welfare/), [probation](https://mn.gov/mmb/results-first/adult-criminal-justice/supervision.jsp),
+      and [substance use](https://mn.gov/mmb-stat/results-first/substance-use-report.pdf),
+      based on the following [four levels of evidence](https://mn.gov/mmb/results-first/inventory-of-services/):
+      proven effective, promising, theory based, or no effect. Minnesota Management
+      and Budget maintains the Minnesota Inventory, which includes a searchable clearinghouse
+      of more than 400 programs.'
+    criteria: Cost-Benefit Analysis
+    issue:
+    - Child Welfare
+    - Criminal Justice
+    - Economic Opportunity
+    - Education
+    - Health
+    - Workforce
+    year: '2019'
+    status: Updated from 2018
+  - sys:
+      id: 3QG01pnvugizaiFQy5sFfl
+      created_at: !ruby/object:DateTime 2019-09-29 20:42:53.830000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 20:42:53.830000000 Z
+      content_type_id: promising
+      revision: 1
+    state: Mississippi
+    state_abbreviation: MS
+    type: Multiple agencies
+    long_description: A [2014 Mississippi state law](https://law.justia.com/codes/mississippi/2014/title-27/chapter-103/mississippi-performance-budget-and-strategic-planning-act-of-1994/section-27-103-159)
+      requires the Mississippi Departments of Corrections, Health, Education, and
+      Transportation to (1) develop an inventory of their programs based on four levels
+      of evidence (evidence-based program, research-based program, promising practice,
+      or other programs and activities) and (2) report during the budget process about
+      their programs’ cost-benefit ratios and effectiveness. The Mississippi Joint
+      Legislative Committee on Performance Evaluation and Expenditure Review [publishes](https://www.peer.ms.gov/Pages/Publications.aspx)
+      cost-benefit analyses and reports on program effectiveness.
+    criteria: Cost-Benefit Analysis
+    issue:
+    - Criminal Justice
+    - Education
+    - Health
+    year: '2019'
+    status: Updated from 2018
+  - sys:
+      id: 7lUwb7irOPR6bxK0jVmalP
+      created_at: !ruby/object:DateTime 2019-09-29 20:45:29.150000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 20:45:29.150000000 Z
+      content_type_id: promising
+      revision: 1
+    state: New Mexico
+    state_abbreviation: NM
+    type: Multiple agencies
+    long_description: New Mexico has published a series of inventory and cost-benefit
+      reports in the areas of [children’s behavioral health](https://www.nmlegis.gov/Entity/LFC/Documents/Results_First/Results%20First%20Children's%20Behavioral%20Health.pdf),
+      [adult behavioral health](https://www.nmlegis.gov/Entity/LFC/Documents/Results_First/Evidence-Based%20Behavioral%20Health%20Programs%20to%20Improve%20Outcomes%20for%20Adults.pdf),
+      [early education](https://www.nmlegis.gov/Entity/LFC/Documents/Results_First/Evidence-Based%20Early%20Education%20Programs%20to%20Improve%20Education%20Outcomes.pdf),
+      [child welfare](https://www.nmlegis.gov/Entity/LFC/Documents/Results_First/Evidence-Based%20Programs%20to%20Reduce%20Child%20Maltreatment.pdf),
+      [criminal justice](https://www.nmlegis.gov/Entity/LFC/Documents/Results_First/Evidence-Based%20Programs%20to%20Reduce%20Recidivism%20and%20Improve%20Public%20Safety%20in%20Adult%20Corrections.pdf),
+      [healthcare, infant and maternal health](https://www.nmlegis.gov/Entity/LFC/Documents/Results_First/Results%20First%20Cost%20and%20Benefits%20of%20Selected%20Interventions%20for%20Healthcare.pdf),
+      and [education](https://www.nmlegis.gov/Entity/LFC/Documents/Results_First/Results%20First%20Costs%20and%20Benefits%20of%20Selected%20Evidence-based%20Interventions%20in%20Public%20Education.pdf).
+      The Legislative Finance Committee’s Evaluation Unit publishes Results First
+      reports, program evaluations, information technology reviews, and health policy
+      reviews [publicly](https://www.nmlegis.gov/Entity/LFC/Evaluation_Unit_Reports).
+      The state has also conducted [cost-benefit analyses of its programs](http://www.pewtrusts.org/~/media/assets/2014/08/nm_results_first_brief_final.pdf)
+      and published [guidance on Legislating for Results](https://www.nmlegis.gov/Entity/LFC/Documents/Accountability_In_Goverment_Act/Legislating%20For%20Results.pdf).
+    criteria: Cost-Benefit Analysis
+    issue:
+    - Criminal Justice
+    - Child Welfare
+    - Economic Opportunity
+    - Education
+    - Health
+    year: '2019'
+    status: Updated from 2018
+  - sys:
+      id: 7hD8VkZXKtlu8pR53C9hh6
+      created_at: !ruby/object:DateTime 2019-09-29 20:46:37.492000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 22:15:13.316000000 Z
+      content_type_id: promising
+      revision: 2
+    state: New York
+    state_abbreviation: NY
+    type: Single agency
+    long_description: Starting in 2013, the New York State Division of Criminal Justice
+      Services developed a [cost-benefit analysis](http://www.criminaljustice.ny.gov/crimnet/ojsa/resultsfirst/net-impact-table-with-guide.pdf),
+      based on an [initial technical report](http://www.criminaljustice.ny.gov/crimnet/ojsa/resultsfirst/rf-technical_report_cba1_oct2013.pdf),
+      to outline the impact, costs, and benefits of specific criminal justice interventions.
+      As a result of these efforts, New York has continued to operate the [Alternatives
+      to Incarceration program](https://www.criminaljustice.ny.gov/ofpa/fundingprograms.html)
+      (a $7 million program in 2018-2019) to fund evidence-based interventions.
+    criteria: Cost-Benefit Analysis
+    issue:
+    - Criminal Justice
+    year: '2019'
+    status: Updated from 2018
+  - sys:
+      id: 5ZRpendTCbudp6rUhLkmbP
+      created_at: !ruby/object:DateTime 2019-09-29 20:49:12.897000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 20:49:12.897000000 Z
+      content_type_id: promising
+      revision: 1
+    state: North Carolina
+    state_abbreviation: NC
+    type: Single agency
+    long_description: In 2019, North Carolina published a [child and family health](https://www.osbm.nc.gov/results-first-child-and-family-health)
+      program inventory and cost-benefit analysis. The state also publishes periodic
+      Results First [progress reports](https://www.osbm.nc.gov/results-first-reports)
+      and released a [tiered evidence definition](https://www.osbm.nc.gov/results-first-evidence-definitions).
+    criteria: Cost-Benefit Analysis
+    issue:
+    - Child Welfare
+    - Health
+    year: '2019'
+    status: New
+  - sys:
+      id: 5dd8mKbXP1XrW85CBr22IS
+      created_at: !ruby/object:DateTime 2019-09-29 20:50:53.985000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 20:50:53.985000000 Z
+      content_type_id: promising
+      revision: 1
+    state: Oregon
+    state_abbreviation: OR
+    type: Multiple agencies
+    long_description: Under a [2003 Oregon law](https://www.oregonlaws.org/ors/182.515),
+      the Oregon Department of Corrections, the Oregon Youth Authority, the Oregon
+      Youth Development Division, and “the part of the Oregon Health Authority that
+      deals with mental health and addiction issues” [are required](https://www.oregonlaws.org/ors/182.525)
+      to compile a biennial program inventory with results from funded programs and
+      to perform cost-benefit analyses. In 2018 the [Youth Authority](https://www.oregon.gov/oya/docs/SB267_2018.pdf)
+      and the [Department of Corrections](https://www.oregonlegislature.gov/citizen_engagement/Reports/2019-DOC-SB-267-Report.pdf)
+      both published reports on costs and benefits of their programs. The Youth Authority’s
+      report [found](https://www.oregon.gov/oya/docs/SB267_2018.pdf#page=7) that four
+      of the six programs examined had a high likelihood of providing a positive return
+      on investment.
+    criteria: Cost-Benefit Analysis
+    issue:
+    - Criminal Justice
+    year: '2019'
+    status: Updated from 2018
+  - sys:
+      id: 5yu2eXuu6WKqTM05o9hxRK
+      created_at: !ruby/object:DateTime 2019-09-29 20:51:53.820000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 20:51:53.820000000 Z
+      content_type_id: promising
+      revision: 1
+    state: Utah
+    state_abbreviation: UT
+    type: Statewide
+    long_description: 'Since 2013, Utah state agencies have used the [SUCCESS Framework](https://gomb.utah.gov/operational-excellence/success-framework-introduction/)
+      to perform cost-benefit analyses of government services by integrating three
+      performance elements: quality, throughput, and cost. The cost-benefit tool is
+      described in Utah’s [Measurement Guide](https://docs.google.com/document/d/1hTVt0rcZjzukYospzaye3lhe5NubSOK1F760BdClrTY/edit).
+      The SUCCESS Framework “help[s] agencies improve quality, reduce costs, and create
+      the capacity to do more with the same or fewer resources (improved throughput).”'
+    criteria: Cost-Benefit Analysis
+    issue:
+    - Criminal Justice
+    year: '2019'
+    status: Updated from 2018
+  year: '2019'
+- sys:
+    id: 4JQYW62EVooEXWqXYb8QEw
+    created_at: !ruby/object:DateTime 2019-09-29 21:17:54.845000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-29 21:17:54.845000000 Z
+    content_type_id: criteria
+    revision: 1
+  title: Use of Evidence in Grant Programs
+  order: 12
+  description: Did the state or any of its agencies (1) invest at least 50% of program
+    funds in evidence-based solutions or (2) use evidence of effectiveness when allocating
+    funds to eligible grantees (including local governments) from its five largest
+    competitive and noncompetitive grant programs?
+  explanation: "__Why is this important?__  \nRequiring a portion of grant funds to
+    be spent on evidence-based programs allows state governments to use and scale
+    proven program models to achieve better results."
+  leading_list:
+    sys:
+      id: 4xPnYwyyZZrUBgd3VT6KVO
+      created_at: !ruby/object:DateTime 2019-09-20 16:31:09.234000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 22:17:14.863000000 Z
+      content_type_id: leading
+      revision: 3
+    state: Nevada
+    state_abbreviation: NV
+    type: Single agency
+    short_description: Since 2017, the Nevada Department of Education has allocated
+      100% of the state’s $8.5 million in federal Title I school improvement funds
+      to districts and schools for interventions backed by strong, moderate, or promising
+      evidence.
+    long_description: "Since 2017, the Nevada Department of Education has [allocated](http://www.doe.nv.gov/uploadedFiles/ndedoenvgov/content/TitleI/1003aapplication2017.pdf)
+      100% of the state’s $8.5 million in federal Title I school improvement funds
+      to districts and schools for interventions backed by strong, moderate, or promising
+      evidence (using the top three tiers of evidence as [defined](https://www2.ed.gov/policy/elsec/leg/essa/guidanceuseseinvestment.pdf#page=8)
+      by the federal Every Student Succeeds Act (ESSA)). This represented an increase
+      over the approximately 15% of funds that had been allocated based on level of
+      evidence in the 2016-2017 school year. Grant recipients may set aside funds
+      to monitor and evaluate the identified evidence-based approaches to ensure the
+      investments yield a positive impact on student outcomes. Applications for Title
+      I school improvement funds must meet at least one of Nevada’s three statewide
+      \ priorities: focus on the lowest performing schools, data-driven decision-making,
+      and leadership development. \n\nBeginning in 2017, the Nevada Department of
+      Education began requiring school districts to invest awarded funds from two
+      additional federal grant programs in interventions that meet one of the four
+      tiers of evidence (strong, moderate, promising, and under evaluation) [defined](https://www2.ed.gov/policy/elsec/leg/essa/guidanceuseseinvestment.pdf#page=8)
+      in the Every Student Succeeds Act (ESSA): (1) [ESSA Title IV-B](http://www.doe.nv.gov/uploadedFiles/nde.doe.nv.gov/content/Grants/2018RFA-21stCCLCCURRENT.pdf)
+      ($9 million in 2017-2018), for the competitive 21st Century Community Learning
+      Centers grants and (2) Competitive [ESSA Title IV-A](http://www.doe.nv.gov/uploadedFiles/nde.doe.nv.gov/content/Grants/titleivrfa_.pdf)
+      grants ($3 million in federal funds to Nevada in 2017-2018 to increase students’
+      access to a well-rounded education), where applications with stronger evidence
+      are considered for funding before other applications. Applications for Title
+      IV-A must meet at least one of Nevada’s three statewide priorities: focus on
+      the lowest performing schools, data-driven decision-making, and leadership development.\n\nStarting
+      in 2013, the Nevada State Legislature passed a series of laws with strong evidence
+      requirements that aligned state education funding with ESSA’s tiered evidence
+      definition. The following six programs require grantees to use interventions
+      that meet one of the four [ESSA evidence tiers](https://www2.ed.gov/policy/elsec/leg/essa/guidanceuseseinvestment.pdf#page=8)
+      (though supplemental curriculum and professional development must meet the top
+      three tiers: strong, moderate, or promising) and align with one of Nevada’s
+      three statewide priorities: focus on the lowest performing schools, data-driven
+      decision-making, and leadership development: (1) The [Zoom School program](http://www.doe.nv.gov/uploadedFiles/ndedoenvgov/content/English_Language_Learners(ELL)/Zoom_Guidance_Document.pdf),
+      first [enacted](https://www.leg.state.nv.us/Session/79th2017/Bills/SB/SB504.pdf)
+      in 2013 supports competitive grants ($50 million per year in state education
+      funds) to help school districts provide English language instruction to non-native
+      speakers; (2) the Nevada Turnaround grant program, [authorized](https://www.leg.state.nv.us/App/NELIS/REL/79th2017/Bill/5835/Overview)
+      in 2017, is a [competitive grant program](http://www.doe.nv.gov/uploadedFiles/ndedoenvgov/content/Grants/Turnaround/TurnaroundGrantRFA2018.pdf)
+      ($2 million in state education funds per year) that helps underperforming schools
+      implement their school improvement plans; (3) SB 178, authorized in [2017](https://www.leg.state.nv.us/App/NELIS/REL/79th2017/Bill/5029/Overview),
+      gives [weighted formula grants](http://www.doe.nv.gov/uploadedFiles/ndedoenvgov/content/News__Media/Guidance_Memos/2017/sy18gm1730attachment.pdf)
+      to support extended learning opportunities in schools (approximately $1,200
+      for every eligible student; 2019 total funding of $70 million in state funds
+      per year); (4) the competitive [College and Career Readiness](http://www.doe.nv.gov/uploadedFiles/nde.doe.nv.gov/content/Grants/FY18_RFACollegeandCareerReadiness.pdf)
+      program ($4.9 million in state education funds per year), [created](https://www.leg.state.nv.us/App/NELIS/REL/79th2017/Bill/5835/Overview)
+      in 2017 helps school districts establish advanced programs for middle school
+      and high school students; (5) the [Victory Schools](http://www.doe.nv.gov/VictorySchools/)
+      initiative ($25 million in state education funds per year), [created](https://www.leg.state.nv.us/Session/78th2015/Reports/history.cfm?ID=949)
+      in 2017 (and [reauthorized](https://www.leg.state.nv.us/App/NELIS/REL/80th2019/Bill/6882/Overview)
+      in 2019) aims to improve results in the state’s lowest performing schools; and
+      (6) Nevada’s 2015 [Read by Grade Three Act](https://www.leg.state.nv.us/Session/78th2015/Bills/SB/SB391_EN.pdf)
+      ($22.3 million in state funds in 2016-17), [amended in 2019](https://www.leg.state.nv.us/App/NELIS/REL/80th2019/Bill/6517/Overview),
+      [allocates](https://www.leg.state.nv.us/Session/78th2015/Bills/SB/SB391_EN.pdf#page=14)
+      funds to school districts through a formula grant process."
+    criteria: Use of Evidence in Grant Programs
+    issue:
+    - Education
+    state_outline:
+      sys:
+        id: 4ShXz8rld8QFnRJS7kCuEL
+        created_at: !ruby/object:DateTime 2019-09-29 15:35:47.061000000 Z
+        updated_at: !ruby/object:DateTime 2019-09-29 15:35:52.388000000 Z
+      title: nevada
+      description: 
+      url: "//images.ctfassets.net/cu0oxaxjfcsj/4ShXz8rld8QFnRJS7kCuEL/1ed372cd87c22f701bd2fd5142efb8b0/Nevada.svg"
+    year: '2019'
+    status: New
+  promising_list:
+  - sys:
+      id: 1Le1wmYTPRq3fUI6t44QwY
+      created_at: !ruby/object:DateTime 2019-09-29 20:54:36.440000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 20:54:36.440000000 Z
+      content_type_id: promising
+      revision: 1
+    state: Colorado
+    state_abbreviation: CO
+    type: Single agency
+    long_description: In 2018, the Colorado Department of Education grant program
+      for school improvement, [Empowering Action for School Improvement](https://www.cde.state.co.us/fedprograms/easiapplication),
+      required schools to use [evidence-based practices](https://www.cde.state.co.us/fedprograms/easiapplicationplanningdocument#page=8)
+      as defined by the federal Every Student Succeeds Act (ESSA). The application
+      gives points for [the use of evidence-based strategies](https://www.cde.state.co.us/fedprograms/easiapplicationplanningdocument#page=8)
+      as well as [past performance](https://www.cde.state.co.us/fedprograms/easiapplicationplanningdocument#page=30)
+      to applicants that are seeking to expand existing initiatives.
+    criteria: Use of Evidence in Grant Programs
+    issue:
+    - Education
+    year: '2019'
+    status: New
+  - sys:
+      id: Lvk0Diqm23RhySIjtirOd
+      created_at: !ruby/object:DateTime 2019-09-29 21:09:41.248000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 21:09:41.248000000 Z
+      content_type_id: promising
+      revision: 1
+    state: Florida
+    state_abbreviation: FL
+    type: Single agency
+    long_description: Florida’s Department of Juvenile Justice requires all residential
+      commitment prevention contractors to implement at least one evidence-based model
+      from the agency’s [Sourcebook of Delinquency Interventions](http://www.djj.state.fl.us/docs/partners-providers-staff/sourcebook-2018-v-2-0.pdf?sfvrsn=0).
+      The sourcebook defines three levels of evidence (evidence-based practices, promising
+      practices, and practices with demonstrated effectiveness) and lists all juvenile
+      justice programs according to their level of evidence. The Department also introduced
+      a [Standardized Program Evaluation Protocol](http://www.djj.state.fl.us/research/latest-initiatives/juvenile-justice-system-improvement-project-(jjsip)/standardized-program-evaluation-protocol-(spep)),
+      a monitoring tool to ensure providers implement programs with fidelity.
+    criteria: Use of Evidence in Grant Programs
+    issue:
+    - Criminal Justice
+    year: '2019'
+    status: Updated from 2018
+  - sys:
+      id: 0XnUpqG7syJnyF02zZvFO
+      created_at: !ruby/object:DateTime 2019-09-29 21:11:33.335000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 21:11:33.335000000 Z
+      content_type_id: promising
+      revision: 1
+    state: Georgia
+    state_abbreviation: GA
+    type: Single agency
+    long_description: 'Georgia’s Division of Family and Children Services’ [Promoting
+      Safe and Stable Families](https://www.pssfnet.com/pages/?pssf-in-georgia) program
+      requires that all “service plans must include evidence-based programs, practices
+      and/or strategies proven effective in meeting the needs of children and their
+      families.” The program includes a list of permitted models that may be used
+      in areas such as [Prevention and Early Intervention](https://www.pssfnet.com/pages/?337). '
+    criteria: Use of Evidence in Grant Programs
+    issue:
+    - Child Welfare
+    year: '2019'
+    status: Updated from 2018
+  - sys:
+      id: 22VZBdxNhKyZ2DGEsk76G1
+      created_at: !ruby/object:DateTime 2019-09-29 20:56:15.184000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 20:56:15.184000000 Z
+      content_type_id: promising
+      revision: 1
+    state: Maryland
+    state_abbreviation: MD
+    type: Single agency
+    long_description: The Maryland Governor’s Office for Children gives grants to
+      [Local Management Boards](https://goc.maryland.gov/lmb/) to coordinate county
+      child welfare efforts. The [grant](https://goc.maryland.gov/nofa/) application
+      [allocates 10 points](https://goc.maryland.gov/wp-content/uploads/sites/8/2019/01/FY20-NOFA-Issued-12-31-2018-Revised-01-25-2018.docx.pdf#page=14)
+      (out of 100) for evidence of effectiveness, including a requirement that current
+      grantees submit at least three years of data on their approved performance measures.
+      The grant also provides a bonus point to any applicant that proposes an evidence-based
+      home visiting program utilizing a [model approved](https://homvee.acf.hhs.gov/models.aspx)
+      by the U.S. Department of Health and Human Services.
+    criteria: Use of Evidence in Grant Programs
+    issue:
+    - Child Welfare
+    year: '2019'
+    status: New
+  - sys:
+      id: 4bvrCI80IYQbzl67ih2f7J
+      created_at: !ruby/object:DateTime 2019-09-29 20:57:27.697000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 20:57:27.697000000 Z
+      content_type_id: promising
+      revision: 1
+    state: Massachusetts
+    state_abbreviation: MA
+    type: Single agency
+    long_description: The Massachusetts Department of Elementary and Secondary Education
+      distributes formula funds to its lowest performing districts and schools through
+      the [Turnaround Assistance Grant program](http://www.doe.mass.edu/turnaround/redesign/).
+      The [grant application](http://www.doe.mass.edu/grants/2019/222-325/) requires
+      applicants to incorporate at least one strategy that has strong, moderate, or
+      promising evidence as [defined](https://www2.ed.gov/policy/elsec/leg/essa/guidanceuseseinvestment.pdf#page=8)
+      by the federal Every Student Succeeds Act (ESSA). The Department provides support
+      to potential applicants on using evidence-based practices through its [How Do
+      We Know Initiative](http://www.doe.mass.edu/research/howdoweknow/).
+    criteria: Use of Evidence in Grant Programs
+    issue:
+    - Education
+    year: '2019'
+    status: New
+  - sys:
+      id: azf3gl4rALD3yLL70AXBA
+      created_at: !ruby/object:DateTime 2019-09-29 20:58:58.053000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 22:17:38.306000000 Z
+      content_type_id: promising
+      revision: 2
+    state: Minnesota
+    state_abbreviation: MN
+    type: Statewide
+    long_description: In 2017 Minnesota Management and Budget released a cost-benefit
+      analysis on [adult and youth substance](https://mn.gov/mmb-stat/results-first/substance-use-report-summary.pdf)
+      which found that LifeSkills Training, an evidence-based social emotional learning
+      curriculum to develop students’ social and self-management skills, produced
+      an estimated $10.60 in benefits for each dollar invested. As a result of these
+      findings, the State of Minnesota [partnered](https://mn.gov/governor/news/#/detail/appId/1/id/397334)
+      with philanthropic donors to [deliver the program](https://mn.gov/mmb-stat/behavioral-health-grant/social-emotional-learning-and-lst-curriculum-overlap.pdf)
+      to 15,000 middle school students across the state.
+    criteria: Use of Evidence in Grant Programs
+    issue:
+    - Child Welfare
+    - Health
+    year: '2019'
+    status: New
+  - sys:
+      id: 4x5QCoQHtEDhOudhbX7Ywg
+      created_at: !ruby/object:DateTime 2019-09-29 21:08:21.070000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 21:08:21.070000000 Z
+      content_type_id: promising
+      revision: 1
+    state: New York
+    state_abbreviation: NY
+    type: Multiple agencies
+    long_description: |-
+      Beginning in 2011, the New York State Office of Alcohol and Substance Abuse Services (OASAS) has [required programs that receive its grant funding](https://www.oasas.ny.gov/prevention/documents/2014PreventionGuidelines.pdf) (p. 13) to “allocate a percentage of their OASAS funded prevention efforts to the delivery of evidence-based programs and strategies.” The percentage started at [35% in 2011](https://www.oasas.ny.gov/prevention/documents/2014PreventionGuidelines.pdf) (p. 14), escalated to 50% in 2014, and to 70% in 2018. To assist in the implementation of evidence-based programs, OASAS created a [Registry of Evidence-based Programs](https://www.oasas.ny.gov/prevention/documents/2014PreventionGuidelines.pdf) and Strategies (p. 12). Promising programs can be proposed to a [state panel for approval and inclusion](http://www.npnconference.org/wp-content/uploads/2016/09/NPN2016-OASAS-EBP-Panel_Part-1and2.PowerPoint.pdf) in the [OASAS](https://www.oasas.ny.gov/prevention/evidence/EBPSList.cfm) registry.
+
+      The New York State Division of Criminal Justice Services increased its funding of evidence-based interventions, by targeting [75% of its alternative to incarceration funds](http://www.pewtrusts.org/~/media/assets/2015/11/rf_nys_case_study.pdf) (pp. 5–6) toward evidence-based interventions beginning in FY 2015–2016. This funding target was based on the department’s [technical report](http://www.criminaljustice.ny.gov/crimnet/ojsa/resultsfirst/rf-technical_report_cba1_oct2013.pdf) and [cost-benefit analysis](http://www.criminaljustice.ny.gov/crimnet/ojsa/resultsfirst/net-impact-table-with-guide.pdf) to outline the impact, costs, and benefits of specific criminal justice interventions. The state’s 2018-2019 Alternative to Incarceration [competitive grant](http://www.criminaljustice.ny.gov/crimnet/ojsa/resultsfirst/net-impact-table-with-guide.pdf) ($7.6 million) was designed to “provide evidence-based services to adults involved in the criminal justice system.”
+    criteria: Use of Evidence in Grant Programs
+    issue:
+    - Criminal Justice
+    - Health
+    year: '2019'
+    status: Updated from 2018
+  - sys:
+      id: 4FeP2YfNMgQpqOZdmPeTnl
+      created_at: !ruby/object:DateTime 2019-09-29 21:13:51.892000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 22:19:30.444000000 Z
+      content_type_id: promising
+      revision: 3
+    state: Ohio
+    state_abbreviation: OH
+    type: Multiple agencies
+    long_description: "The Ohio Department of Higher Education’s [Aspire program](https://www.ohiohighered.org/aspire)
+      uses a performance-based funding formula for workforce readiness education providers.
+      Grants are awarded in a three-year cycle and [require applicants](https://www2.ed.gov/about/offices/list/osers/rsa/wioa/state-plans/oh.pdf#page=84)
+      to “provide statistical evidence of program effectiveness for the prior three
+      years related to successful student outcomes.” Performance is measured annually
+      and funding is adjusted based on performance against [established benchmarks](https://www2.ed.gov/about/offices/list/osers/rsa/wioa/state-plans/oh.pdf#page=35).
+      \n\nThe Ohio Department of Job and Family Services oversees the [Ohio Children’s
+      Trust Fund](https://jfs.ohio.gov/octf/), which provides [grants](https://octf.ohio.gov/wps/portal/gov/octf/apply-for-funding/what-we-fund)
+      to support local child welfare activities across the state for “programs that
+      are based on evidence and research.” The 2019 [statewide grant instructions](https://octf.ohio.gov/wps/portal/gov/octf/apply-for-funding/current-funding-opportunities/statewide-grant-application-2019)
+      (Statewide Application Packet, Attachment A) require a logic model, theory of
+      change, and evaluation plan. It also recommends utilizing best-practices included
+      in the [California Evidence-Based Clearinghouse for Child Welfare](https://www.cebc4cw.org/program/healthy-families-america-home-visiting-for-prevention-of-child-abuse-and-neglect/).
+      In addition, the Caregiving and Parenting Skills [grant program](https://octf.ohio.gov/wps/portal/gov/octf/apply-for-funding/what-we-fund/)
+      requires grantees to implement specific evidence-based programs listed in the
+      application. "
+    criteria: Use of Evidence in Grant Programs
+    issue:
+    - Child Welfare
+    - Education
+    - Workforce
+    year: '2019'
+    status: New
+  - sys:
+      id: 5Pds5lh3ZfkZf8YHhJIwoL
+      created_at: !ruby/object:DateTime 2019-09-29 21:15:15.024000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 21:15:23.638000000 Z
+      content_type_id: promising
+      revision: 2
+    state: Oregon
+    state_abbreviation: OR
+    type: Multiple agencies
+    long_description: A [2003 Oregon law](https://www.oregonlaws.org/ors/182.515)
+      (Senate Bill 267) provides a [definition of evidence](https://www.oregonlaws.org/ors/182.515)
+      and states that the Oregon Department of Corrections, the Oregon Youth Authority,
+      the Oregon Youth Development Division, and “the part of the Oregon Health Authority
+      that deals with mental health and addiction issues” [shall](https://www.oregonlaws.org/ors/182.525)
+      (1) “spend at least 75 percent of state moneys that the agency receives for
+      programs on evidence-based programs;” (2) perform cost-benefit analyses; and
+      (3) compile a biennial program inventory with results from funded programs.
+      As of 2018, the Youth Authority [spent](https://www.oregon.gov/oya/docs/SB267_2018.pdf#page=10)
+      “90 percent of General Funds and almost 92 percent of total funds subject to
+      Oregon’s Senate Bill 267 (SB267) on evidence-based programming.”
+    criteria: Use of Evidence in Grant Programs
+    issue:
+    - Child Welfare
+    - Criminal Justice
+    - Health
+    year: '2019'
+    status: Updated from 2018
+  - sys:
+      id: 11ApfaPTCF1ZIYL7GjLEn4
+      created_at: !ruby/object:DateTime 2019-09-29 21:17:19.653000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 21:17:19.653000000 Z
+      content_type_id: promising
+      revision: 1
+    state: Tennessee
+    state_abbreviation: TN
+    type: Multiple agencies
+    long_description: "A [2007 Tennessee law](https://law.justia.com/codes/tennessee/2016/title-37/chapter-5/part-1/section-37-5-121/)
+      defines evidence and requires that 100% of the state’s juvenile justice funding
+      be evidence-based beginning in 2012, with the exception of pilot programs that
+      are building the evidence basis for research or theory-based interventions.
+      As a result, the Tennessee Department of Children’s Services’ 2017 [Request
+      for Proposal](https://www.tn.gov/content/dam/tn/dcs/documents/for-providers/procurement/Grant_AOF_Mandatory_Reqs.pdf)
+      for juvenile justice services, which provides funding through 2020, noted that
+      “the Department of Children’s Services is prohibited from expending state funds
+      on any juvenile justice program...unless the program is evidence-based” (p.
+      23). The law also established (in 37-5-121(a)) four levels of evidence for the
+      juvenile justice programs. \n\nThe 2010 [Complete College Tennessee Act](https://www.tbr.edu/sites/tbr.edu/files/media/2015/01/Complete%20College%20TN%20Act%202010%20-%20signed.pdf)
+      included provisions for using evidence of effectiveness in the funding system
+      for public colleges and universities in the state. The competitive [outcomes-based
+      funding system](https://www.tn.gov/content/dam/tn/thec/bureau/fiscal_admin/fiscal_pol/obff/1_-_Outcomes_Based_Funding_Formula_Overview_-_One_Page.pdf)
+      allocates state funds based on student progress and completion metrics, rather
+      than traditional enrollment-based criteria. The Tennessee Higher Education Commission
+      [annually updates](https://www.tn.gov/thec/bureaus/finance-and-administration/fiscal-policy/redirect-fiscal-policy/outcomes-based-funding-formula-resources/redirect-outcomes-based-funding-formula-resources/2015-20-outcomes-based-funding-formula.html)
+      the funding formula based on outcome data."
+    criteria: Use of Evidence in Grant Programs
+    issue:
+    - Child Welfare
+    - Criminal Justice
+    - Education
+    year: '2019'
+    status: Updated from 2018
+  year: '2019'
+- sys:
+    id: 3llmLxGxcFK420cv58qDHF
+    created_at: !ruby/object:DateTime 2019-09-29 21:26:48.609000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-29 21:26:48.609000000 Z
+    content_type_id: criteria
+    revision: 1
+  title: Innovation
+  order: 13
+  description: Did the state or any of its agencies have staff, policies, and processes
+    in place that encouraged innovation to improve outcomes?
+  explanation: "__Why is this important?__  \nEncouraging innovation allows state
+    governments to implement new models that can improve programs and build new evidence
+    about what works."
+  leading_list:
+    sys:
+      id: 4vpuLFYm1PWSvpvlITpOzV
+      created_at: !ruby/object:DateTime 2019-09-20 16:31:18.327000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 15:43:31.876000000 Z
+      content_type_id: leading
+      revision: 3
+    state: California
+    state_abbreviation: CA
+    type: Statewide
+    short_description: The California Government Operations Agency (GovOps), which
+      serves as an umbrella organization for the state’s innovation work, is designed
+      to institutionalize policies, tools, and training that can drive its mission
+      to modernize the processes of government through lean process improvement, data,
+      leadership, and performance improvement.
+    long_description: The [California Government Operations Agency](https://www.govops.ca.gov/)
+      (GovOps), which serves as an umbrella organization for the state’s innovation
+      work, is designed to institutionalize policies, tools, and training that can
+      drive its mission to modernize the processes of government through lean process
+      improvement, data, leadership, and performance improvement. GovOps brings together
+      statewide initiatives such as the [Lean Academy](https://gcc01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.calhr.ca.gov%2FTraining%2FPages%2Flean.aspx&data=02%7C01%7CAngelica.Quirarte%40govops.ca.gov%7C204a309a33d64b2f4da208d7354f7220%7C68a88534151d4e79804609be7890656c%7C0%7C0%7C637036487646152722&sdata=BJEWS9x1IpTecmyuCeKKIuIYbuQkEoibi7SP5xJUXf0%3D&reserved=0),
+      [California Leadership Academy](https://gcc01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.calhr.ca.gov%2FTraining%2FPages%2Fcalifornia-leadership-academy.aspx&data=02%7C01%7CAngelica.Quirarte%40govops.ca.gov%7C204a309a33d64b2f4da208d7354f7220%7C68a88534151d4e79804609be7890656c%7C0%7C0%7C637036487646162715&sdata=xdZfm1YQPPDzY2kK9ILbMRdAy4%2BsttGU8ZerN2zS834%3D&reserved=0),
+      the [Office of Digital Innovation](https://www.govops.ca.gov/office-of-digital-innovation/),
+      and [California’s Open Data Portal](https://gcc01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdata.ca.gov%2F&data=02%7C01%7CAngelica.Quirarte%40govops.ca.gov%7C204a309a33d64b2f4da208d7354f7220%7C68a88534151d4e79804609be7890656c%7C0%7C0%7C637036487646162715&sdata=o0S4D4yGhJndkSvnuHnE%2B%2BJr1ylx6yfsq25fwLc%2BrB8%3D&reserved=0)
+      resources. Also, the California Health and Human Services Agency has an [Office
+      of Innovation](https://gcc01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.chhs.ca.gov%2Fhome%2Finnovation%2F&data=02%7C01%7CAngelica.Quirarte%40govops.ca.gov%7C204a309a33d64b2f4da208d7354f7220%7C68a88534151d4e79804609be7890656c%7C0%7C0%7C637036487646172706&sdata=YKYIZxGLQlTQQhK1auA3md98vFigilXVv%2B2WIXwRstk%3D&reserved=0)
+      that focuses on improving programs and services through the use of tools such
+      as human centered design and data analytics.
+    criteria: Innovation
+    state_outline:
+      sys:
+        id: 1HoXTQbMDSyCQM44oi0U8w
+        created_at: !ruby/object:DateTime 2018-06-26 21:53:46.418000000 Z
+        updated_at: !ruby/object:DateTime 2019-09-29 15:43:05.876000000 Z
+      title: california
+      description: 
+      url: "//images.ctfassets.net/cu0oxaxjfcsj/1HoXTQbMDSyCQM44oi0U8w/faf38f579cff209b83ecbe45eb8ecbc2/California.svg"
+    year: '2019'
+    status: New
+  promising_list:
+  - sys:
+      id: 5TbupcfyVMcrAJuwvkP7i1
+      created_at: !ruby/object:DateTime 2019-09-29 21:20:24.392000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 21:20:24.392000000 Z
+      content_type_id: promising
+      revision: 1
+    state: Missouri
+    state_abbreviation: MO
+    type: Statewide
+    long_description: In 2019, Missouri launched [The Show Me Challenge](https://showmechallenge.mo.gov/),
+      which encourages state employees to [pitch](https://showmechallenge.mo.gov/documents/pitch-template.xlsm)
+      innovative ways to serve the state’s citizens better and [improve the effectiveness](https://oa.mo.gov/commissioners-office/news/state-missouri-team-members-compete-second-cycle-show-me-challenge-pitch)
+      of government.
+    criteria: Innovation
+    year: '2019'
+    status: New
+  - sys:
+      id: 1vl3lsrH7LZcDvi3zkh8CF
+      created_at: !ruby/object:DateTime 2019-09-29 21:21:50.102000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 21:21:50.102000000 Z
+      content_type_id: promising
+      revision: 1
+    state: Ohio
+    state_abbreviation: OH
+    type: Statewide
+    long_description: "[LeanOhio](http://lean.ohio.gov/), an initiative of the Ohio
+      Department of Administrative Services, uses the Lean process improvement methodology
+      to assist state agencies in streamlining their service delivery through [consultations](http://lean.ohio.gov/consult.aspx)
+      and [training](http://lean.ohio.gov/Training.aspx). Between 2011 and 2019, LeanOhio
+      [ran](https://lean.ohio.gov/Results/2011-2019Results.aspx) more than [340 projects](https://lean.ohio.gov/Results.aspx)
+      in 44 agencies, boards, and commissions."
+    criteria: Innovation
+    year: '2019'
+    status: Updated from 2018
+  - sys:
+      id: 2i1qfgLhc6J2KKqFToX5PP
+      created_at: !ruby/object:DateTime 2019-09-29 21:23:02.066000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 21:23:02.066000000 Z
+      content_type_id: promising
+      revision: 1
+    state: Oregon
+    state_abbreviation: OR
+    type: Single agency
+    long_description: The Oregon Youth Authority has used predictive models to determine
+      which interventions are most likely to succeed for at-risk and court-involved
+      youth. These [risk assessment](https://www.oregon.gov/oya/pages/research/jjisriskoverview.aspx#Youth_Risk_Overview)
+      tools are based on data and outcomes captured in the state’s [Juvenile Justice
+      Information System](https://www.oregon.gov/oya/pages/jjis.aspx), which uses
+      a risk/needs profile to “assist in decision making for appropriate supervision
+      levels, service type and dosage, readiness for transition, and support program
+      evaluation.” A [2019 report on recidivism](https://www.oregon.gov/oya/reports/recidivism/RecidivismFY01-FY17.pdf)
+      outcomes was published using data captured by the Juvenile Justice Information
+      System.
+    criteria: Innovation
+    issue:
+    - Criminal Justice
+    year: '2019'
+    status: Updated from 2018
+  - sys:
+      id: 1kuI2OpHJcCgLetcUebtkO
+      created_at: !ruby/object:DateTime 2019-09-29 21:23:59.244000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 21:23:59.244000000 Z
+      content_type_id: promising
+      revision: 1
+    state: Rhode Island
+    state_abbreviation: RI
+    type: Statewide
+    long_description: 'The Rhode Island Governor’s Office has partnered with the [The
+      Policy Lab at Brown University](https://thepolicylab.brown.edu), which [launched](https://www.brown.edu/news/2019-05-09/policy)
+      in 2019, to bring together experts from government, universities, and community
+      organizations to collaborate on research tailored to inform decisions about
+      how to improve policies and programs across the state. '
+    criteria: Innovation
+    year: '2019'
+    status: New
+  - sys:
+      id: 6b6XctWk3hkv9aFbO4QzvH
+      created_at: !ruby/object:DateTime 2019-09-29 21:25:13.099000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 21:25:13.099000000 Z
+      content_type_id: promising
+      revision: 1
+    state: Utah
+    state_abbreviation: UT
+    type: Multiple agencies
+    long_description: In 2012, the Governor challenged the state to achieve a 25%
+      improvement in operational performance within four years. Between January 2013
+      and December 2018, the state [demonstrated](https://gomb.utah.gov/wp-content/uploads/2019/07/GOMB-Highlights-Report_July2019_single-pgs-3.pdf)
+      a 27.4% improvement, as measured via the QT/OE [formula](https://docs.google.com/document/d/1hTVt0rcZjzukYospzaye3lhe5NubSOK1F760BdClrTY/edit),
+      thereby exceeding the Governor’s goal. As part of this work, the Utah Governor’s
+      Office of Management and Budget developed the [Rules of Flow](https://gomb.utah.gov/rules-of-flow/),
+      a framework designed to improve workflow. This framework was [applied](https://gomb.utah.gov/2018/09/11/utah-state-hospital-success-story/)
+      to the Utah State Hospital where a pilot from January to August 2018 reduced
+      the average length of stay, improved discharge rates, and increased the number
+      of people admitted to the hospital by 77%.
+    criteria: Innovation
+    issue:
+    - Health
+    year: '2019'
+    status: New
+  - sys:
+      id: 1L7S29s1LBT4YN9yp7gcbv
+      created_at: !ruby/object:DateTime 2019-09-29 21:26:30.587000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 21:26:30.587000000 Z
+      content_type_id: promising
+      revision: 1
+    state: Washington
+    state_abbreviation: WA
+    type: Statewide
+    long_description: As part of Washington’s Lean process improvement initiative
+      to improve the quality of state government services, Results Washington hosts
+      an annual statewide [Washington State Government Lean Transformation Conference](https://results.wa.gov/improving-government/lean/lean-conference),
+      which convenes 2,000 people from dozens of state agencies, tribal government,
+      local government, and the private sector to learn about Lean. Results Washington’s
+      Lean program publishes [case studies](https://www.results.wa.gov/goals-progress/tracking-progress/case-studies),
+      issues a [list](https://www.results.wa.gov/lean/agency-list) of improvements
+      by state agencies, and runs a [Lean Fellowship Program](https://www.results.wa.gov/sites/default/files/Washington%20State%20Lean%20Fellowship%20Program.pdf)
+      housed within the governor’s office.
+    criteria: Innovation
+    year: '2019'
+    status: Updated from 2018
+  year: '2019'
+- sys:
+    id: 4cwB5q0Mdi82BCdrCdM20p
+    created_at: !ruby/object:DateTime 2019-09-29 21:44:33.590000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-29 21:44:33.590000000 Z
+    content_type_id: criteria
+    revision: 1
+  title: Contracting for Outcomes
+  order: 14
+  description: Did the state or any of its agencies enter into performance-based contracts
+    and/or use active contract management (frequent use of data and regular communication
+    with providers to monitor implementation and progress) to improve outcomes for
+    publicly funded programs?
+  explanation: "__Why is this important?__  \nPerformance contracting techniques allow
+    state governments to get better results and value for each taxpayer dollar."
+  leading_list:
+    sys:
+      id: 24P5khzBzfrC2I52sfoEZX
+      created_at: !ruby/object:DateTime 2019-09-20 16:31:24.380000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 22:20:30.373000000 Z
+      content_type_id: leading
+      revision: 3
+    state: Rhode Island
+    state_abbreviation: RI
+    type: Multiple agencies
+    short_description: Since 2015, Rhode Island’s Department of Children, Youth, and
+      Families (DCYF) has worked to reform and restructure the department’s procurement
+      processes.
+    long_description: "Since 2015, Rhode Island’s Department of Children, Youth, and
+      Families (DCYF) has worked to [reform and restructure](https://govlab.hks.harvard.edu/rhode-island-department-children-youth-and-families-performance-improvement)
+      the department’s procurement processes in four areas: improving service delivery
+      through strategic planning, embedding results-driven procurement in new contracts,
+      improving performance through active contract management practices, and supporting
+      results-driven contracting practices through technical resources, tools, and
+      processes for staff. As part of this initiative, the department executed $90
+      million in 116 results-driven contracts that require providers to meet outcome
+      goals rather than output metrics. As a result, DCYF has reduced the number of
+      children in group care by over 20% since 2015, experienced a 50 percent expansion
+      of foster care resources for the most challenging adolescents, doubled the capacity
+      of high quality family visitation and reunification services, and made start-up
+      investments of $1.2 million in nonprofit community organizations to support
+      new and expanded programming.\n\nIn 2015, Rhode Island’s Department of Labor
+      and Training launched Real Jobs Rhode Island, an innovative $14 million workforce
+      program. To track the program’s success, Rhode Island [created](https://govlab.hks.harvard.edu/rhode-island-workforce-development)
+      performance-based metrics and used frequent meetings with training providers
+      to track results and make course corrections. As a result of this active contract
+      management, Rhode Island was able to reconfigure the way it manages and [evaluates](http://www.dlt.ri.gov/realjobs/pdfs/ProgReportRJRI.pdf)
+      its job training programs to capture meaningful long-term employment outcomes.
+      The state also has created a Strategic Coaching Procurement Playbook, which
+      includes [specific strategies](http://www.purchasing.ri.gov/StateAgencyInfoCenter/DocsForms/strategic-procurement-coaching-playbook.pdf#page=15)
+      and [sample language](http://www.purchasing.ri.gov/StateAgencyInfoCenter/DocsForms/strategic-procurement-coaching-playbook.pdf#page=16)
+      for using active contract management to get better results. "
+    criteria: Contracting for Outcomes
+    issue:
+    - Child Welfare
+    - Workforce
+    state_outline:
+      sys:
+        id: 4dD1eTKWtGMoyWYeI66y4G
+        created_at: !ruby/object:DateTime 2018-06-26 21:53:22.004000000 Z
+        updated_at: !ruby/object:DateTime 2019-09-29 15:41:30.737000000 Z
+      title: rhodeisland
+      description: 
+      url: "//images.ctfassets.net/cu0oxaxjfcsj/4dD1eTKWtGMoyWYeI66y4G/ff7c1d6771c47879c8da4e10602adea6/Rhode_Island.svg"
+    year: '2019'
+    status: New
+  promising_list:
+  - sys:
+      id: 5QlNV71sOMAgD62AfI7RL0
+      created_at: !ruby/object:DateTime 2019-09-29 21:28:38.305000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 22:21:33.159000000 Z
+      content_type_id: promising
+      revision: 2
+    state: Illinois
+    state_abbreviation: IL
+    type: Multiple agencies
+    long_description: The Illinois Department of Juvenile Justice and Department of
+      Children and Family Services streamlined the process for supporting youth who
+      are dually involved in the child welfare and criminal justice systems. The [project](https://govlab.hks.harvard.edu/illinois-wraparound-services-child-welfare-and-juvenile-justice-involved-youth)
+      used a performance-based contract, active contract management, and other tools
+      to focus on improving case management and coordination between the foster care
+      and juvenile justice systems, and improving services by using evidence-based
+      interventions. Early results include reducing the reporting time for the state
+      to share juvenile justice occurrences with child welfare agencies from 90 days
+      to less than 3 days.
+    criteria: Contracting for Outcomes
+    issue:
+    - Criminal Justice
+    year: '2019'
+    status: New
+  - sys:
+      id: vy7DJ6wPc3G8pAa33ORCp
+      created_at: !ruby/object:DateTime 2019-09-29 21:29:59.872000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 21:29:59.872000000 Z
+      content_type_id: promising
+      revision: 1
+    state: Massachusetts
+    state_abbreviation: MA
+    type: Single agency
+    long_description: In 2014, Massachusetts launched the [Massachusetts Chronic Homelessness
+      Pay for Success Initiative](http://www.payforsuccess.org/project/massachusetts-chronic-homelessness-pay-success-initiative)
+      to provide permanent supportive housing to 500 to 800 individuals experiencing
+      chronic homelessness. As part of the five-year, $3.5 million project, the state
+      will make payments based on stable housing for at least one year for program
+      clients.The project partners hold monthly operational monitoring meetings to
+      review performance and quarterly oversight meetings with Massachusetts Department
+      of Housing and Community Development. As of July 2019, the Pay for Success program
+      has [housed 857 tenants](https://www.mhsa.net/PFS), of which 643 have been enrolled
+      in the innovative Medicaid reimbursement program, [Community Support Program
+      for People Experiencing Chronic Homelessness](https://www.mhsa.net/about-us/health-care-and-housing),
+      that provides health services for chronically homeless individuals. Massachusetts
+      has also launched a Pay for Success contract, [Pathways to Economic Advancement](http://www.payforsuccess.org/project/massachusetts-pathways-economic-advancement),
+      to improve employment outcomes for immigrants.
+    criteria: Contracting for Outcomes
+    issue:
+    - Economic Opportunity
+    year: '2019'
+    status: Updated from 2018
+  - sys:
+      id: 6aP4Vu6Jo8JdvCVXI85cfU
+      created_at: !ruby/object:DateTime 2019-09-29 21:30:53.032000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 21:31:04.601000000 Z
+      content_type_id: promising
+      revision: 2
+    state: New York
+    state_abbreviation: NY
+    type: Single agency
+    long_description: New York State’s Office of Temporary and Disability Assistance
+      issues outcomes-based contracts for workforce training [providers](http://otda.ny.gov/programs/employment/venture-providers/)
+      in its Supplemental Nutrition Assistance Program Employment and Training Venture
+      Program. The most recent grants, which fund providers through 2021, [link payments](http://www.bidnet.com/bneattachments?/402114521.pdf)
+      (p. 17) to such milestones as educational gains, program completion, job entry,
+      and job retention.
+    criteria: Contracting for Outcomes
+    issue:
+    - Workforce
+    year: '2019'
+    status: New
+  - sys:
+      id: 6aJY0WuiOIszxU2dloN44T
+      created_at: !ruby/object:DateTime 2019-09-29 21:32:06.547000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 21:32:06.547000000 Z
+      content_type_id: promising
+      revision: 1
+    state: Nevada
+    state_abbreviation: NV
+    type: Single agency
+    long_description: 'In 2018, the Nevada Governor’s Office of Workforce Innovation
+      [released](http://gov.nv.gov/uploadedFiles/govnvgov/Content/OWINN/Press%20Release_Nevada%20WBL%20Pay-For-Performance%20Grants(2).pdf)
+      a work-based learning [request for proposal](http://gov.nv.gov/uploadedFiles/govnvgov/Work-Based%20Learning%20Performance%20Grants_OWINN%202018_Final.pdf)
+      that combines evidence-based strategy requirements with pay for performance
+      to “develop stronger contracts linked to outcomes and ensure more effective
+      use of tax dollars.” The initiative provides base level of funding that varies
+      depending on the difficulty of the population being served and ties the remaining
+      funds to performance benchmarks, including employment or completion of an apprenticeship
+      program. '
+    criteria: Contracting for Outcomes
+    issue:
+    - Workforce
+    year: '2019'
+    status: New
+  - sys:
+      id: 3HqA5tQCN9KYcFenj9Ftbu
+      created_at: !ruby/object:DateTime 2019-09-29 21:41:29.753000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 21:41:29.753000000 Z
+      content_type_id: promising
+      revision: 1
+    state: Tennessee
+    state_abbreviation: TN
+    type: Single agency
+    long_description: 'In 2016, the Tennessee Department of Children’s Services introduced
+      a [performance-based contracting model](https://www.tn.gov/dcs/for-providers/performance-based-contracting.html)
+      that includes “Performance Bands.” Agencies are [placed](https://www.tn.gov/content/dam/tn/dcs/documents/for-providers/PBC_Basic_Principles.pdf)
+      into one of three bands: high performance, mid-range (or average) performance,
+      or lower performance. Providers are then paid based on their performance on
+      specific metrics. As a result of this performance pay system, the agency has
+      standardized outcomes, [daily rates for contracts](https://www.tn.gov/content/dam/tn/dcs/documents/for-providers/TN_DCS_Contracts_Rates.pdf),
+      metric definitions, and measurement methodology. As part of this initiative,
+      the agency distributes monthly performance reports to providers.'
+    criteria: Contracting for Outcomes
+    issue:
+    - Child Welfare
+    year: '2019'
+    status: Updated from 2018
+  - sys:
+      id: 2jMGl0IxxYbi83aqnK17vt
+      created_at: !ruby/object:DateTime 2019-09-29 21:44:20.450000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 21:44:20.450000000 Z
+      content_type_id: promising
+      revision: 1
+    state: Various States
+    state_abbreviation: Various States
+    long_description: Five states (California, [Colorado](https://sites.google.com/state.co.us/rfpfs/pay-for-success),
+      Connecticut, Michigan, and South Carolina) are currently implementing Pay for
+      Success initiatives but have yet to report outcomes or results from those initiatives.
+      For the most recent information about the projects, their partners, and their
+      outcomes, please visit the [Nonprofit Finance Fund](http://www.payforsuccess.org/projects/?facets%255B0%255D=project_scope%253A584&facets%255B1%255D=project_scope%253A583&sort=recent)
+      or [Social Finance](http://socialfinance.org/what-is-pay-for-success/).
+    criteria: Contracting for Outcomes
+    year: '2019'
+  year: '2019'
+- sys:
+    id: 4OJ9dorNTzAWjyUloKg0KA
+    created_at: !ruby/object:DateTime 2019-09-29 21:47:51.949000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-29 21:47:51.949000000 Z
+    content_type_id: criteria
+    revision: 1
+  title: Repurpose for Results
+  order: 15
+  description: Did the state or any of its agencies shift funds away from any practice,
+    policy, or program which consistently failed to achieve desired outcomes?
+  explanation: "__Why is this important?__  \nRepurposing funds from programs that
+    fail to consistently achieve results to programs that consistently achieve results
+    is a key strategy for state governments to improve their performance while building
+    knowledge about what works."
+  leading_list:
+    sys:
+      id: 2oXTqTm8p2hysarZ0O6bCZ
+      created_at: !ruby/object:DateTime 2019-09-20 16:29:55.006000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 15:44:58.432000000 Z
+      content_type_id: leading
+      revision: 3
+    state: Pennsylvania
+    state_abbreviation: PA
+    type: Single agency
+    short_description: Since 2013, the Pennsylvania Department of Corrections has
+      set performance targets for its community corrections program through performance-based
+      contracts.
+    long_description: 'Since 2013, the Pennsylvania Department of Corrections has
+      [set performance targets for its community corrections program](http://www.media.pa.gov/pages/corrections_details.aspx?newsid=225)
+      through [performance-based contracts](https://www.cor.pa.gov/Initiatives/Documents/Justice%20Reinvestment%20Initiative/JRI%20-%20Phase%202%202016/Report%20-%20Justice%20Reinvestment%20in%20Pennsylvania%20-%20June%202017.pdf).
+      Providers that meet recidivism prevention goals receive a 1% increase in their
+      rate while providers that fail to meet targets for two consecutive years can
+      have their contracts terminated. Following the introduction of these performance
+      goals, the program’s recidivism rate dropped by 11.3% in 2014, [another](https://www.nmlegis.gov/Entity/LFC/Documents/Program_Evaluation_Reports/Corrections%20Department%20-%20Status%20of%20Programs%20to%20Reduce%20Recidivism%20and%20Oversight%20of%20Medical%20Services.pdf#page=19)
+      16% in 2015, and another 11% in 2016. In 2018, the Commonwealth Foundation’s
+      report on criminal justice reform in Pennsylvania [recommended](https://www.commonwealthfoundation.org/docLib/20180911_SaferCommunitiesSmarterSpending.pdf#page=5)
+      expanding the program to other areas based on these results. '
+    criteria: Repurpose for Results
+    issue:
+    - Criminal Justice
+    state_outline:
+      sys:
+        id: 3Nt17ga8DnEgGekaixP3Mg
+        created_at: !ruby/object:DateTime 2019-09-29 15:44:20.390000000 Z
+        updated_at: !ruby/object:DateTime 2019-09-29 15:44:20.390000000 Z
+      title: pennsylvania
+      description: 
+      url: "//images.ctfassets.net/cu0oxaxjfcsj/3Nt17ga8DnEgGekaixP3Mg/ad9ce26ef79999656e8ab2119710e446/Pennsylvania.svg"
+    year: '2019'
+    status: Updated from 2018
+  promising_list:
+  - sys:
+      id: bEg3dKNERLq839wOQdw5n
+      created_at: !ruby/object:DateTime 2019-09-29 21:47:48.397000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 21:47:48.397000000 Z
+      content_type_id: promising
+      revision: 1
+    state: Minnesota
+    state_abbreviation: MN
+    type: Multiple agencies
+    long_description: |-
+      A [2014 Minnesota law](https://www.revisor.mn.gov/statutes/cite/256J.626) (subdivision 7) requires the Minnesota Department of Human Services to use the [Self-Support Index](https://www.leg.state.mn.us/docs/2016/other/160886.pdf) to monitor each county’s performance in assisting clients to become self-sufficient. Counties that meet performance targets receive a 2.5% bonus payment from the state, and counties that perform below the expected target must submit a performance improvement plan. In counties where “no improvement is shown by the end of the multiyear plan, the county’s or tribe’s allocation must be decreased by 2.5 percent” (Section [256J.626(7)(a)(2)](https://www.revisor.mn.gov/statutes/cite/256J.626)).
+
+      A [2016 Minnesota law](https://www.revisor.mn.gov/bills/text.php?version=latest&session=ls89&number=SF3481&session_year=2016&session_number=0) (section 14, line 15.21) allows the state to use the savings achieved from reducing the sentences of minor drug offenders for evidence-based drug and mental health treatments for offenders still in prison or under supervised release. The evidence to support this law comes from the Department of Corrections’ [own research](https://mn.gov/doc/data-publications/research/), which [found](https://mn.gov/doc/assets/03-10CDTXEvaluationReport_Revised_tcm1089-275973.pdf#page=29) that providing offenders drug treatment reduces recidivism rates.
+    criteria: Repurpose for Results
+    issue:
+    - Criminal Justice
+    - Economic Opportunity
     year: '2019'
     status: Updated from 2018
   year: '2019'

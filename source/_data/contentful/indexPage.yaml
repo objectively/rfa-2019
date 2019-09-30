@@ -468,22 +468,44 @@ indexPage:
 - sys:
     id: 7phigY3mdsj5RPGGit45yp
     created_at: !ruby/object:DateTime 2019-08-14 15:21:34.254000000 Z
-    updated_at: !ruby/object:DateTime 2019-08-23 18:40:54.626000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-29 22:26:39.377000000 Z
     content_type_id: indexPage
-    revision: 2
+    revision: 3
   year: '2019'
-  short_description: |-
-    The 2019 Invest in What Works State Standard of Excellence sets a national standard – a “north star” – for how state governments can consistently and effectively use data and evidence in budget, policy, and management decisions to achieve better outcomes for their residents.
-
-    - Results for America identified 88 leading and promising data-driven and evidence-based practices, policies, programs, and systems in effect in April 2018 in 30 states across the country.
-
-    - Five states are recognized as leading the way with their data-driven and evidence-based examples: Washington, Colorado, Oregon, Minnesota, and Tennessee.
-
-    - We identified these examples across 15 criteria: Strategic Goals, Performance Management/Continuous Improvement, Data Leadership, Data Policies/Agreements, Data Use, Evaluation Leadership, Evaluation Policies, Evaluation Resources, Outcome Data, Evidence Definition and Program Inventory, Cost-Benefit Analysis, Use of Evidence in Grant Programs, Innovation, Contracting for Outcomes, and Repurpose for Results.
-
-    The purpose of the 2019 Invest in What Works State Standard of Excellence is to inform policymakers and the public about state governments’ use of data, evidence, and evaluation to invest taxpayer dollars in what works. By identifying specific efforts currently underway in state governments, Results for America hopes to facilitate the broader adoption of evidence-based policymaking in state governments across the country.
-
-    Results for America’s analysis is based on data provided under license by the [Pew-MacArthur Results First Initiative](http://www.pewtrusts.org/en/projects/pew-macarthur-results-first-initiative) (which was used to inform its [2017 report](http://www.pewtrusts.org/en/research-and-analysis/reports/2017/01/how-states-engage-in-evidence-based-policymaking) on states’ engagement in evidence-based policymaking) and input from more than 90 current and former state government officials and other experts.<sup>1</sup>
+  short_description: "Executive Summary\n\nThe 2019 Invest in What Works State Standard
+    of Excellence sets a national standard—a “north star”—for how state governments
+    can consistently and effectively use evidence and data in budget, policy, and
+    management decisions to achieve better outcomes for their residents.\n\nIn the
+    2019 Invest in What Works State Standard of Excellence (State Standard of Excellence),
+    Results for America identified 125 examples of data-driven and evidence-based
+    practices, policies, programs, and systems in effect as of June 2019 in 33 states
+    across the country.\n\nOverall, five states are leading the way with their use
+    of data-driven and evidence-based practices, policies, programs, and systems.
+    These Leading States are Colorado, Minnesota, Oregon, Utah, and Washington.Three
+    states are Rising Stars that have significantly increased their evidence and data
+    efforts: Maryland (from three promising examples in 2018 to six in 2019), Nevada
+    (new leading example of using evidence in nine education grant programs), and
+    North Carolina (from one promising example in 2018 to four in 2019).  \n\nThe
+    2019 State Standard of Excellence shows how state governments are using evidence
+    and data to improve results for their residents by investing in what works. The
+    examples of data-driven and evidence-based practices, policies, programs, and
+    systems in the 2019 State Standard of Excellence demonstrate that state governments
+    thrive when they incorporate evidence-based policy into their budget, policy,
+    and management decisions. Moreover, the efforts of these state governments are
+    informing their peers, policymakers, and the public about the effectiveness of
+    using evidence and data to invest taxpayer dollars in what works. \n\nThe 2019
+    State Standard of Excellence demonstrates growing bipartisan momentum in state
+    governments’ building and use of evidence and data. Between May 2018 and June
+    2019, Results for America identified an increase in the overall number of state
+    government examples from 88 to 125, representing 33 states (including five new
+    states not represented in 2018: Arizona, Missouri, Nevada, New Jersey, and Vermont).
+    Particularly notable areas of growth were education with a 300% increase in the
+    number of examples and workforce with a 400% increase.\n\nResults for America’s
+    analysis is based on data provided under license by the [Pew-MacArthur Results
+    First Initiative](http://www.pewtrusts.org/en/projects/pew-macarthur-results-first-initiative)
+    (which was used to inform its [2017 report](http://www.pewtrusts.org/en/research-and-analysis/reports/2017/01/how-states-engage-in-evidence-based-policymaking)
+    on states’ engagement in evidence-based policymaking) and input from more than
+    150 current and former state government officials and other experts.<sup>1</sup>"
   download_url: https://2018state.results4america.org/2018_Invest_In_What_Works_State_Standard_of_Excellence.pdf
   download_summary: https://2018state.results4america.org/Summary_Chart.pdf
   download_appendix: https://2018state.results4america.org/Criteria_and_Descriptions.pdf
@@ -518,9 +540,9 @@ indexPage:
   - sys:
       id: 7vzkv3lzBopljVxYvK6uW
       created_at: !ruby/object:DateTime 2019-08-14 15:21:06.209000000 Z
-      updated_at: !ruby/object:DateTime 2019-09-20 19:10:57.032000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 16:05:42.374000000 Z
       content_type_id: criteria
-      revision: 2
+      revision: 3
     title: Performance Management / Continuous Improvement
     order: 2
     description: Did the state or any of its agencies implement a performance management
@@ -557,8 +579,6 @@ indexPage:
         id: IM1H9Pjq8FqEIAGubWlhi
     - sys:
         id: 4OpM7l3lYF3tgzja3aWMJx
-    - sys:
-        id: 50Y8xz6m0OCzoyGB3adaPy
     year: '2019'
   - sys:
       id: 6aDphmTQhAttzAL6vmR1X3
@@ -595,4 +615,417 @@ indexPage:
         id: 4aO7ePVSLB9ykm3pPyHiCx
     - sys:
         id: 1zPGSnc7Gb19x68VgaZlLS
+    year: '2019'
+  - sys:
+      id: 6rzvGAw4KYz4BVcNG4yCAG
+      created_at: !ruby/object:DateTime 2019-09-20 19:38:22.707000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-20 19:47:41.866000000 Z
+      content_type_id: criteria
+      revision: 2
+    title: Data Policies / Agreements
+    order: 4
+    description: 'Did the state or any of its agencies have data sharing policies
+      and data sharing agreements—consistent with strong privacy protections—with
+      any nonprofit organizations, academic institutions, local government agencies,
+      and/or federal government agencies which were designed to improve outcomes for
+      publicly funded programs, and did it make those policies and agreements publicly
+      available? (Example: data sharing policy, open data policy)'
+    explanation: |-
+      __Why is this important?__<br>
+      Data sharing policies and agreements allow state governments to take a coordinated approach to identifying and using relevant data to improve programs while implementing strong privacy protections.
+    leading_list:
+      sys:
+        id: 7g9PIQ5dZH9zQDvwPTjWro
+    promising_list:
+    - sys:
+        id: 3HxYBuwBG0TWRHEBJ83XEp
+    - sys:
+        id: 6ixBytmp1fMHBQ7D7quo7c
+    - sys:
+        id: 1IhKQAFLpYRsdJPOX9aMoj
+    - sys:
+        id: 6MWU5t8YDN0h0k0S53YZ3O
+    - sys:
+        id: 5Vg4tyrbVaRhQf22IKRHC5
+    - sys:
+        id: M3FiMX3PDUMtsBkpU3f3d
+    - sys:
+        id: 7N0IPAT106Wbsye1gvmOKZ
+    - sys:
+        id: 5oq6WEal1q3AWNXGzmmf2j
+    - sys:
+        id: 6CBGy5vqOCtXgOgSQTTCaa
+    - sys:
+        id: 5sRJANPce8pVEkD7R0RJug
+    - sys:
+        id: 1Zc86FC9Li6plep1bZMJMs
+    - sys:
+        id: 2KXjCfxZdYTl8ROWtkjgwy
+    year: '2019'
+  - sys:
+      id: 5q6yZ9b71ZeEhmV2RRQpma
+      created_at: !ruby/object:DateTime 2019-09-20 20:41:12.611000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-20 20:41:12.611000000 Z
+      content_type_id: criteria
+      revision: 1
+    title: Data Use
+    order: 5
+    description: Did the state or any of its agencies have data systems consistent
+      with strong privacy protections that linked multiple administrative data sets
+      across state agencies, and did it use those systems to improve federal, state,
+      or local programs?
+    explanation: |-
+      __Why is this important?__<br>
+      The linking of agency data allows state governments to increase the effectiveness of state services and get better results for their residents.
+    leading_list:
+      sys:
+        id: 6YZVOSIBsz7BOaxZKT1n2J
+    promising_list:
+    - sys:
+        id: 41IFbwBBjPOZrCtmyhNFg7
+    - sys:
+        id: 3KJq7GQ3lOaSEWZTFSw5WM
+    - sys:
+        id: 18Ycx8ZBgTObXRGpHmeGTo
+    - sys:
+        id: 7ckhSCifoT7IkFLcX3TB6m
+    - sys:
+        id: 6AT7X8He3n8vUqgqvfMj3r
+    - sys:
+        id: 3YOCW7PNefI9NpOY0Ax9z0
+    - sys:
+        id: 5EVDKkIAXDd62gUhrK1YFo
+    - sys:
+        id: 6XYx8LLjpLATijncX8UaIG
+    - sys:
+        id: 5rl1NbQYDWhg0fddHrGjgT
+    - sys:
+        id: 54sXWz2am87kjVuFiDWYd8
+    - sys:
+        id: 7aaKpBqN35hTfxOP1ncCi2
+    - sys:
+        id: 7Jpqc6fWoBSXoRHXizNuRR
+    - sys:
+        id: 16MPkt2ADhCLG6GKL97FOc
+    - sys:
+        id: 68ZlBGCyYQ12NNYpdRANIF
+    - sys:
+        id: 5LQKbLjZL2D6AqyG4wMnJb
+    - sys:
+        id: 4Mw9VdOHewVrR8hAym6H91
+    - sys:
+        id: 1P0FFTQEaDBXcdnyM3pcKq
+    - sys:
+        id: 2lWpg3MDzDRQlvrZAHQFCt
+    year: '2019'
+  - sys:
+      id: QqFwvJiKOWItEuZZQIySN
+      created_at: !ruby/object:DateTime 2019-09-29 17:46:34.731000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 17:46:38.006000000 Z
+      content_type_id: criteria
+      revision: 2
+    title: Evaluation Leadership
+    order: 6
+    description: 'Did the governor’s office or any state agency have a senior staff
+      member(s) with the authority, staff, and budget to evaluate its major programs
+      and inform policy decisions affecting them? (Example: chief evaluation officer)'
+    explanation: "__Why is this important?__  \nEvaluation leadership positions are
+      an important tool for state governments to ensure that evidence of what works
+      is a primary consideration when making programmatic and budget decisions."
+    leading_list:
+      sys:
+        id: 5eYHX5RaNHGDOAWfE56erP
+    promising_list:
+    - sys:
+        id: 2HucYj7EMUydhAhL8Vnmoy
+    - sys:
+        id: 2N4ihB2TosMRt0ww9tgRZy
+    - sys:
+        id: 1JqWAzbPJHnzt1BDx5ExXF
+    year: '2019'
+  - sys:
+      id: 7BGv0Cxxm17Okqdo1lWyPi
+      created_at: !ruby/object:DateTime 2019-09-29 18:05:52.403000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 18:05:52.403000000 Z
+      content_type_id: criteria
+      revision: 1
+    title: Evaluation Policies
+    order: 7
+    description: Did the state or any of its agencies have an evaluation policy, evaluation
+      plan, and research/learning agenda(s), and did it publicly release the findings
+      of all completed evaluations?
+    explanation: "__Why is this important?__  \nEvaluation policies allow state governments
+      to align their evaluation and research priorities, learn about what works, and
+      share information with outside researchers about additional areas where they
+      want to increase their knowledge base."
+    leading_list:
+      sys:
+        id: kJepHSEBDmqljuiIPs5mM
+    promising_list:
+    - sys:
+        id: 3Yve3F5ogndXU7gEcrZ5iq
+    - sys:
+        id: 7eD3sokHbFDQPDR4hpvyo9
+    - sys:
+        id: 6Xvfd0cQDAaFhlAYPRMgIA
+    - sys:
+        id: vx6UzbKMyAi0MoQ5tGecm
+    - sys:
+        id: 2eycb3kV14j66DL4ihbLI8
+    - sys:
+        id: 46lP3XUj2ZBLXVMe7xKKT7
+    - sys:
+        id: 5cxqFCMw4d43o490pqwiCc
+    year: '2019'
+  - sys:
+      id: 6yCHOLHvsrX5juDRP1J0HV
+      created_at: !ruby/object:DateTime 2019-09-29 18:08:56.355000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 18:08:56.355000000 Z
+      content_type_id: criteria
+      revision: 1
+    title: Evaluation Resources
+    order: 8
+    description: Did the state or any of its agencies invest at least 1% of program
+      funds in evaluations?
+    explanation: "__Why is this important?__  \nMaking specific funding commitments
+      to evaluation is critical and ensures that state governments have the necessary
+      funds to evaluate whether state programs are achieving their desired outcomes.
+      At the federal level, several agencies have made commitments to spend 1% of
+      program funds on evaluation, which has allowed them to improve programmatic
+      outcomes and build their knowledge base about what works."
+    leading_list:
+      sys:
+        id: vopBrHjd6kNmP6inEIG8m
+    year: '2019'
+  - sys:
+      id: 47WqoGUv21WbNXGuGCYB4m
+      created_at: !ruby/object:DateTime 2019-09-29 20:05:34.975000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 20:05:34.975000000 Z
+      content_type_id: criteria
+      revision: 1
+    title: Outcome Data
+    order: 9
+    description: Did the state or any of its agencies report or require outcome data
+      for its state-funded programs during their budget process?
+    explanation: "__Why is this important?__  \nUsing data and evidence as part of
+      the budget process helps state policymakers allocate funds based on information
+      about what works."
+    leading_list:
+      sys:
+        id: ws6Fo5ETAgAiUWMhR1MZA
+    promising_list:
+    - sys:
+        id: 4eV9znbHauZJnWWeeEH6UU
+    - sys:
+        id: 2fahPWRmERcgGC8KWX2bDz
+    - sys:
+        id: 63QbnW9CGGHzsCAl2eqZQm
+    - sys:
+        id: 2vwiGSBPbnvsWuZrfqSSoF
+    - sys:
+        id: 65teYyPR55im00tVAajCwA
+    - sys:
+        id: 4i5iHSfcvQdkithlWnlWe7
+    - sys:
+        id: 5IZVhUAUNNAdwzjcHqJ54K
+    year: '2019'
+  - sys:
+      id: 2z0aKw0jJrM5s2iF6v9645
+      created_at: !ruby/object:DateTime 2019-09-29 20:34:24.575000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 20:34:24.575000000 Z
+      content_type_id: criteria
+      revision: 1
+    title: Evidence Definition and Program Inventory
+    order: 10
+    description: Did the state or any of its agencies release a common evidence framework,
+      guidelines, or standards to inform its research and funding decisions and make
+      publicly available an inventory of state-funded programs categorized based on
+      at least two tiers of evidence?
+    explanation: "__Why is this important?__  \nDefining evidence and conducting program
+      inventories can help state governments ensure that their programs are using
+      proven practices and that their interventions are effective in meeting the state’s
+      desired goals as well as improving outcomes for residents."
+    leading_list:
+      sys:
+        id: SKZcZnTe5yMUz45T3vsKY
+    promising_list:
+    - sys:
+        id: 3T5WIaHeCzuFpbkrSAuhU9
+    - sys:
+        id: 0reWFHpzCOx6OyV9Hl6M9
+    - sys:
+        id: 7cvD3Lj6nbf0KWnTLYVAx8
+    - sys:
+        id: 2Gc9BY5sAfdfWceDwxubkj
+    - sys:
+        id: 579kN4UBpv0AfMRHjPs7Sq
+    - sys:
+        id: 5a6x1n4DrytadwUSey1osW
+    - sys:
+        id: 68r0n8s1HDZj7Hu6hUTk3
+    - sys:
+        id: 5dIYCSo4I5TYObiKZHdLzW
+    - sys:
+        id: 5qenKfilxCs3BZxyBKs2GA
+    year: '2019'
+  - sys:
+      id: ByXo0wKd48SezYbNYJa0d
+      created_at: !ruby/object:DateTime 2019-09-29 20:52:08.970000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 20:52:08.970000000 Z
+      content_type_id: criteria
+      revision: 1
+    title: Cost-Benefit Analysis
+    order: 11
+    description: Did the state or any of its agencies assess and make publicly available
+      the costs and benefits of public programs?
+    explanation: "__Why is this important?__  \nCost-benefit analysis helps state
+      governments quantify outcomes and program costs to ensure that public dollars
+      are being efficiently spent to get the most value for taxpayers and the best
+      outcomes for residents."
+    leading_list:
+      sys:
+        id: 6VLi1WAsxcJGuf4dGAAB3R
+    promising_list:
+    - sys:
+        id: 1VZS8O1xqf81SDkDoKRsYi
+    - sys:
+        id: 2aXuAk51rWLGe8oPPP4wyB
+    - sys:
+        id: 1xSg9I7QAAsxUDjHxdPep9
+    - sys:
+        id: 63q5BIcu0b61WVDSuevMP
+    - sys:
+        id: 3QG01pnvugizaiFQy5sFfl
+    - sys:
+        id: 7lUwb7irOPR6bxK0jVmalP
+    - sys:
+        id: 7hD8VkZXKtlu8pR53C9hh6
+    - sys:
+        id: 5ZRpendTCbudp6rUhLkmbP
+    - sys:
+        id: 5dd8mKbXP1XrW85CBr22IS
+    - sys:
+        id: 5yu2eXuu6WKqTM05o9hxRK
+    year: '2019'
+  - sys:
+      id: 4JQYW62EVooEXWqXYb8QEw
+      created_at: !ruby/object:DateTime 2019-09-29 21:17:54.845000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 21:17:54.845000000 Z
+      content_type_id: criteria
+      revision: 1
+    title: Use of Evidence in Grant Programs
+    order: 12
+    description: Did the state or any of its agencies (1) invest at least 50% of program
+      funds in evidence-based solutions or (2) use evidence of effectiveness when
+      allocating funds to eligible grantees (including local governments) from its
+      five largest competitive and noncompetitive grant programs?
+    explanation: "__Why is this important?__  \nRequiring a portion of grant funds
+      to be spent on evidence-based programs allows state governments to use and scale
+      proven program models to achieve better results."
+    leading_list:
+      sys:
+        id: 4xPnYwyyZZrUBgd3VT6KVO
+    promising_list:
+    - sys:
+        id: 1Le1wmYTPRq3fUI6t44QwY
+    - sys:
+        id: Lvk0Diqm23RhySIjtirOd
+    - sys:
+        id: 0XnUpqG7syJnyF02zZvFO
+    - sys:
+        id: 22VZBdxNhKyZ2DGEsk76G1
+    - sys:
+        id: 4bvrCI80IYQbzl67ih2f7J
+    - sys:
+        id: azf3gl4rALD3yLL70AXBA
+    - sys:
+        id: 4x5QCoQHtEDhOudhbX7Ywg
+    - sys:
+        id: 4FeP2YfNMgQpqOZdmPeTnl
+    - sys:
+        id: 5Pds5lh3ZfkZf8YHhJIwoL
+    - sys:
+        id: 11ApfaPTCF1ZIYL7GjLEn4
+    year: '2019'
+  - sys:
+      id: 3llmLxGxcFK420cv58qDHF
+      created_at: !ruby/object:DateTime 2019-09-29 21:26:48.609000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 21:26:48.609000000 Z
+      content_type_id: criteria
+      revision: 1
+    title: Innovation
+    order: 13
+    description: Did the state or any of its agencies have staff, policies, and processes
+      in place that encouraged innovation to improve outcomes?
+    explanation: "__Why is this important?__  \nEncouraging innovation allows state
+      governments to implement new models that can improve programs and build new
+      evidence about what works."
+    leading_list:
+      sys:
+        id: 4vpuLFYm1PWSvpvlITpOzV
+    promising_list:
+    - sys:
+        id: 5TbupcfyVMcrAJuwvkP7i1
+    - sys:
+        id: 1vl3lsrH7LZcDvi3zkh8CF
+    - sys:
+        id: 2i1qfgLhc6J2KKqFToX5PP
+    - sys:
+        id: 1kuI2OpHJcCgLetcUebtkO
+    - sys:
+        id: 6b6XctWk3hkv9aFbO4QzvH
+    - sys:
+        id: 1L7S29s1LBT4YN9yp7gcbv
+    year: '2019'
+  - sys:
+      id: 4cwB5q0Mdi82BCdrCdM20p
+      created_at: !ruby/object:DateTime 2019-09-29 21:44:33.590000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 21:44:33.590000000 Z
+      content_type_id: criteria
+      revision: 1
+    title: Contracting for Outcomes
+    order: 14
+    description: Did the state or any of its agencies enter into performance-based
+      contracts and/or use active contract management (frequent use of data and regular
+      communication with providers to monitor implementation and progress) to improve
+      outcomes for publicly funded programs?
+    explanation: "__Why is this important?__  \nPerformance contracting techniques
+      allow state governments to get better results and value for each taxpayer dollar."
+    leading_list:
+      sys:
+        id: 24P5khzBzfrC2I52sfoEZX
+    promising_list:
+    - sys:
+        id: 5QlNV71sOMAgD62AfI7RL0
+    - sys:
+        id: vy7DJ6wPc3G8pAa33ORCp
+    - sys:
+        id: 6aP4Vu6Jo8JdvCVXI85cfU
+    - sys:
+        id: 6aJY0WuiOIszxU2dloN44T
+    - sys:
+        id: 3HqA5tQCN9KYcFenj9Ftbu
+    - sys:
+        id: 2jMGl0IxxYbi83aqnK17vt
+    year: '2019'
+  - sys:
+      id: 4OJ9dorNTzAWjyUloKg0KA
+      created_at: !ruby/object:DateTime 2019-09-29 21:47:51.949000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 21:47:51.949000000 Z
+      content_type_id: criteria
+      revision: 1
+    title: Repurpose for Results
+    order: 15
+    description: Did the state or any of its agencies shift funds away from any practice,
+      policy, or program which consistently failed to achieve desired outcomes?
+    explanation: "__Why is this important?__  \nRepurposing funds from programs that
+      fail to consistently achieve results to programs that consistently achieve results
+      is a key strategy for state governments to improve their performance while building
+      knowledge about what works."
+    leading_list:
+      sys:
+        id: 2oXTqTm8p2hysarZ0O6bCZ
+    promising_list:
+    - sys:
+        id: bEg3dKNERLq839wOQdw5n
     year: '2019'

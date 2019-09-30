@@ -20,10 +20,10 @@ leading:
     sys:
       id: 1fBCZ8QhmmqQauoWMyOAk6
       created_at: !ruby/object:DateTime 2018-06-26 21:56:20.502000000 Z
-      updated_at: !ruby/object:DateTime 2018-06-26 21:56:20.502000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 14:23:17.008000000 Z
     title: colorado
     description: 
-    url: "//images.ctfassets.net/cu0oxaxjfcsj/1fBCZ8QhmmqQauoWMyOAk6/fcc0968b5e4b46d710a7a59504edef64/colorado.svg"
+    url: "//images.ctfassets.net/cu0oxaxjfcsj/1fBCZ8QhmmqQauoWMyOAk6/8cd16aed556a4ae47964bad4c1edb549/Colorado.svg"
   year: '2018'
 - sys:
     id: 5YE3Y1T2iAMeGa424uucoq
@@ -87,10 +87,10 @@ leading:
     sys:
       id: 1bRacwPuE2AAG0EWugMamq
       created_at: !ruby/object:DateTime 2018-06-26 21:57:24.432000000 Z
-      updated_at: !ruby/object:DateTime 2018-06-26 21:57:24.432000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 14:50:04.134000000 Z
     title: indiana
     description: 
-    url: "//images.ctfassets.net/cu0oxaxjfcsj/1bRacwPuE2AAG0EWugMamq/707ed980ebd7851be891a1e57ac68dc5/indiana.svg"
+    url: "//images.ctfassets.net/cu0oxaxjfcsj/1bRacwPuE2AAG0EWugMamq/60ce568e17765cfbf308f9d420379f0f/Indiana.svg"
   year: '2018'
 - sys:
     id: 2pC37sHv3agKiqCUGEywYY
@@ -116,10 +116,10 @@ leading:
     sys:
       id: 3zudCcXzzyom4EIOaq8wW
       created_at: !ruby/object:DateTime 2018-06-26 21:54:40.666000000 Z
-      updated_at: !ruby/object:DateTime 2018-06-26 21:54:40.666000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 14:37:43.495000000 Z
     title: washington
     description: 
-    url: "//images.ctfassets.net/cu0oxaxjfcsj/3zudCcXzzyom4EIOaq8wW/194d8be778cdb448b67310392b520b46/washington.svg"
+    url: "//images.ctfassets.net/cu0oxaxjfcsj/3zudCcXzzyom4EIOaq8wW/b19989c51f53830b72d55d905abcef6c/Washington.svg"
   year: '2018'
 - sys:
     id: 1b9EIyGh2wu6amsY0u6iqI
@@ -187,10 +187,10 @@ leading:
     sys:
       id: 1fBCZ8QhmmqQauoWMyOAk6
       created_at: !ruby/object:DateTime 2018-06-26 21:56:20.502000000 Z
-      updated_at: !ruby/object:DateTime 2018-06-26 21:56:20.502000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 14:23:17.008000000 Z
     title: colorado
     description: 
-    url: "//images.ctfassets.net/cu0oxaxjfcsj/1fBCZ8QhmmqQauoWMyOAk6/fcc0968b5e4b46d710a7a59504edef64/colorado.svg"
+    url: "//images.ctfassets.net/cu0oxaxjfcsj/1fBCZ8QhmmqQauoWMyOAk6/8cd16aed556a4ae47964bad4c1edb549/Colorado.svg"
   year: '2018'
 - sys:
     id: 4ro5ZJXQnKiOASiScmWkU2
@@ -278,10 +278,10 @@ leading:
     sys:
       id: YlOt55v1CeImIm2qQQEg6
       created_at: !ruby/object:DateTime 2018-06-26 21:52:54.906000000 Z
-      updated_at: !ruby/object:DateTime 2018-06-26 21:52:54.906000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 15:18:49.311000000 Z
     title: minnesota
     description: 
-    url: "//images.ctfassets.net/cu0oxaxjfcsj/YlOt55v1CeImIm2qQQEg6/915ccc408fa5ac6b56efeef2a918cac1/minnesota.svg"
+    url: "//images.ctfassets.net/cu0oxaxjfcsj/YlOt55v1CeImIm2qQQEg6/0f75f66c41a82a3f43bf985186ec5959/Minnesota.svg"
   year: '2018'
 - sys:
     id: 1EftF8YMxmEiswACEQImSy
@@ -312,10 +312,10 @@ leading:
     sys:
       id: 3zudCcXzzyom4EIOaq8wW
       created_at: !ruby/object:DateTime 2018-06-26 21:54:40.666000000 Z
-      updated_at: !ruby/object:DateTime 2018-06-26 21:54:40.666000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 14:37:43.495000000 Z
     title: washington
     description: 
-    url: "//images.ctfassets.net/cu0oxaxjfcsj/3zudCcXzzyom4EIOaq8wW/194d8be778cdb448b67310392b520b46/washington.svg"
+    url: "//images.ctfassets.net/cu0oxaxjfcsj/3zudCcXzzyom4EIOaq8wW/b19989c51f53830b72d55d905abcef6c/Washington.svg"
   year: '2018'
 - sys:
     id: 7KNeicqg9yO6sGOSqGwmM0
@@ -389,10 +389,10 @@ leading:
     sys:
       id: 1HoXTQbMDSyCQM44oi0U8w
       created_at: !ruby/object:DateTime 2018-06-26 21:53:46.418000000 Z
-      updated_at: !ruby/object:DateTime 2018-06-26 21:53:46.418000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 15:43:05.876000000 Z
     title: california
     description: 
-    url: "//images.ctfassets.net/cu0oxaxjfcsj/1HoXTQbMDSyCQM44oi0U8w/17c70a4224ea6286d90efdc426f90132/california.svg"
+    url: "//images.ctfassets.net/cu0oxaxjfcsj/1HoXTQbMDSyCQM44oi0U8w/faf38f579cff209b83ecbe45eb8ecbc2/California.svg"
   year: '2018'
 - sys:
     id: 3g4ILixKwEIOWsQUmSA46C
@@ -426,10 +426,10 @@ leading:
     sys:
       id: 4dD1eTKWtGMoyWYeI66y4G
       created_at: !ruby/object:DateTime 2018-06-26 21:53:22.004000000 Z
-      updated_at: !ruby/object:DateTime 2018-06-26 21:53:22.004000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 15:41:30.737000000 Z
     title: rhodeisland
     description: 
-    url: "//images.ctfassets.net/cu0oxaxjfcsj/4dD1eTKWtGMoyWYeI66y4G/db344de7818e4a72130727d1dbbdeae3/rhodeisland.svg"
+    url: "//images.ctfassets.net/cu0oxaxjfcsj/4dD1eTKWtGMoyWYeI66y4G/ff7c1d6771c47879c8da4e10602adea6/Rhode_Island.svg"
   year: '2018'
 - sys:
     id: 21GlTmTbtmsmoqQeEgoyMU
@@ -452,10 +452,10 @@ leading:
     sys:
       id: YlOt55v1CeImIm2qQQEg6
       created_at: !ruby/object:DateTime 2018-06-26 21:52:54.906000000 Z
-      updated_at: !ruby/object:DateTime 2018-06-26 21:52:54.906000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 15:18:49.311000000 Z
     title: minnesota
     description: 
-    url: "//images.ctfassets.net/cu0oxaxjfcsj/YlOt55v1CeImIm2qQQEg6/915ccc408fa5ac6b56efeef2a918cac1/minnesota.svg"
+    url: "//images.ctfassets.net/cu0oxaxjfcsj/YlOt55v1CeImIm2qQQEg6/0f75f66c41a82a3f43bf985186ec5959/Minnesota.svg"
   year: '2018'
 - sys:
     id: 27CW9N7CjOUyKgsYq8uac4
@@ -474,9 +474,9 @@ leading:
 - sys:
     id: HnUKdv1w8lt7E0EfeFGLT
     created_at: !ruby/object:DateTime 2019-08-14 15:12:05.368000000 Z
-    updated_at: !ruby/object:DateTime 2019-09-20 16:30:03.600000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-29 14:23:24.515000000 Z
     content_type_id: leading
-    revision: 2
+    revision: 3
   state: Colorado
   state_abbreviation: CO
   type: Statewide
@@ -504,21 +504,24 @@ leading:
     sys:
       id: 1fBCZ8QhmmqQauoWMyOAk6
       created_at: !ruby/object:DateTime 2018-06-26 21:56:20.502000000 Z
-      updated_at: !ruby/object:DateTime 2018-06-26 21:56:20.502000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 14:23:17.008000000 Z
     title: colorado
     description: 
-    url: "//images.ctfassets.net/cu0oxaxjfcsj/1fBCZ8QhmmqQauoWMyOAk6/fcc0968b5e4b46d710a7a59504edef64/colorado.svg"
+    url: "//images.ctfassets.net/cu0oxaxjfcsj/1fBCZ8QhmmqQauoWMyOAk6/8cd16aed556a4ae47964bad4c1edb549/Colorado.svg"
   year: '2019'
   status: Updated from 2018
 - sys:
     id: 2oXTqTm8p2hysarZ0O6bCZ
     created_at: !ruby/object:DateTime 2019-09-20 16:29:55.006000000 Z
-    updated_at: !ruby/object:DateTime 2019-09-20 21:02:06.831000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-29 15:44:58.432000000 Z
     content_type_id: leading
-    revision: 2
+    revision: 3
   state: Pennsylvania
   state_abbreviation: PA
   type: Single agency
+  short_description: Since 2013, the Pennsylvania Department of Corrections has set
+    performance targets for its community corrections program through performance-based
+    contracts.
   long_description: 'Since 2013, the Pennsylvania Department of Corrections has [set
     performance targets for its community corrections program](http://www.media.pa.gov/pages/corrections_details.aspx?newsid=225)
     through [performance-based contracts](https://www.cor.pa.gov/Initiatives/Documents/Justice%20Reinvestment%20Initiative/JRI%20-%20Phase%202%202016/Report%20-%20Justice%20Reinvestment%20in%20Pennsylvania%20-%20June%202017.pdf).
@@ -532,17 +535,28 @@ leading:
   criteria: Repurpose for Results
   issue:
   - Criminal Justice
+  state_outline:
+    sys:
+      id: 3Nt17ga8DnEgGekaixP3Mg
+      created_at: !ruby/object:DateTime 2019-09-29 15:44:20.390000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 15:44:20.390000000 Z
+    title: pennsylvania
+    description: 
+    url: "//images.ctfassets.net/cu0oxaxjfcsj/3Nt17ga8DnEgGekaixP3Mg/ad9ce26ef79999656e8ab2119710e446/Pennsylvania.svg"
   year: '2019'
   status: Updated from 2018
 - sys:
     id: 5VApoXifFGMiTPoVHJ9PpX
     created_at: !ruby/object:DateTime 2019-09-20 16:30:09.826000000 Z
-    updated_at: !ruby/object:DateTime 2019-09-20 16:30:09.826000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-29 14:37:48.525000000 Z
     content_type_id: leading
-    revision: 1
+    revision: 2
   state: Washington
   state_abbreviation: WA
   type: Statewide
+  short_description: A 2013 Washington State Executive Order established Results Washington
+    within the Governor’s office as “an innovative, data-driven, performance management
+    initiative, that will drive the operations of state government.”
   long_description: 'A [2013 Washington State Executive Order](https://www.governor.wa.gov/sites/default/files/exe_order/eo_13-04.pdf)
     established [Results Washington](https://results.wa.gov/) within the Governor’s
     office as “an innovative, data-driven, performance management initiative, that
@@ -552,7 +566,7 @@ leading:
     [prosperous economy](http://www.results.wa.gov/goals-progress/goals/prosperous-economy/goal-map);
     [sustainable energy and clean environment](http://www.results.wa.gov/goals-progress/goals/sustainable-energy-clean-environment/goal-map);
     [healthy and safe communities](http://www.results.wa.gov/goals-progress/goals/healthy-safe-communities/goal-map);
-    and [efficient, effective and accountable government](http://www.results.wa.gov/goals-progress/goals/efficient-effective-accountable-government/goal-map).
+    and [efficient, effective and accountable government](https://results.wa.gov/measuring-progress/archived-outcome-measures/goal-5-efficient-effective-accountable-government-goal).
     In each of these areas, the state [measures progress](https://results.wa.gov/measuring-progress/outcome-measures).
     Since 2014, Results Washington has conducted Results Review meetings with the
     Governor 10 times per year. The meetings are [recorded and publicly posted](https://results.wa.gov/measuring-progress/results-reviews)
@@ -570,21 +584,26 @@ leading:
     sys:
       id: 3zudCcXzzyom4EIOaq8wW
       created_at: !ruby/object:DateTime 2018-06-26 21:54:40.666000000 Z
-      updated_at: !ruby/object:DateTime 2018-06-26 21:54:40.666000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 14:37:43.495000000 Z
     title: washington
     description: 
-    url: "//images.ctfassets.net/cu0oxaxjfcsj/3zudCcXzzyom4EIOaq8wW/194d8be778cdb448b67310392b520b46/washington.svg"
+    url: "//images.ctfassets.net/cu0oxaxjfcsj/3zudCcXzzyom4EIOaq8wW/b19989c51f53830b72d55d905abcef6c/Washington.svg"
   year: '2019'
   status: Updated from 2018
 - sys:
     id: 3Q5XJJm2sR7PJH5aGnwsGY
     created_at: !ruby/object:DateTime 2019-09-20 16:30:16.581000000 Z
-    updated_at: !ruby/object:DateTime 2019-09-20 16:30:16.581000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-29 14:42:20.235000000 Z
     content_type_id: leading
-    revision: 1
+    revision: 2
   state: Connecticut
   state_abbreviation: CT
   type: Statewide
+  short_description: A 2018 Connecticut law formalized the position of Chief Data
+    Officer, created the Connecticut Data Analysis Technology Advisory Board, and
+    required each state agency to designate an agency data officer to manage high
+    value data sets and coordinate data-related activities with the state Chief Data
+    Officer.
   long_description: 'A [2018 Connecticut law](https://www.cga.ct.gov/2018/ACT/pa/2018PA-00175-R00HB-05517-PA.htm)
     formalized the position of [Chief Data Officer](https://portal.ct.gov/OPM/Secr-General/Chief-Data-Officer/Connecticut-Open-Data-Initiative),
     created the [Connecticut Data Analysis Technology Advisory Board](https://www.cga.ct.gov/gae/taskforce.asp?TF=20180726_Connecticut%20Data%20Analysis%20Technology%20Advisory%20Board),
@@ -597,17 +616,28 @@ leading:
     and accompanying practices that all agencies should adopt in order to improve
     their management, use, sharing, and analysis of data. '
   criteria: Data Leadership
+  state_outline:
+    sys:
+      id: 2smU65Ssod8NRx8MKXFBnq
+      created_at: !ruby/object:DateTime 2019-09-29 14:42:14.252000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 14:42:14.252000000 Z
+    title: connecticut
+    description: 
+    url: "//images.ctfassets.net/cu0oxaxjfcsj/2smU65Ssod8NRx8MKXFBnq/282b22ae96c5428b0c986f57c7ecaabd/Connecticut.svg"
   year: '2019'
   status: Updated from 2018
 - sys:
     id: 7g9PIQ5dZH9zQDvwPTjWro
     created_at: !ruby/object:DateTime 2019-09-20 16:30:25.362000000 Z
-    updated_at: !ruby/object:DateTime 2019-09-20 16:30:25.362000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-29 14:46:36.387000000 Z
     content_type_id: leading
-    revision: 1
+    revision: 2
   state: Washington
   state_abbreviation: WA
   type: Multiple agencies
+  short_description: The Washington Education Research and Data Center has a memorandum
+    of understanding which identifies how data will be collected and shared among
+    partners with a strong focus on protecting individual privacy.
   long_description: |-
     The [Washington Education Research and Data Center](https://erdc.wa.gov/) has a [memorandum of understanding](https://erdc.wa.gov/research-partners/our-partners/memorandum-understanding) which identifies how data will be collected and shared among partners with a [strong focus on protecting individual privacy](https://erdc.wa.gov/research-partners/privacy-considerations). The Center brings together [eleven partners](https://erdc.wa.gov/research-partners/our-partners), including state workforce, education, and child welfare agencies, to compile education and workforce data to improve student achievement and workforce outcomes.
 
@@ -623,21 +653,26 @@ leading:
     sys:
       id: 3zudCcXzzyom4EIOaq8wW
       created_at: !ruby/object:DateTime 2018-06-26 21:54:40.666000000 Z
-      updated_at: !ruby/object:DateTime 2018-06-26 21:54:40.666000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 14:37:43.495000000 Z
     title: washington
     description: 
-    url: "//images.ctfassets.net/cu0oxaxjfcsj/3zudCcXzzyom4EIOaq8wW/194d8be778cdb448b67310392b520b46/washington.svg"
+    url: "//images.ctfassets.net/cu0oxaxjfcsj/3zudCcXzzyom4EIOaq8wW/b19989c51f53830b72d55d905abcef6c/Washington.svg"
   year: '2019'
   status: Updated from 2018
 - sys:
     id: 6YZVOSIBsz7BOaxZKT1n2J
     created_at: !ruby/object:DateTime 2019-09-20 16:30:34.697000000 Z
-    updated_at: !ruby/object:DateTime 2019-09-20 16:30:34.697000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-29 14:50:10.352000000 Z
     content_type_id: leading
-    revision: 1
+    revision: 2
   state: Indiana
   state_abbreviation: IN
   type: Statewide
+  short_description: The Indiana Management Performance Hub, overseen by the state’s
+    Chief Data Officer, houses the integrated Education and Workforce Development
+    database, which brings together data from the Indiana Commission for Higher Education,
+    the Indiana Department of Education, the Department of Workforce Development,
+    and the Family and Social Services Administration.
   long_description: 'The [Indiana Management Performance Hub](https://www.in.gov/mph/index.htm),
     overseen by the state’s Chief Data Officer, houses the integrated [Education and
     Workforce Development database](https://www.in.gov/mph/917.htm), which brings
@@ -660,51 +695,66 @@ leading:
     sys:
       id: 1bRacwPuE2AAG0EWugMamq
       created_at: !ruby/object:DateTime 2018-06-26 21:57:24.432000000 Z
-      updated_at: !ruby/object:DateTime 2018-06-26 21:57:24.432000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 14:50:04.134000000 Z
     title: indiana
     description: 
-    url: "//images.ctfassets.net/cu0oxaxjfcsj/1bRacwPuE2AAG0EWugMamq/707ed980ebd7851be891a1e57ac68dc5/indiana.svg"
+    url: "//images.ctfassets.net/cu0oxaxjfcsj/1bRacwPuE2AAG0EWugMamq/60ce568e17765cfbf308f9d420379f0f/Indiana.svg"
   year: '2019'
   status: Updated from 2018
 - sys:
     id: 5eYHX5RaNHGDOAWfE56erP
     created_at: !ruby/object:DateTime 2019-09-20 16:30:39.535000000 Z
-    updated_at: !ruby/object:DateTime 2019-09-20 16:30:39.535000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-29 15:16:52.826000000 Z
     content_type_id: leading
-    revision: 1
+    revision: 2
   state: Ohio
   state_abbreviation: OH
   type: Single agency
+  short_description: The Director of the Ohio Department of Education’s Office of
+    Research, Evaluation and Advanced Analytics is responsible for helping educational
+    leaders across the state recognize, gather, analyze, evaluate, and leverage data
+    to solve problems and improve student outcomes.
   long_description: The Director of the Ohio Department of Education’s [Office of
     Research, Evaluation and Advanced Analytics](http://education.ohio.gov/Topics/Research-Evaluation-and-Advanced-Analytics)
     is responsible for helping educational leaders across the state recognize, gather,
     analyze, evaluate, and leverage data to solve problems and improve student outcomes.
     Initiatives such as [Empowered by Evidence](http://education.ohio.gov/Topics/Research-Evaluation-and-Advanced-Analytics/5-Steps-to-Being-Empowered-by-Evidence)
     and the [Ohio’s Evidence-Based Clearinghouse](https://essa.chrr.ohio-state.edu/home)
-    are designed for “a culture of continuous learning… [and to] create the framework
+    are designed for “a culture of continuous learning...[and to] create the framework
     and processes needed for actionable research.” The Department has partnered with
     the [Ohio Education Research Center](https://oerc.osu.edu/home) to share education
     data across the state.
   criteria: Evaluation Leadership
   issue:
   - Education
+  state_outline:
+    sys:
+      id: 7IK6k8NBwjTAp9yUBvcrWf
+      created_at: !ruby/object:DateTime 2019-09-29 15:16:45.560000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 15:16:45.560000000 Z
+    title: ohio
+    description: 
+    url: "//images.ctfassets.net/cu0oxaxjfcsj/7IK6k8NBwjTAp9yUBvcrWf/40d6758dbd38670a0c5958bcf278b109/Ohio.svg"
   year: '2019'
   status: New
 - sys:
     id: kJepHSEBDmqljuiIPs5mM
     created_at: !ruby/object:DateTime 2019-09-20 16:30:45.378000000 Z
-    updated_at: !ruby/object:DateTime 2019-09-20 16:30:45.378000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-29 22:06:40.282000000 Z
     content_type_id: leading
-    revision: 1
+    revision: 3
   state: Minnesota
   state_abbreviation: MN
   type: Statewide
+  short_description: In 2018, Minnesota Management and Budget adopted an evaluation
+    policy, which governs its use of evaluations and requires the release of all completed
+    evaluation reports regardless of findings.
   long_description: 'In 2018, Minnesota Management and Budget adopted an [evaluation
     policy](https://mn.gov/mmb-stat/results-first/evaluation-policy.pdf), which governs
     its use of evaluations and requires the release of all completed evaluation reports
     regardless of findings. The policy outlines key principles for evaluation: rigor;
     relevance; independence; transparency; and ethics. Relatedly, Minnesota Management
-    also [defines evidence](https://mn.gov/mmb/results-first/definitions-of-evidence/)
+    and Budget also [defines evidence](https://mn.gov/mmb/results-first/definitions-of-evidence/)
     for research, evaluation, and funding purposes.'
   criteria: Evaluation Policies
   issue:
@@ -717,30 +767,34 @@ leading:
     sys:
       id: YlOt55v1CeImIm2qQQEg6
       created_at: !ruby/object:DateTime 2018-06-26 21:52:54.906000000 Z
-      updated_at: !ruby/object:DateTime 2018-06-26 21:52:54.906000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 15:18:49.311000000 Z
     title: minnesota
     description: 
-    url: "//images.ctfassets.net/cu0oxaxjfcsj/YlOt55v1CeImIm2qQQEg6/915ccc408fa5ac6b56efeef2a918cac1/minnesota.svg"
+    url: "//images.ctfassets.net/cu0oxaxjfcsj/YlOt55v1CeImIm2qQQEg6/0f75f66c41a82a3f43bf985186ec5959/Minnesota.svg"
   year: '2019'
   status: New
 - sys:
     id: ws6Fo5ETAgAiUWMhR1MZA
     created_at: !ruby/object:DateTime 2019-09-20 16:30:52.488000000 Z
-    updated_at: !ruby/object:DateTime 2019-09-20 16:30:52.488000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-29 15:24:56.506000000 Z
     content_type_id: leading
-    revision: 1
+    revision: 2
   state: Colorado
   state_abbreviation: CO
   type: Statewide
+  short_description: The 2013 Colorado State Measurement for Accountable, Responsive
+    and Transparent Government (SMART) Act required all Colorado state agencies to
+    submit annual performance reports to the Colorado state legislature as part of
+    the state’s budget process.
   long_description: 'The 2013 [Colorado State Measurement for Accountable, Responsive
-    and Transparent Government](https://www.colorado.gov/performancemanagement) (SMART)
-    Act required all Colorado state agencies to submit annual performance reports
-    to the Colorado state legislature as part of the state’s budget process. These
-    reports include: (1) performance measures for the major functions of the department;
-    (2) performance goals for at least the following three years; (3) a description
-    of the strategies necessary to achieve  those goals; and (4) a summary of the
-    department’s most recent performance evaluation. In addition, the state’s FY 2019-2020
-    [budget development instructions](https://drive.google.com/drive/folders/1XMSMXuo1bL-DmXZJgq9fOLX5X7CWPQKv)
+    and Transparent Government (SMART) Act](https://www.colorado.gov/performancemanagement)
+    required all Colorado state agencies to submit annual performance reports to the
+    Colorado state legislature as part of the state’s budget process. These reports
+    include: (1) performance measures for the major functions of the department; (2)
+    performance goals for at least the following three years; (3) a description of
+    the strategies necessary to achieve  those goals; and (4) a summary of the department’s
+    most recent performance evaluation. In addition, the state’s FY 2019-2020 [budget
+    development instructions](https://drive.google.com/drive/folders/1XMSMXuo1bL-DmXZJgq9fOLX5X7CWPQKv)
     (pp. 43-47) prioritize new program requests “based on the evidence and body of
     research supporting the program’s effect on desired outcomes and proposed implementation
     plan.” The instructions also include information on tiered evidence frameworks
@@ -759,24 +813,27 @@ leading:
     sys:
       id: 1fBCZ8QhmmqQauoWMyOAk6
       created_at: !ruby/object:DateTime 2018-06-26 21:56:20.502000000 Z
-      updated_at: !ruby/object:DateTime 2018-06-26 21:56:20.502000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 14:23:17.008000000 Z
     title: colorado
     description: 
-    url: "//images.ctfassets.net/cu0oxaxjfcsj/1fBCZ8QhmmqQauoWMyOAk6/fcc0968b5e4b46d710a7a59504edef64/colorado.svg"
+    url: "//images.ctfassets.net/cu0oxaxjfcsj/1fBCZ8QhmmqQauoWMyOAk6/8cd16aed556a4ae47964bad4c1edb549/Colorado.svg"
   year: '2019'
   status: Updated from 2018
 - sys:
     id: SKZcZnTe5yMUz45T3vsKY
     created_at: !ruby/object:DateTime 2019-09-20 16:30:58.658000000 Z
-    updated_at: !ruby/object:DateTime 2019-09-20 16:30:58.658000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-29 22:11:45.363000000 Z
     content_type_id: leading
-    revision: 1
+    revision: 3
   state: Minnesota
   state_abbreviation: MN
   type: Statewide
+  short_description: Under a 2015 Minnesota law (section 13), Minnesota Management
+    and Budget has developed numerous inventories of evidence-based programs, including
+    in the areas of criminal justice, mental health, child welfare, and higher education.
   long_description: 'Under a [2015 Minnesota law](https://www.revisor.mn.gov/laws/2015/0/77/)
     (section 13), Minnesota Management and Budget has developed numerous [inventories](https://mn.gov/mmb/results-first/inventory-of-services/)
-    of evidenced-based programs, including in the areas of [criminal justice](https://mn.gov/mmb/results-first/adult-criminal-justice/prison.jsp),
+    of evidence-based programs, including in the areas of [criminal justice](https://mn.gov/mmb/results-first/adult-criminal-justice/prison.jsp),
     [mental health](https://mn.gov/mmb/results-first/adult-mental-health/), [child
     welfare](https://mn.gov/mmb/results-first/child-welfare/), and [higher education](https://mn.gov/mmb/results-first/higher-education/).
     Minnesota Management and Budget also maintains the [Minnesota Inventory](https://mn.gov/mmb/results-first/inventory/),
@@ -799,21 +856,27 @@ leading:
     sys:
       id: YlOt55v1CeImIm2qQQEg6
       created_at: !ruby/object:DateTime 2018-06-26 21:52:54.906000000 Z
-      updated_at: !ruby/object:DateTime 2018-06-26 21:52:54.906000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 15:18:49.311000000 Z
     title: minnesota
     description: 
-    url: "//images.ctfassets.net/cu0oxaxjfcsj/YlOt55v1CeImIm2qQQEg6/915ccc408fa5ac6b56efeef2a918cac1/minnesota.svg"
+    url: "//images.ctfassets.net/cu0oxaxjfcsj/YlOt55v1CeImIm2qQQEg6/0f75f66c41a82a3f43bf985186ec5959/Minnesota.svg"
   year: '2019'
   status: Updated from 2018
 - sys:
     id: 6VLi1WAsxcJGuf4dGAAB3R
     created_at: !ruby/object:DateTime 2019-09-20 16:31:04.025000000 Z
-    updated_at: !ruby/object:DateTime 2019-09-20 16:31:04.025000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-29 15:27:48.644000000 Z
     content_type_id: leading
-    revision: 1
+    revision: 2
   state: Washington
   state_abbreviation: WA
   type: Multiple agencies
+  short_description: A 2013 Washington State law directed the Department of Corrections,
+    in consultation with the Washington State Institute for Public Policy (WSIPP),
+    to compile an inventory of existing programs; determine whether its programs were
+    evidence-based; assess the effectiveness of its programs, including conducting
+    a cost-benefit analysis; and phase out ineffective programs and implement evidence-based
+    programs.
   long_description: 'A [2013 Washington State law](http://apps.leg.wa.gov/documents/billdocs/2013-14/Pdf/Bills/Session%20Laws/Senate/5034-S.SL.pdf)
     (pp. 105–106) directed the Department of Corrections, in consultation with the
     Washington State Institute for Public Policy (WSIPP), to (1) compile an inventory
@@ -834,21 +897,25 @@ leading:
     sys:
       id: 3zudCcXzzyom4EIOaq8wW
       created_at: !ruby/object:DateTime 2018-06-26 21:54:40.666000000 Z
-      updated_at: !ruby/object:DateTime 2018-06-26 21:54:40.666000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 14:37:43.495000000 Z
     title: washington
     description: 
-    url: "//images.ctfassets.net/cu0oxaxjfcsj/3zudCcXzzyom4EIOaq8wW/194d8be778cdb448b67310392b520b46/washington.svg"
+    url: "//images.ctfassets.net/cu0oxaxjfcsj/3zudCcXzzyom4EIOaq8wW/b19989c51f53830b72d55d905abcef6c/Washington.svg"
   year: '2019'
   status: Updated from 2018
 - sys:
     id: 4xPnYwyyZZrUBgd3VT6KVO
     created_at: !ruby/object:DateTime 2019-09-20 16:31:09.234000000 Z
-    updated_at: !ruby/object:DateTime 2019-09-20 16:31:09.234000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-29 22:17:14.863000000 Z
     content_type_id: leading
-    revision: 1
+    revision: 3
   state: Nevada
   state_abbreviation: NV
   type: Single agency
+  short_description: Since 2017, the Nevada Department of Education has allocated
+    100% of the state’s $8.5 million in federal Title I school improvement funds to
+    districts and schools for interventions backed by strong, moderate, or promising
+    evidence.
   long_description: "Since 2017, the Nevada Department of Education has [allocated](http://www.doe.nv.gov/uploadedFiles/ndedoenvgov/content/TitleI/1003aapplication2017.pdf)
     100% of the state’s $8.5 million in federal Title I school improvement funds to
     districts and schools for interventions backed by strong, moderate, or promising
@@ -857,21 +924,29 @@ leading:
     over the approximately 15% of funds that had been allocated based on level of
     evidence in the 2016-2017 school year. Grant recipients may set aside funds to
     monitor and evaluate the identified evidence-based approaches to ensure the investments
-    yield a positive impact on student outcomes.\n\nBeginning in 2017, the Nevada
-    Department of Education began requiring school districts to invest awarded funds
-    for two additional federal grant programs in interventions that meet one of the
-    four tiers of evidence (strong, moderate, promising, and under evaluation) [defined](https://www2.ed.gov/policy/elsec/leg/essa/guidanceuseseinvestment.pdf#page=8)
-    in the Every Student Succeeds Act (ESSA): (1) Competitive [ESSA Title IV-A](http://www.doe.nv.gov/uploadedFiles/nde.doe.nv.gov/content/Grants/titleivrfa_.pdf)
-    grants ($3 million in federal funds to Nevada in 2017-2018 to increase students’
-    access to a well-rounded education),  where the stronger the evidence behind an
-    application, the earlier it is considered for funding; (2) [ESSA Title IV-B](http://www.doe.nv.gov/uploadedFiles/nde.doe.nv.gov/content/Grants/2018RFA-21stCCLCCURRENT.pdf)
+    yield a positive impact on student outcomes. Applications for Title I school improvement
+    funds must meet at least one of Nevada’s three statewide  priorities: focus on
+    the lowest performing schools, data-driven decision-making, and leadership development.
+    \n\nBeginning in 2017, the Nevada Department of Education began requiring school
+    districts to invest awarded funds from two additional federal grant programs in
+    interventions that meet one of the four tiers of evidence (strong, moderate, promising,
+    and under evaluation) [defined](https://www2.ed.gov/policy/elsec/leg/essa/guidanceuseseinvestment.pdf#page=8)
+    in the Every Student Succeeds Act (ESSA): (1) [ESSA Title IV-B](http://www.doe.nv.gov/uploadedFiles/nde.doe.nv.gov/content/Grants/2018RFA-21stCCLCCURRENT.pdf)
     ($9 million in 2017-2018), for the competitive 21st Century Community Learning
-    Centers grants. \n\nStarting in 2013, the Nevada State Legislature passed a series
-    of laws with strong evidence requirements that aligned state education funding
-    with ESSA’s tiered evidence definition. The following six programs require grantees
-    to use interventions that meet one of the four [ESSA evidence tiers](https://www2.ed.gov/policy/elsec/leg/essa/guidanceuseseinvestment.pdf#page=8)
+    Centers grants and (2) Competitive [ESSA Title IV-A](http://www.doe.nv.gov/uploadedFiles/nde.doe.nv.gov/content/Grants/titleivrfa_.pdf)
+    grants ($3 million in federal funds to Nevada in 2017-2018 to increase students’
+    access to a well-rounded education), where applications with stronger evidence
+    are considered for funding before other applications. Applications for Title IV-A
+    must meet at least one of Nevada’s three statewide priorities: focus on the lowest
+    performing schools, data-driven decision-making, and leadership development.\n\nStarting
+    in 2013, the Nevada State Legislature passed a series of laws with strong evidence
+    requirements that aligned state education funding with ESSA’s tiered evidence
+    definition. The following six programs require grantees to use interventions that
+    meet one of the four [ESSA evidence tiers](https://www2.ed.gov/policy/elsec/leg/essa/guidanceuseseinvestment.pdf#page=8)
     (though supplemental curriculum and professional development must meet the top
-    three tiers: strong, moderate, or promising): (1) The [Zoom School program](http://www.doe.nv.gov/uploadedFiles/ndedoenvgov/content/English_Language_Learners(ELL)/Zoom_Guidance_Document.pdf),
+    three tiers: strong, moderate, or promising) and align with one of Nevada’s three
+    statewide priorities: focus on the lowest performing schools, data-driven decision-making,
+    and leadership development: (1) The [Zoom School program](http://www.doe.nv.gov/uploadedFiles/ndedoenvgov/content/English_Language_Learners(ELL)/Zoom_Guidance_Document.pdf),
     first [enacted](https://www.leg.state.nv.us/Session/79th2017/Bills/SB/SB504.pdf)
     in 2013 supports competitive grants ($50 million per year in state education funds)
     to help school districts provide English language instruction to non-native speakers;
@@ -889,27 +964,37 @@ leading:
     initiative ($25 million in state education funds per year), [created](https://www.leg.state.nv.us/Session/78th2015/Reports/history.cfm?ID=949)
     in 2017 (and [reauthorized](https://www.leg.state.nv.us/App/NELIS/REL/80th2019/Bill/6882/Overview)
     in 2019) aims to improve results in the state’s lowest performing schools; and
-    (6) Nevada’s 2015 [Read by Grade Three](https://www.leg.state.nv.us/Session/78th2015/Bills/SB/SB391_EN.pdf)
-    Act ($22.3 million in state funds in 2016-17) [allocates](https://www.leg.state.nv.us/Session/78th2015/Bills/SB/SB391_EN.pdf#page=14)
-    funds to school districts through a competitive grant process and sets aside 60
-    (of the possible 150) points for interventions backed by strong, moderate, or
-    promising evidence as defined by ESSA and allows up to 5 bonus points for innovative
-    approaches that meet the definition of strong, moderate, or promising in ESSA.
-    \ "
+    (6) Nevada’s 2015 [Read by Grade Three Act](https://www.leg.state.nv.us/Session/78th2015/Bills/SB/SB391_EN.pdf)
+    ($22.3 million in state funds in 2016-17), [amended in 2019](https://www.leg.state.nv.us/App/NELIS/REL/80th2019/Bill/6517/Overview),
+    [allocates](https://www.leg.state.nv.us/Session/78th2015/Bills/SB/SB391_EN.pdf#page=14)
+    funds to school districts through a formula grant process."
   criteria: Use of Evidence in Grant Programs
   issue:
   - Education
+  state_outline:
+    sys:
+      id: 4ShXz8rld8QFnRJS7kCuEL
+      created_at: !ruby/object:DateTime 2019-09-29 15:35:47.061000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 15:35:52.388000000 Z
+    title: nevada
+    description: 
+    url: "//images.ctfassets.net/cu0oxaxjfcsj/4ShXz8rld8QFnRJS7kCuEL/1ed372cd87c22f701bd2fd5142efb8b0/Nevada.svg"
   year: '2019'
   status: New
 - sys:
     id: 4vpuLFYm1PWSvpvlITpOzV
     created_at: !ruby/object:DateTime 2019-09-20 16:31:18.327000000 Z
-    updated_at: !ruby/object:DateTime 2019-09-20 21:02:17.765000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-29 15:43:31.876000000 Z
     content_type_id: leading
-    revision: 2
+    revision: 3
   state: California
   state_abbreviation: CA
   type: Statewide
+  short_description: The California Government Operations Agency (GovOps), which serves
+    as an umbrella organization for the state’s innovation work, is designed to institutionalize
+    policies, tools, and training that can drive its mission to modernize the processes
+    of government through lean process improvement, data, leadership, and performance
+    improvement.
   long_description: The [California Government Operations Agency](https://www.govops.ca.gov/)
     (GovOps), which serves as an umbrella organization for the state’s innovation
     work, is designed to institutionalize policies, tools, and training that can drive
@@ -928,23 +1013,26 @@ leading:
     sys:
       id: 1HoXTQbMDSyCQM44oi0U8w
       created_at: !ruby/object:DateTime 2018-06-26 21:53:46.418000000 Z
-      updated_at: !ruby/object:DateTime 2018-06-26 21:53:46.418000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 15:43:05.876000000 Z
     title: california
     description: 
-    url: "//images.ctfassets.net/cu0oxaxjfcsj/1HoXTQbMDSyCQM44oi0U8w/17c70a4224ea6286d90efdc426f90132/california.svg"
+    url: "//images.ctfassets.net/cu0oxaxjfcsj/1HoXTQbMDSyCQM44oi0U8w/faf38f579cff209b83ecbe45eb8ecbc2/California.svg"
   year: '2019'
   status: New
 - sys:
     id: 24P5khzBzfrC2I52sfoEZX
     created_at: !ruby/object:DateTime 2019-09-20 16:31:24.380000000 Z
-    updated_at: !ruby/object:DateTime 2019-09-20 16:31:24.380000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-29 22:20:30.373000000 Z
     content_type_id: leading
-    revision: 1
+    revision: 3
   state: Rhode Island
   state_abbreviation: RI
   type: Multiple agencies
+  short_description: Since 2015, Rhode Island’s Department of Children, Youth, and
+    Families (DCYF) has worked to reform and restructure the department’s procurement
+    processes.
   long_description: "Since 2015, Rhode Island’s Department of Children, Youth, and
-    Families has worked to [reform and restructure](https://govlab.hks.harvard.edu/rhode-island-department-children-youth-and-families-performance-improvement)
+    Families (DCYF) has worked to [reform and restructure](https://govlab.hks.harvard.edu/rhode-island-department-children-youth-and-families-performance-improvement)
     the department’s procurement processes in four areas: improving service delivery
     through strategic planning, embedding results-driven procurement in new contracts,
     improving performance through active contract management practices, and supporting
@@ -975,9 +1063,24 @@ leading:
     sys:
       id: 4dD1eTKWtGMoyWYeI66y4G
       created_at: !ruby/object:DateTime 2018-06-26 21:53:22.004000000 Z
-      updated_at: !ruby/object:DateTime 2018-06-26 21:53:22.004000000 Z
+      updated_at: !ruby/object:DateTime 2019-09-29 15:41:30.737000000 Z
     title: rhodeisland
     description: 
-    url: "//images.ctfassets.net/cu0oxaxjfcsj/4dD1eTKWtGMoyWYeI66y4G/db344de7818e4a72130727d1dbbdeae3/rhodeisland.svg"
+    url: "//images.ctfassets.net/cu0oxaxjfcsj/4dD1eTKWtGMoyWYeI66y4G/ff7c1d6771c47879c8da4e10602adea6/Rhode_Island.svg"
   year: '2019'
   status: New
+- sys:
+    id: vopBrHjd6kNmP6inEIG8m
+    created_at: !ruby/object:DateTime 2019-09-29 15:23:26.985000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-29 15:23:26.985000000 Z
+    content_type_id: leading
+    revision: 1
+  state: None
+  state_abbreviation: "--"
+  short_description: Results for America was not able to identify any states with
+    leading or promising examples for this criteria. No examples were identified in
+    2018 either.
+  long_description: Results for America was not able to identify any states with leading
+    or promising examples for this criteria. No examples were identified in 2018 either.
+  criteria: Evaluation Resources
+  year: '2019'

@@ -3,16 +3,17 @@ downloadsPage:
 - sys:
     id: 3evwsbCSStHT1ohjiz3i8
     created_at: !ruby/object:DateTime 2019-08-23 15:54:22.806000000 Z
-    updated_at: !ruby/object:DateTime 2019-08-23 15:54:22.806000000 Z
+    updated_at: !ruby/object:DateTime 2019-09-30 14:34:24.786000000 Z
     content_type_id: downloadsPage
-    revision: 1
+    revision: 2
   page_title: '2019'
   standard_title: State Standard
-  standard_description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-    do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-    dolore eu fugiat nulla pariatur.
+  standard_description: The 2019 Invest in What Works State Standard of Excellence
+    sets a national standard—a “north star”—for how state governments can consistently
+    and effectively use evidence and data in budget, policy, and management decisions
+    to achieve better outcomes for their residents. Results for America identified
+    125 examples of data-driven and evidence-based practices, policies, programs,
+    and systems in effect as of June 2019 in 33 states across the country.
   standard_files:
   - sys:
       id: 3ZNYIWCO2V8PkYqQFwtWpb

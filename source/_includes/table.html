@@ -105,36 +105,43 @@
           </div>
         </div>
       </div>
-      <div class="column examples-grid-column examples-grid__content-cell promising filterable">
-        {% for state in item.promising_list %}
-        {% assign issues = state.issue %}
-        {% assign state-slug = state.state | slugify %}
-        {% assign url-promising-examples = "/state-standard-of-excellence/" | append: title | append: ".html#" | append: state-slug  %}
-        <!-- Promsing issues -->
-        {% assign promising_issues = "" | split: "" %}
-        {% for issue in issues %}
-        {% assign issue_slug = issue | slugify %}
-        {% assign promising_issues = promising_issues | push: issue_slug %}
-        {% endfor %}
-
-        <div class="examples-wrapper promising-example" data-examples="all {{promising_issues | join: " "}}">
-
-          <a href="{{ url-promising-examples | relative_url }}" class="promising__state">
-            <div class="state__issues">
-              <span class="state__title">{{ state.state }}</span>
-              <span class="state__abbreviation">{{ state.state_abbreviation }}</span>
-
-              {% if issues %}
-              {% for issue in issues %}
-              <span class="issue issue--{{ issue | slugify }}"></span>
-              {% endfor %}
-              {% endif %}
-            </div>
-          </a>
+      {% assign list_length = item.promising_list | size %}
+      {% if list_length == 0  %}
+        <div class="column examples-grid-column examples-grid__content-cell promising filterable filterable--empty">
         </div>
+      {% else %}
 
-        {% endfor %}
-      </div>
+      <div class="column examples-grid-column examples-grid__content-cell promising filterable">
+          {% for state in item.promising_list %}
+            {% assign issues = state.issue %}
+            {% assign state-slug = state.state | slugify %}
+            {% assign url-promising-examples = "/state-standard-of-excellence/" | append: title | append: ".html#" | append: state-slug  %}
+            
+            <!-- Promsing issues -->
+            {% assign promising_issues = "" | split: "" %}
+            {% for issue in issues %}
+              {% assign issue_slug = issue | slugify %}
+              {% assign promising_issues = promising_issues | push: issue_slug %}
+            {% endfor %}
+
+            <div class="examples-wrapper promising-example" data-examples="all {{promising_issues | join: " "}}">
+
+              <a href="{{ url-promising-examples | relative_url }}" class="promising__state">
+                <div class="state__issues">
+                  <span class="state__title">{{ state.state }}</span>
+                  <span class="state__abbreviation">{{ state.state_abbreviation }}</span>
+
+                  {% if issues %}
+                  {% for issue in issues %}
+                  <span class="issue issue--{{ issue | slugify }}"></span>
+                  {% endfor %}
+                  {% endif %}
+                </div>
+              </a>
+            </div>
+          {% endfor %}
+        </div>
+        {% endif %}
     </div>
     
     {% endfor %}

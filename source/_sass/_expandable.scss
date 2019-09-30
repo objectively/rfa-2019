@@ -12,8 +12,13 @@
 .expandable {
 
   > :first-child {
+
     > :first-child {
+
       > :first-child {
+        display: block;
+      }
+      > :nth-child(2) {
         display: block;
       }
     }
@@ -22,6 +27,8 @@
   > * > * > * {
     display: none;
   }
+
+
   .read-more-wrapper {
     text-align: right;
     padding-bottom: 3rem!important;

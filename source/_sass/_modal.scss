@@ -2,24 +2,33 @@
   .examples-grid-modal {
     background-color: $font-dark-gray;
     top: 25%;
+    @include breakpoint($large) {
+      width: 55%;
+      margin: 0;
+      left: 22.5%;
+    }
     @include breakpoint($small-only) {
       width: 80%;
       margin: 0;
       left: 10%;
-      
     }
     .modal__header {
+      
       .modal__close {
-        i {margin-left: 0;}
+        padding: .2rem;
+        i {
+          margin-left: 0;
+        }
         color: #fff;
       }
     }
     .modal__content {
       text-align: left;
-      padding: 1rem 2rem;
-      p {
+      padding: 0 2rem;
+     > p {
         color: #fff;
-        font-size: .9rem;
+        font-size: 0.9rem;
+        padding-top: 0;
       }
       .key-header {
         font-size: 1rem;
@@ -28,7 +37,7 @@
       ul {
         padding-left: 0;
         li {
-          font-size: .9rem;
+          font-size: 0.9rem;
           display: block;
         }
       }
@@ -36,18 +45,17 @@
   }
 }
 
-
 button.key-modal__open {
   &:hover {
     background-color: transparent;
   }
   background-color: transparent;
-  padding: .5rem;
+  padding: 0.5rem;
   text-transform: none;
   position: absolute;
   right: 0;
-  font-size: .74rem;
-  @include breakpoint ($large) {
+  font-size: 0.74rem;
+  @include breakpoint($large) {
     padding-top: 6px;
     font-size: 0.9rem;
   }

@@ -15,7 +15,7 @@ const FixedNav = {
     document.querySelector('.criteria-dropdown-nav__select').addEventListener('change', (e) => {
       const selectedOption = e.currentTarget.options[e.currentTarget.selectedIndex];
       const urlPath = selectedOption.getAttribute('data-path');
-      window.location.pathname = urlPath;
+      window.location.href = urlPath;
     })
   },
   init() {

@@ -4194,9 +4194,9 @@ criteria:
   - sys:
       id: 2N4ihB2TosMRt0ww9tgRZy
       created_at: !ruby/object:DateTime 2019-09-29 17:44:14.035000000 Z
-      updated_at: !ruby/object:DateTime 2019-09-29 17:44:14.035000000 Z
+      updated_at: !ruby/object:DateTime 2019-10-01 17:28:59.695000000 Z
       content_type_id: promising
-      revision: 1
+      revision: 2
     state: Massachusetts
     state_abbreviation: MA
     type: Single agency
@@ -4208,7 +4208,7 @@ criteria:
       for success after high school along with the department’s [other five priorities](http://www.doe.mass.edu/research/StrategicPlan-Summary.pdf).
       The position oversees all activities related to research, performance management,
       research partnerships, and strategic planning.
-    criteria: Evaluation Resources
+    criteria: Evaluation Leadership
     issue:
     - Education
     year: '2019'
@@ -4216,9 +4216,9 @@ criteria:
   - sys:
       id: 1JqWAzbPJHnzt1BDx5ExXF
       created_at: !ruby/object:DateTime 2019-09-29 17:46:03.776000000 Z
-      updated_at: !ruby/object:DateTime 2019-09-29 17:46:03.776000000 Z
+      updated_at: !ruby/object:DateTime 2019-10-01 17:29:11.234000000 Z
       content_type_id: promising
-      revision: 1
+      revision: 2
     state: Mississippi
     state_abbreviation: MS
     type: Single agency
@@ -4228,7 +4228,7 @@ criteria:
       by a [Dynamic Research Framework](https://mdek12.org/OTSS/ORD/Dynamic-Framework),
       uses its [longitudinal data system](https://nces.ed.gov/programs/slds/state.asp?stateabbr=MS)
       to evaluate the effectiveness of programs in areas such as [Early Learning](https://mdek12.org/sites/default/files/Offices/MDE/OTSS/ORD/statsdc2018.pdf).
-    criteria: Evaluation Resources
+    criteria: Evaluation Leadership
     issue:
     - Education
     year: '2019'
@@ -4444,9 +4444,9 @@ criteria:
 - sys:
     id: 6yCHOLHvsrX5juDRP1J0HV
     created_at: !ruby/object:DateTime 2019-09-29 18:08:56.355000000 Z
-    updated_at: !ruby/object:DateTime 2019-09-29 18:08:56.355000000 Z
+    updated_at: !ruby/object:DateTime 2019-10-01 17:29:16.845000000 Z
     content_type_id: criteria
-    revision: 1
+    revision: 2
   title: Evaluation Resources
   order: 8
   description: Did the state or any of its agencies invest at least 1% of program
@@ -4474,6 +4474,21 @@ criteria:
       in 2018 either.
     criteria: Evaluation Resources
     year: '2019'
+  promising_list:
+  - sys:
+      id: 7o4XJ0q7PXqxfNiuGwpIEo
+      created_at: !ruby/object:DateTime 2019-10-01 17:26:10.944000000 Z
+      updated_at: !ruby/object:DateTime 2019-10-01 17:26:10.944000000 Z
+      content_type_id: promising
+      revision: 1
+    state: None
+    state_abbreviation: None
+    long_description: Results for America was not able to identify __any__ states
+      with leading or promising examples for this criteria.
+    criteria: Evaluation Resources
+    year: '2019'
+    short_description: Results for America was not able to identify any states with
+      leading or promising examples for this criteria.
   year: '2019'
 - sys:
     id: 47WqoGUv21WbNXGuGCYB4m

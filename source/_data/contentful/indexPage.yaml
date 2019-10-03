@@ -468,9 +468,9 @@ indexPage:
 - sys:
     id: 7phigY3mdsj5RPGGit45yp
     created_at: !ruby/object:DateTime 2019-08-14 15:21:34.254000000 Z
-    updated_at: !ruby/object:DateTime 2019-09-30 20:21:36.278000000 Z
+    updated_at: !ruby/object:DateTime 2019-10-03 21:12:03.303000000 Z
     content_type_id: indexPage
-    revision: 6
+    revision: 8
   year: '2019'
   short_description: "The 2019 Invest in What Works State Standard of Excellence sets
     a national standard—a “north star”—for how state governments can consistently
@@ -481,7 +481,7 @@ indexPage:
     programs, and systems in effect as of June 2019 in 33 states across the country.\n\nOverall,
     five states are leading the way with their use of data-driven and evidence-based
     practices, policies, programs, and systems. These Leading States are Colorado,
-    Minnesota, Oregon, Utah, and Washington.Three states are Rising Stars that have
+    Minnesota, Oregon, Utah, and Washington. Three states are Rising Stars that have
     significantly increased their evidence and data efforts: Maryland (from three
     promising examples in 2018 to six in 2019), Nevada (new leading example of using
     evidence in nine education grant programs), and North Carolina (from one promising
@@ -505,11 +505,11 @@ indexPage:
     (which was used to inform its [2017 report](http://www.pewtrusts.org/en/research-and-analysis/reports/2017/01/how-states-engage-in-evidence-based-policymaking)
     on states’ engagement in evidence-based policymaking) and input from more than
     150 current and former state government officials and other experts.<sup>1</sup>"
-  download_url: http://objectively.is/rfa-2019/2019-invest-in-what-works-state-standard-of-excellence.pdf
-  download_summary: http://objectively.is/rfa-2019/2019-summary-chart.pdf
-  download_appendix: http://objectively.is/rfa-2019/2019-criteria-and-descriptions.pdf
-  download_analyses: http://objectively.is/rfa-2019/2019-state-standard-of-excellence-analyses.pdf
-  download_methodology: http://objectively.is/rfa-2019/2019-methodology-and-acknowledgements.pdf
+  download_url: https://2019state.results4america.org/2019-invest-in-what-works-state-standard-of-excellence.pdf
+  download_summary: https://2019state.results4america.org/2019-summary-chart.pdf
+  download_appendix: https://2019state.results4america.org/2019-criteria-and-descriptions.pdf
+  download_analyses: https://2019state.results4america.org/2019-state-standard-of-excellence-analyses.pdf
+  download_methodology: https://2019state.results4america.org/2019-methodology-and-acknowledgements.pdf
   criteria:
   - sys:
       id: 6hdFczh4fDYPnoWMATlz6V
@@ -781,9 +781,9 @@ indexPage:
   - sys:
       id: 6yCHOLHvsrX5juDRP1J0HV
       created_at: !ruby/object:DateTime 2019-09-29 18:08:56.355000000 Z
-      updated_at: !ruby/object:DateTime 2019-09-29 18:08:56.355000000 Z
+      updated_at: !ruby/object:DateTime 2019-10-01 17:29:16.845000000 Z
       content_type_id: criteria
-      revision: 1
+      revision: 2
     title: Evaluation Resources
     order: 8
     description: Did the state or any of its agencies invest at least 1% of program
@@ -797,6 +797,9 @@ indexPage:
     leading_list:
       sys:
         id: vopBrHjd6kNmP6inEIG8m
+    promising_list:
+    - sys:
+        id: 7o4XJ0q7PXqxfNiuGwpIEo
     year: '2019'
   - sys:
       id: 47WqoGUv21WbNXGuGCYB4m

@@ -3,9 +3,9 @@ downloadsPage:
 - sys:
     id: 3evwsbCSStHT1ohjiz3i8
     created_at: !ruby/object:DateTime 2019-08-23 15:54:22.806000000 Z
-    updated_at: !ruby/object:DateTime 2019-10-03 21:11:05.053000000 Z
+    updated_at: !ruby/object:DateTime 2019-11-08 21:51:54.985000000 Z
     content_type_id: downloadsPage
-    revision: 5
+    revision: 6
   page_title: '2019'
   standard_title: State Standard
   standard_description: The 2019 Invest in What Works State Standard of Excellence
@@ -42,6 +42,24 @@ downloadsPage:
   spotlights_title: State Spotlights
   spotlights_files:
   - sys:
+      id: 5nD5CTjqFRbif4tdLujsXF
+      created_at: !ruby/object:DateTime 2019-11-08 21:44:55.570000000 Z
+      updated_at: !ruby/object:DateTime 2019-11-08 21:44:55.570000000 Z
+      content_type_id: downloads
+      revision: 1
+    download_title: Arizona
+    state_abbreviation: AZ
+    download_url: https://2019state.results4america.org/statespotlights/2019%20Arizona%20State%20Spotlight.pdf
+  - sys:
+      id: 1eGRNzHO0pmn7VUYXSWhFC
+      created_at: !ruby/object:DateTime 2019-11-08 21:44:55.554000000 Z
+      updated_at: !ruby/object:DateTime 2019-11-08 21:44:55.554000000 Z
+      content_type_id: downloads
+      revision: 1
+    download_title: Arkansas
+    state_abbreviation: AR
+    download_url: https://2019state.results4america.org/statespotlights/2019%20Arkansas%20State%20Spotlight.pdf
+  - sys:
       id: 1LZjvo2g4QdO4Uiiz51UtM
       created_at: !ruby/object:DateTime 2019-08-23 15:51:32.682000000 Z
       updated_at: !ruby/object:DateTime 2019-10-03 20:56:57.593000000 Z
@@ -60,6 +78,60 @@ downloadsPage:
     state_abbreviation: CO
     download_url: https://2019state.results4america.org/statespotlights/2019%20Colorado%20State%20Spotlight.pdf
   - sys:
+      id: 1KI6vfT33IpKFWC9kVgt3t
+      created_at: !ruby/object:DateTime 2019-08-23 15:51:32.685000000 Z
+      updated_at: !ruby/object:DateTime 2019-08-23 15:51:32.685000000 Z
+      content_type_id: downloads
+      revision: 1
+    download_title: Connecticut
+    state_abbreviation: CT
+    download_url: https://www.example.com/
+  - sys:
+      id: 24sqUGsXzqkArkdP6bkIud
+      created_at: !ruby/object:DateTime 2019-11-08 21:44:55.567000000 Z
+      updated_at: !ruby/object:DateTime 2019-11-08 21:44:55.567000000 Z
+      content_type_id: downloads
+      revision: 1
+    download_title: Florida
+    state_abbreviation: FL
+    download_url: https://2019state.results4america.org/statespotlights/2019%20Florida%20State%20Spotlight.pdf
+  - sys:
+      id: 5ormydqj5CBtXirH8OtOBh
+      created_at: !ruby/object:DateTime 2019-11-08 21:44:55.564000000 Z
+      updated_at: !ruby/object:DateTime 2019-11-08 21:44:55.564000000 Z
+      content_type_id: downloads
+      revision: 1
+    download_title: Georgia
+    state_abbreviation: GA
+    download_url: https://2019state.results4america.org/statespotlights/2019%20Georgia%20State%20Spotlight.pdf
+  - sys:
+      id: 330lJoVoAdSedGPAND9P7l
+      created_at: !ruby/object:DateTime 2019-11-08 21:44:55.800000000 Z
+      updated_at: !ruby/object:DateTime 2019-11-08 21:44:55.800000000 Z
+      content_type_id: downloads
+      revision: 1
+    download_title: Illinois
+    state_abbreviation: IL
+    download_url: https://2019state.results4america.org/statespotlights/2019%20Illinois%20State%20Spotlight.pdf
+  - sys:
+      id: b6kY0T1TTzGhwjqT3pghm
+      created_at: !ruby/object:DateTime 2019-11-08 21:44:55.779000000 Z
+      updated_at: !ruby/object:DateTime 2019-11-08 21:44:55.779000000 Z
+      content_type_id: downloads
+      revision: 1
+    download_title: Indiana
+    state_abbreviation: IN
+    download_url: https://2019state.results4america.org/statespotlights/2019%20Indiana%20State%20Spotlight.pdf
+  - sys:
+      id: 2GSwN2KU4Ygl3JuTXKwwU1
+      created_at: !ruby/object:DateTime 2019-11-08 21:44:55.801000000 Z
+      updated_at: !ruby/object:DateTime 2019-11-08 21:44:55.801000000 Z
+      content_type_id: downloads
+      revision: 1
+    download_title: Kentucky
+    state_abbreviation: KY
+    download_url: https://2019state.results4america.org/statespotlights/2019%20Kentucky%20State%20Spotlight.pdf
+  - sys:
       id: 7vZ5gFLB55LFod3eEwqIQx
       created_at: !ruby/object:DateTime 2019-10-03 21:05:44.830000000 Z
       updated_at: !ruby/object:DateTime 2019-10-03 21:05:44.830000000 Z
@@ -68,6 +140,24 @@ downloadsPage:
     download_title: Maryland
     state_abbreviation: MD
     download_url: https://2019state.results4america.org/statespotlights/2019%20Maryland%20State%20Spotlight.pdf
+  - sys:
+      id: 2uc7J5D2JrRr81kDTDuLJB
+      created_at: !ruby/object:DateTime 2019-11-08 21:44:55.793000000 Z
+      updated_at: !ruby/object:DateTime 2019-11-08 21:44:55.793000000 Z
+      content_type_id: downloads
+      revision: 1
+    download_title: Massachusetts
+    state_abbreviation: MA
+    download_url: https://2019state.results4america.org/statespotlights/2019%20Massachusetts%20State%20Spotlight.pdf
+  - sys:
+      id: 28QhmL4XyKYOixKI2QvtJ
+      created_at: !ruby/object:DateTime 2019-11-08 21:44:55.820000000 Z
+      updated_at: !ruby/object:DateTime 2019-11-08 21:44:55.820000000 Z
+      content_type_id: downloads
+      revision: 1
+    download_title: Michigan
+    state_abbreviation: MI
+    download_url: https://2019state.results4america.org/statespotlights/2019%20Michigan%20State%20Spotlight.pdf
   - sys:
       id: 0KOiFbAmoF4PGO3NvORRn
       created_at: !ruby/object:DateTime 2019-10-03 21:07:44.929000000 Z
@@ -78,6 +168,24 @@ downloadsPage:
     state_abbreviation: MN
     download_url: https://2019state.results4america.org/statespotlights/2019%20Minnesota%20State%20Spotlight.pdf
   - sys:
+      id: 3RNMcrPIrJQZzkUR1Yon4S
+      created_at: !ruby/object:DateTime 2019-11-08 21:44:57.947000000 Z
+      updated_at: !ruby/object:DateTime 2019-11-08 21:44:57.947000000 Z
+      content_type_id: downloads
+      revision: 1
+    download_title: Mississippi
+    state_abbreviation: MS
+    download_url: https://2019state.results4america.org/statespotlights/2019%20Mississippi%20State%20Spotlight.pdf
+  - sys:
+      id: 01FGGXbzU8OI5bKH7KyNqN
+      created_at: !ruby/object:DateTime 2019-11-08 21:44:57.184000000 Z
+      updated_at: !ruby/object:DateTime 2019-11-08 21:44:57.184000000 Z
+      content_type_id: downloads
+      revision: 1
+    download_title: Missouri
+    state_abbreviation: MO
+    download_url: https://2019state.results4america.org/statespotlights/2019%20Missouri%20State%20Spotlight.pdf
+  - sys:
       id: 5KLkxFVVJHuktTYmiyRUb5
       created_at: !ruby/object:DateTime 2019-10-03 21:08:03.113000000 Z
       updated_at: !ruby/object:DateTime 2019-10-03 21:08:03.113000000 Z
@@ -86,6 +194,33 @@ downloadsPage:
     download_title: Nevada
     state_abbreviation: NV
     download_url: https://2019state.results4america.org/statespotlights/2019%20Nevada%20State%20Spotlight.pdf
+  - sys:
+      id: 6MPXHRb6BKH0Kscwlr2xyE
+      created_at: !ruby/object:DateTime 2019-11-08 21:44:57.490000000 Z
+      updated_at: !ruby/object:DateTime 2019-11-08 21:44:57.490000000 Z
+      content_type_id: downloads
+      revision: 1
+    download_title: New Jersey
+    state_abbreviation: NJ
+    download_url: https://2019state.results4america.org/statespotlights/2019%20New%20Jersey%20State%20Spotlight.pdf
+  - sys:
+      id: 3rFa2U4kl0FKa6lI03uYu5
+      created_at: !ruby/object:DateTime 2019-11-08 21:44:57.900000000 Z
+      updated_at: !ruby/object:DateTime 2019-11-08 21:44:57.900000000 Z
+      content_type_id: downloads
+      revision: 1
+    download_title: New Mexico
+    state_abbreviation: NM
+    download_url: https://2019state.results4america.org/statespotlights/2019%20New%20Mexico%20State%20Spotlight.pdf
+  - sys:
+      id: kL4VtYN5CxK4byUlol83Q
+      created_at: !ruby/object:DateTime 2019-11-08 21:44:57.098000000 Z
+      updated_at: !ruby/object:DateTime 2019-11-08 21:44:57.098000000 Z
+      content_type_id: downloads
+      revision: 1
+    download_title: New York
+    state_abbreviation: NY
+    download_url: https://2019state.results4america.org/statespotlights/2019%20New%20York%20State%20Spotlight.pdf
   - sys:
       id: oplytjPAr714JE25eNimx
       created_at: !ruby/object:DateTime 2019-10-03 21:08:29.416000000 Z
@@ -96,6 +231,15 @@ downloadsPage:
     state_abbreviation: NC
     download_url: https://2019state.results4america.org/statespotlights/2019%20North%20Carolina%20State%20Spotlight.pdf
   - sys:
+      id: 3p446dVkPTnjEHQkF74ZP3
+      created_at: !ruby/object:DateTime 2019-11-08 21:44:57.609000000 Z
+      updated_at: !ruby/object:DateTime 2019-11-08 21:44:57.609000000 Z
+      content_type_id: downloads
+      revision: 1
+    download_title: Ohio
+    state_abbreviation: OH
+    download_url: https://2019state.results4america.org/statespotlights/2019%20Ohio%20State%20Spotlight.pdf
+  - sys:
       id: 5Aqz6kERyD3LnA0iVBnpCC
       created_at: !ruby/object:DateTime 2019-10-03 21:08:47.866000000 Z
       updated_at: !ruby/object:DateTime 2019-10-03 21:08:47.866000000 Z
@@ -104,6 +248,15 @@ downloadsPage:
     download_title: Oregon
     state_abbreviation: OR
     download_url: https://2019state.results4america.org/statespotlights/2019%20Oregon%20State%20Spotlight.pdf
+  - sys:
+      id: 5F3cRNbtBm4L6UjAq9RVV
+      created_at: !ruby/object:DateTime 2019-11-08 21:44:57.910000000 Z
+      updated_at: !ruby/object:DateTime 2019-11-08 21:44:57.910000000 Z
+      content_type_id: downloads
+      revision: 1
+    download_title: Pennsylvania
+    state_abbreviation: PA
+    download_url: https://2019state.results4america.org/statespotlights/2019%20Pennsylvania%20State%20Spotlight.pdf
   - sys:
       id: 60Ii9g1yYpWxe7meZnX4AE
       created_at: !ruby/object:DateTime 2019-10-03 21:09:14.108000000 Z
@@ -114,6 +267,33 @@ downloadsPage:
     state_abbreviation: RI
     download_url: https://2019state.results4america.org/statespotlights/2019%20Rhode%20Island%20State%20Spotlight.pdf
   - sys:
+      id: uPjbEAGJlwXfd3riUe8MI
+      created_at: !ruby/object:DateTime 2019-11-08 21:44:57.083000000 Z
+      updated_at: !ruby/object:DateTime 2019-11-08 21:44:57.083000000 Z
+      content_type_id: downloads
+      revision: 1
+    download_title: South Carolina
+    state_abbreviation: SC
+    download_url: https://2019state.results4america.org/statespotlights/2019%20South%20Carolina%20State%20Spotlight.pdf
+  - sys:
+      id: 7sV5RXG1p7Mgzo8E5WKgXW
+      created_at: !ruby/object:DateTime 2019-11-08 21:44:57.222000000 Z
+      updated_at: !ruby/object:DateTime 2019-11-08 21:44:57.222000000 Z
+      content_type_id: downloads
+      revision: 1
+    download_title: Tennessee
+    state_abbreviation: TN
+    download_url: https://2019state.results4america.org/statespotlights/2019%20Tennessee%20State%20Spotlight.pdf
+  - sys:
+      id: 2FvotAZrCKUBVbJ5al2upn
+      created_at: !ruby/object:DateTime 2019-11-08 21:44:56.817000000 Z
+      updated_at: !ruby/object:DateTime 2019-11-08 21:44:56.817000000 Z
+      content_type_id: downloads
+      revision: 1
+    download_title: Texas
+    state_abbreviation: TX
+    download_url: https://2019state.results4america.org/statespotlights/2019%20Texas%20State%20Spotlight.pdf
+  - sys:
       id: 6rIgJWRicF3JKae7zq8MNN
       created_at: !ruby/object:DateTime 2019-10-03 21:09:41.029000000 Z
       updated_at: !ruby/object:DateTime 2019-10-03 21:09:41.029000000 Z
@@ -123,6 +303,15 @@ downloadsPage:
     state_abbreviation: UT
     download_url: https://2019state.results4america.org/statespotlights/2019%20Utah%20State%20Spotlight.pdf
   - sys:
+      id: 6A7OefH9Q95IFWJTeuiWKa
+      created_at: !ruby/object:DateTime 2019-11-08 21:44:58.290000000 Z
+      updated_at: !ruby/object:DateTime 2019-11-08 21:44:58.290000000 Z
+      content_type_id: downloads
+      revision: 1
+    download_title: Vermont
+    state_abbreviation: VT
+    download_url: https://2019state.results4america.org/statespotlights/2019%20Vermont%20State%20Spotlight.pdf
+  - sys:
       id: UHmUpBu6LT8Loothl6gnN
       created_at: !ruby/object:DateTime 2019-10-03 21:09:56.333000000 Z
       updated_at: !ruby/object:DateTime 2019-10-03 21:09:56.333000000 Z
@@ -131,3 +320,21 @@ downloadsPage:
     download_title: Washington
     state_abbreviation: WA
     download_url: https://2019state.results4america.org/statespotlights/2019%20Washington%20State%20Spotlight.pdf
+  - sys:
+      id: 3wj1ZfQwCqY8clHsk3Y2ol
+      created_at: !ruby/object:DateTime 2019-11-08 21:44:58.217000000 Z
+      updated_at: !ruby/object:DateTime 2019-11-08 21:44:58.217000000 Z
+      content_type_id: downloads
+      revision: 1
+    download_title: Virginia
+    state_abbreviation: VA
+    download_url: https://2019state.results4america.org/statespotlights/2019%20Virginia%20State%20Spotlight.pdf
+  - sys:
+      id: rHcNppNsICAdhOpv4578L
+      created_at: !ruby/object:DateTime 2019-11-08 21:44:58.326000000 Z
+      updated_at: !ruby/object:DateTime 2019-11-08 21:44:58.326000000 Z
+      content_type_id: downloads
+      revision: 1
+    download_title: Wisconsin
+    state_abbreviation: WI
+    download_url: https://2019state.results4america.org/statespotlights/2019%20Wisconsin%20State%20Spotlight.pdf
